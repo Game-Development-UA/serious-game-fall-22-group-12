@@ -1,8 +1,8 @@
 :: Start
 This is the first passage in your game with just one variable called myVariable that has a value of $myVariable.  There are two passages in this template, and the other can be found [[here|Passage 2]]
 
-You have just overthrown a previous the dictator 
-In the past week, you and your comrades have overthrown the previous dictator and you are now in control. 
+You have just overthrown a previous the ruler 
+In the past week, you and your comrades have overthrown the previous ruler and you are now in control. 
 
 :: Passage 2
 And here we are! [[Check out my HTML|Passage 3]]
