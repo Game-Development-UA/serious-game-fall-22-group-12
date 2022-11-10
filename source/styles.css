@@ -2,7 +2,12 @@
 
 /* The body is everything displayed in the main text delivery area */
 body {
-	background: blue;
+	background: rgb(154, 106, 205);
+}
+
+#intro {
+	text-align: center;
+
 }
 
 

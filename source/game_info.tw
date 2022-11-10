@@ -11,4 +11,4 @@ Environmentalist
 
 
 :: StoryInit
-<<set $myVariable to 1>>
+<<set $guestSatisfaction to 100>>
