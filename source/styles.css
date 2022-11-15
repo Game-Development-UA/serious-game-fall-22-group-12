@@ -13,6 +13,10 @@ h1 {
 
 }
 
+.palace {
+	background-image: url("palace.jpg");
+}
+
 
 /* This class is specific to the text in the passages
 .passage {
