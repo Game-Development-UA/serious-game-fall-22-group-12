@@ -5,7 +5,10 @@ As you are about to enter the Presidential Palace after a long day of governing,
 
 You stand silent while pondering the idea. 
 
+[["Of course! My mother was a champion of the working people so I see no reason to stand in your way."|Support Statue]]
+
 :: Support Statue
+
 
 
 :: Health [event]
