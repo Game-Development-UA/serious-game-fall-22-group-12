@@ -1,22 +1,95 @@
 :: Statue [event]
 As you are about to enter the Presidential Palace after a long day of governing, Ottovin approaches you from behind.
-
 "Excuse me, Mr. President! My organization has a proposistion I think you'd like to hear about." You silently nod, giving him permission to continue speaking. "You see, we Frontiermen admired your mother and her personal generosity to our cause. With your permission, we would absolutly love to erect a statue as a reminder of her selflessness and beauty. What do you say?"
+You stand silent while pondering the idea.
 
-You stand silent while pondering the idea. 
-
-[["Of course! My mother was a champion of the working people so I see no reason to stand in your way."|Support Statue]]
+[[1. "Of course! My mother was a champion of the working people so I see no reason to stand in your way."|Support Statue]]
+[[2. "Absoletly not! My mother's likeness and legacy will not be used for your political gain any futher."|No Support Statue]]
 
 :: Support Statue
+:: No Support Statue
+/*  */
+
 
 
 
 :: Health [event]
+While working in your office, your advisor enters the room with a letter in hand.
+"Mr. President, an urgent letter from Ottovin has arrived. I beleive he is seeking your support," your advisor explains calmly. You break the seal on the letter and slip it out of its envelope.
+It reads, "Mr. President, your citizens need your help. Sickness and injury have long been a blight on the working people of this nation. I seek your support to increase access to heathcare services, which I see as vital for your nation to florish. Will you work with the Frontiermen and I to significantly increases access to healthcare nationwide?"
+
+[[1. "Yes, the national government understands this concern and will personally see that healthcare is expanded nationwide."|Support Health Gov]]
+[[2. "Yes, but the national government does not have the money to spare. I will support that corporations become responsible for providing increased access to healthcare services"|Support Health Corp]]
+[[3. "No, the current healthcare system is perfectly fine as it is right now. Those who need the health related assistance will seek it out. This is no need for my government to interfer."|No Support Health]]
+
+:: Support Health Gov
+:: Support Health Corp
+:: No Support Health
+/*  */
+
+
+
 
 :: Working Environment [event]
+While reviewing some documents in your office, you come across one from Ottovin concerning the working conditions of the citizens his organization represents.
+"To our generous President, your nation's factory workers are on the verge of going on strike. They have grown restless with their dangerous working conditions and are, through my organzion, seeking assistance in assembling themselves to demand that new safety regulations are put in place to protect them from bodily harm. While I have indicated my support for such a strike, I wanted to give you the opportunity to fix this problem before it grew any larger. So, Mr. President, would you kindly state your support for safer workplaces?
+
+[[1. "My people deserve to not constantly worry about having bodily harm inflicted upon them as a result of machinary. I will support this initiative."|Support Work Env]]
+[[2. "Let them strike. Anyone who does so will either be replaced by more loyal citizens or fall back into line. The state of this nation's industry will not deteriorate because of something so trivial. I will not support this initiative."|No Support Work Env]]
+
+:: Support Work Env
+:: No Support Work Env
+/*  */
+
+
+
+
 
 :: Wage Demand [event]
+While in a productive meeting with Ottovin, he raises the issue of worker pay.
+"Mr. President, I do not mean to pressure you, but many workers in your nation's vital industry sectors are not being payed enough to live sustainable lives. If you would, I would ask that you consider increasing the minimum wage for labor positions in the mining, manufacturing, and energy sectors. In my opinion, this is a matter of national security. If workers begin to leave and find work in more financially rewarding parts of the economy, then the nation will have trouble staying operational and competitve internationally. How do you view this?"
+
+[[1. "I agree. If it means keeping the lights on and and staying competitive, then I will work to increase the minimum wage for laborers in those sectors."|Support Wage]]
+[[2. "I am sorry, but I cannot agree with this. Increasing the minimum wage in these industries would result in other industies expecting the same treatment. If I raised the minimum wage for all, then suddenly more vulnerable corporations will find it even harder to stay afloat."|No Support Wage]]
+
+:: Support Wage
+:: No Support Wage
+/*  */
+
+
+
 
 :: Working Hours [event]
-    
+While participating in an interview, a state journalist asks your position on the growing desire among the working class for a more clearly defined balance between work and leisure.
+"What are your thoughts on this desire, Mr. President? Would you have any interest in tackling such an initiative to lower the typical 18 hour work day?"
+[[1. "It is my position that my people deserve to not slave every waking hour away. If this desire is true, then I would support mandating a 12 hour work day."|Support 12 Hour]]
+[[2. "It is my position that my people deserve to not slave every waking hour away. If this desire is true, then I would support mandating a 8 hour work day."|Support 8 Hour]]
+[[3. "My nation thrives on the hard work ethic that citizens proudly display. Mandating lower working hours would strip many of these people from their purpose and could even impact the nation's productivity as a whole. As it stands right now, I do not have an interest in tackling such an initiative."|No Support Hour]]
+
+:: Support 12 Hour
+:: Support 8 Hour
+:: No Support Hour
+/*  */
+
+
+
+
 :: Regulation [event]
+One morning while roaming aimlessly around the Presidential Palace garden, Carlotta swiftly approaches you with her usual elegance. "Oh Mr. President, would you mind if I accompany you on your stroll? I do enjoy having someone with me while I take in all the beauty this garden holds."
+You smile softly and nod. Together, you and Carlotta walk together talking about a range of topics, including upcoming parties and weddings. Eventually, after enough time has passed, Carlotta shifts the conversation toward something more business related. 
+"Mr. President, there are growing concerns about a dwindling workforce nationwide. We are seeing more and more people grow too old to work properly. I've taken the liberty and already spoken with other corporate leaders to find a solution for this problem. Together, we have come to the conclusion that lowering the age requirement for fulltime employment down to 12 years of age would significantly drive up productivity nationally. The Frontiermen are likely to put up some resistance, but I beleive that any effort on their part will fall apart once these younger citizens realize how fullfilling it is to contribute to society." 
+You stop walking after her last word, pondering how to respond.
+
+[[1. "Dire times call for dire measures. Once I get back to my office, I'll have someone draft something up declaring the legality of ages +12 joining the workforce."|Regulation 12]]
+[[2. "Allowing 12 year old to work just doesn't sit right with me, Carlotta. How about this: I lower the legal hiring age from 18 to 16, that way I'm not sending prepubesant children to the workforce."|Regulation 16]]
+[[3. "Children? You want literal children to start working inside mines and factories? I don't mean to be rude Carlotta but that is unacceptable in my eyes."|Keep Regulation]]
+
+:: Regulation 12
+:: Regulation 16
+:: Regulation same
+/*  */
+
+
+
+
+:: Tax Relief [event]
