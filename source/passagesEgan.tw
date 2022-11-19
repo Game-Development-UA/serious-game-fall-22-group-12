@@ -7,7 +7,9 @@ You stand silent while pondering the idea.
 [[2. "Absoletly not! My mother's likeness and legacy will not be used for your political gain any futher."|No Support Statue]]
 
 :: Support Statue
+"Why... why thank you so much, Mr. President! I am certain the working people will just love to hear this! I'll go inform them that you've given us the go ahead," Ottovin says with a smile. He quickly turns away and speedwalks toward the gate of the Presidential Palace.
 :: No Support Statue
+"While I will respect your decision, I cannot hide my disapointment, sir. It would have been a huge moral boost for your working people." Ottovin pauses for a moment before continuing. "Well, if you'll excuse me Mr. President, I need to inform my organization of your decision," he says before turning his back and walking away at a slower than usual pace.
 /*  */
 
 
@@ -17,14 +19,21 @@ You stand silent while pondering the idea.
 While working in your office, your advisor enters the room with a letter in hand.
 "Mr. President, an urgent letter from Ottovin has arrived. I beleive he is seeking your support," your advisor explains calmly. You break the seal on the letter and slip it out of its envelope.
 It reads, "Mr. President, your citizens need your help. Sickness and injury have long been a blight on the working people of this nation. I seek your support to increase access to heathcare services, which I see as vital for your nation to florish. Will you work with the Frontiermen and I to significantly increases access to healthcare nationwide?"
+Picking up a pen, you begin to write your response to Ottovin:
 
 [[1. "Yes, the national government understands this concern and will personally see that healthcare is expanded nationwide."|Support Health Gov]]
-[[2. "Yes, but the national government does not have the money to spare. I will support that corporations become responsible for providing increased access to healthcare services"|Support Health Corp]]
-[[3. "No, the current healthcare system is perfectly fine as it is right now. Those who need the health related assistance will seek it out. This is no need for my government to interfer."|No Support Health]]
+[[2. "Yes, but the national government does not have the money to spare. I will instead support that corporations become responsible for providing increased access to healthcare services"|Support Health Corp]]
+[[3. "No, the current healthcare system is perfectly fine as it is right now. Those who need the health related assistance will seek it out. There is no need for my government to interfer."|No Support Health]]
 
 :: Support Health Gov
+A few days later after sending back your response, your Advisor returns with a new letter from Ottovin. 
+"Fantastic! I will arrange a meeting with myself, the other Frontiermen, and you to discuss the extent to which your government is willing to help out. I will be in contact in a few short days."
 :: Support Health Corp
+A few days later after sending back your response, your Advisor returns with a new letter from Ottovin.
+"While this is not exactly what I was hoping for, I understand that there are financial strains for your government to be concered about. I will try to arrange a meeting with myself and some of the major corporate leaders to discuss their new role in providing healthcare. I'll likely be in contact with you in just a few days if I need any assisstance."
 :: No Support Health
+A few days later after sending back your response, your Advisor returns with a new letter from Ottovin.
+"I see. Thank you for the consideration, Mr. President. I have informed my organization that you will not support us in this effort."
 /*  */
 
 
@@ -38,6 +47,7 @@ While reviewing some documents in your office, you come across one from Ottovin 
 [[2. "Let them strike. Anyone who does so will either be replaced by more loyal citizens or fall back into line. The state of this nation's industry will not deteriorate because of something so trivial. I will not support this initiative."|No Support Work Env]]
 
 :: Support Work Env
+
 :: No Support Work Env
 /*  */
 
