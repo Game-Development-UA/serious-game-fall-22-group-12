@@ -42,13 +42,15 @@ A few days later after sending back your response, your Advisor returns with a n
 :: Working Environment [event]
 While reviewing some documents in your office, you come across one from Ottovin concerning the working conditions of the citizens his organization represents.
 "To our generous President, your nation's factory workers are on the verge of going on strike. They have grown restless with their dangerous working conditions and are, through my organzion, seeking assistance in assembling themselves to demand that new safety regulations are put in place to protect them from bodily harm. While I have indicated my support for such a strike, I wanted to give you the opportunity to fix this problem before it grew any larger. So, Mr. President, would you kindly state your support for safer workplaces?
+Writing back to Ottovin, you explain:
 
 [[1. "My people deserve to not constantly worry about having bodily harm inflicted upon them as a result of machinary. I will support this initiative."|Support Work Env]]
-[[2. "Let them strike. Anyone who does so will either be replaced by more loyal citizens or fall back into line. The state of this nation's industry will not deteriorate because of something so trivial. I will not support this initiative."|No Support Work Env]]
+[[2. "I am sorry, but the nation is still working through some growing pains right now. Any shakeup concerning the working conditions could jeapordize any progress we have made. I will not support this initiative"|No Support Work Env]]
+[[3. "Let them strike. Anyone who does so will either be replaced by more loyal citizens or fall back into line. Those who resist will deal with the military."|No Support Work Env Military]]
 
 :: Support Work Env
-
 :: No Support Work Env
+:: No Support Work Env Military
 /*  */
 
 
