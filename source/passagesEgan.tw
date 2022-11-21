@@ -121,9 +121,9 @@ Staring blanking at you, Carlotta sighs. With tight lips and a half grin, she re
 During a flattery-filled afternoon meeting with Carlotta, she begins to grow more restless in her seat. When you ask her if anything is bothering her, she explains, "Mr. President, I am feeling pressured by the other corporate leaders to propose something to you. I didn't want to be the one to ask, but they thought it be best if it came from me since I'm the most frequent spokesperson of our collective interests when it comes to you." 
 "Well... what is it?" you urge. "Sir, its about tax relief. I know, I know, I know! I can hear you sighing within. But in all seriousness, many of your industries are over-taxed by international standards. Any relief at all would alleviate a huge burden."
 
-[[1. Okay. Send me a list of which industries you feel are overtaxed and I will work through them one by one to determine where taxes can be cut.|Support Tax Relief]]
-[[2. Absolutly not. The current corporate tax rate is set in place for a reason and is already quite generous. My government needs the influx of money you and your allies' companies provide. A decrease would only constrain my ability to carry out my presidency.|No Support Tax Relief]]
-[[3. You insult me, Carlotta. In fact, you insult me to the degree that I genuinly beleive I should raise the corporate tax rate. You and I both know any tax relief would only line the corporate elite's pockets, not help anyone else.|Raise Taxes]]
+[[1. "Okay. Send me a list of which industries you feel are overtaxed and I will work through them one by one to determine where taxes can be cut."|Support Tax Relief]]
+[[2. "Absolutly not. The current corporate tax rate is set in place for a reason and is already quite generous. My government needs the influx of money you and your allies' companies provide. A decrease would only constrain my ability to carry out my presidency."|No Support Tax Relief]]
+[[3. "You insult me, Carlotta. In fact, you insult me to the degree that I genuinly beleive I should raise the corporate tax rate. You and I both know any tax relief would only line the corporate elite's pockets, not help anyone else."|Raise Taxes]]
 
 :: Support Tax Relief
 "Oh thank you thank you, sir!" Carlotta stands up from her chair with her hands together held up by her chest. "My corporate friends will just love to hear this. I'll have someone send that list over in the coming days." With your permission, she exits the room.
@@ -137,6 +137,20 @@ Carlotta sighs. "I warned my corporate friends that you might react that way. Ve
 
 
 :: Social Event [event]
+One evening you are admiring a painting in the Presidential Palace that depicts a lavish social gathering. As you are inspect its details, Carlotta approaches you from behind.
+Making her precence known, Carlotta begins, "You know, Mr. President, the nation could benefit from you throwing another party. It's a good excuse for everyone to mingle and peacefully talk through their differences. Not to mention the food and drink of course!" she clarifys with a light laugh. She turns her head away from the painting and toward you, waiting for a response.
+
+[[1. "I was just thinking the same thing, Carlotta. Parties have always been one of my favorite things throughout life. I will definetly have to arrange one here soon... using goveernment funds of course."|Support Social Event]]
+[[2. "I agree that parties are great for mingleing, but the government doesn't have the extra money right now to put anything on."|No Support Social Event Money]]
+[[3. "Didn't we just have a party not too long ago? It feels unnessary to have another one anytime soon."|No Support Social Event]]
+
+:: Support Social Event
+"That is just wonderful to hear, sir! I look forward to recieving my invitation," Carlotta responds. "If you need any help organizing a list of guests, food, or drinks, I'm willing to help... Let me know," she says while gracefully pulling away and walking down the hallway.
+:: No Support Social Event Money
+"Ahh that's too bad, sir." Carlotta pauses then states, "An upcoming party would do wonders right about now. No matter, maybe another time." She gracefully pulls away from the painting and begins walking down the hallway.
+:: No Support Social Event
+"I suppose you and I have different definitions of 'not too long ago' when it comes to parties, sir," Carlotta states. "No matter, there is always the future!" She gracefully pulls away from the painting and begins walking down the hallway.
+/*  */
 
 
 
