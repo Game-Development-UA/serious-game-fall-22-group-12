@@ -62,7 +62,6 @@ As you are walking the halls of the Presidential Palace, you come across Ottovin
 
 
 
-
 :: Wage Demand [event]
 While in a productive meeting with Ottovin, he raises the issue of worker pay.
 "Mr. President, I do not mean to pressure you, but many workers in your nation's vital industry sectors are not being payed enough to live sustainable lives. If you would, I would ask that you consider increasing the minimum wage for labor positions in the mining, manufacturing, and energy sectors. In my opinion, this is a matter of national security. If workers begin to leave and find work in more financially rewarding parts of the economy, then the nation will have trouble staying operational and competitve internationally. How do you view this?"
@@ -136,6 +135,7 @@ Carlotta sighs. "I warned my corporate friends that you might react that way. Ve
 
 
 
+
 :: Social Event [event]
 
 
@@ -148,7 +148,7 @@ Late one evening, your advisor enters your office with a concerned look.
 How do you respond to this new development?
 
 [[1. "No matter. While I don't appreicate Carlotta and her corporate allies going behind my back, I have come around to the merits of freer trade. Arrange a TV breifing to the nation. I'll address everyone at once."|Support Free Trade]]
-[[2. "I have made my stance on this issue very clear! Freer trade will only lead to job outsourcing. I want Carlotta in my office within the next hour. I need to have a word with her."|No Support Free Trade]]
+[[2. "I have made my stance on this issue very clear! Freer trade will only lead to job outsourcing. I want Carlotta in my office within the next hour... I need to have a word with her."|No Support Free Trade]]
 [[3. "Please inform Carlotta that I want her in my office within the next hour. I will support this free trade movement, but I will not support her working around me in the slightest."|Support Free Trade Carlotta]]
 
 :: Support Free Trade
