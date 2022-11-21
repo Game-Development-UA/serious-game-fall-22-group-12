@@ -49,8 +49,14 @@ Writing back to Ottovin, you explain:
 [[3. "Let them strike. Anyone who does so will either be replaced by more loyal citizens or fall back into line. Those who resist will deal with the military."|No Support Work Env Military]]
 
 :: Support Work Env
+As you are walking the halls of the Presidential Palace, you come across Ottovin walking toward you. 
+"Mr. President! Do you have a moment?" You nod. "I just wanted thank you for your support earlier this week. Carlotta has had some choice words with me, but even she knows she cannot put up a fight for too long."
+You reply, "Of course, Ottovin. If you need any help getting the message through to Carlotta or any other Corporate Leaders, I would be happy to assist." Ottovin smiles, thanks you once again, and then continues walking toward his destination.
 :: No Support Work Env
+As you are walking the halls of the Presidential Palace, you come across Ottovin walking toward you. 
+"Mr. President, do you have a moment?" You nod slowly. "I just don't quite understand, sir. Working people need your support and you decide "growing pains" are more important?" He slightly scoffs, then walks past you toward his destination.
 :: No Support Work Env Military
+As you are walking the halls of the Presidential Palace, you come across Ottovin walking toward you. He stares at you breifly then continues to walk past you toward his destination.
 /*  */
 
 
@@ -65,7 +71,9 @@ While in a productive meeting with Ottovin, he raises the issue of worker pay.
 [[2. "I am sorry, but I cannot agree with this. Increasing the minimum wage in these industries would result in other industies expecting the same treatment. If I raised the minimum wage for all, then suddenly more vulnerable corporations will find it even harder to stay afloat."|No Support Wage]]
 
 :: Support Wage
+Hearing your answer, Ottovin respondes, "Oh now that's just great, sir! I'm glad you recongize this as a serious issue. I don't have specifics for you yet, but I'll bring the data for our next meeting to dicuss how much the minimum wage should be increased by." He stands up, gathers his things back into folders, and then nods his head toward you. "Mr. President," he says before turning around and walking out.
 :: No Support Wage
+Hearing your answer, Ottovin respondes, "While I disagree with your reasoning, I can see why you would be concerned about preferencial treatment and vulnerable corporations. I'll inform my organization of your concerns later today and will see if they can think of any compromises." He stands up, gathers his things back into folders, and then nods his head toward you. "Mr. President," he says before turning around and walking out.
 /*  */
 
 
@@ -79,8 +87,11 @@ While participating in an interview, a state journalist asks your position on th
 [[3. "My nation thrives on the hard work ethic that citizens proudly display. Mandating lower working hours would strip many of these people from their purpose and could even impact the nation's productivity as a whole. As it stands right now, I do not have an interest in tackling such an initiative."|No Support Hour]]
 
 :: Support 12 Hour
+After writing down what you answered, the state journalist looks up. "Thank you for your time, Mr. President. That was my last question I had for you today. I am certain everyone will want to hear of this!" 
 :: Support 8 Hour
+After writing down what you answered, the state journalist looks up. "Thank you for your time, Mr. President. That was my last question I had for you today. I am certain everyone will want to hear of this!" 
 :: No Support Hour
+After writing down what you answered, the state journalist looks up. "Thank you for your time, Mr. President. That was my last question I had for you today."
 /*  */
 
 
@@ -92,13 +103,16 @@ You smile softly and nod. Together, you and Carlotta walk together talking about
 "Mr. President, there are growing concerns about a dwindling workforce nationwide. We are seeing more and more people grow too old to work properly. I've taken the liberty and already spoken with other corporate leaders to find a solution for this problem. Together, we have come to the conclusion that lowering the age requirement for fulltime employment down to 12 years of age would significantly drive up productivity nationally. The Frontiermen are likely to put up some resistance, but I beleive that any effort on their part will fall apart once these younger citizens realize how fullfilling it is to contribute to society." 
 You stop walking after her last word, pondering how to respond.
 
-[[1. "Dire times call for dire measures. Once I get back to my office, I'll have someone draft something up declaring the legality of ages +12 joining the workforce."|Regulation 12]]
+[[1. "Dire times call for dire measures. Once I get back to my office, I'll have someone draft something up declaring the legality of ages 12+ joining the workforce."|Regulation 12]]
 [[2. "Allowing 12 year old to work just doesn't sit right with me, Carlotta. How about this: I lower the legal hiring age from 18 to 16, that way I'm not sending prepubesant children to the workforce."|Regulation 16]]
 [[3. "Children? You want literal children to start working inside mines and factories? I don't mean to be rude Carlotta but that is unacceptable in my eyes."|Keep Regulation]]
 
 :: Regulation 12
+With her head held high, Carlotta responds, "Oh I am oh so glad you understand the direness of this situation! Don't worry about Ottovin, I'll personally take care of any of his worries concerning this." The two of you continue to converse while walking throughout the garden about the sucess this measure will bring to the nation.
 :: Regulation 16
+Staring off to the side, Carlotta seems to be pondering your compromise. "Hmmmm, while that is not exactly what I was seeking, I can tell that's the best offer I'm going to get, Mr. President." She pauses for a moment, then carries on. "Okay, I think us Corporate Leaders can make that work. Thank you, Mr. President!" The two of you continue to converse about upcoming events for some time while walking throughout the garden.
 :: Regulation same
+Staring blanking at you, Carlotta sighs. With tight lips and a half grin, she responds, "Of course, Mr. President." The two of you continue to walk in silence for some time before Carlotta exclaims, "Oh, I almost forgot! I have a board meeting in 30 minutes. I better leave before I'm too late, sir." She grins at you once more, then takes her leave towards a garden exit.
 /*  */
 
 
@@ -107,4 +121,33 @@ You stop walking after her last word, pondering how to respond.
 :: Tax Relief [event]
 
 
-:: Please dont break [again]
+
+
+:: Social Event [event]
+
+
+
+
+:: Free Trade [event]
+In the past few weeks, picket lines have been formed nationwide calling for an administrative policy change concerning trade with neighboring nations. Ordinary citizens are unusually supportive of a movement to open new markets internationally, which they beleive will create more opportunites for them to grow their wealth.
+Late one evening, your advisor enters your office with a concerned look. 
+"Mr. President, there has been a new revealation regarding the beginning of this free trade movement. It appears that several corporate heads have intentionally stired up your citizens in order to indirectly pressure you to serve their interests. They likely thought that coming to you directly with this issue would not have successful results, so they took ... an alternative route."
+How do you respond to this new development?
+
+[[1. "No matter. While I don't appreicate Carlotta and her corporate allies going behind my back, I have come around to the merits of freer trade. Arrange a TV breifing to the nation. I'll address everyone at once."|Support Free Trade]]
+[[2. "I have made my stance on this issue very clear! Freer trade will only lead to job outsourcing. I want Carlotta in my office within the next hour. I need to have a word with her."|No Support Free Trade]]
+[[3. "Please inform Carlotta that I want her in my office within the next hour. I will support this free trade movement, but I will not support her working around me in the slightest."|Support Free Trade Carlotta]]
+
+:: Support Free Trade
+Standing at your podium, you notice the bulb on the camera in front of you shine red. The operator behind dramatically points his finger toward you, giving the indication to begin the address.
+"Citzens of this great nation, your voices have been heard loud and clear. After much deliberation these past few weeks, I have found myself changing my position concerning international free trade. This was a very difficult decision to make, but I now intend to open our markets and work closely with neighboring markets with the aim of wealth creation citizen and corporation alike. Thank you." The red light on the camera dims and you begin to walk away from the podium.
+:: No Support Free Trade
+Entering you office, Carlotta appears confused about why she was called so suddenly for a meeting.
+"Carlotta," you begin, "Would you like to explain to me your influence in what is happening nationwide right now?" She looks at you with wide eyes before responding, "Whatever do you mean, sir?" Slamming you fist on your desk, you yell "Do not play dumb with me, Carlotta! I know that you and the other corporate heads directly stired up these poor citizens with false-promises of wealth. I will not have my authority worked around! If you seek a change in policy, then you work with me ... not the public."
+Turning her head sharply as if wincing with you every word, Carlotta eventually respondes, "Understood, sir. It will not happen again. Might I go?" You stare her dead-on for a moment before relaxing back in your chair stating "You're dismissed." Carlotta quickly turns away and walks through the office door.
+:: Support Free Trade Carlotta
+
+
+
+
+:: Advertisement [event]
