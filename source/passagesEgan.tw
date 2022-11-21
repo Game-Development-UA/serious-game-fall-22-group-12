@@ -119,7 +119,20 @@ Staring blanking at you, Carlotta sighs. With tight lips and a half grin, she re
 
 
 :: Tax Relief [event]
+During a flattery-filled afternoon meeting with Carlotta, she begins to grow more restless in her seat. When you ask her if anything is bothering her, she explains, "Mr. President, I am feeling pressured by the other corporate leaders to propose something to you. I didn't want to be the one to ask, but they thought it be best if it came from me since I'm the most frequent spokesperson of our collective interests when it comes to you." 
+"Well... what is it?" you urge. "Sir, its about tax relief. I know, I know, I know! I can hear you sighing within. But in all seriousness, many of your industries are over-taxed by international standards. Any relief at all would alleviate a huge burden."
 
+[[1. Okay. Send me a list of which industries you feel are overtaxed and I will work through them one by one to determine where taxes can be cut.|Support Tax Relief]]
+[[2. Absolutly not. The current corporate tax rate is set in place for a reason and is already quite generous. My government needs the influx of money you and your allies' companies provide. A decrease would only constrain my ability to carry out my presidency.|No Support Tax Relief]]
+[[3. You insult me, Carlotta. In fact, you insult me to the degree that I genuinly beleive I should raise the corporate tax rate. You and I both know any tax relief would only line the corporate elite's pockets, not help anyone else.|Raise Taxes]]
+
+:: Support Tax Relief
+"Oh thank you thank you, sir!" Carlotta stands up from her chair with her hands together held up by her chest. "My corporate friends will just love to hear this. I'll have someone send that list over in the coming days." With your permission, she exits the room.
+:: No Support Tax Relief
+"That's precisely what I told my corporate friends you were going to say," Carlotta admits. "I've heard your opinion on this matter before, but they thought it'd be worth trying. No matter, I'll inform them of your consistency later." In the meantime, you continue to talk about other issues and news with Carlotta.
+:: Raise Taxes
+Carlotta sighs. "I warned my corporate friends that you might react that way. Very well, I will take my leave and inform interested parties to start preparing for any tax increases." She waits for your nod to leave, then exits the room.
+/*  */
 
 
 
@@ -140,18 +153,18 @@ How do you respond to this new development?
 
 :: Support Free Trade
 Standing at your podium, you notice the bulb on the camera in front of you shine red. The operator behind dramatically points his finger toward you, giving the indication to begin the address.
-"Citzens of this great nation, your voices have been heard loud and clear. After much deliberation these past few weeks, I have found myself changing my position concerning international free trade. This was a very difficult decision to make, but I now intend to open our markets and work closely with neighboring markets with the aim of wealth creation citizen and corporation alike. Thank you." The red light on the camera dims and you begin to walk away from the podium.
+"Citzens of this great nation, your voices have been heard loud and clear. After much deliberation these past few weeks, I have found myself changing my position concerning international free trade. This was a very difficult decision to make, but I now intend to open our markets and work closely with neighboring markets with the aim of wealth creation for citizens and corporations alike. Thank you." The red light on the camera dims and you begin to walk away from the podium.
 :: No Support Free Trade
 Entering you office, Carlotta appears confused about why she was called so suddenly for a meeting.
-"Carlotta," you begin, "Would you like to explain to me your influence in what is happening nationwide right now?" She looks at you with wide eyes before responding, "Whatever do you mean, sir?" Slamming you fist on your desk, you yell "Do not play dumb with me, Carlotta! I know that you and the other corporate heads directly stired up these poor citizens with false-promises of wealth. I will not have my authority worked around! If you seek a change in policy, then you work with me ... not the public."
-Turning her head sharply as if wincing with you every word, Carlotta eventually respondes, "Understood, sir. It will not happen again. Might I go?" You stare her dead-on for a moment before relaxing back in your chair stating "You're dismissed." Carlotta quickly turns away and walks through the office door.
+"Carlotta," you begin, "Would you like to explain to me your influence in what is happening nationwide right now?" She looks at you with wide eyes before responding, "Whatever do you mean, sir?" Slamming you fist on your desk, you yell, "Do not play dumb with me, Carlotta! I know that you and the other corporate heads directly stired up these poor citizens with false-promises of wealth. I will not have my authority worked around! If you seek a change in policy, then you work with me ... not the public."
+Turning her head sharply as if wincing with your every word, Carlotta eventually respondes, "Understood, sir. It will not happen again. Might I go?" You stare her dead-on for a moment before relaxing back in your chair stating "You're dismissed." Carlotta quickly turns away and walks through the office door.
 :: Support Free Trade Carlotta
 Entering you office, Carlotta appears confused about why she was called so suddenly for a meeting.
-"Carlotta," you begin, "I wanted you to be the first person of importance to hear that I will be supporting the free trade movement that has swept the nation in recent weeks." She looks at you curiously before stating, "That is very kind of you, sir. I am sure citizens will be happy to hear this." Looking at her blankly, you interupt by clarifying, "However, my support is contingent on you and the other corporate heads coming directly to me in the future, not working around my influence." Pulling her head back slightly, Carlotta says, "What would you be refering to, sir?" Leaning back slowing in your chair, you respond, "Please do not play dumb with my Carlotta. I know you and your allies directly stired up the population with this issue as a way to pressure me. Do not let it happen again."
+"Carlotta," you begin, "I wanted you to be the first person of importance to hear that I will be supporting the free trade movement that has swept the nation in recent weeks." She looks at you curiously before stating, "That is very kind of you, sir. I am sure citizens will be happy to hear this." Looking at her blankly, you interupt by clarifying, "However, my support is contingent on you and the other corporate heads coming directly to me in the future, not working around my influence." Pulling her head back slightly, Carlotta says, "What would you be refering to, sir?" Leaning back slowing in your chair, you respond, "Please do not play dumb with me Carlotta. I know you and your allies directly stired up the population with this issue as a way to pressure me. Do not let it happen again."
 Realizing that she has been caught, Carlotta nods her head. "Understood, sir. It will not happen again." You nod your head toward the door of your office and Carlotta begins walking out.
 /*  */
 
 
-
+ 
 
 :: Advertisement [event]
