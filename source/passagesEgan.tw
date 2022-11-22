@@ -1,4 +1,5 @@
-:: Statue [event]
+<!--class called statue and event tag -->
+:: Statue [statue, event] 
 As you are about to enter the Presidential Palace after a long day of governing, Ottovin approaches you from behind.
 "Excuse me, Mr. President! My organization has a proposition I think you'd like to hear about." You silently nod, giving him permission to continue speaking. "You see, we Frontiermen admired your mother and her personal generosity to our cause. With your permission, we would absolutly love to erect a statue as a reminder of her selflessness and beauty. What do you say?"
 You stand silent while pondering the idea.
@@ -11,6 +12,7 @@ You stand silent while pondering the idea.
 :: No Support Statue
 "While I will respect your decision, I cannot hide my disapointment, sir. It would have been a huge moral boost for your working people." Ottovin pauses for a moment before continuing. "Well, if you'll excuse me Mr. President, I need to inform my organization of your decision," he says before turning his back and walking away at a slower than usual pace.
 /*  */
+
 
 
 

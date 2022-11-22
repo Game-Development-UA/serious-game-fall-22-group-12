@@ -1,9 +1,9 @@
 
 
 /* The body is everything displayed in the main text delivery area */
-body {
+/* body {
 	background: rgb(71, 35, 110);
-}
+} */
 
 
 h1 {
@@ -15,6 +15,10 @@ h1 {
 
 .palace {
 	background-image: url("palace.jpg");
+}
+
+.statue {
+	background-color: blueviolet;
 }
 
 
