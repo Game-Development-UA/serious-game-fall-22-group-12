@@ -1,13 +1,26 @@
+/* Example of how we could start */
+
 :: Start
-This is the first passage in your game with just one variable called myVariable that has a value of $myVariable.  There are two passages in this template, and the other can be found [[here|Passage 2]]
+<h1> Welcome to [[Gargantua!|Gargantua]] </h1>
+<h2> You and your comrades have just overthrown the ruler of Gargantua.
+You are now in full control and able to make decisions for yourself. </h2>
+<h3> Enter the Palace  [[Enter|Palace]] </h3>
+
+:: Gargantua
+<h2> Gargantua is the name of your universe </h2>
+<br>[[back|Start]]
+<br>
+<p> dont mess it up! </p>
+
+
+:: Palace [palace]
+<h1> Welcome to the Palace! </h1>
+<h2> Tonight you are hosting a magnificent party. [[Enter the ballroom|ballroom]] </h2>
+
 
 You have just overthrown a previous the ruler 
 In the past week, you and your comrades have overthrown the previous ruler and you are now in control. 
 
 
 
-:: Passage 2
-And here we are! [[Check out my HTML|Passage 3]]
 
-:: Passage 3
-<p> Welcome to the palace of Quasar <p>
