@@ -1,6 +1,6 @@
 :: Statue [event]
 As you are about to enter the Presidential Palace after a long day of governing, Ottovin approaches you from behind.
-"Excuse me, Mr. President! My organization has a proposistion I think you'd like to hear about." You silently nod, giving him permission to continue speaking. "You see, we Frontiermen admired your mother and her personal generosity to our cause. With your permission, we would absolutly love to erect a statue as a reminder of her selflessness and beauty. What do you say?"
+"Excuse me, Mr. President! My organization has a proposition I think you'd like to hear about." You silently nod, giving him permission to continue speaking. "You see, we Frontiermen admired your mother and her personal generosity to our cause. With your permission, we would absolutely love to erect a statue as a reminder of her selflessness and beauty. What do you say?"
 You stand silent while pondering the idea.
 
 [[1. "Of course! My mother was a champion of the working people so I see no reason to stand in your way."|Support Statue]]
@@ -188,18 +188,17 @@ Realizing that she has been caught, Carlotta nods her head. "Understood, sir. It
 /*  */
 /*  */
 :: Main Story 0 [main]
-mhbskg sblriukjds
-fshgbkshjgf
+This is the passage about the party: opening of game. Player is introduced to each of the 4 important people.
 Who do you approach first?
-[[1. Ottovin, spokesperson of the Labor Union Frontiermen|Approach Ottovin]]
-[[2. Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]
-[[3. abc, your spymaster|Approach abc]]
-[[4. xyz, military general|Approach xyz]]
+[[Ottovin, spokesperson of the Labor Union Frontiermen|Approach Ottovin]]
+[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]
+[[Spymaster, your spymaster|Approach Spymaster]]
+[[General, your military general|Approach General]]
 
 :: Approach Ottovin
 :: Approach Carlotta
-:: Approach abc
-:: Approach xyz
+:: Approach Spymaster
+:: Approach General
 
 
 
