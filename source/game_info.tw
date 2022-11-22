@@ -3,7 +3,7 @@
 "ifid": "1F012455-6A83-4CCB-BCB1-49B9D77D4E03",
 "format": "SugarCube",
 "format-version": "2.30.0",
-"start": "Start"
+"start": "Statue"
 }
 
 :: StoryTitle
@@ -12,3 +12,14 @@ Ruler
 
 :: StoryInit
 <<set $myVariable to 1>>
+<<set $opinionOttovin to 0>>
+<<set $opinionCarlotta to 0>>
+<<set $opinionSpymaster to 0>>
+<<set $opinionGeneral to 0>>
+
+<<set $apprachOttovin to false>>
+<<set $apprachCarlotta to false>>
+<<set $apprachSpymaster to false>>
+<<set $apprachGeneral to false>>
+
+<<set $timespenttalking to 0>>
