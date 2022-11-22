@@ -1,0 +1,89 @@
+:: Propaganda [event]
+Your spy master meets with you in regards to reinforcing your message across the nation.
+"Sir, I believe that more ppropaganda in the media about your message will help influence the people of the nation, and cause them to believe more in your message and you. It will also make your popularity in the nation increase and the surrounding countries. Would you like me to work on increasing your propaganda in the media?"
+You sit in silence for a few seconds while you think.
+
+[[1. "I was also thinking about increasing propaganda. My popularity has lowered in the nation since overturning the previous government. I would like you to work on increasing propaganda in the media."|Yes for propaganda]]
+[[2. "I don't know how well the propaganda will actually influenec the nation's people; futhermore, I couldn't care less about what the nation's people think about me. I am the ruler and they have to follow me, no matter what. I would not like you to increase propaganda in the media."|No for propaganda]]
+
+:: Yes for propaganda
+"I shall get right to increase your propaganda in the media then, thank you for your time."
+:: No for propaganda
+"Sir, I am not sure that is the best choice; however, I will still follow your command..." 
+/* */
+
+
+
+
+:: Assassinate [event]
+Your spymaster makes you aware of a journalist from your nation, who is writing slanderous articles about you and how you rule over the country; however, the journalist is safe in another nation.
+"Sir, regarding the journalist that is writing slanderous material about you and your rule, from another nation, should I assasinate him? Afterall, he is hurting you reputation not only in other nations but ours as well. If he stays alive he could change people's opinions of you drastically, for worse."
+You think about your decision.
+
+[[1. "I was also worried about this journalist and thinking about what to do about him. I would like you to assasinate him, so that I can keep my political image."|Yes assasinate journalist]]
+[[2. "I have been worried about the journalist, however I would not like you to assasinate him. Instead silently capture him and bring him to the interrogation space. I would like to ask him a few questions."|Capture journalist]]
+[[3. "Don't assasinate the journalist. I don't really care about my public image. I am in power, the people can think what they want, but they are still under my rule."|Do not care]]
+
+:: Yes assasinate journalist
+"Yes sir, worry no longer, the journalist shall be dealt with immediately."
+:: Capture journalist
+"That is wise of you sir. I shall capture the journalist right away."
+:: Do not care
+"That is not the answer I was expecting from you sir; regardless, thank you for your time. I shall take my leave now."
+/* */
+
+
+
+
+:: Spread influence [event]
+Your spymaster has come up with another way to spread your influence and increase your nation's supremacy. 
+"Sir, I think we should set up a network of spies in our neighboring nations' cruial industries, so that we can increase competition and our supremacy over the neighboring nations. By doing this we can influence other nations discreetly and find out any industry secrets."
+You think over the spymaster's words.
+
+[[1. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that I would rather make friendly relations with the neighboring countries."|Friendly ties]]
+[[2. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that our country is strong enough as it is, why waste money to figure out what the other countries are doing."|We are strong]]
+[[3. "This is an intelligent proposition you have brought to me, spymaster. I think I will take you up on it. I would like you to inflitrate the surrounding nations' cruical industries by setting up a network of spies across them."|Yes for spreading influence]]
+
+:: Friendly ties
+"That is unexpected of you sir, but having more allies than enemies, is a smart move."
+:: We are strong
+"It is true that our nation is strong sir, but even the strong can falter without valuable information. I shall take my leave now, thank you for meeting with me."
+:: Yes for spreading influence
+"Understood sir, I shall set up the spy network at once, thank you for your time."
+/* */
+
+
+
+
+:: Scheme [event]
+There is a politcian that is bad mouthing you, as of late.
+"Sir, regarding the politician that is bad mouthing you and making public opinion of you worse, should I do something about him. I can discredit him and lessen his influence so that we may save your reputation." 
+You think to yourself for a second, and write back:
+
+[[1.  "I would like you to discredit him, he is hurting my reputation and I do not want to be seen by our nation's people as a tyrant ruler."|Yes discredit him]]
+[[2. "Although my public image is going down. It is not like it really matters. I can always make new laws about speaking ill of the ruler. Afterall, I am in power. So, let the politician be."|Do not discresit him]]
+
+:: Yes discredit him
+"My thoughts exactly sir. Let me get right to that."
+:: Do not discredit him
+"Sir, I am not sure that is the best action to take here, but I will acknowledge it. Thank you for your time."
+/* */
+
+
+
+
+:: Enemy spy [event]
+The spymaster has a serious issue to talk about with you.
+"Sir, there is an enemy spy in the government. If we do not act he can discover a lot of invauable information about our nation. Would you like me to assasonate him?"
+
+[[1. "Thank you for bringing this to my attention, spymaster. I would like you to assasinate him as soon as you can. We cannot have invaluable information about our nation leak, it could cause the downfall of our nation."|Assassinate enemy spy]]
+[[2. "Thank you for bringing this to my attention. The enemy spy can cause a lot of havoc if we do not do anything about him; however, we may be able to get valuable information out of the spy if we capture him rather than just assasinate him. So, I would like you to capture him for questioning instead."|Capture enemy spy]]
+[[3. "Thank you for bringing this to my attention; however, there is no cause for concern. Any information that is leaked we can overcome. We are the strongest nation. We cannot be defeated."|Do not care 2]]
+
+:: Assassinate enemy spy
+"Thank you for seeing the urgency in this matter sir, I will carry out the assasination plan now." 
+:: Capture enemy spy
+"I am not quite sure if the enemy spy will let himself be captured sir, but I will do my best. Thank you for your time."
+:: Do not care 2
+"Our nation is very strong, but the enemy spy can bring down our government if he finds valuable information. That is most likely not a wise way to go about this situation. But it is your decision, so I'll let it be."
+/* */

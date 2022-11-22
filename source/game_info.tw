@@ -7,8 +7,19 @@
 }
 
 :: StoryTitle
-Environmentalist
+Ruler
 
 
 :: StoryInit
-<<set $guestSatisfaction to 100>>
+<<set $myVariable to 1>>
+<<set $opinionOttovin to 0>>
+<<set $opinionCarlotta to 0>>
+<<set $opinionSpymaster to 0>>
+<<set $opinionGeneral to 0>>
+
+<<set $apprachOttovin to false>>
+<<set $apprachCarlotta to false>>
+<<set $apprachSpymaster to false>>
+<<set $apprachGeneral to false>>
+
+<<set $timespenttalking to 0>>
