@@ -1,0 +1,70 @@
+:: Marriage [event]
+After all of the new stress of becoming the new president, you have decided that you want to get married. 
+There are several options of locations for your marriage. You can get married in private among your family and friends. 
+You can get married on the beach where there will be space available for the common folk to attend if they desire. 
+Or you can get married in one of the fanciest wedding venues in the country. In the chapel the wedding will be televised but the common folk will not be able to attend the wedding in person. 
+Based on what you choose, the approval rating among the people will be affected.
+
+[[1. Choose option one which is to have your wedding in private in your palace. | Choose Private wedding]]
+[[2. Choose to get married at one of the fanciest wedding venues in the country | Choose to get married at fancy venue]]
+[[3. Your last option is that you can choose to get Married on the beach | Choose to have wedding on the beach]]
+
+
+:: Choose Private wedding
+You have chosen to have your wedding in private. 
+The common folk are not happy that they cannot view the wedding, however they are happy that you did not boast your riches and throw an extravagant wedding while there are many people living in poverty throughout the country. 
+(no change in approval) 
+
+:: Choose to get married at fancy venue
+You have chosen to have your wedding in the fanciest wedding venue in the country. 
+The people are happy when they hear that you will be having a live broadcast of your wedding. 
+Although they are rubbed the wrong way at the extravagant nature of the wedding during these tough times for the common folk. 
+(approval decreases slightly) 
+
+:: Choose to have wedding on the beach
+You have chosen to have your wedding on the beachfront. 
+The common folk are happy that you have chosen to have your wedding in a public space where people can come and attend free of cost. 
+(Approval rating increases)
+/*  */
+
+
+:: Vacation [event]
+You have decided that after all of the hard work you have put in after becoming the new president that you should take a vacation to relax. 
+There are several different options that you can choose from to be your vacation of choice. 
+- Your options are going out on your yacht or going to the largest coastal city in your country and staying in a hotel.
+
+[[1. One Option is going out on your private yacht | Yacht vacation]]
+[[2. Your second option is to vacation in a big coastal city. | Go To Coastal City]]
+
+
+:: Yacht Vacation
+You are going to take your vacation on your private yacht out in the open seas. 
+This will be relaxing for you as you will not have to worry about the press being in your business and you will get some time alone. 
+(stress decreases)
+
+:: Go To Coastal City 
+You chose to visit the big coastal city that is in your country. 
+There is a fancy hotel there where you will be staying. This city is so big there are still some stressors such as the press and citizens being around that seem to always ask you presidential related questions. 
+(stress decreases slighlty)
+/* */
+
+
+:: Spend Time with family or friends [event]
+You would like to take some time to enjoy yourself and have some free time to do as you please. 
+There are several options that you have decided you want to choose from. 
+One way you can spend your free time is to take your spouse out to a typical restaurant and spend some quality time together.
+Another thing you can do is go out to a bar with some of your friends.
+
+[[1. Decide to go to a resturant with your spouse. | Go To Resturant]]
+[[2. Decide to go to a bar with your friends. | Go To Bar]]
+
+:: Go To restaurant
+You have chosen to take your spouse out to a restaurant. 
+You spend some lovely time together. 
+The common folk take note that you went to a common restaurant and they appreciate that you are just like them in some ways! 
+(approval rating has increased.)
+
+:: Go To Bar 
+You have chosen to spend some of your free time with some close friends. You all have decided to go out to an exclusive bar just down the street. 
+What will you choose to drink at the bar? 
+
