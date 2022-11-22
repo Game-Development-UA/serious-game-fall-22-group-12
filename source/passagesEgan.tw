@@ -191,17 +191,33 @@ Realizing that she has been caught, Carlotta nods her head. "Understood, sir. It
 mhbskg sblriukjds
 fshgbkshjgf
 Who do you approach first?
-[[Ottovin, spokesperson of the Labor Union Frontiermen|Approach Ottovin]]
-[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]
-[[abc, your spymaster|Approach abc]]
-[[xyz, military general|Approach xyz]]
+<<if $approachOttovin == false>>[[Ottovin, spokesperson of the Labor Union Frontiermen|Approach Ottovin]] <</if>>
+<<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
+<<if $approachSpymaster == false>>[[abc, your spymaster|Approach abc]]<</if>>
+<<if $approachGeneral == false>>[[xyz, military general|Approach xyz]]<</if>>
+
+<<if $timepsenttalking == 4>> [[No one is left to approach|ijdg]]<</if>>
 
 :: Approach Ottovin
 <<set $apprachOttovin to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
+<<set $opinionOttovin to 5 - $timespenttalking>>
+[[Continue|Main Story 0]]
 :: Approach Carlotta
+<<set $apprachCarlotta to true>>
+<<set $timespenttalking to $timespenttalking + 1>>
+<<set $opinionCarlotta to 5 - $timespenttalking>>
+[[Continue|Main Story 0]]
 :: Approach abc
+<<set $apprachSpymaster to true>>
+<<set $timespenttalking to $timespenttalking + 1>>
+<<set $opinionSpymaster to 5 - $timespenttalking>>
+[[Continue|Main Story 0]]
 :: Approach xyz
+<<set $apprachGeneral to true>>
+<<set $timespenttalking to $timespenttalking + 1>>
+<<set $opinionGeneral to 5 - $timespenttalking>>
+[[Continue|Main Story 0]]
 
 
 
