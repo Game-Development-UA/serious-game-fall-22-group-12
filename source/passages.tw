@@ -1,7 +1,7 @@
 /* Example of how we could start */
 
 :: Start
-<h1> Welcome to Gargantua! [[|idk| Gargantua]] </h1>
+<h1> Welcome to [[Gargantua!|Gargantua]] </h1>
 <h2> You and your comrades have just overthrown the ruler of Gargantua.
 You are now in full control and able to make decisions for yourself. </h2>
 <h3> Enter the Palace  [[Enter|Palace]] </h3>
@@ -12,11 +12,11 @@ You are now in full control and able to make decisions for yourself. </h2>
 <br>
 <p> dont mess it up! </p>
 
-<div class = "palace">
-:: Palace
+
+:: Palace [palace]
 <h1> Welcome to the Palace! </h1>
 <h2> Tonight you are hosting a magnificent party. [[Enter the ballroom|ballroom]] </h2>
-</div>
+
 
 :: ballroom
 <h1 > Welcome to the Ballroom! </h1>

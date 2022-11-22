@@ -1,7 +1,7 @@
 /* Example of how we could start */
 
 :: Start1
-<h1> Welcome to Gargantua! [[|idk| Gargantua]] </h1>
+<h1> Welcome to [[|Gargantua!|Gargantua1]] </h1>
 <h2> You and your comrades have just overthrown the ruler of Gargantua.
 You are now in full control and able to make decisions for yourself. </h2>
 <h3> Enter the Palace  [[Enter|Palace]] </h3>
