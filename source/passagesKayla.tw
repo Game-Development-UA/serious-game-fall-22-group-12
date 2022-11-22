@@ -1,3 +1,13 @@
 :: Propaganda [event]
 Your spy master meets with you in regards to reinforcing your message across the nation.
-"Sir, I believe that more ppropaganda in the media
+"Sir, I believe that more ppropaganda in the media about your message will help influence the people of the nation, and cause them to believe more in your message and you. It will also make your popularity in the nation increase and the surrounding countries. Would you like me to work on increasing your propaganda in the media?"
+You sit in silence for a few seconds while you think.
+
+[[1. "I was also thinking about increasing propaganda. My popularity has lowered in the nation since overturning the previous government. I would like you to work on increasing propaganda in the media."|Yes for propaganda]]
+[[2. "I don't know how well the propaganda will actually influenec the nation's people; futhermore, I couldn't care less about what the nation's people think about me. I am the ruler and they have to follow me, no matter what. I would not like you to increase propaganda in the media."|No for propaganda]]
+
+:: Yes for propaganda
+"I shall get right to increase your propaganda in the media then, thank you for your time."
+:: No for propaganda
+"Sir, I am not sure that is the best choice; however, I will still follow your command..." 
+/* */
