@@ -111,7 +111,7 @@ With her head held high, Carlotta responds, "Oh I am oh so glad you understand t
 :: Regulation 16
 Staring off to the side, Carlotta seems to be pondering your compromise. "Hmmmm, while that is not exactly what I was seeking, I can tell that's the best offer I'm going to get, Mr. President." She pauses for a moment, then carries on. "Okay, I think us Corporate Leaders can make that work. Thank you, Mr. President!" The two of you continue to converse about upcoming events for some time while walking throughout the garden.
 :: Regulation same
-Staring blanking at you, Carlotta sighs. With tight lips and a half grin, she responds, "Of course, Mr. President." The two of you continue to walk in silence for some time before Carlotta exclaims, "Oh, I almost forgot! I have a board meeting in 30 minutes. I better leave before I'm too late, sir." She grins at you once more, then takes her leave towards a garden exit.
+Staring blankly at you, Carlotta sighs. With tight lips and a half grin, she responds, "Of course, Mr. President." The two of you continue to walk in silence for some time before Carlotta exclaims, "Oh, I almost forgot! I have a board meeting in 30 minutes. I better leave before I'm too late, sir." She grins at you once more, then takes her leave towards a garden exit.
 /*  */
 
 
@@ -137,7 +137,7 @@ Carlotta sighs. "I warned my corporate friends that you might react that way. Ve
 
 
 :: Social Event [event]
-One evening you are admiring a painting in the Presidential Palace that depicts a lavish social gathering. As you are inspect its details, Carlotta approaches you from behind.
+One evening, you are admiring a painting in the Presidential Palace that depicts a lavish social gathering. As you are inspect its details, Carlotta approaches you from behind.
 Making her precence known, Carlotta begins, "You know, Mr. President, the nation could benefit from you throwing another party. It's a good excuse for everyone to mingle and peacefully talk through their differences. Not to mention the food and drink of course!" she clarifys with a light laugh. She turns her head away from the painting and toward you, waiting for a response.
 
 [[1. "I was just thinking the same thing, Carlotta. Parties have always been one of my favorite things throughout life. I will definetly have to arrange one here soon... using goveernment funds of course."|Support Social Event]]
@@ -188,6 +188,22 @@ Realizing that she has been caught, Carlotta nods her head. "Understood, sir. It
 /*  */
 /*  */
 :: Main Story 0 [main]
+mhbskg sblriukjds
+fshgbkshjgf
+Who do you approach first?
+[[1. Ottovin, spokesperson of the Labor Union Frontiermen|Approach Ottovin]]
+[[2. Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]
+[[3. abc, your spymaster|Approach abc]]
+[[4. xyz, military general|Approach xyz]]
+
+:: Approach Ottovin
+:: Approach Carlotta
+:: Approach abc
+:: Approach xyz
+
+
+
+
 
 :: Main Story 1 [main]
 
