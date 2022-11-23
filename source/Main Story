@@ -1,34 +1,49 @@
 :: Main Story 0 [main]
-Passage(s) about the intro to the game, party, meeting people
+Passage introducing the setting of the party
+[[Continue|Approaching]]
 
+:: Approaching
 Who do you approach?
 <<if $approachOttovin == false>>[[Ottovin, spokesperson of the Labor Union Frontiermen|Approach Ottovin]] <</if>>
 <<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
 <<if $approachSpymaster == false>>[[abc, your spymaster|Approach abc]]<</if>>
 <<if $approachGeneral == false>>[[xyz, military general|Approach xyz]]<</if>>
-
-<<if $timespenttalking == 4>>[[No one is left to approach|ijdg]]<</if>>
+<<if $timespenttalking == 4>>[[No one is left to approach|Party End]]<</if>>
 
 :: Approach Ottovin
+Text about Ottovin, quick intro and conversation
 <<set $approachOttovin to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionOttovin to 10 - $timespenttalking>>
-[[Continue|Main Story 0]]
+[[Continue|Approaching]]
 :: Approach Carlotta
+Text about Carlotta, quick intro and conversation
 <<set $approachCarlotta to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionCarlotta to 10 - $timespenttalking>>
-[[Continue|Main Story 0]]
+[[Continue|Approaching]]
 :: Approach abc
+Text about spymaster, quick intro and conversation
 <<set $approachSpymaster to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionSpymaster to 10 - $timespenttalking>>
-[[Continue|Main Story 0]]
+[[Continue|Approaching]]
 :: Approach xyz
+Text about general, quick intro and conversation
 <<set $approachGeneral to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionGeneral to 10 - $timespenttalking>>
-[[Continue|Main Story 0]]
+[[Continue|Approaching]]
+
+:: Party End
+Text about the end of the party
+[[Continue|Office]]
+:: Office
+Text about duties as president, intro to office setting the next day
+[[Continue|testopening]]
+
+
+
 
 :: Main Story 1 [main]
 
