@@ -29,3 +29,15 @@ Who do you approach?
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionGeneral to 10 - $timespenttalking>>
 [[Continue|Main Story 0]]
+
+:: Main Story 1 [main]
+
+:: Main Story 2 [main]
+
+:: Main Story 3 [main]
+
+:: Main Story 4 [main]
+
+:: Main Story 5 [main]
+
+:: Main Story 6 [main]

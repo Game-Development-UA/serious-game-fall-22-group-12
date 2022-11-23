@@ -1,4 +1,4 @@
-:: Marriage [event]
+:: Marriage [stress]
 After all of the new stress of becoming the new president, you have decided that you want to get married. 
 There are several options of locations for your marriage. You can get married in private among your family and friends. 
 You can get married on the beach where there will be space available for the common folk to attend if they desire. 
@@ -28,7 +28,7 @@ The common folk are happy that you have chosen to have your wedding in a public 
 /*  */
 
 
-:: Vacation [event]
+:: Vacation [stress]
 You have decided that after all of the hard work you have put in after becoming the new president that you should take a vacation to relax. 
 There are several different options that you can choose from to be your vacation of choice. 
 - Your options are going out on your yacht or going to the largest coastal city in your country and staying in a hotel.
@@ -49,7 +49,7 @@ There is a fancy hotel there where you will be staying. This city is so big ther
 /* */
 
 
-:: Spend Time with family or friends [event]
+:: Spend Time with family or friends [stress]
 You would like to take some time to enjoy yourself and have some free time to do as you please. 
 There are several options that you have decided you want to choose from. 
 One way you can spend your free time is to take your spouse out to a typical restaurant and spend some quality time together.

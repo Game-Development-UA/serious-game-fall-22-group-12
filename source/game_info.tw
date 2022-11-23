@@ -3,7 +3,7 @@
 "ifid": "1F012455-6A83-4CCB-BCB1-49B9D77D4E03",
 "format": "SugarCube",
 "format-version": "2.30.0",
-"start": "Main Story 0"
+"start": "testopening"
 }
 
 :: StoryTitle
@@ -16,14 +16,36 @@ Ruler
 <<set $opinionCarlotta to 0>>
 <<set $opinionSpymaster to 0>>
 <<set $opinionGeneral to 0>>
-
 /* Approaching at party variables */
 <<set $approachOttovin to false>>
 <<set $approachCarlotta to false>>
 <<set $approachSpymaster to false>>
 <<set $approachGeneral to false>>
 <<set $timespenttalking to 0>>
-
 /* Other Important Variables */
-<<set $stress to 0>>
-<<set $money to 5>>
+<<set $playerstress to 0>>
+<<set $playermoney to 5>>
+/* Setting events as a variable to be called */
+<<set $events = Story.lookup("tags","event")>>
+<<for _i to 0; _i < $events.length; _i++>>
+	<<set $events[_i] = $events[_i].title>>
+<</for>>\
+/* Setting stress events as a variable to be called */
+<<set $stress = Story.lookup("tags","stress")>>
+<<for _i to 0; _i < $stress.length; _i++>>
+	<<set $stress[_i] = $stress[_i].title>>
+<</for>>\
+
+:: nextEvent
+<<set $nextEvent = either($events)>>
+<<run $events.delete($nextEvent)>>
+<<link “Focus-On-The-Nation” $nextEvent>> <</link>>
+
+:: nextStress
+<<set $nextStress = either($stress)>>
+<<run $stress.delete($nextStress)>>
+<<link “Focus-On-Myself” $nextStress>> <</link>>
+
+:: testopening
+<<include "nextEvent">>
+<<include "nextStress">>

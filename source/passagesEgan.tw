@@ -1,5 +1,5 @@
 <!--class called statue and event tag -->
-:: Statue [statue, event] 
+:: Statue [event] 
 As you are about to enter the Presidential Palace after a long day of governing, Ottovin approaches you from behind.
 "Excuse me, Mr. President! My organization has a proposition I think you'd like to hear about." You silently nod, giving him permission to continue speaking. "You see, we Frontiermen admired your mother and her personal generosity to our cause. With your permission, we would absolutly love to erect a statue as a reminder of her selflessness and beauty. What do you say?"
 You stand silent while pondering the idea.
@@ -189,53 +189,13 @@ Realizing that she has been caught, Carlotta nods her head. "Understood, sir. It
 /*  */
 /*  */
 /*  */
-:: Main Story 0 [main]
-mhbskg sblriukjds
-fshgbkshjgf
-Who do you approach first?
-<<if $approachOttovin == false>>[[Ottovin, spokesperson of the Labor Union Frontiermen|Approach Ottovin]] <</if>>
-<<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
-<<if $approachSpymaster == false>>[[abc, your spymaster|Approach abc]]<</if>>
-<<if $approachGeneral == false>>[[xyz, military general|Approach xyz]]<</if>>
-
-<<if $timespenttalking == 4>>[[No one is left to approach|ijdg]]<</if>>
-
-:: Approach Ottovin
-<<set $approachOttovin to true>>
-<<set $timespenttalking to $timespenttalking + 1>>
-<<set $opinionOttovin to 10 - $timespenttalking>>
-[[Continue|Main Story 0]]
-:: Approach Carlotta
-<<set $approachCarlotta to true>>
-<<set $timespenttalking to $timespenttalking + 1>>
-<<set $opinionCarlotta to 10 - $timespenttalking>>
-[[Continue|Main Story 0]]
-:: Approach abc
-<<set $approachSpymaster to true>>
-<<set $timespenttalking to $timespenttalking + 1>>
-<<set $opinionSpymaster to 10 - $timespenttalking>>
-[[Continue|Main Story 0]]
-:: Approach xyz
-<<set $approachGeneral to true>>
-<<set $timespenttalking to $timespenttalking + 1>>
-<<set $opinionGeneral to 10 - $timespenttalking>>
-[[Continue|Main Story 0]]
 
 
 
 
 
-:: Main Story 1 [main]
 
-:: Main Story 2 [main]
 
-:: Main Story 3 [main]
-
-:: Main Story 4 [main]
-
-:: Main Story 5 [main]
-
-:: Main Story 6 [main]
 
 /*  */
 /*  */
