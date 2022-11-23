@@ -198,25 +198,25 @@ Who do you approach first?
 <<if $approachSpymaster == false>>[[abc, your spymaster|Approach abc]]<</if>>
 <<if $approachGeneral == false>>[[xyz, military general|Approach xyz]]<</if>>
 
-<<if $timepsenttalking == 4>> [[No one is left to approach|ijdg]]<</if>>
+<<if $timespenttalking == 4>>[[No one is left to approach|ijdg]]<</if>>
 
 :: Approach Ottovin
-<<set $apprachOttovin to true>>
+<<set $approachOttovin to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionOttovin to 10 - $timespenttalking>>
 [[Continue|Main Story 0]]
 :: Approach Carlotta
-<<set $apprachCarlotta to true>>
+<<set $approachCarlotta to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionCarlotta to 10 - $timespenttalking>>
 [[Continue|Main Story 0]]
 :: Approach abc
-<<set $apprachSpymaster to true>>
+<<set $approachSpymaster to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionSpymaster to 10 - $timespenttalking>>
 [[Continue|Main Story 0]]
 :: Approach xyz
-<<set $apprachGeneral to true>>
+<<set $approachGeneral to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionGeneral to 10 - $timespenttalking>>
 [[Continue|Main Story 0]]
