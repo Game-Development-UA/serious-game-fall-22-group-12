@@ -3,7 +3,7 @@
 "ifid": "1F012455-6A83-4CCB-BCB1-49B9D77D4E03",
 "format": "SugarCube",
 "format-version": "2.30.0",
-"start": "Main Story 0"
+"start": "Focus"
 }
 
 :: StoryTitle
@@ -36,6 +36,8 @@ Ruler
 	<<set $stress[_i] = $stress[_i].title>>
 <</for>>\
 
+<<set $passageCount to 3>>
+
 :: nextEvent
 <<set $nextEvent = either($events)>>
 <<run $events.delete($nextEvent)>>
@@ -46,6 +48,7 @@ Ruler
 <<run $stress.delete($nextStress)>>
 <<link “Focus-On-Myself” $nextStress>> <</link>>
 
-:: testopening
-<<include "nextEvent">>
+:: Focus
+What should you focus on as president?
+<<if $passageCount lt 3 <<include "nextEvent">> <</if>>
 <<include "nextStress">>
