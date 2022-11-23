@@ -36,7 +36,8 @@ Ruler
 	<<set $stress[_i] = $stress[_i].title>>
 <</for>>\
 
-<<set $passageCount to 3>>
+<<set $passageCount to 0>>
+<<set $mainCheck to 0>>
 
 :: nextEvent
 <<set $nextEvent = either($events)>>
@@ -49,6 +50,16 @@ Ruler
 <<link “Focus-On-Myself” $nextStress>> <</link>>
 
 :: Focus
-What should you focus on as president?
-<<if $passageCount lt 3 <<include "nextEvent">> <</if>>
-<<include "nextStress">>
+<<if $passageCount lt 3>>What should you focus on as president?<<else>>You're Advisor seeks your attetnion<</if>>
+<<if $passageCount lt 3>> <<include "nextEvent">>  <</if>> 
+<<if $passageCount lt 3>> <<include "nextStress">> <</if>>
+<<if $passageCount == 3>> <<include "nextMainPassage">> <</if>>
+/*Passage count: $passageCount */
+:: nextFocus
+<<set $passageCount to $passageCount + 1>>
+[[Continue|Focus]]
+
+:: nextMainPassage
+<<set $mainCheck to $mainCheck + 1>>
+<<set $passageCount to 0>>
+<<if $mainCheck == 1>> [[See what he needs|Main Story 1]] <<elseif $mainCheck == 2>> [[See what he needs|Main Story 2]] <</if>>
