@@ -1,14 +1,22 @@
 :: Main Story 0 [main]
-Passage introducing the setting of the party
+    Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which requires your neck to become strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
+    Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
+    [[Continue|Door Open]]
+:: Door Open 
+    Hearing their queue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, eloquent music fills the air and your guests return to their conversations, drinks, food, and dance. 
+    [[Continue|Advisor Approaches]]
+:: Advisor Approaches
+    As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will be start closely governing with in the coming days?”
+    “You’re right,” you respond, “Who should I approach first? Any suggestions in that regard?” Your advisor shakes his head and explains that it is up to you to decide who to approach and in what order. Handing you a drink, he leaves your side and returns to the festivities. 
 [[Continue|Approaching]]
 
 :: Approaching
-Who do you approach?
+<<if $timespenttalking lt 4>> Taking a sip from your drink, you decide who to you approach.<<else>> No one important is left to approach. <</if>>
 <<if $approachOttovin == false>>[[Ottovin, spokesperson of the Labor Union Frontiermen|Approach Ottovin]] <</if>>
 <<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
 <<if $approachSpymaster == false>>[[abc, your spymaster|Approach abc]]<</if>>
 <<if $approachGeneral == false>>[[xyz, military general|Approach xyz]]<</if>>
-<<if $timespenttalking == 4>>[[No one is left to approach|Party End]]<</if>>
+<<if $timespenttalking == 4>>[[Continue|Party End]]<</if>>
 
 :: Approach Ottovin
 Text about Ottovin, quick intro and conversation
