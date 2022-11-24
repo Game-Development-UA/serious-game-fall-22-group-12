@@ -4,8 +4,8 @@ As you are about to enter the Presidential Palace after a long day of governing,
 "Excuse me, Mr. President! My organization has a proposition I think you'd like to hear about." You silently nod, giving him permission to continue speaking. "You see, we Frontiermen admired your mother and her personal generosity to our cause. With your permission, we would absolutly love to erect a statue as a reminder of her selflessness and beauty. What do you say?"
 You stand silent while pondering the idea.
 
-[[1. "Of course! My mother was a champion of the working people so I see no reason to stand in your way."|Support Statue]]
-[[2. "Absoletly not! My mother's likeness and legacy will not be used for your political gain any futher."|No Support Statue]]
+<<link [[1. "Of course! My mother was a champion of the working people so I see no reason to stand in your way."|Support Statue]]>> <<set $opinionOttovin += 1>><</link>>
+<<link [[2. "Absoletly not! My mother's likeness and legacy will not be used for your political gain any futher."|No Support Statue]]>> <<set $opinionOttovin -=1>><</link>>
 
 :: Support Statue
 "Why... why thank you so much, Mr. President! I am certain the working people will just love to hear this! I'll go inform them that you've given us the go ahead," Ottovin says with a smile. He quickly turns away and speedwalks toward the gate of the Presidential Palace.
