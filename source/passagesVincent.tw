@@ -68,3 +68,44 @@ The common folk take note that you went to a common restaurant and they apprecia
 You have chosen to spend some of your free time with some close friends. You all have decided to go out to an exclusive bar just down the street. 
 What will you choose to drink at the bar? 
 
+[[1. Decide to drink hard liquor. | Drink Hard Liquor]]
+[[2. Decide to drink wine. | Drink Wine]]
+
+:: Drink Hard Liquor
+You decided to go with hard liquor. While drinking at the bar you have become very drunk and several people witnessed you throwing up behind the bar. 
+(Approval rating decreased.)
+
+:: Drink Wine
+You have decided to drink a glass of wine, keeping it classy as you know you are the face of an entire country .
+(approval rating increased and stress decreased).
+/* */
+
+:: Sports [event]
+You have decided that you need some exercise and what better way to exercise than by playing your favorite sport. This will help relieve some stress while getting some good exercise in.
+[[1. I want to play Tennis| Play Tennis]]
+[[2. I want to play Basketball | Play Basketball]]
+
+:: Play Tennis
+You have decided to play tennis. There is a nice tennis court on the presidential grounds that you are able to play at. 
+This will be a nice way to get some exercise in while also getting some much needed sunlight. (Stress Decreases)
+
+:: Play Basketball
+You have decided to play basketball. You will be playing basketball indoors at your personal court. 
+This is a great way to get exercise and help relieve some stress of being the new president of the country. (Stress decreases)
+
+:: Visit Places Around the Country [event]
+You have decided that you would like to visit some different areas around the country. You now have several options of places to visit. 
+The place you choose may benefit you politically as well as benefit you personally.
+
+[[1. I want to visit the agricultural district | Visit Agricultural District]]
+[[2. I want to visit several small cities in the country. | Visit some small cities]]
+
+:: Visit Agricultural District 
+You have decided to visit the agricultural district in your country. You take several tours of the lands and visit with many staff members working in the farms. 
+This has also benefited you politically as the common folk appreciate you visiting and conversing with the working class citizens among the agricultural district.
+(approval rating increases, stress decreases)
+
+:: Visit some small cities 
+You have decided to visit several small cities in your country. While visiting with these cities you have decided to meet with local officials and see first hand how they are managing their positions. 
+The common folk admire you visiting smaller and often unnoticed cities in your country. 
+(Approval rating increases)
