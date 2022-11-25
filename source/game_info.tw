@@ -95,5 +95,5 @@ Military's Opinion:  $opinionGeneral
 <<elseif $playermoney lte 0>>
 	[[Continue|Money Ending]]
 <<else>>
-<<include "nextFocus">>
+[[Continue|Focus]]
 <</if>>

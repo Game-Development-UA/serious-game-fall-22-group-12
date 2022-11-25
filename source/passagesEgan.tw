@@ -208,22 +208,23 @@ Realizing that she has been caught, Carlotta nods her head. "Understood, sir. It
 
  
 
-/*:: Advertisement [event] */
+:: Advertisement [event]
+One afternoon, a scheduled meeting with Carlotta takes place in your office. Sitting across the desk from you, Carlotta appears excited and driven to share something with you. "Mr. President, some of my corporate allies and I have come up with an ingenious plan to drive up sales of products, increase hiring of workers, and spread both corporate and government messages alike across the nation. It's quite simple, but likely very effective if implemented fully." After pressing her further, she blurts out, "Advertisements! Television Advertisements! We've had great success with physical ads propped up around the country, but those have their limits. Putting advertisements inside of the household itself would increase our ... and your ... reach dramatically!"
+Noticing the excited look on Carlotta's face, you respond:
 
-/*  */
-/*  */
-/*  */
-/*  */
+<<link [[1. "That truly is genius, Carlotta! Television advertisements would increase sales and in turn increase the taxes you and your allies pay to the government!"|Support Ads Taxes]]>> <<set $opinionCarlotta += 0.5>> <<set $playermoney += 1>> <</link>>
+<<link [[2. "An interesting proposal, Carlotta. I'll move forward with implementing advertisements on television, espeically if it means spreading government information easier."|Support Ads Spread]]>> <<set $opinionCarlotta += 1>> <</link>>
+<<link [[3. "Carlotta, I will not force my citizens to sit still and be advertised to when they are simply trying to enjoy themselves. I understand that it would drive up sales for you, but at what cost to the nation?"|No Support Ads]]>> <<set $opinionCarlotta -= 1>> <</link>>
 
-
-
-
-
-
-
-
-/*  */
-/*  */
-/*  */
-/*  */
-
+:: Support Ads Taxes
+"Right... that's also true, sir," Carlotta responds with less enthusiasm than before. "I would've hoped your rational would be different, but nonetheless I am excited that you are behind this plan! Any advertisments will of course be run by you first before airing, sir." 
+"Sounds great. I look forward to see them," you respond before pivoting to other important matters.
+<<include "nextFocus">>
+:: Support Ads Spread
+"Precisely! Imagine the influence you could have over the population with these televised messages, sir," she responds with a large smile. "It would make getting people to agree with you much easier. Any and all advertisments will of course be run by you first before airing."
+"Well then, I am excited to review whatever you and your allies come up with for broadcasting," you respond before pivoting to a differnt topic.
+<<include "nextFocus">>
+:: No Support Ads
+"I see, sir," Carlotta responds with a sudden blank face. "That is extremly disapointing to hear. Such an ingenious idea does not come around so often. Nevermind, we will just have to make do with the physical advertisment infrastructure across the nation."
+"I think that would be best for us all," you explain while slightly lowering your head. Noticing the change of tone in the room, you pivot and continue the meeting with a different topic.
+<<include "nextFocus">>

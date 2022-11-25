@@ -163,7 +163,7 @@ Stress:$playerstress
 Ottovin&#39;s Opinion: $opinionOttovin
 Carlotta&#39;s Opinion: $opinionCarlotta
 Ivana&#39;s Opinion: $opinionIvana
-XYZ&#39;s Opinion:  $opinionGeneral</tw-passagedata><tw-passagedata pid="8" name="StoryInit" tags="" position="975,100" size="100,100">/* Opinion Variables */
+Military&#39;s Opinion:  $opinionGeneral</tw-passagedata><tw-passagedata pid="8" name="StoryInit" tags="" position="975,100" size="100,100">/* Opinion Variables */
 &lt;&lt;set $opinionOttovin to 0&gt;&gt;
 &lt;&lt;set $opinionCarlotta to 0&gt;&gt;
 &lt;&lt;set $opinionIvana to 0&gt;&gt;
@@ -193,7 +193,7 @@ XYZ&#39;s Opinion:  $opinionGeneral</tw-passagedata><tw-passagedata pid="8" name
 &lt;&lt;run $events.delete($nextEvent)&gt;&gt;
 &lt;&lt;link “Focus-On-The-Nation” $nextEvent&gt;&gt; &lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="nextStress" tags="" position="1225,100" size="100,100">&lt;&lt;set $nextStress = either($stress)&gt;&gt;
 &lt;&lt;run $stress.delete($nextStress)&gt;&gt;
-&lt;&lt;link “Focus-On-Myself” $nextStress&gt;&gt; &lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="Focus" tags="" position="100,225" size="100,100">&lt;&lt;if $passageCount lt 3&gt;&gt;What should you focus on as president?&lt;&lt;else&gt;&gt;You&#39;re Advisor seeks your attetnion&lt;&lt;/if&gt;&gt;
+&lt;&lt;link “Focus-On-Myself” $nextStress&gt;&gt; &lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="Focus" tags="" position="100,225" size="100,100">&lt;&lt;if $passageCount lt 3&gt;&gt;How should you spend your time as President in the upcoming weeks?&lt;&lt;else&gt;&gt;You&#39;re Advisor seeks your attention&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $passageCount lt 3&gt;&gt; &lt;&lt;include &quot;nextEvent&quot;&gt;&gt;  &lt;&lt;/if&gt;&gt; 
 &lt;&lt;if $passageCount lt 3&gt;&gt; &lt;&lt;include &quot;nextStress&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $passageCount == 3&gt;&gt; &lt;&lt;include &quot;nextMainPassage&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;
@@ -219,7 +219,7 @@ XYZ&#39;s Opinion:  $opinionGeneral</tw-passagedata><tw-passagedata pid="8" name
 &lt;&lt;elseif $playermoney lte 0&gt;&gt;
 	[[Continue|Money Ending]]
 &lt;&lt;else&gt;&gt;
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;
+[[Continue|Focus]]
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="Main Story 0" tags="main" position="600,225" size="100,100">Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which requires your neck to become strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
     [[Continue|Door Open]]</tw-passagedata><tw-passagedata pid="16" name="Door Open" tags="" position="725,225" size="100,100">Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, eloquent music fills the air and your guests return to their conversations, drinks, food, and dance. 
@@ -228,8 +228,8 @@ XYZ&#39;s Opinion:  $opinionGeneral</tw-passagedata><tw-passagedata pid="8" name
 [[&quot;Let&#39;s see how this goes.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="18" name="Approaching" tags="" position="975,225" size="100,100">&lt;&lt;if $timespenttalking lt 4&gt;&gt; Taking a sip from your drink, you decide who to you approach.&lt;&lt;else&gt;&gt; Your drink is empty. No one important is left to approach. &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $approachOttovin == false&gt;&gt;[[Ottovin, spokesperson for the Labor Union Frontiermen|Approach Ottovin]] &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $approachCarlotta == false&gt;&gt;[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]&lt;&lt;/if&gt;&gt;
-&lt;&lt;if $approachIvana == false&gt;&gt;[[Ivana, Master of Spies|Approach Ivana]]&lt;&lt;/if&gt;&gt;
-&lt;&lt;if $approachGeneral == false&gt;&gt;[[xyz, National General of the Armed Forces|Approach xyz]]&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $approachIvana == false&gt;&gt;[[Ivana, Spymaster|Approach Ivana]]&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $approachGeneral == false&gt;&gt;[[Dean, General of the Armed Forces|Approach xyz]]&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $timespenttalking == 4&gt;&gt;[[Continue|Party End]]&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Approach Ottovin" tags="" position="1100,225" size="100,100">“Ah Mr. President!” Ottovin exclaims while setting his drink down on a nearby table. “Allow me to personally congratulate you on everything that&#39;s transpired this past month. A situation like that would test the courage and honor of any good man let alone one of your political stature,” he says while reaching his hand out toward you. “I do not envy you.”
     With a slight chuckle, you grab hold of his hand and firmly shake it whilst saying, “Thank you, Ottovin. This past month was most definitely troublesome, but I am more concerned about the future of the nation now, not the past.”
     Letting go of your hand, Ottovin replies, “Right. Well the Labor Union Frontiermen and I are looking forward to working alongside you. There is much to be accomplished in regards to the rights of workers across the nation, especially some areas your father seemed to ignore, which I am hopeful we find common ground on.”
@@ -258,7 +258,6 @@ XYZ&#39;s Opinion:  $opinionGeneral</tw-passagedata><tw-passagedata pid="8" name
 	“Sir, today would be the perfect time to visit your presidential office,” he begins. “Planning out how to focus your attention for the upcoming weeks is imperative to a functioning government. I’ve taken the liberty and arranged at your desk a calendar for you to personally use to decide how to spend your time.”
 	“How formal,” you exclaim. “Thank you for that.” The two of you stop for a moment in front of two medium sized doors. Using his back, your advisor pushes with his body weight and opens the left door. Glowing with natural light from several large windows, the presidential office looks identical to how you remember it. Historical paintings decorate the walls, vine-like plants hang from the ceiling, and a large desk is centered at the back of the room. You approach the desk, place one hand on it, and sit yourself down at its chair.
 [[1. &quot;So, how should I plan then?&quot;|Office 2]]</tw-passagedata><tw-passagedata pid="25" name="Office 2" tags="" position="600,350" size="100,100">“That much is up to you, sir,” your advisor explains. “You are the president of this great nation, so people will expect that you work accordingly. In all honesty, that mainly entails keeping various political figures satisfied while keeping the nation afloat financially. However, on a more personal note, you ought to not sacrifice your mental stability. Taking time off to focus on your own happiness is just as integral to being president as governing is … even if others tend to disagree.”
-
 [[1. &quot;Okay. I will decide how to spend my time.&quot;|Focus]]</tw-passagedata><tw-passagedata pid="26" name="Main Story 1" tags="main" position="725,350" size="100,100">1
 [[Focus]]</tw-passagedata><tw-passagedata pid="27" name="Main Story 2" tags="main" position="850,350" size="100,100">2
 [[Focus]]</tw-passagedata><tw-passagedata pid="28" name="Main Story 3" tags="main" position="975,350" size="100,100">3</tw-passagedata><tw-passagedata pid="29" name="Main Story 4" tags="main" position="1100,350" size="100,100">4</tw-passagedata><tw-passagedata pid="30" name="Main Story 5" tags="main" position="1225,350" size="100,100">5</tw-passagedata><tw-passagedata pid="31" name="Main Story 6" tags="main" position="100,475" size="100,100">6</tw-passagedata><tw-passagedata pid="32" name="Start" tags="" position="225,475" size="100,100">&lt;h1&gt; Welcome to [[Gargantua!|Gargantua]] &lt;/h1&gt;
@@ -391,84 +390,75 @@ Turning her head sharply as if wincing with your every word, Carlotta eventually
 &quot;Carlotta,&quot; you begin, &quot;I wanted you to be the first person of importance to hear that I will be supporting the free trade movement that has swept the nation in recent weeks.&quot; She looks at you curiously before stating, &quot;That is very kind of you, sir. I am sure citizens will be happy to hear this.&quot; Looking at her blankly, you interupt by clarifying, &quot;However, my support is contingent on you and the other corporate heads coming directly to me in the future, not working around my influence.&quot; Pulling her head back slightly, Carlotta says, &quot;What would you be refering to, sir?&quot; Leaning back slowing in your chair, you respond, &quot;Please do not play dumb with me Carlotta. I know you and your allies directly stired up the population with this issue as a way to pressure me. Do not let it happen again.&quot;
 Realizing that she has been caught, Carlotta nods her head. &quot;Understood, sir. It will not happen again.&quot; You nod your head toward the door of your office and Carlotta begins walking out.
 &lt;&lt;include &quot;nextFocus&quot;&gt;&gt;
-/*  */
+/*  */</tw-passagedata><tw-passagedata pid="83" name="Advertisement" tags="event" position="350,1100" size="100,100">One afternoon, a scheduled meeting with Carlotta takes place in your office. Sitting across the desk from you, Carlotta appears excited and driven to share something with you. &quot;Mr. President, some of my corporate allies and I have come up with an ingenious plan to drive up sales of products, increase hiring of workers, and spread both corporate and government messages alike across the nation. It&#39;s quite simple, but likely very effective if implemented fully.&quot; After pressing her further, she blurts out, &quot;Advertisements! Television Advertisements! We&#39;ve had great success with physical ads propped up around the country, but those have their limits. Putting advertisements inside of the household itself would increase our ... and your ... reach dramatically!&quot;
+Noticing the excited look on Carlotta&#39;s face, you respond:
 
-
- 
-
-/*:: Advertisement [event] */
-
-/*  */
-/*  */
-/*  */
-/*  */
-
-
-
-
-
-
-
-
-/*  */
-/*  */
-/*  */
-/*  */</tw-passagedata><tw-passagedata pid="83" name="Propaganda" tags="event" position="350,1100" size="100,100">Your spymaster, Ivana, meets with you in regards to reinforcing your message across the nation.
-&quot;Sir, I believe that more ppropaganda in the media about your message will help influence the people of the nation, and cause them to believe more in your message and you. It will also make your popularity in the nation increase and the surrounding countries. Would you like me to work on increasing your propaganda in the media?&quot;
+&lt;&lt;link [[1. &quot;That truly is genius, Carlotta! Television advertisements would increase sales and in turn increase the taxes you and your allies pay to the government!&quot;|Support Ads Taxes]]&gt;&gt; &lt;&lt;set $opinionCarlotta += 0.5&gt;&gt; &lt;&lt;set $playermoney += 1&gt;&gt; &lt;&lt;/link&gt;&gt;
+&lt;&lt;link [[2. &quot;An interesting proposal, Carlotta. I&#39;ll move forward with implementing advertisements on television, espeically if it means spreading government information easier.&quot;|Support Ads Spread]]&gt;&gt; &lt;&lt;set $opinionCarlotta += 1&gt;&gt; &lt;&lt;/link&gt;&gt;
+&lt;&lt;link [[3. &quot;Carlotta, I will not force my citizens to sit still and be advertised to when they are simply trying to enjoy themselves. I understand that it would drive up sales for you, but at what cost to the nation?&quot;|No Support Ads]]&gt;&gt; &lt;&lt;set $opinionCarlotta -= 1&gt;&gt; &lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="84" name="Support Ads Taxes" tags="" position="475,1100" size="100,100">&quot;Right... that&#39;s also true, sir,&quot; Carlotta responds with less enthusiasm than before. &quot;I would&#39;ve hoped your rational would be different, but nonetheless I am excited that you are behind this plan! Any advertisments will of course be run by you first before airing, sir.&quot; 
+&quot;Sounds great. I look forward to see them,&quot; you respond before pivoting to other important matters.
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="85" name="Support Ads Spread" tags="" position="600,1100" size="100,100">&quot;Precisely! Imagine the influence you could have over the population with these televised messages, sir,&quot; she responds with a large smile. &quot;It would make getting people to agree with you much easier. Any and all advertisments will of course be run by you first before airing.&quot;
+&quot;Well then, I am excited to review whatever you and your allies come up with for broadcasting,&quot; you respond before pivoting to a differnt topic.
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="86" name="No Support Ads" tags="" position="725,1100" size="100,100">&quot;I see, sir,&quot; Carlotta responds with a sudden blank face. &quot;That is extremly disapointing to hear. Such an ingenious idea does not come around so often. Nevermind, we will just have to make do with the physical advertisment infrastructure across the nation.&quot;
+&quot;I think that would be best for us all,&quot; you explain while slightly lowering your head. Noticing the change of tone in the room, you pivot and continue the meeting with a different topic.
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="87" name="Propaganda" tags="event" position="850,1100" size="100,100">Your spymaster, Ivana, meets with you in regards to reinforcing your message across the nation.
+&quot;Sir, I believe that more propaganda in the media about your message will help influence the people of the nation, and cause them to believe more in your message and you. It will also make your popularity in the nation increase and  in the surrounding countries. Would you like me to work on increasing your propaganda in the media?&quot;
 You sit in silence for a few seconds while you think.
 
 &lt;&lt;link [[1. &quot;I was also thinking about increasing propaganda. My popularity has lowered in the nation since overturning the previous government. I would like you to work on increasing propaganda in the media.&quot;|Yes for propaganda]]&gt;&gt; &lt;&lt;set $opinionIvana += 1&gt;&gt;&lt;&lt;/link&gt;&gt;
-&lt;&lt;link [[2. &quot;I don&#39;t know how well the propaganda will actually influenec the nation&#39;s people; futhermore, I couldn&#39;t care less about what the nation&#39;s people think about me. I am the ruler and they have to follow me, no matter what. I would not like you to increase propaganda in the media.&quot;|No for propaganda]]&gt;&gt; &lt;&lt;set $opinionIvana -= 1&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="84" name="Yes for propaganda" tags="" position="475,1100" size="100,100">&quot;I shall get right to increase your propaganda in the media then, thank you for your time,&quot; Ivana says with a bow. She hasitly departs from the office. 
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="85" name="No for propaganda" tags="" position="600,1100" size="100,100">&quot;Sir, I am not sure that is the best choice; however, I will still follow your command...,&quot; Ivana says with a glint of dissapointment in her eyes. She then leaves the office. 
+&lt;&lt;link [[2. &quot;I don&#39;t know how well the propaganda will actually influence the nation&#39;s people; futhermore, I couldn&#39;t care less about what our nation&#39;s people think about me. I am the ruler and they have to follow me, no matter what. I would not like you to increase propaganda in the media.&quot;|No for propaganda]]&gt;&gt; &lt;&lt;set $opinionIvana -= 1&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="88" name="Yes for propaganda" tags="" position="975,1100" size="100,100">&quot;I shall get right to increase your propaganda in the media then, thank you for your time,&quot; Ivana says with a bow. She hasitly departs from the office. 
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="89" name="No for propaganda" tags="" position="1100,1100" size="100,100">&quot;Sir, I am not sure that is the best choice; however, I will still follow your command...,&quot; Ivana says with a glint of dissapointment in her eyes. She then leaves the office. 
 &lt;&lt;include &quot;nextFocus&quot;&gt;&gt;
-/* */</tw-passagedata><tw-passagedata pid="86" name="Assassinate" tags="event" position="725,1100" size="100,100">Ivana, your spymaster, makes you aware of a journalist from your nation, who is writing slanderous articles about you and how you rule over the country; however, the journalist is safe in another nation.
-&quot;Sir, regarding the journalist that is writing slanderous material about you and your rule, from another nation, should I assasinate him? Afterall, he is hurting you reputation not only in other nations but ours as well. If he stays alive he could change people&#39;s opinions of you drastically, for worse.&quot;
+/* */</tw-passagedata><tw-passagedata pid="90" name="Assassinate" tags="event" position="1225,1100" size="100,100">Ivana, your spymaster, makes you aware of a journalist from your nation, who is writing slanderous articles about you and how you rule over your nation; however, the journalist is safe in another nation.
+&quot;Sir, regarding the journalist that is writing slanderous material about you and your rule, from another nation, should I assasinate him? Afterall, he is hurting your reputation not only in other nations but ours as well. If he stays alive he could change people&#39;s opinions of you drastically, for worse.&quot;
 You think about your decision.
 
-[[1. &quot;I was also worried about this journalist and thinking about what to do about him. I would like you to assasinate him, so that I can keep my political image.&quot;|Yes assasinate journalist]]
-[[2. &quot;I have been worried about the journalist, however I would not like you to assasinate him. Instead silently capture him and bring him to the interrogation space. I would like to ask him a few questions.&quot;|Capture journalist]]
-[[3. &quot;Don&#39;t assasinate the journalist. I don&#39;t really care about my public image. I am in power, the people can think what they want, but they are still under my rule.&quot;|Do not care]]</tw-passagedata><tw-passagedata pid="87" name="Yes assasinate journalist" tags="" position="850,1100" size="100,100">&quot;Yes sir, worry no longer, the journalist shall be dealt with immediately.&quot;
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="88" name="Capture journalist" tags="" position="975,1100" size="100,100">&quot;That is wise of you sir. I shall capture the journalist right away.&quot;
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="89" name="Do not care" tags="" position="1100,1100" size="100,100">&quot;That is not the answer I was expecting from you sir; regardless, thank you for your time. I shall take my leave now.&quot;
+&lt;&lt;link [[1. &quot;I was also worried about this journalist and thinking about what to do about him. I would like you to assasinate him, so that I can keep my political image.&quot;|Yes assasinate journalist]]&gt;&gt; &lt;&lt;set $opinionIvana += 1&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link [[2. &quot;I have been worried about the journalist, however I would not like you to assasinate him. Instead silently capture him and bring him to the interrogation room. I would like to ask him a few questions.&quot;|Capture journalist]]&gt;&gt; &lt;&lt;set $opinionIvana +=2&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link [[3. &quot;Do not assasinate the journalist. I don&#39;t really care about my public image. I am in power, the people can think what they want, but they are still under my rule.&quot;|Do not care]]&gt;&gt; &lt;&lt;set $opinionIvana -= 1&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="91" name="Yes assasinate journalist" tags="" position="100,1225" size="100,100">&quot;Yes sir, worry no longer, the journalist shall be dealt with immediately,&quot; Ivana says with a bow and departs from the office. 
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="92" name="Capture journalist" tags="" position="225,1225" size="100,100">&quot;That is wise of you sir. I shall capture the journalist right away,&quot; Ivana says with a slight smile. She then bows and exits the office. 
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="Do not care" tags="" position="350,1225" size="100,100">&quot;That is not the answer I was expecting from you, sir; regardless, thank you for your time. I shall take my leave now,&quot; she says with a slight frown and quitely exits the office. 
 &lt;&lt;include &quot;nextFocus&quot;&gt;&gt;
-/* */</tw-passagedata><tw-passagedata pid="90" name="Spread influence" tags="event" position="1225,1100" size="100,100">Ivana, your spymaster has come up with another way to spread your influence and increase your nation&#39;s supremacy. 
-&quot;Sir, I think we should set up a network of spies in our neighboring nations&#39; cruial industries, so that we can increase competition and our supremacy over the neighboring nations. By doing this we can influence other nations discreetly and find out any industry secrets.&quot;
+/* */</tw-passagedata><tw-passagedata pid="94" name="Spread influence" tags="event" position="475,1225" size="100,100">Ivana, your spymaster has come up with another way to spread your influence and increase your nation&#39;s supremacy. 
+&quot;Sir, I think we should set up a network of spies in the neighboring nations&#39; cruial industries, so that we can increase competition and our supremacy over the neighboring nations. By doing this we can also, influence other nations discreetly and find out any industry secrets.&quot;
 You think over the spymaster&#39;s words.
 
-[[1. &quot;I do not think that we should set up a network of spies in our neighboring nations&#39; crucial industries. I think that I would rather make friendly relations with the neighboring countries.&quot;|Friendly ties]]
-[[2. &quot;I do not think that we should set up a network of spies in our neighboring nations&#39; crucial industries. I think that our country is strong enough as it is, why waste money to figure out what the other countries are doing.&quot;|We are strong]]
-[[3. &quot;This is an intelligent proposition you have brought to me, spymaster. I think I will take you up on it. I would like you to inflitrate the surrounding nations&#39; cruical industries by setting up a network of spies across them.&quot;|Yes for spreading influence]]</tw-passagedata><tw-passagedata pid="91" name="Friendly ties" tags="" position="100,1225" size="100,100">&quot;That is unexpected of you sir, but having more allies than enemies, is a smart move.&quot;
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="92" name="We are strong" tags="" position="225,1225" size="100,100">&quot;It is true that our nation is strong sir, but even the strong can falter without valuable information. I shall take my leave now, thank you for meeting with me.&quot;
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="Yes for spreading influence" tags="" position="350,1225" size="100,100">&quot;Understood sir, I shall set up the spy network at once, thank you for your time.&quot;
+&lt;&lt;link [[1. &quot;I do not think that we should set up a network of spies in our neighboring nations&#39; crucial industries. I think that I would rather make friendly relations with the neighboring countries.&quot;|Friendly ties]]&gt;&gt; &lt;&lt;set $opinionIvana += 1.5&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link [[2. &quot;I do not think that we should set up a network of spies in our neighboring nations&#39; crucial industries. I think that our country is strong enough as it is, why waste money to figure out what the other countries are doing.&quot;|We are strong]]&gt;&gt; &lt;&lt;set $opinionIvana -= 1&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link [[3. &quot;This is an intelligent proposition you have brought to me, Ivana. I think I will take you up on it. I would like you to inflitrate the surrounding nations&#39; cruical industries by setting up a network of spies across them.&quot;|Yes for spreading influence]]&gt;&gt; &lt;&lt;set $opinionIvana += 1&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="95" name="Friendly ties" tags="" position="600,1225" size="100,100">&quot;That is unexpected of you sir, but allies can be a more powerful assest than enemies,&quot; she says and leaves with a bow. 
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="96" name="We are strong" tags="" position="725,1225" size="100,100">&quot;It is true that our nation is strong sir, but even the strong can falter without valuable information. I shall take my leave now, thank you for meeting with me,&quot; she says. Ivana then leaves while slowly shaking her head. 
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="97" name="Yes for spreading influence" tags="" position="850,1225" size="100,100">&quot;Understood sir, I shall set up the spy network at once, thank you for your time,&quot; Ivana says and hasitly leaves the office. 
 &lt;&lt;include &quot;nextFocus&quot;&gt;&gt;
-/* */</tw-passagedata><tw-passagedata pid="94" name="Scheme" tags="event" position="475,1225" size="100,100">There is a politcian that is bad mouthing you, as of late.
-&quot;Sir, regarding the politician that is bad mouthing you and making public opinion of you worse, should I do something about him. I can discredit him and lessen his influence so that we may save your reputation.&quot; 
+/* */</tw-passagedata><tw-passagedata pid="98" name="Scheme" tags="event" position="975,1225" size="100,100">There is a politcian that is bad mouthing you, as of late.
+&quot;Sir, regarding the politician that is bad mouthing you and making public opinion of you worse. Do you want me to do something about him? I can discredit him and lessen his influence so that we may save your reputation,&quot; your spymaster, Ivana, writes in a letter. 
 You think to yourself for a second, and write back:
 
-[[1.  &quot;I would like you to discredit him, he is hurting my reputation and I do not want to be seen by our nation&#39;s people as a tyrant ruler.&quot;|Yes discredit him]]
-[[2. &quot;Although my public image is going down. It is not like it really matters. I can always make new laws about speaking ill of the ruler. Afterall, I am in power. So, let the politician be.&quot;|Do not discredit him]]</tw-passagedata><tw-passagedata pid="95" name="Yes discredit him" tags="" position="600,1225" size="100,100">&quot;My thoughts exactly sir. Let me get right to that.&quot;
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="96" name="Do not discredit him" tags="" position="725,1225" size="100,100">&quot;Sir, I am not sure that is the best action to take here, but I will acknowledge it. Thank you for your time.&quot;
+&lt;&lt;link [[1.  &quot;I would like you to discredit him, he is hurting my reputation and I do not want to be seen by our nation&#39;s people as a tyrant ruler.&quot;|Yes discredit him]]&gt;&gt; &lt;&lt;set $opinionIvana += 1.5&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link [[2. &quot;Although my public image is going down. It is not like it really matters. I can always make new laws against speaking ill of the ruler. Afterall, I am in power. So, let the politician be.&quot;|Do not discredit him]]&gt;&gt; &lt;&lt;set $opinionIvana -= 1.5&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="99" name="Yes discredit him" tags="" position="1100,1225" size="100,100">A couple days later you recive a response from Ivana. 
+&quot;My thoughts exactly sir. I will get right to that.&quot;
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="100" name="Do not discredit him" tags="" position="1225,1225" size="100,100">A couple days later you recive a response from Ivana. 
+&quot;Sir, I am not sure that is the best action to take here, but I will acknowledge it. Thank you for your time.&quot;
 &lt;&lt;include &quot;nextFocus&quot;&gt;&gt;
-/* */</tw-passagedata><tw-passagedata pid="97" name="Enemy spy" tags="event" position="850,1225" size="100,100">The spymaster, Ivana has a serious issue to talk about with you.
-&quot;Sir, there is an enemy spy in the government. If we do not act he can discover a lot of invauable information about our nation. Would you like me to assasonate him?&quot;
+/* */</tw-passagedata><tw-passagedata pid="101" name="Enemy spy" tags="event" position="100,1350" size="100,100">The spymaster, Ivana, has a serious issue to talk about with you.
+&quot;Sir, there is an enemy spy in the government. If we do not act he can discover a lot of invauable information about our nation. Would you like me to assasinate him?&quot;
 
-[[1. &quot;Thank you for bringing this to my attention, spymaster. I would like you to assasinate him as soon as you can. We cannot have invaluable information about our nation leak, it could cause the downfall of our nation.&quot;|Assassinate enemy spy]]
-[[2. &quot;Thank you for bringing this to my attention. The enemy spy can cause a lot of havoc if we do not do anything about him; however, we may be able to get valuable information out of the spy if we capture him rather than just assasinate him. So, I would like you to capture him for questioning instead.&quot;|Capture enemy spy]]
-[[3. &quot;Thank you for bringing this to my attention; however, there is no cause for concern. Any information that is leaked we can overcome. We are the strongest nation. We cannot be defeated.&quot;|Do not care 2]]</tw-passagedata><tw-passagedata pid="98" name="Assassinate enemy spy" tags="" position="975,1225" size="100,100">&quot;Thank you for seeing the urgency in this matter sir, I will carry out the assasination plan now.&quot; 
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="99" name="Capture enemy spy" tags="" position="1100,1225" size="100,100">&quot;I am not quite sure if the enemy spy will let himself be captured sir, but I will do my best. Thank you for your time.&quot;
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="100" name="Do not care 2" tags="" position="1225,1225" size="100,100">&quot;Our nation is very strong, but the enemy spy can bring down our government if he finds valuable information. That is most likely not a wise way to go about this situation. But it is your decision, so I&#39;ll let it be.&quot;
+&lt;&lt;link [[1. &quot;Thank you for bringing this to my attention, Ivana. I would like you to assasinate him as soon as you can. We cannot have invaluable information about our nation leak, it could cause the downfall of our nation.&quot;|Assassinate enemy spy]]&gt;&gt; &lt;&lt;set $opinionIvana += 1.5&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link [[2. &quot;Thank you for bringing this to my attention. The enemy spy can cause a lot of havoc if we do not do anything about him; however, we may be able to get valuable information out of the spy if we capture him rather than just assasinate him. So, I would like you to capture him for questioning instead.&quot;|Capture enemy spy]]&gt;&gt; &lt;&lt;set $opinionIvana += 1&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link [[3. &quot;Thank you for bringing this to my attention; however, there is no cause for concern. Any information that is leaked we can overcome. We are the strongest nation. We cannot be defeated.&quot;|Do not care 2]]&gt;&gt; &lt;&lt;set $opinionIvana -= 1.5&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="102" name="Assassinate enemy spy" tags="" position="225,1350" size="100,100">&quot;Thank you for seeing the urgency in this matter sir, I will carry out the assasination plan now,&quot; Ivana responds with a slight smile. She then quickly leaves the office.
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="103" name="Capture enemy spy" tags="" position="350,1350" size="100,100">&quot;I am not quite sure if the enemy spy will let himself be captured sir, but I will do my best. Thank you for your time,&quot; Ivana says with a nod and leaves the office. 
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="104" name="Do not care 2" tags="" position="475,1350" size="100,100">&quot;Our nation is very strong, but the enemy spy can bring down our government if he finds valuable information. That is most likely not a wise way to go about this situation. But it is your decision, so I&#39;ll let it be,&quot; Ivana says with a grimace and slowly walks out of the office. 
 &lt;&lt;include &quot;nextFocus&quot;&gt;&gt;
-/* */</tw-passagedata><tw-passagedata pid="101" name="Gargantua1" tags="" position="100,1350" size="100,100">&lt;h2&gt; Gargantua is the name of your universe &lt;/h2&gt;
+/* */</tw-passagedata><tw-passagedata pid="105" name="Gargantua1" tags="" position="600,1350" size="100,100">&lt;h2&gt; Gargantua is the name of your universe &lt;/h2&gt;
 &lt;br&gt;[[back|Start]]
 &lt;br&gt;
 &lt;p&gt; dont mess it up! &lt;/p&gt;
 
-&lt;div class = &quot;palace&quot;&gt;</tw-passagedata><tw-passagedata pid="102" name="Palace1" tags="" position="225,1350" size="100,100">&lt;h1&gt; Welcome to the Palace! &lt;/h1&gt;
+&lt;div class = &quot;palace&quot;&gt;</tw-passagedata><tw-passagedata pid="106" name="Palace1" tags="" position="725,1350" size="100,100">&lt;h1&gt; Welcome to the Palace! &lt;/h1&gt;
 &lt;h2&gt; Tonight you are hosting a magnificent party. [[Enter the ballroom|ballroom]] &lt;/h2&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="103" name="ballroom1" tags="" position="350,1350" size="100,100">&lt;h1 &gt; Welcome to the Ballroom! &lt;/h1&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="107" name="ballroom1" tags="" position="850,1350" size="100,100">&lt;h1 &gt; Welcome to the Ballroom! &lt;/h1&gt;
 &lt;h2&gt; As you enter the ballroom, armed guests announce your arrival to the guests. You hear loud music frequently interuppted by the uproar from the artisoctraic families.
 everything is going smoothly. Ensure to maintain the satisfaction of all your guests. &lt;br&gt;
-Your current guest satisfaction has a value of $guestSatisfaction and in order to maintain this you must ensure all your guests needs are met. &lt;/h2&gt; */</tw-passagedata><tw-passagedata pid="104" name="Marriage" tags="stress" position="475,1350" size="100,100">After all of the new stress of becoming the new president, you have decided that you want to get married. 
+Your current guest satisfaction has a value of $guestSatisfaction and in order to maintain this you must ensure all your guests needs are met. &lt;/h2&gt; */</tw-passagedata><tw-passagedata pid="108" name="Marriage" tags="stress" position="975,1350" size="100,100">After all of the new stress of becoming the new president, you have decided that you want to get married. 
 There are several options of locations for your marriage. You can get married in private among your family and friends. 
 You can get married on the beach where there will be space available for the common folk to attend if they desire. 
 Or you can get married in one of the fanciest wedding venues in the country. In the chapel the wedding will be televised but the common folk will not be able to attend the wedding in person. 
@@ -476,34 +466,34 @@ Based on what you choose, the approval rating among the people will be affected.
 
 [[1. Choose option one which is to have your wedding in private in your palace. | Choose Private wedding]]
 [[2. Choose to get married at one of the fanciest wedding venues in the country | Choose to get married at fancy venue]]
-[[3. Your last option is that you can choose to get Married on the beach | Choose to have wedding on the beach]]</tw-passagedata><tw-passagedata pid="105" name="Choose Private wedding" tags="" position="600,1350" size="100,100">You have chosen to have your wedding in private. 
+[[3. Your last option is that you can choose to get Married on the beach | Choose to have wedding on the beach]]</tw-passagedata><tw-passagedata pid="109" name="Choose Private wedding" tags="" position="1100,1350" size="100,100">You have chosen to have your wedding in private. 
 The common folk are not happy that they cannot view the wedding, however they are happy that you did not boast your riches and throw an extravagant wedding while there are many people living in poverty throughout the country. 
-(no change in approval)</tw-passagedata><tw-passagedata pid="106" name="Choose to get married at fancy venue" tags="" position="725,1350" size="100,100">You have chosen to have your wedding in the fanciest wedding venue in the country. 
+(no change in approval)</tw-passagedata><tw-passagedata pid="110" name="Choose to get married at fancy venue" tags="" position="1225,1350" size="100,100">You have chosen to have your wedding in the fanciest wedding venue in the country. 
 The people are happy when they hear that you will be having a live broadcast of your wedding. 
 Although they are rubbed the wrong way at the extravagant nature of the wedding during these tough times for the common folk. 
-(approval decreases slightly)</tw-passagedata><tw-passagedata pid="107" name="Choose to have wedding on the beach" tags="" position="850,1350" size="100,100">You have chosen to have your wedding on the beachfront. 
+(approval decreases slightly)</tw-passagedata><tw-passagedata pid="111" name="Choose to have wedding on the beach" tags="" position="100,1475" size="100,100">You have chosen to have your wedding on the beachfront. 
 The common folk are happy that you have chosen to have your wedding in a public space where people can come and attend free of cost. 
 (Approval rating increases)
-/*  */</tw-passagedata><tw-passagedata pid="108" name="Vacation" tags="stress" position="975,1350" size="100,100">You have decided that after all of the hard work you have put in after becoming the new president that you should take a vacation to relax. 
+/*  */</tw-passagedata><tw-passagedata pid="112" name="Vacation" tags="stress" position="225,1475" size="100,100">You have decided that after all of the hard work you have put in after becoming the new president that you should take a vacation to relax. 
 There are several different options that you can choose from to be your vacation of choice. 
 - Your options are going out on your yacht or going to the largest coastal city in your country and staying in a hotel.
 
 [[1. One Option is going out on your private yacht | Yacht Vacation]]
-[[2. Your second option is to vacation in a big coastal city. | Go To Coastal City]]</tw-passagedata><tw-passagedata pid="109" name="Yacht Vacation" tags="" position="1100,1350" size="100,100">You are going to take your vacation on your private yacht out in the open seas. 
+[[2. Your second option is to vacation in a big coastal city. | Go To Coastal City]]</tw-passagedata><tw-passagedata pid="113" name="Yacht Vacation" tags="" position="350,1475" size="100,100">You are going to take your vacation on your private yacht out in the open seas. 
 This will be relaxing for you as you will not have to worry about the press being in your business and you will get some time alone. 
-(stress decreases)</tw-passagedata><tw-passagedata pid="110" name="Go To Coastal City" tags="" position="1225,1350" size="100,100">You chose to visit the big coastal city that is in your country. 
+(stress decreases)</tw-passagedata><tw-passagedata pid="114" name="Go To Coastal City" tags="" position="475,1475" size="100,100">You chose to visit the big coastal city that is in your country. 
 There is a fancy hotel there where you will be staying. This city is so big there are still some stressors such as the press and citizens being around that seem to always ask you presidential related questions. 
 (stress decreases slighlty)
-/* */</tw-passagedata><tw-passagedata pid="111" name="Spend Time with family or friends" tags="stress" position="100,1475" size="100,100">You would like to take some time to enjoy yourself and have some free time to do as you please. 
+/* */</tw-passagedata><tw-passagedata pid="115" name="Spend Time with family or friends" tags="stress" position="600,1475" size="100,100">You would like to take some time to enjoy yourself and have some free time to do as you please. 
 There are several options that you have decided you want to choose from. 
 One way you can spend your free time is to take your spouse out to a typical restaurant and spend some quality time together.
 Another thing you can do is go out to a bar with some of your friends.
 
 [[1. Decide to go to a resturant with your spouse. | Go To Resturant]]
-[[2. Decide to go to a bar with your friends. | Go To Bar]]</tw-passagedata><tw-passagedata pid="112" name="Go To restaurant" tags="" position="225,1475" size="100,100">You have chosen to take your spouse out to a restaurant. 
+[[2. Decide to go to a bar with your friends. | Go To Bar]]</tw-passagedata><tw-passagedata pid="116" name="Go To restaurant" tags="" position="725,1475" size="100,100">You have chosen to take your spouse out to a restaurant. 
 You spend some lovely time together. 
 The common folk take note that you went to a common restaurant and they appreciate that you are just like them in some ways! 
-(approval rating has increased.)</tw-passagedata><tw-passagedata pid="113" name="Go To Bar" tags="" position="350,1475" size="100,100">You have chosen to spend some of your free time with some close friends. You all have decided to go out to an exclusive bar just down the street. 
+(approval rating has increased.)</tw-passagedata><tw-passagedata pid="117" name="Go To Bar" tags="" position="850,1475" size="100,100">You have chosen to spend some of your free time with some close friends. You all have decided to go out to an exclusive bar just down the street. 
 What will you choose to drink at the bar?</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
