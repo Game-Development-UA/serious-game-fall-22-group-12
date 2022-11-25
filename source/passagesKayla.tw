@@ -23,18 +23,18 @@ Ivana, your spymaster, makes you aware of a journalist from your nation, who is 
 "Sir, regarding the journalist that is writing slanderous material about you and your rule, from another nation, should I assasinate him? Afterall, he is hurting you reputation not only in other nations but ours as well. If he stays alive he could change people's opinions of you drastically, for worse."
 You think about your decision.
 
-[[1. "I was also worried about this journalist and thinking about what to do about him. I would like you to assasinate him, so that I can keep my political image."|Yes assasinate journalist]]
-[[2. "I have been worried about the journalist, however I would not like you to assasinate him. Instead silently capture him and bring him to the interrogation space. I would like to ask him a few questions."|Capture journalist]]
-[[3. "Don't assasinate the journalist. I don't really care about my public image. I am in power, the people can think what they want, but they are still under my rule."|Do not care]]
+<<link [[1. "I was also worried about this journalist and thinking about what to do about him. I would like you to assasinate him, so that I can keep my political image."|Yes assasinate journalist]]>> <<set $opinionIvana += 1>><</link>>
+<<link [[2. "I have been worried about the journalist, however I would not like you to assasinate him. Instead silently capture him and bring him to the interrogation space. I would like to ask him a few questions."|Capture journalist]]>> <<set $opinionIvana +=2>><</link>>
+<<link [[3. "Don't assasinate the journalist. I don't really care about my public image. I am in power, the people can think what they want, but they are still under my rule."|Do not care]]>> <<set $opinionIvana -= 1>><</link>>
 
 :: Yes assasinate journalist
-"Yes sir, worry no longer, the journalist shall be dealt with immediately."
+"Yes sir, worry no longer, the journalist shall be dealt with immediately," Ivana says with a bow and departs from the office. 
 <<include "nextFocus">>
 :: Capture journalist
-"That is wise of you sir. I shall capture the journalist right away."
+"That is wise of you sir. I shall capture the journalist right away," Ivana says with a slight smile. She then bows and exits the office. 
 <<include "nextFocus">>
 :: Do not care
-"That is not the answer I was expecting from you sir; regardless, thank you for your time. I shall take my leave now."
+"That is not the answer I was expecting from you sir; regardless, thank you for your time. I shall take my leave now," she says with a slight frown and quitely exits the office. 
 <<include "nextFocus">>
 /* */
 
@@ -46,18 +46,18 @@ Ivana, your spymaster has come up with another way to spread your influence and 
 "Sir, I think we should set up a network of spies in our neighboring nations' cruial industries, so that we can increase competition and our supremacy over the neighboring nations. By doing this we can influence other nations discreetly and find out any industry secrets."
 You think over the spymaster's words.
 
-[[1. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that I would rather make friendly relations with the neighboring countries."|Friendly ties]]
-[[2. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that our country is strong enough as it is, why waste money to figure out what the other countries are doing."|We are strong]]
-[[3. "This is an intelligent proposition you have brought to me, spymaster. I think I will take you up on it. I would like you to inflitrate the surrounding nations' cruical industries by setting up a network of spies across them."|Yes for spreading influence]]
+<<link [[1. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that I would rather make friendly relations with the neighboring countries."|Friendly ties]]>> <<set $opinionIvana += 1>><</link>>
+<<link [[2. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that our country is strong enough as it is, why waste money to figure out what the other countries are doing."|We are strong]]>> <<set $opinionIvana -= 1>><</link>>
+<<link [[3. "This is an intelligent proposition you have brought to me, spymaster. I think I will take you up on it. I would like you to inflitrate the surrounding nations' cruical industries by setting up a network of spies across them."|Yes for spreading influence]]>> <<set $opinionIvana += 0.5>><</link>>
 
 :: Friendly ties
-"That is unexpected of you sir, but having more allies than enemies, is a smart move."
+"That is unexpected of you sir, but having more allies than enemies, is a smart move," she says and leaves with a bow. 
 <<include "nextFocus">>
 :: We are strong
-"It is true that our nation is strong sir, but even the strong can falter without valuable information. I shall take my leave now, thank you for meeting with me."
+"It is true that our nation is strong sir, but even the strong can falter without valuable information. I shall take my leave now, thank you for meeting with me," she says. Ivana then leaves while slowly shaking her head. 
 <<include "nextFocus">>
 :: Yes for spreading influence
-"Understood sir, I shall set up the spy network at once, thank you for your time."
+"Understood sir, I shall set up the spy network at once, thank you for your time," Ivana says and hasitly leaves the office. 
 <<include "nextFocus">>
 /* */
 
@@ -69,13 +69,15 @@ There is a politcian that is bad mouthing you, as of late.
 "Sir, regarding the politician that is bad mouthing you and making public opinion of you worse, should I do something about him. I can discredit him and lessen his influence so that we may save your reputation." 
 You think to yourself for a second, and write back:
 
-[[1.  "I would like you to discredit him, he is hurting my reputation and I do not want to be seen by our nation's people as a tyrant ruler."|Yes discredit him]]
-[[2. "Although my public image is going down. It is not like it really matters. I can always make new laws about speaking ill of the ruler. Afterall, I am in power. So, let the politician be."|Do not discredit him]]
+<<link [[1.  "I would like you to discredit him, he is hurting my reputation and I do not want to be seen by our nation's people as a tyrant ruler."|Yes discredit him]]>> <<set $opinionIvana += 1.5>><</link>>
+<<link [[2. "Although my public image is going down. It is not like it really matters. I can always make new laws about speaking ill of the ruler. Afterall, I am in power. So, let the politician be."|Do not discredit him]]>> <<set $opinionIvana -= 1.5>><</link>>
 
 :: Yes discredit him
+A couple days later you recive a response from Ivana. 
 "My thoughts exactly sir. Let me get right to that."
 <<include "nextFocus">>
 :: Do not discredit him
+A couple days later you recive a response from Ivana. 
 "Sir, I am not sure that is the best action to take here, but I will acknowledge it. Thank you for your time."
 <<include "nextFocus">>
 /* */
