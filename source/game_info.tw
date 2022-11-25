@@ -10,6 +10,17 @@
 President
 
 
+
+
+:: StoryCaption
+Funds: $playermoney
+Stress:$playerstress
+Ottovin's Opinion: $opinionOttovin
+Carlotta's Opinion: $opinionCarlotta
+Ivana's Opinion: $opinionIvana
+XYZ's Opinion:  $opinionGeneral
+
+
 :: StoryInit
 /* Opinion Variables */
 <<set $opinionOttovin to 0>>

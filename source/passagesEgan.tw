@@ -25,7 +25,7 @@ While working in your office, your advisor enters the room with a letter in hand
 It reads, "Mr. President, your citizens need your help. Sickness and injury have long been a blight on the working people of this nation. I seek your support to increase access to heathcare services, which I see as vital for your nation to florish. Will you work with the Frontiermen and I to significantly increases access to healthcare nationwide?"
 Picking up a pen, you begin to write your response to Ottovin:
 
-<<link [[1. "Yes, the national government understands this concern and will personally see that healthcare is expanded nationwide."|Support Health Gov]]>> <<set $opinionOttovin +=1>>  <<set $playerMoney -=1>> <</link>>
+<<link [[1. "Yes, the national government understands this concern and will personally see that healthcare is expanded nationwide."|Support Health Gov]]>> <<set $opinionOttovin +=1>>  <<set $playermoney -=1>> <</link>>
 <<link [[2. "Yes, but the national government does not have the money to spare. I will instead support that corporations become responsible for providing increased access to healthcare services"|Support Health Corp]]>> <<set $opinionOttovin += 1>> <<set $opinionCarlotta -= 1>> <</link>>
 <<link [[3. "No, the current healthcare system is perfectly fine as it is right now. Those who need the health related assistance will seek it out. There is no need for my government to interfer."|No Support Health]]>> <<set $opinionOttovin -= 1>> <</link>>
 
@@ -139,9 +139,9 @@ Staring blankly at you, Carlotta sighs. With tight lips and a half grin, she res
 During a flattery-filled afternoon meeting with Carlotta, she begins to grow more restless in her seat. When you ask her if anything is bothering her, she explains, "Mr. President, I am feeling pressured by the other corporate leaders to propose something to you. I didn't want to be the one to ask, but they thought it be best if it came from me since I'm the most frequent spokesperson of our collective interests when it comes to you." 
 "Well... what is it?" you urge. "Sir, its about tax relief. I know, I know, I know! I can hear you sighing within. But in all seriousness, many of your industries are over-taxed by international standards. Any relief at all would alleviate a huge burden."
 
-<<link [[1. "Okay. Send me a list of which industries you feel are overtaxed and I will work through them one by one to determine where taxes can be cut."|Support Tax Relief]]>> <<set $Carlotta += 1>> <<set $playerMoney -= 1>> <</link>>
+<<link [[1. "Okay. Send me a list of which industries you feel are overtaxed and I will work through them one by one to determine where taxes can be cut."|Support Tax Relief]]>> <<set $Carlotta += 1>> <<set $playermoney -= 1>> <</link>>
 <<link [[2. "Absolutly not. The current corporate tax rate is set in place for a reason and is already quite generous. My government needs the influx of money you and your allies' companies provide. A decrease would only constrain my ability to carry out my presidency."|No Support Tax Relief]]>> <<set $opinionCarlotta -= 1>> <</link>>
-<<link [[3. "You insult me, Carlotta. In fact, you insult me to the degree that I genuinly beleive I should raise the corporate tax rate. You and I both know any tax relief would only line the corporate elite's pockets, not help anyone else."|Raise Taxes]]>> <<set $opinionCarlotta -= 2>> <<set $playerMoney += 1>> <</link>>
+<<link [[3. "You insult me, Carlotta. In fact, you insult me to the degree that I genuinly beleive I should raise the corporate tax rate. You and I both know any tax relief would only line the corporate elite's pockets, not help anyone else."|Raise Taxes]]>> <<set $opinionCarlotta -= 2>> <<set $playermoney += 1>> <</link>>
 
 :: Support Tax Relief
 "Oh thank you thank you, sir!" Carlotta stands up from her chair with her hands together held up by her chest. "My corporate friends will just love to hear this. I'll have someone send that list over in the coming days." With your permission, she exits the room.
@@ -161,7 +161,7 @@ Carlotta sighs. "I warned my corporate friends that you might react that way. Ve
 One evening, you are admiring a painting in the Presidential Palace that depicts a lavish social gathering. As you are inspect its details, Carlotta approaches you from behind.
 Making her precence known, Carlotta begins, "You know, Mr. President, the nation could benefit from you throwing another party. It's a good excuse for everyone to mingle and peacefully talk through their differences. Not to mention the food and drink of course!" she clarifys with a light laugh. She turns her head away from the painting and toward you, waiting for a response.
 
-<<link [[1. "I was just thinking the same thing, Carlotta. Parties have always been one of my favorite things throughout life. I will definetly have to arrange one here soon... using goveernment funds of course."|Support Social Event]]>> <<set $opinionCarlotta += 1>> <<set $playerMoney -= 1>> <</link>>
+<<link [[1. "I was just thinking the same thing, Carlotta. Parties have always been one of my favorite things throughout life. I will definetly have to arrange one here soon... using goveernment funds of course."|Support Social Event]]>> <<set $opinionCarlotta += 1>> <<set $playermoney -= 1>> <</link>>
 <<link [[2. "I agree that parties are great for mingleing, but the government doesn't have the extra money right now to put anything on."|No Support Social Event Money]]>> <<set $opinionCarlotta -= 0.5>> <</link>>
 <<link [[3. "Didn't we just have a party not too long ago? It feels unnessary to have another one anytime soon."|No Support Social Event]]>> <<set $opinionCarlotta -= 1>> <</link>>
 
