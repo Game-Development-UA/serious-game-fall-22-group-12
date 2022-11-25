@@ -201,10 +201,10 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;if $passageCount == 3&gt;&gt; &lt;&lt;include &quot;nextMainPassage&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;
 
 /*Passage count: $passageCount */</tw-passagedata><tw-passagedata pid="12" name="nextFocus" tags="" position="225,225" size="100,100">&lt;&lt;set $passageCount to $passageCount + 1&gt;&gt;
-&lt;&lt;if $opinionOttovin gt 5&gt;&gt; &lt;&lt;set $opinionOttovin == 5&gt;&gt; &lt;&lt;/if&gt;&gt;
-&lt;&lt;if $opinionCarlotta gt 5&gt;&gt; &lt;&lt;set $opinionCarlotta == 5&gt;&gt; &lt;&lt;/if&gt;&gt;
-&lt;&lt;if $opinionIvana gt 5&gt;&gt; &lt;&lt;set $opinionIvana == 5&gt;&gt; &lt;&lt;/if&gt;&gt;
-&lt;&lt;if $opinionGeneral gt 5&gt;&gt; &lt;&lt;set $opinionGeneral == 5&gt;&gt; &lt;&lt;/if&gt;&gt;
+&lt;&lt;if $opinionOttovin gt 5&gt;&gt; &lt;&lt;set $opinionOttovin = 5&gt;&gt; &lt;&lt;/if&gt;&gt;
+&lt;&lt;if $opinionCarlotta gt 5&gt;&gt; &lt;&lt;set $opinionCarlotta = 5&gt;&gt; &lt;&lt;/if&gt;&gt;
+&lt;&lt;if $opinionIvana gt 5&gt;&gt; &lt;&lt;set $opinionIvana = 5&gt;&gt; &lt;&lt;/if&gt;&gt;
+&lt;&lt;if $opinionGeneral gt 5&gt;&gt; &lt;&lt;set $opinionGeneral = 5&gt;&gt; &lt;&lt;/if&gt;&gt;
 [[Continue|Focus]]</tw-passagedata><tw-passagedata pid="13" name="nextMainPassage" tags="" position="350,225" size="100,100">&lt;&lt;set $mainCheck to $mainCheck + 1&gt;&gt;
 &lt;&lt;set $passageCount to 0&gt;&gt;
 &lt;&lt;if $mainCheck == 1&gt;&gt; [[See what he needs|Main Story 1]] 
