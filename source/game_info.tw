@@ -61,7 +61,7 @@ Military's Opinion:  $opinionGeneral
 <<link “Focus-On-Myself” $nextStress>> <</link>>
 
 :: Focus
-<<if $passageCount lt 3>>What should you focus on as president?<<else>>You're Advisor seeks your attetnion<</if>>
+<<if $passageCount lt 3>>How should you spend your time as President in the upcoming weeks?<<else>>You're Advisor seeks your attention<</if>>
 <<if $passageCount lt 3>> <<include "nextEvent">>  <</if>> 
 <<if $passageCount lt 3>> <<include "nextStress">> <</if>>
 <<if $passageCount == 3>> <<include "nextMainPassage">> <</if>>
