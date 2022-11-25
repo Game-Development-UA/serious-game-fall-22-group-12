@@ -14,12 +14,12 @@ President
 /* Opinion Variables */
 <<set $opinionOttovin to 0>>
 <<set $opinionCarlotta to 0>>
-<<set $opinionSpymaster to 0>>
+<<set $opinionIvana to 0>>
 <<set $opinionGeneral to 0>>
 /* Approaching at party variables */
 <<set $approachOttovin to false>>
 <<set $approachCarlotta to false>>
-<<set $approachSpymaster to false>>
+<<set $approachIvana to false>>
 <<set $approachGeneral to false>>
 <<set $timespenttalking to 0>>
 /* Other Important Variables */

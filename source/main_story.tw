@@ -7,14 +7,14 @@
     [[Continue|Advisor Approaches]]
 :: Advisor Approaches
     As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will be start closely governing with in the coming days?”
-    “You're right,” you respond, “Who do you suggest I approach first?” Your advisor shakes his head and explains that it is up to you to decide who to approach and in what order. Handing you a drink, he leaves your side and returns to the festivities. 
-[[Continue|Approaching]]
+    “You're right,” you respond, “Who do you suggest I approach first?” Your advisor shakes his head and explains that it is up to you to decide who to approach and in what order. Handing you a drink before leaving to rejoin the festivities, he reminds you that this is a very public event, meaning all eyes will be on you. 
+[["Let's see how this goes."|Approaching]]
 
 :: Approaching
-<<if $timespenttalking lt 4>> Taking a sip from your drink, you decide who to you approach.<<else>> No one important is left to approach. <</if>>
-<<if $approachOttovin == false>>[[Ottovin, spokesperson of the Labor Union Frontiermen|Approach Ottovin]] <</if>>
+<<if $timespenttalking lt 4>> Taking a sip from your drink, you decide who to you approach.<<else>> Your drink is emptpy. No one important is left to approach. <</if>>
+<<if $approachOttovin == false>>[[Ottovin, spokesperson for the Labor Union Frontiermen|Approach Ottovin]] <</if>>
 <<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
-<<if $approachSpymaster == false>>[[abc, your spymaster|Approach abc]]<</if>>
+<<if $approachIvana == false>>[[Ivana, spymaster|Approach Ivana]]<</if>>
 <<if $approachGeneral == false>>[[xyz, military general|Approach xyz]]<</if>>
 <<if $timespenttalking == 4>>[[Continue|Party End]]<</if>>
 
@@ -23,18 +23,18 @@ Text about Ottovin, quick intro and conversation
 <<set $approachOttovin to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionOttovin to 10 - $timespenttalking>>
-[[Continue|Approaching]]
+[["It was nice meeting you, Ottovin."|Approaching]]
 :: Approach Carlotta
 Text about Carlotta, quick intro and conversation
 <<set $approachCarlotta to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionCarlotta to 10 - $timespenttalking>>
 [[Continue|Approaching]]
-:: Approach abc
-Text about spymaster, quick intro and conversation
-<<set $approachSpymaster to true>>
+:: Approach Ivana
+Text about Ivana, quick intro and conversation
+<<set $approachIvana to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
-<<set $opinionSpymaster to 10 - $timespenttalking>>
+<<set $opinionIvana to 10 - $timespenttalking>>
 [[Continue|Approaching]]
 :: Approach xyz
 Text about general, quick intro and conversation
@@ -44,8 +44,8 @@ Text about general, quick intro and conversation
 [[Continue|Approaching]]
 
 :: Party End
-Text about the end of the party
-[[Continue|Office]]
+Having spoken to all those who will soon play a role in your government, you decide that now is the appropriate time to finally relish in the festivities of the party. After all, this is a celebration dedicated to you and your political accomplishments of the past month. Grabbing a refreshed drink from a server, you make your way to your designated seat at the center of the ballroom. From here, you can sit back, relax, and enjoy the sight of all the notable people of your nation having a good time.
+[["Tonight was fun."|Office]]
 :: Office
 Text about duties as president, intro to office setting the next day
 [[Continue|Focus]]
