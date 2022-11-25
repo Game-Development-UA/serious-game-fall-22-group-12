@@ -52,11 +52,17 @@ Text about general, quick intro and conversation
 
 :: Party End
 Having spoken to all those who will soon play a role in your government, you decide that now is the appropriate time to finally relish in the festivities of the party. After all, this is a celebration dedicated to you. Grabbing a refreshed drink from a server, you make your way to your designated seat at the center of the ballroom. From here, you can sit back, relax, and enjoy the sight of all the notable people in your nation having a good time.
-[["Tonight was fun."|Office]]
-:: Office
-Text about duties as president, intro to office setting the next day
-[[Continue|Focus]]
+[["Tonight was fun."|Office 1]]
+:: Office 1
+A couple days later, you find yourself walking alongside your advisor across the Presidential Palace. He is carrying several folders and loose papers held to his chest.
+	“Sir, today would be the perfect time to visit your presidential office,” he begins. “Planning out how to focus your attention for the upcoming weeks is imperative to a functioning government. I’ve taken the liberty and arranged at your desk a calendar for you to personally use to decide how to spend your time.”
+	“How formal,” you exclaim. “Thank you for that.” The two of you stop for a moment in front of two medium sized doors. Using his back, your advisor pushes with his body weight and opens the left door. Glowing with natural light from several large windows, the presidential office looks identical to how you remember it. Historical paintings decorate the walls, vine-like plants hang from the ceiling, and a large desk is centered at the back of the room. You approach the desk, place one hand on it, and sit yourself down at its chair.
+[[1. "So, how should I plan then?"|Office 2]]
 
+:: Office 2
+“That much is up to you, sir,” your advisor explains. “You are the president of this great nation, so people will expect that you work accordingly. In all honesty, that mainly entails keeping various political figures satisfied while keeping the nation afloat financially. However, on a more personal note, you ought to not sacrifice your mental stability. Taking time off to focus on your own happiness is just as integral to being president as governing is … even if others tend to disagree.”
+
+[[1. "Okay. I will decide how to spend my time."|Focus]]
 
 
 
