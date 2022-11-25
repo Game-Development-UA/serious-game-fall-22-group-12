@@ -8,8 +8,10 @@ You sit in silence for a few seconds while you think.
 
 :: Yes for propaganda
 "I shall get right to increase your propaganda in the media then, thank you for your time."
+<<include "nextFocus">>
 :: No for propaganda
 "Sir, I am not sure that is the best choice; however, I will still follow your command..." 
+<<include "nextFocus">>
 /* */
 
 
@@ -26,10 +28,13 @@ You think about your decision.
 
 :: Yes assasinate journalist
 "Yes sir, worry no longer, the journalist shall be dealt with immediately."
+<<include "nextFocus">>
 :: Capture journalist
 "That is wise of you sir. I shall capture the journalist right away."
+<<include "nextFocus">>
 :: Do not care
 "That is not the answer I was expecting from you sir; regardless, thank you for your time. I shall take my leave now."
+<<include "nextFocus">>
 /* */
 
 
@@ -46,10 +51,13 @@ You think over the spymaster's words.
 
 :: Friendly ties
 "That is unexpected of you sir, but having more allies than enemies, is a smart move."
+<<include "nextFocus">>
 :: We are strong
 "It is true that our nation is strong sir, but even the strong can falter without valuable information. I shall take my leave now, thank you for meeting with me."
+<<include "nextFocus">>
 :: Yes for spreading influence
 "Understood sir, I shall set up the spy network at once, thank you for your time."
+<<include "nextFocus">>
 /* */
 
 
@@ -61,12 +69,14 @@ There is a politcian that is bad mouthing you, as of late.
 You think to yourself for a second, and write back:
 
 [[1.  "I would like you to discredit him, he is hurting my reputation and I do not want to be seen by our nation's people as a tyrant ruler."|Yes discredit him]]
-[[2. "Although my public image is going down. It is not like it really matters. I can always make new laws about speaking ill of the ruler. Afterall, I am in power. So, let the politician be."|Do not discresit him]]
+[[2. "Although my public image is going down. It is not like it really matters. I can always make new laws about speaking ill of the ruler. Afterall, I am in power. So, let the politician be."|Do not discredit him]]
 
 :: Yes discredit him
 "My thoughts exactly sir. Let me get right to that."
+<<include "nextFocus">>
 :: Do not discredit him
 "Sir, I am not sure that is the best action to take here, but I will acknowledge it. Thank you for your time."
+<<include "nextFocus">>
 /* */
 
 
@@ -82,8 +92,11 @@ The spymaster has a serious issue to talk about with you.
 
 :: Assassinate enemy spy
 "Thank you for seeing the urgency in this matter sir, I will carry out the assasination plan now." 
+<<include "nextFocus">>
 :: Capture enemy spy
 "I am not quite sure if the enemy spy will let himself be captured sir, but I will do my best. Thank you for your time."
+<<include "nextFocus">>
 :: Do not care 2
 "Our nation is very strong, but the enemy spy can bring down our government if he finds valuable information. That is most likely not a wise way to go about this situation. But it is your decision, so I'll let it be."
+<<include "nextFocus">>
 /* */

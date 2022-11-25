@@ -1,0 +1,76 @@
+:: Main Story 0 [main]
+    Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which requires your neck to become strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
+    Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
+    [[Continue|Door Open]]
+:: Door Open 
+    Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, eloquent music fills the air and your guests return to their conversations, drinks, food, and dance. 
+    [[Continue|Advisor Approaches]]
+:: Advisor Approaches
+    As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will be start closely governing with in the coming days?”
+    “You're right,” you respond, “Who do you suggest I approach first?” Your advisor shakes his head and explains that it is up to you to decide who to approach and in what order. Handing you a drink before leaving to rejoin the festivities, he reminds you that this is a very public event, meaning all eyes will be on you. 
+[["Let's see how this goes."|Approaching]]
+
+:: Approaching
+<<if $timespenttalking lt 4>> Taking a sip from your drink, you decide who to you approach.<<else>> Your drink is empty. No one important is left to approach. <</if>>
+<<if $approachOttovin == false>>[[Ottovin, spokesperson for the Labor Union Frontiermen|Approach Ottovin]] <</if>>
+<<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
+<<if $approachIvana == false>>[[Ivana, Master of Spies|Approach Ivana]]<</if>>
+<<if $approachGeneral == false>>[[xyz, National General of the Armed Forces|Approach xyz]]<</if>>
+<<if $timespenttalking == 4>>[[Continue|Party End]]<</if>>
+
+:: Approach Ottovin
+“Ah Mr. President!” Ottovin exclaims while setting his drink down on a nearby table. “Allow me to personally congratulate you on everything that's transpired this past month. A situation like that would test the courage and honor of any good man let alone one of your political stature,” he says while reaching his hand out toward you. “I do not envy you.”
+    With a slight chuckle, you grab hold of his hand and firmly shake it whilst saying, “Thank you, Ottovin. This past month was most definitely troublesome, but I am more concerned about the future of the nation now, not the past.”
+    Letting go of your hand, Ottovin replies, “Right. Well the Labor Union Frontiermen and I are looking forward to working alongside you. There is much to be accomplished in regards to the rights of  workers across the nation, especially some areas your father seemed to ignore, which I am hopeful we find common ground on.”
+    “Then I look forward to our upcoming meetings, Ottovin. I should begin regular Presidential duties within the next couple days, so I hope to see you then,” you explain. “Please, in the meantime, enjoy the night to your fullest extent.” Ottovin nods his head, picks up his drink from the table, and waits for you to walk away before returning to the festivities.
+<<set $approachOttovin to true>>
+<<set $timespenttalking to $timespenttalking + 1>>
+<<set $opinionOttovin to 10 - $timespenttalking>>
+[[1. "It was nice meeting you, Ottovin."|Approaching]]
+:: Approach Carlotta
+“Oooo Mr. President! Congratulations on your new title! To what do I owe the pleasure of your presence?” Carlotta questions while closing the fan she was using to keep herself cool. 
+	“I don't believe we've formally met before. Seeing how you're likely to have my ear throughout my presidency, I thought we should become acquainted,” you explain.
+	“Of course, sir. Despite what the papers might write, the corporate world is excited to see your presidency unfold as well as play a role in it. While we accomplished great things with your father, we are expecting to accomplish wonders for the nation and corporations alike through our continued partnership,” she elaborates using her hands for emphasis.
+	“Right then… hopefully it won't be too much longer until we see each other again in a more professional setting. For the time being, I hope the party lives up to your eloquence,” you state while beginning to pull away. 
+	Opening her fan, Carlotta responds with a smile, “It was nice to meet you, Mr. President.”
+<<set $approachCarlotta to true>>
+<<set $timespenttalking to $timespenttalking + 1>>
+<<set $opinionCarlotta to 10 - $timespenttalking>>
+[[1. "Likewise, Carlotta"|Approaching]]
+:: Approach Ivana
+Text about Ivana, quick intro and conversation
+<<set $approachIvana to true>>
+<<set $timespenttalking to $timespenttalking + 1>>
+<<set $opinionIvana to 10 - $timespenttalking>>
+[[Continue|Approaching]]
+:: Approach xyz
+Text about general, quick intro and conversation
+<<set $approachGeneral to true>>
+<<set $timespenttalking to $timespenttalking + 1>>
+<<set $opinionGeneral to 10 - $timespenttalking>>
+[[Continue|Approaching]]
+
+:: Party End
+Having spoken to all those who will soon play a role in your government, you decide that now is the appropriate time to finally relish in the festivities of the party. After all, this is a celebration dedicated to you. Grabbing a refreshed drink from a server, you make your way to your designated seat at the center of the ballroom. From here, you can sit back, relax, and enjoy the sight of all the notable people in your nation having a good time.
+[["Tonight was fun."|Office]]
+:: Office
+Text about duties as president, intro to office setting the next day
+[[Continue|Focus]]
+
+
+
+
+:: Main Story 1 [main]
+1
+[[Focus]]
+:: Main Story 2 [main]
+2
+[[Focus]]
+:: Main Story 3 [main]
+3
+:: Main Story 4 [main]
+4
+:: Main Story 5 [main]
+5
+:: Main Story 6 [main]
+6
