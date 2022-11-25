@@ -11,7 +11,7 @@
 [["Let's see how this goes."|Approaching]]
 
 :: Approaching
-<<if $timespenttalking lt 4>> Taking a sip from your drink, you decide who to you approach.<<else>> Your drink is emptpy. No one important is left to approach. <</if>>
+<<if $timespenttalking lt 4>> Taking a sip from your drink, you decide who to you approach.<<else>> Your drink is empty. No one important is left to approach. <</if>>
 <<if $approachOttovin == false>>[[Ottovin, spokesperson for the Labor Union Frontiermen|Approach Ottovin]] <</if>>
 <<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
 <<if $approachIvana == false>>[[Ivana, Master of Spies|Approach Ivana]]<</if>>
@@ -26,7 +26,7 @@
 <<set $approachOttovin to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionOttovin to 10 - $timespenttalking>>
-[["It was nice meeting you, Ottovin."|Approaching]]
+[[1. "It was nice meeting you, Ottovin."|Approaching]]
 :: Approach Carlotta
 “Oooo Mr. President! Congratulations on your new title! To what do I owe the pleasure of your presence?” Carlotta questions while closing the fan she was using to keep herself cool. 
 	“I don't believe we've formally met before. Seeing how you're likely to have my ear throughout my presidency, I thought we should become acquainted,” you explain.
@@ -36,7 +36,7 @@
 <<set $approachCarlotta to true>>
 <<set $timespenttalking to $timespenttalking + 1>>
 <<set $opinionCarlotta to 10 - $timespenttalking>>
-[["Likewise, Carlotta"|Approaching]]
+[[1. "Likewise, Carlotta"|Approaching]]
 :: Approach Ivana
 Text about Ivana, quick intro and conversation
 <<set $approachIvana to true>>
