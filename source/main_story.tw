@@ -14,8 +14,8 @@
 <<if $timespenttalking lt 4>> Taking a sip from your drink, you decide who to you approach.<<else>> Your drink is empty. No one important is left to approach. <</if>>
 <<if $approachOttovin == false>>[[Ottovin, spokesperson for the Labor Union Frontiermen|Approach Ottovin]] <</if>>
 <<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
-<<if $approachIvana == false>>[[Ivana, Master of Spies|Approach Ivana]]<</if>>
-<<if $approachGeneral == false>>[[xyz, National General of the Armed Forces|Approach xyz]]<</if>>
+<<if $approachIvana == false>>[[Ivana, Spymaster|Approach Ivana]]<</if>>
+<<if $approachGeneral == false>>[[Dean, General of the Armed Forces|Approach xyz]]<</if>>
 <<if $timespenttalking == 4>>[[Continue|Party End]]<</if>>
 
 :: Approach Ottovin
