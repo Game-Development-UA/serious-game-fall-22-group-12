@@ -46,18 +46,18 @@ Ivana, your spymaster has come up with another way to spread your influence and 
 "Sir, I think we should set up a network of spies in our neighboring nations' cruial industries, so that we can increase competition and our supremacy over the neighboring nations. By doing this we can influence other nations discreetly and find out any industry secrets."
 You think over the spymaster's words.
 
-[[1. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that I would rather make friendly relations with the neighboring countries."|Friendly ties]]
-[[2. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that our country is strong enough as it is, why waste money to figure out what the other countries are doing."|We are strong]]
-[[3. "This is an intelligent proposition you have brought to me, spymaster. I think I will take you up on it. I would like you to inflitrate the surrounding nations' cruical industries by setting up a network of spies across them."|Yes for spreading influence]]
+<<link [[1. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that I would rather make friendly relations with the neighboring countries."|Friendly ties]]>> <<set $opinionIvana += 1>><</link>>
+<<link [[2. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that our country is strong enough as it is, why waste money to figure out what the other countries are doing."|We are strong]]>> <<set $opinionIvana -= 1>><</link>>
+<<link [[3. "This is an intelligent proposition you have brought to me, spymaster. I think I will take you up on it. I would like you to inflitrate the surrounding nations' cruical industries by setting up a network of spies across them."|Yes for spreading influence]]>> <<set $opinionIvana += 0.5>><</link>>
 
 :: Friendly ties
-"That is unexpected of you sir, but having more allies than enemies, is a smart move."
+"That is unexpected of you sir, but having more allies than enemies, is a smart move," she says and leaves with a bow. 
 <<include "nextFocus">>
 :: We are strong
-"It is true that our nation is strong sir, but even the strong can falter without valuable information. I shall take my leave now, thank you for meeting with me."
+"It is true that our nation is strong sir, but even the strong can falter without valuable information. I shall take my leave now, thank you for meeting with me," she says. Ivana then leaves while slowly shaking her head. 
 <<include "nextFocus">>
 :: Yes for spreading influence
-"Understood sir, I shall set up the spy network at once, thank you for your time."
+"Understood sir, I shall set up the spy network at once, thank you for your time," Ivana says and hasitly leaves the office. 
 <<include "nextFocus">>
 /* */
 
