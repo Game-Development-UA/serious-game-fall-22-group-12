@@ -69,13 +69,15 @@ There is a politcian that is bad mouthing you, as of late.
 "Sir, regarding the politician that is bad mouthing you and making public opinion of you worse, should I do something about him. I can discredit him and lessen his influence so that we may save your reputation." 
 You think to yourself for a second, and write back:
 
-[[1.  "I would like you to discredit him, he is hurting my reputation and I do not want to be seen by our nation's people as a tyrant ruler."|Yes discredit him]]
-[[2. "Although my public image is going down. It is not like it really matters. I can always make new laws about speaking ill of the ruler. Afterall, I am in power. So, let the politician be."|Do not discredit him]]
+<<link [[1.  "I would like you to discredit him, he is hurting my reputation and I do not want to be seen by our nation's people as a tyrant ruler."|Yes discredit him]]>> <<set $opinionIvana += 1.5>><</link>>
+<<link [[2. "Although my public image is going down. It is not like it really matters. I can always make new laws about speaking ill of the ruler. Afterall, I am in power. So, let the politician be."|Do not discredit him]]>> <<set $opinionIvana -= 1.5>><</link>>
 
 :: Yes discredit him
+A couple days later you recive a response from Ivana. 
 "My thoughts exactly sir. Let me get right to that."
 <<include "nextFocus">>
 :: Do not discredit him
+A couple days later you recive a response from Ivana. 
 "Sir, I am not sure that is the best action to take here, but I will acknowledge it. Thank you for your time."
 <<include "nextFocus">>
 /* */
