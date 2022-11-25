@@ -1,7 +1,7 @@
 <!--class called propaganda and event tag-->
 :: Propaganda [event]
 Your spymaster, Ivana, meets with you in regards to reinforcing your message across the nation.
-"Sir, I believe that more ppropaganda in the media about your message will help influence the people of the nation, and cause them to believe more in your message and you. It will also make your popularity in the nation increase and  in the surrounding countries. Would you like me to work on increasing your propaganda in the media?"
+"Sir, I believe that more propaganda in the media about your message will help influence the people of the nation, and cause them to believe more in your message and you. It will also make your popularity in the nation increase and  in the surrounding countries. Would you like me to work on increasing your propaganda in the media?"
 You sit in silence for a few seconds while you think.
 
 <<link [[1. "I was also thinking about increasing propaganda. My popularity has lowered in the nation since overturning the previous government. I would like you to work on increasing propaganda in the media."|Yes for propaganda]]>> <<set $opinionIvana += 1>><</link>>
