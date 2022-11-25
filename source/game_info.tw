@@ -80,3 +80,20 @@ XYZ's Opinion:  $opinionGeneral
 <<elseif $mainCheck == 5>> [[See what he needs|Main Story 5]]
 <<elseif $mainCheck == 6>> [[See what he needs|Main Story 6]]
 <</if>>
+
+:: endCheck
+<<if $opinionOttovin lte 0>> 
+	[[Continue|Ottovin Ending]]
+<<elseif $opinionCarlotta lte 0>>
+	[[Continue|Carlotta Ending]]
+<<elseif $opinionIvana lte 0>>
+	[[Continue|Ivana Ending]]
+<<elseif $opinionGeneral lte 0>>
+	[[Continue|General Ending]]
+<<elseif $playerstress gte 100>>
+	[[Continue|Stress Ending]]
+<<elseif $playermoney lte 0>>
+	[[Continue|Money Ending]]
+<<else>>
+<<include "nextFocus">>
+<</if>>
