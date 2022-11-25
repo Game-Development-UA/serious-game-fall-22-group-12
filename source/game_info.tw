@@ -14,11 +14,13 @@ President
 
 :: StoryCaption
 Funds: $playermoney
-Stress:$playerstress
-Ottovin's Opinion: $opinionOttovin
-Carlotta's Opinion: $opinionCarlotta
-Ivana's Opinion: $opinionIvana
-Military's Opinion:  $opinionGeneral
+
+Stress: $playerstress/100
+
+Ottovin's Opinion: $opinionOttovin/5
+Carlotta's Opinion: $opinionCarlotta/5
+Ivana's Opinion: $opinionIvana/5
+Military's Opinion:  $opinionGeneral/5
 
 
 :: StoryInit
@@ -61,13 +63,19 @@ Military's Opinion:  $opinionGeneral
 <<link “Focus-On-Myself” $nextStress>> <</link>>
 
 :: Focus
+
 <<if $passageCount lt 3>>How should you spend your time as President in the upcoming weeks?<<else>>You're Advisor seeks your attention<</if>>
 <<if $passageCount lt 3>> <<include "nextEvent">>  <</if>> 
 <<if $passageCount lt 3>> <<include "nextStress">> <</if>>
 <<if $passageCount == 3>> <<include "nextMainPassage">> <</if>>
+
 /*Passage count: $passageCount */
 :: nextFocus
 <<set $passageCount to $passageCount + 1>>
+<<if $opinionOttovin gt 5>> <<set $opinionOttovin == 5>> <</if>>
+<<if $opinionCarlotta gt 5>> <<set $opinionCarlotta == 5>> <</if>>
+<<if $opinionIvana gt 5>> <<set $opinionIvana == 5>> <</if>>
+<<if $opinionGeneral gt 5>> <<set $opinionGeneral == 5>> <</if>>
 [[Continue|Focus]]
 
 :: nextMainPassage

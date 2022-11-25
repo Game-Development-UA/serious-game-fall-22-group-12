@@ -11,12 +11,12 @@
 [["Let's see how this goes."|Approaching]]
 
 :: Approaching
-<<if $timespenttalking lt 4>> Taking a sip from your drink, you decide who to you approach.<<else>> Your drink is empty. No one important is left to approach. <</if>>
+<<if $timespenttalking lt 2>> Taking a sip from your drink, you decide who to you approach.<<else>> Your drink is empty. No one important is left to approach. <</if>>
 <<if $approachOttovin == false>>[[Ottovin, spokesperson for the Labor Union Frontiermen|Approach Ottovin]] <</if>>
 <<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
 <<if $approachIvana == false>>[[Ivana, Spymaster|Approach Ivana]]<</if>>
 <<if $approachGeneral == false>>[[Dean, General of the Armed Forces|Approach xyz]]<</if>>
-<<if $timespenttalking == 4>>[[Continue|Party End]]<</if>>
+<<if $timespenttalking == 2>>[[Continue|Party End]]<</if>>
 
 :: Approach Ottovin
 “Ah Mr. President!” Ottovin exclaims while setting his drink down on a nearby table. “Allow me to personally congratulate you on everything that's transpired this past month. A situation like that would test the courage and honor of any good man let alone one of your political stature,” he says while reaching his hand out toward you. “I do not envy you.”
@@ -24,8 +24,8 @@
     Letting go of your hand, Ottovin replies, “Right. Well the Labor Union Frontiermen and I are looking forward to working alongside you. There is much to be accomplished in regards to the rights of workers across the nation, especially some areas your father seemed to ignore, which I am hopeful we find common ground on.”
     “Then I look forward to our upcoming meetings, Ottovin. I should begin regular Presidential duties within the next couple days, so I hope to see you then,” you explain. “Please, in the meantime, enjoy the night to your fullest extent.” Ottovin nods his head, picks up his drink from the table, and waits for you to walk away before returning to the festivities.
 <<set $approachOttovin to true>>
-<<set $timespenttalking to $timespenttalking + 1>>
-<<set $opinionOttovin to 10 - $timespenttalking>>
+<<set $timespenttalking to $timespenttalking + 0.5>>
+<<set $opinionOttovin to 5 - $timespenttalking>>
 [[1. "It was nice meeting you, Ottovin."|Approaching]]
 :: Approach Carlotta
 “Oooo Mr. President! Congratulations on your new title! To what do I owe the pleasure of your presence?” Carlotta questions while closing the fan she was using to keep herself cool. 
@@ -34,20 +34,20 @@
 	“Right then… hopefully it won't be too much longer until we see each other again in a more professional setting. For the time being, I hope the party lives up to your eloquence,” you state while beginning to pull away. 
 	Opening her fan, Carlotta responds with a smile, “It was nice to finally meet you, Mr. President.”
 <<set $approachCarlotta to true>>
-<<set $timespenttalking to $timespenttalking + 1>>
-<<set $opinionCarlotta to 10 - $timespenttalking>>
+<<set $timespenttalking to $timespenttalking + 0.5>>
+<<set $opinionCarlotta to 5 - $timespenttalking>>
 [[1. "Likewise, Carlotta"|Approaching]]
 :: Approach Ivana
 Text about Ivana, quick intro and conversation
 <<set $approachIvana to true>>
-<<set $timespenttalking to $timespenttalking + 1>>
-<<set $opinionIvana to 10 - $timespenttalking>>
+<<set $timespenttalking to $timespenttalking + 0.5>>
+<<set $opinionIvana to 5 - $timespenttalking>>
 [[Continue|Approaching]]
 :: Approach xyz
 Text about general, quick intro and conversation
 <<set $approachGeneral to true>>
-<<set $timespenttalking to $timespenttalking + 1>>
-<<set $opinionGeneral to 10 - $timespenttalking>>
+<<set $timespenttalking to $timespenttalking + 0.5>>
+<<set $opinionGeneral to 5 - $timespenttalking>>
 [[Continue|Approaching]]
 
 :: Party End
