@@ -1,0 +1,62 @@
+:: Compensation [event]
+While finishing up some work in the office, a few military officers step in demanding for raises in compensation and better benefits, for the participation of helping you overthrow your father in a military coup. 
+“Mr. President, there have been some complaints within our field who believe we should be receiving raises and more beneficial benefits for going out of our way to help you overthrow your father. We don’t want to come off as rude but, we have been doing some thinking and believe that without our help you may not be in this position. It would be helpful if we got some type of reward for making everything possible. I hope you understand our position.”
+
+[[1. “I understand where you all are coming from. I will give everyone within the coup that participated in the overruling of my father, raises in pay along with more beneficial living benefits.” |Agree to give the officers better compensation and benefits]] 
+[[2. “I acknowledge your complaints but, if I were to easily lend you these greater benefits, it can come off as unfair to others who may have helped complete other tasks they are assigned to as it is already a part of their duties.” |Deny giving the officers the benefits]] 
+
+:: Agree to give the officers better compensation and benefits
+The officers take their hats off and hold it to their chest. “We really appreciate it sir, we will make sure to share this to those who took part in fighting by your side. Thank you very much.” They then turn around and head out of the door. 
+:: Deny giving the officers the benefits 
+“Thank you for sharing your thoughts sir, but it would’ve been nice to get at least a little reward and recognition for helping you overrule your father, as it wasn’t the easiest job. We will see you around Mr. President.” The officers turn around and leave out the door. 
+/*  */
+
+
+
+
+:: War Chest [event]
+During a meeting with military officials, Micheal and Dean, they wish for you to put aside a large amount of money to save in case of war, to be provided to the soldiers participating. 
+“Sir, as war is something that can happen at any point in time, we believe that in order for us to be prepared for any situation, we put aside $50k to pay for our soldiers fighting. This could help pay health costs, weapons, and other equipment we may need. We ask that this can also be very helpful with winning the war as well.”
+
+[[1.“As this I can agree this can be beneficial to us, I will make sure to put aside $50k away to help fund for the soldiers who are going to take part in the war.” | Put aside $50k to fund for the soldiers]]
+[[2.“I would like to grant this wish, but I may only be able to give out $10k as if war doesn’t break out, we may need that money for more important occurrences that are happening at the moment.” |Put aside only $10k of funds for soldiers]]
+[[3.“Unfortunately, putting aside this much money for something we might not know will happen any time soon could be holding us back from paying for things we need right now. I am sorry but I won’t be able to move forward with this offer.” |Deny wish of putting money aside for the soldiers]]
+
+:: Put aside $50k to fund for the soldiers
+“Thank you very much sir. I am sure that this will be enough to prepare us for any possible war.”
+:: Put aside only 10k
+“Thank you sir, we should be able to cover some preparations, just in case of war. I understand your concern about more important occurrences.”
+:: Deny
+“I understand sir. I will take my leave now, thank you.”
+/*  */
+
+
+
+
+:: Disloyalty [event]
+After attending a meeting with those of the military department, you were pulled aside by the military official head, Dean, stating that he has found out that someone within the department has plans of making their way into higher ups and overthrowing you themselves. 
+“Mr. President, if you may excuse me for pulling you aside like this but there has been something I would like to talk about with you. There has been a member in the coup that has been going around telling other members their plans of making their way into becoming a military official and using that power of getting others to overthrow you. I would like this individual to be removed from the team as it is a sign of disrespect to you, me, and the rest of the team.” 
+
+[[1.“After hearing this news, I would like this individual to be removed as soon as possible. I am very disappointed to know someone like this is working for us.” |Accept request in firing individual]]
+[[2. “As concerning this may be, I don’t know if removing this person from the team will be the best decision as I am only hearing about this situation now and without speaking to them, I don’t know what their real intentions may be.” |Reject request in firing the individual]]
+
+:: Accept request in firing individual 
+ “I agree sir, I will get the paperwork ready immediately.”
+:: Reject request in firing the individual
+  “I understand sir, I will arrange a meeting between you and the individual as soon as possible.”
+/*  */
+
+
+
+
+:: Parade [event]
+Military official head, Micheal, calls  wondering if they could put on a military parade in order to show off how well trained, disciplined, and hard working they are to the people of the nation. 
+“Good evening Mr. President, in order to showcase how hard working, disciplined, and well trained our troops are, we would like to hold a military parade within town. This would give opportunities for others who may be interested in becoming a soldier as well to get a taste of what it may look like and give our field a little more recognition. This may result in closing off a couple areas in town as well for us to smoothly move through. Would this be something you can allow?”
+
+[[1.“A parade would be a great idea to show off our military department. I will go forward with allowing you to get this set up and make sure to get these areas of town to be closed off for the time of being.” |Go forward with parade]]
+[[2.“We may need to rethink having a parade in order to showcase these things. We need to take into account who is really interested in attending this kind of event before closing off parts of town people need to get to.” |Reject parade suggestion]]
+
+:: Go forward with parade
+“Thank you sir, I am sure that the department will be ecstatic to hear this news.”
+:: Reject parade suggestion
+“Understood sir, the soldiers will be a bit disappointed; however, they will understand. Thank you for your time.” 
