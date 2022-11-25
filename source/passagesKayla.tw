@@ -23,18 +23,18 @@ Ivana, your spymaster, makes you aware of a journalist from your nation, who is 
 "Sir, regarding the journalist that is writing slanderous material about you and your rule, from another nation, should I assasinate him? Afterall, he is hurting you reputation not only in other nations but ours as well. If he stays alive he could change people's opinions of you drastically, for worse."
 You think about your decision.
 
-[[1. "I was also worried about this journalist and thinking about what to do about him. I would like you to assasinate him, so that I can keep my political image."|Yes assasinate journalist]]
-[[2. "I have been worried about the journalist, however I would not like you to assasinate him. Instead silently capture him and bring him to the interrogation space. I would like to ask him a few questions."|Capture journalist]]
-[[3. "Don't assasinate the journalist. I don't really care about my public image. I am in power, the people can think what they want, but they are still under my rule."|Do not care]]
+<<link [[1. "I was also worried about this journalist and thinking about what to do about him. I would like you to assasinate him, so that I can keep my political image."|Yes assasinate journalist]]>> <<set $opinionIvana += 1>><</link>>
+<<link [[2. "I have been worried about the journalist, however I would not like you to assasinate him. Instead silently capture him and bring him to the interrogation space. I would like to ask him a few questions."|Capture journalist]]>> <<set $opinionIvana +=2>><</link>>
+<<link [[3. "Don't assasinate the journalist. I don't really care about my public image. I am in power, the people can think what they want, but they are still under my rule."|Do not care]]>> <<set $opinionIvana -= 1>><</link>>
 
 :: Yes assasinate journalist
-"Yes sir, worry no longer, the journalist shall be dealt with immediately."
+"Yes sir, worry no longer, the journalist shall be dealt with immediately," Ivana says with a bow and departs from the office. 
 <<include "nextFocus">>
 :: Capture journalist
-"That is wise of you sir. I shall capture the journalist right away."
+"That is wise of you sir. I shall capture the journalist right away," Ivana says with a slight smile. She then bows and exits the office. 
 <<include "nextFocus">>
 :: Do not care
-"That is not the answer I was expecting from you sir; regardless, thank you for your time. I shall take my leave now."
+"That is not the answer I was expecting from you sir; regardless, thank you for your time. I shall take my leave now," she says with a slight frown and quitely exits the office. 
 <<include "nextFocus">>
 /* */
 
