@@ -66,7 +66,7 @@ You think over the spymaster's words.
 
 :: Scheme [event]
 There is a politcian that is bad mouthing you, as of late.
-"Sir, regarding the politician that is bad mouthing you and making public opinion of you worse, should I do something about him. I can discredit him and lessen his influence so that we may save your reputation." 
+"Sir, regarding the politician that is bad mouthing you and making public opinion of you worse, should I do something about him. I can discredit him and lessen his influence so that we may save your reputation," your spymaster, Ivana, writes in a letter. 
 You think to yourself for a second, and write back:
 
 <<link [[1.  "I would like you to discredit him, he is hurting my reputation and I do not want to be seen by our nation's people as a tyrant ruler."|Yes discredit him]]>> <<set $opinionIvana += 1.5>><</link>>
@@ -74,7 +74,7 @@ You think to yourself for a second, and write back:
 
 :: Yes discredit him
 A couple days later you recive a response from Ivana. 
-"My thoughts exactly sir. Let me get right to that."
+"My thoughts exactly sir. I will get right to that."
 <<include "nextFocus">>
 :: Do not discredit him
 A couple days later you recive a response from Ivana. 
@@ -86,20 +86,20 @@ A couple days later you recive a response from Ivana.
 
 
 :: Enemy spy [event]
-The spymaster, Ivana has a serious issue to talk about with you.
+The spymaster, Ivana, has a serious issue to talk about with you.
 "Sir, there is an enemy spy in the government. If we do not act he can discover a lot of invauable information about our nation. Would you like me to assasonate him?"
 
-[[1. "Thank you for bringing this to my attention, spymaster. I would like you to assasinate him as soon as you can. We cannot have invaluable information about our nation leak, it could cause the downfall of our nation."|Assassinate enemy spy]]
-[[2. "Thank you for bringing this to my attention. The enemy spy can cause a lot of havoc if we do not do anything about him; however, we may be able to get valuable information out of the spy if we capture him rather than just assasinate him. So, I would like you to capture him for questioning instead."|Capture enemy spy]]
-[[3. "Thank you for bringing this to my attention; however, there is no cause for concern. Any information that is leaked we can overcome. We are the strongest nation. We cannot be defeated."|Do not care 2]]
+<<link [[1. "Thank you for bringing this to my attention, spymaster. I would like you to assasinate him as soon as you can. We cannot have invaluable information about our nation leak, it could cause the downfall of our nation."|Assassinate enemy spy]]>> <<set $opinionIvana += 1>><</link>>
+<<link [[2. "Thank you for bringing this to my attention. The enemy spy can cause a lot of havoc if we do not do anything about him; however, we may be able to get valuable information out of the spy if we capture him rather than just assasinate him. So, I would like you to capture him for questioning instead."|Capture enemy spy]]>> <<set $opinionIvana += 1.5>><</link>>
+<<link [[3. "Thank you for bringing this to my attention; however, there is no cause for concern. Any information that is leaked we can overcome. We are the strongest nation. We cannot be defeated."|Do not care 2]]>> <<set $opinionIvana -= 1.5>><</link>>
 
 :: Assassinate enemy spy
-"Thank you for seeing the urgency in this matter sir, I will carry out the assasination plan now." 
+"Thank you for seeing the urgency in this matter sir, I will carry out the assasination plan now," Ivana says with a nod and leaves the office. 
 <<include "nextFocus">>
 :: Capture enemy spy
-"I am not quite sure if the enemy spy will let himself be captured sir, but I will do my best. Thank you for your time."
+"I am not quite sure if the enemy spy will let himself be captured sir, but I will do my best. Thank you for your time," Ivana responds with a slight smile. She then quickly leaves the office. 
 <<include "nextFocus">>
 :: Do not care 2
-"Our nation is very strong, but the enemy spy can bring down our government if he finds valuable information. That is most likely not a wise way to go about this situation. But it is your decision, so I'll let it be."
+"Our nation is very strong, but the enemy spy can bring down our government if he finds valuable information. That is most likely not a wise way to go about this situation. But it is your decision, so I'll let it be," Ivana says with a grimace and slowly walks out of the office. 
 <<include "nextFocus">>
 /* */
