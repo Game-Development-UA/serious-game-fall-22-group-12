@@ -92,10 +92,89 @@ Returning to a normal train of thought, you pick up the unlit cigar next to the 
 :: Main Story 1.4
 Having rested for the night, you awake ready to carry out your presidential duties. You head to your office to begin planning.
 [[Continue|Focus]]
+/*  */
+
+
+
 
 :: Main Story 2 [main]
-2
-[[Focus]]
+As you open the door to the nextdoor office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor's reaction that its not necessarily good news.
+[[Continue|Main Story 2.1]]
+
+:: Main Story 2.1
+"Right." Your advisor says into the phone. "I will inform the president of this." He thanks the person on the other end of the line before hanging up. Looking at you, he begins, "Sir, that was the prison. It appears your father is making ... quite the commotion. He is quote 'outraged that his own son has not come to visit him once' since being imprisoned. He demands that you grant him an audience, sir."
+
+[[1. "Why am I not surprised. Gather my things and arrange transporation. I'll go tonight."|Main Story 2.2]]
+[[2. "That man can starve himself for all I care! I will not see him!"|Main Story 2.2.1]]
+
+:: Main Story 2.2
+Your advisor nods before walking past you into the presidential office as directed. You take a deep breath, then walk to the entrance of the palace to wait.
+[[Continue|Main Story 2.3]]
+:: Main Story 2.3
+Despite the prision being only an hour from the palace, it feels as if it is located in a completly isolated corner of the nation. Street lights no longer line the roads and pavement soon turns to dirt the further you are driven. Pulling into the entrance of the institution, you are met by several armed guards, one of which opens the door to your car.
+[[Continue|Main Story 2.4]]
+:: Main Story 2.4
+"Evening, Mr. President. We've already cleared out neighboring cells so that you can speak in privacy. No survalence will be conducted in that section of the prison until you exit, so not even we will hear the contents of your conversation." You nod appreciatively to the guard before exiting the car and walking into the building. You are escorted for some time before reaching a large metal door. A guard unlocks the door to reveal a dimly lit row of cells, most of which are unoccupied. Towards the back of the row, you can see a cell that is lit slightly brighter than the rest. You and your advisor begin to walk through.
+
+[[1. "Actually, I'd like to do this alone."|Main Story 2.5]]
+:: Main Story 2.5
+"Understood sir. I will wait out here," your advisor responds before backtracking a few steps.
+
+[[1. "Right then. Let's see what the man has to say"|Main Story 2.6]]
+:: Main Story 2.6
+As you walk toward the brightly lit cell, you notice that there is a small stool in front of it. Planting yourself firmly, you are faced with an unkempt man looking at the ground: your father.
+
+"Your audience has been granted," you state bluntly. Looking up from the ground, your father meets your eyes.
+
+"Oh, oh thank you for this sacred honor," your father sarcastically responds while performing an offhanded bow. "I am ever so graced by your presence... Mr. President."
+
+"I did not drive all this way to be mocked by a disgraceful man such as yourself. What do you want?"
+
+"Straight to business, eh? Guess your living up to my legacy more closely than I expected. Oh, please tell me! Has the nation fallen apart yet?" he quips back.
+
+[[1. "What. Do. You. Want."|Main Story 2.7]]
+:: Main Story 2.7
+"What do I want? Hmmmm. What? Do? I? Want? Now that's a real hard one isn't it. Oh, now I remember! To not be treated like god-damned prisoner!!!" he bellows 
+
+You stare blankly at him for a moment before reminding him, "You ARE a prisoner."
+
+"I may be imprisoned, but I am not your average prisoner." He responds. "I am your father! I am your superior! I am the former fucking president of this ungreatful nation! I am ..."
+
+"A traitor," you interupt. "And as a traitor to this 'ungreatful nation,' you will be treated as such." Your father looks at shocked at you for a moment. He shakes his head before turning around to sit on the edge of his prison bed.
+
+[[Remain Silent|Main Story 2.8]]
+:: Main Story 2.8
+"Fine," he states. "At the very least, despite your perceived transgressions, I should still be treated as someone who shares your last name. Someone who is related to a sitting president."
+
+"And how would that look any different than the present?" you respond.
+
+"Because I would, at the minimum, not be locked up beside these random inmates and at least have my own private cell away from the rest. Something that isn't decorated with metal chairs and cement floors. Something that is fit for someone of my past. I don;t expect you to free me any time soon, so at least let an aging man live in comfort."
+
+You sit in silence contemplating what your father just proposed.
+[[1. "Okay. I will arrange for you to be transfered to a new, more isolated prison cell. I will also grant you a change of decor, as requested."|Main Story 2.9.1]]
+[[2. "You and the metal chairs were meant for each other. I will not make any changes to your prison situation."|Main Story 2.9.2]]
+
+:: Main Story 2.9.1
+"Ahhh! I knew we could still see eye-to-eye on somethings!" your father cheers. "Oh please make the changes quickly, I can't stand to live like this much longer." You stand up from your stool, nod to your attentive father, and begin to walk out of the row of cells.
+[[Continue|Main Story 2.10]]
+:: Main Story 2.9.2
+"Then you and I have nothing more to discuss," your father states. He lays back into his prison bed and stares at the empty celling. Realizing that the conversation is over, you stand up from the stool and make your way out of the row of cells.
+[[Continue|Main Story 2.10]]
+:: Main Story 2.10
+Having rested for the remainder of the night after arriving back at the Presidential Palace, you awake and head to your office to begin planning the upcoming weeks.
+[[Continue|Focus]]
+
+
+
+
+
+
+
+
+
+
+
+
 :: Main Story 3 [main]
 3
 :: Main Story 4 [main]
