@@ -13,27 +13,22 @@ Based on what you choose, the approval rating among the people will be affected.
 :: Choose Private wedding
 You have chosen to have your wedding in private. 
 The common folk are not happy that they cannot view the wedding, however they are happy that you did not boast your riches and throw an extravagant wedding while there are many people living in poverty throughout the country. 
-(no change in approval)
 <<include "nextFocus">>
 :: Choose to get married at fancy venue
 You have chosen to have your wedding in the fanciest wedding venue in the country. 
 The people are happy when they hear that you will be having a live broadcast of your wedding. 
 Although they are rubbed the wrong way at the extravagant nature of the wedding during these tough times for the common folk. 
-(approval decreases slightly) 
 <<include "nextFocus">>
 :: Choose to have wedding on the beach
 You have chosen to have your wedding on the beachfront. 
 The common folk are happy that you have chosen to have your wedding in a public space where people can come and attend free of cost. 
-(Approval rating increases)
 <<include "nextFocus">>
 /*  */
 
 
 :: Vacation [event]
-You have decided that after all of the hard work you have put in after becoming the new president that you should take a vacation to relax. 
-There are several different options that you can choose from to be your vacation of choice. 
-- Your options are going out on your yacht or going to the largest coastal city in your country and staying in a hotel.
-
+You have decided that after all of the hard work you have put in after becoming the new president that you should take a brief vacation to relax and recharge. 
+There are two different options that you can choose from to be your vacation of choice. 
 <<link [[1. One Option is going out on your private yacht | Yacht vacation]]>> <<set $playerstress -= 2>><</link>>
 <<link [[2. Your second option is to vacation in a big coastal city. | Go To Coastal City]]>> <<set $playerstress -= 1>><</link>>
 
