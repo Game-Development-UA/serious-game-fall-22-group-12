@@ -7,19 +7,101 @@
 }
 
 :: StoryTitle
-Ruler
+President
+
+
+
+
+:: StoryCaption
+Funds: $playermoney
+
+Stress: $playerstress/100
+
+Ottovin's Opinion: $opinionOttovin/5
+Carlotta's Opinion: $opinionCarlotta/5
+Ivana's Opinion: $opinionIvana/5
+Military's Opinion:  $opinionGeneral/5
 
 
 :: StoryInit
-<<set $myVariable to 1>>
+/* Opinion Variables */
 <<set $opinionOttovin to 0>>
 <<set $opinionCarlotta to 0>>
-<<set $opinionSpymaster to 0>>
+<<set $opinionIvana to 0>>
 <<set $opinionGeneral to 0>>
-
-<<set $apprachOttovin to false>>
-<<set $apprachCarlotta to false>>
-<<set $apprachSpymaster to false>>
-<<set $apprachGeneral to false>>
-
+/* Approaching at party variables */
+<<set $approachOttovin to false>>
+<<set $approachCarlotta to false>>
+<<set $approachIvana to false>>
+<<set $approachGeneral to false>>
 <<set $timespenttalking to 0>>
+/* Other Important Variables */
+<<set $playerstress to 0>>
+<<set $playermoney to 5>>
+/* Setting events as a variable to be called */
+<<set $events = Story.lookup("tags","event")>>
+<<for _i to 0; _i < $events.length; _i++>>
+	<<set $events[_i] = $events[_i].title>>
+<</for>>\
+/* Setting stress events as a variable to be called */
+<<set $stress = Story.lookup("tags","stress")>>
+<<for _i to 0; _i < $stress.length; _i++>>
+	<<set $stress[_i] = $stress[_i].title>>
+<</for>>\
+
+<<set $passageCount to 0>>
+<<set $mainCheck to 0>>
+
+:: nextEvent
+<<set $nextEvent = either($events)>>
+<<run $events.delete($nextEvent)>>
+<<link “Focus-On-The-Nation” $nextEvent>> <</link>>
+
+:: nextStress
+<<set $nextStress = either($stress)>>
+<<run $stress.delete($nextStress)>>
+<<link “Focus-On-Myself” $nextStress>> <</link>>
+
+:: Focus
+
+<<if $passageCount lt 3>>How should you spend your time as President in the upcoming weeks?<<else>>You're Advisor seeks your attention<</if>>
+<<if $passageCount lt 3>> <<include "nextEvent">>  <</if>> 
+<<if $passageCount lt 3>> <<include "nextStress">> <</if>>
+<<if $passageCount == 3>> <<include "nextMainPassage">> <</if>>
+
+/*Passage count: $passageCount */
+:: nextFocus
+<<set $passageCount to $passageCount + 1>>
+<<if $opinionOttovin gt 5>> <<set $opinionOttovin = 5>> <</if>>
+<<if $opinionCarlotta gt 5>> <<set $opinionCarlotta = 5>> <</if>>
+<<if $opinionIvana gt 5>> <<set $opinionIvana = 5>> <</if>>
+<<if $opinionGeneral gt 5>> <<set $opinionGeneral = 5>> <</if>>
+[[Continue|Focus]]
+
+:: nextMainPassage
+<<set $mainCheck to $mainCheck + 1>>
+<<set $passageCount to 0>>
+<<if $mainCheck == 1>> [[See what he needs|Main Story 1]] 
+<<elseif $mainCheck == 2>> [[See what he needs|Main Story 2]] 
+<<elseif $mainCheck == 3>> [[See what he needs|Main Story 3]]
+<<elseif $mainCheck == 4>> [[See what he needs|Main Story 4]]
+<<elseif $mainCheck == 5>> [[See what he needs|Main Story 5]]
+<<elseif $mainCheck == 6>> [[See what he needs|Main Story 6]]
+<</if>>
+
+:: endCheck
+<<if $opinionOttovin lte 0>> 
+	[[Continue|Ottovin Ending]]
+<<elseif $opinionCarlotta lte 0>>
+	[[Continue|Carlotta Ending]]
+<<elseif $opinionIvana lte 0>>
+	[[Continue|Ivana Ending]]
+<<elseif $opinionGeneral lte 0>>
+	[[Continue|General Ending]]
+<<elseif $playerstress gte 100>>
+	[[Continue|Stress Ending]]
+<<elseif $playermoney lte 0>>
+	[[Continue|Money Ending]]
+<<else>>
+[[Continue|Focus]]
+<</if>>
