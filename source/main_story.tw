@@ -214,7 +214,67 @@ You seclude yourself in your office for the remainder of the day. While there, y
 
 
 :: Main Story 4 [main]
-4
+You continue working for some time before your advisor, who had answered the phone, enters the presidential office. "Sir," he begins, "I just got off the phone with..."
+
+"The prison again?" you interupt. He nods as his lips grow thin. "I thought so. That phone ringing rarely means anything else nowadays." You pause for a moment before continuing, "Well... What does he want?"
+
+"An audience, sir. Only the fouth time he's asked this week!" your advisor responds.
+
+[[1. "Alright. I will grant him it, but I am uninterested in traveling to him. Bring him here."|Main Story 4.1]]
+[[2. "Haven't I made my message clear? Tell them to stop bothering me about him."|Main Story 4.1.1]]
+
+:: Main Story 4.1
+"Very well sir," your advisor responds. "I will arrange for him to be temporarily transported to the palace."
+[[1. "Good. I'll speak to him in my office."|Main Story 4.2]]
+
+:: Main Story 4.1.1
+"Understood, sir," your advisor responds. "I will call back and let them know you wish to not be bothered anymore."
+[[1. "Thank you."|4.1.2]]  
+
+:: Main Story 4.1.2
+
+:: Main Story 4.2
+A few hours later, you hear a knock on your office door. Entering the room, your advisor informs you that your father has arrived and is only a minute or two away. He heads back out the door, leaving you to sit in silence for some time.
+
+The next knock on your office door was much more forceful. Following the knock, two armed military personnel enter the room with your father, who is cuffed at his wrists and ankles, in between them. They approach your desk, sit your father in the chair directly in front of you, and then exit the room without a word. You are alone with your father.
+
+[[1. "I see your beard has grown out of control."|Main Story 4.3]]
+[[1. "I see your beard is back under control."|Main Story 4.3]]
+
+:: Main Story 4.3
+"Pshhh," your father mumbles. "Do not patronize me." 
+"I thank you for that," you father replies. "The new prison accomodations have been extremely comfortable. It has made living there all the more bearable." 
+
+You nod your head before replying, "So, what bring you here?" 
+
+"I.. I... I wanted to express that I am sorry to you directly. For everything," your father says with much hesitation, his eyes swelling with tears. "I.. I never meant to hurt your mother. It was an accident! A fit of rage! I regret ever having laid a finger on her... the woman I love."
+
+"It's a bit late for an apology," you state bluntly. "Claiming your 'sorry' won't change the fact that you strangled my mother... your wife to death."
+
+"Don't you think I know that?! Don't you think I've tormented myself day in, day out for months now?! I've been alone, cooped up in a prison cell with only my long list of regrets to keep my company. I lost my wife. I lost my son. I lost my presidency. I lost my legacy. I lost... everything that could possibly represent me. I never wanted any of this to happen!"
+
+[[1. "That much we can agree upon."|Main Story 4.4]]
+:: Main Story 4.4
+You sit silently, looking away from your father. Tears begin to form in your eyes as your blurt out, "Why?! Why did you do it? Tell me why you threw away everything?"
+
+"It was entirely selfish!" your father shouts. "Your mother had explicit orders to stay out of the spotlight for several years at this point. She knew that directly involving herself with the Frontiermen would upset the delicate balance of power in this nation. I'm not just talking about myself, but other powerful individuals who felt threatened by her aswell."
+[[1. "You felt threatend by her!? Your own wife?"|Main Story 4.5]]
+:: Main Story 4.5
+"The last time your mother worked alongside the Frontiermen while I was in office, rumors from every corner of the nation crept up about revolution. Powerful interests, including myself, ignored them at first, but as unrest grew more violent, it became clear that her outward and active support of the Frontiermen acted as some sort of catalyst. The more support she showed, the more inflamed workers became. So, I ordered that she refrain from any public apperances besides those she was expected to be at as the wife of the president. It wasn't entirely my decision, but it felt like the right thing to do at the time. It seemed to calm down the riots, after all."
+[[1. "But why... why did you..."|Main Story 4.6]]
+:: Main Story 4.6
+"You have to understand son that this had been an ongoing battle between your mother and I for years. We had fought regularly about this. They usually ended with her  accepting that any involvement would stoke fires that could result in all of us being ousted from government. But that night, she refused to give in. She told me that she didn't care anymore, that the people deserved her support no matter the consequences. We screamed at eachother for what felt like eternity. Eventually, the intensified sense of threat I thought she possessed against me led to me to ... snap.
+[[1. "You didn't tell me any of this sooner?!"|Main Story 4.7]]
+:: Main Story 4.7
+"Because the next time I saw you, you had surrounded the palace with a swarm of angery citizens and a battalion of tanks. It didn't seem like you just wanted to talk at that point."
+
+[[1. ""]]
+[[2. ""]]
+
+
+
+
+
 :: Main Story 5 [main]
 5
 :: Main Story 6 [main]
