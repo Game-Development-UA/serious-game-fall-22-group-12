@@ -1,9 +1,10 @@
+<!--class called Marriage and event tag -->
 :: Marriage [event]
 After all of the new stress of becoming the new president, you have decided that you want to get married. 
 There are several options of locations for your marriage. You can get married in private among your family and friends. 
 You can get married on the beach where there will be space available for the common folk to attend if they desire. 
 Or you can get married in one of the fanciest wedding venues in the country. In the chapel the wedding will be televised but the common folk will not be able to attend the wedding in person. 
-Based on what you choose, the approval rating among the people will be affected.
+Your choice may effect your stress levels.
 
 <<link [[1. Choose option one which is to have your wedding in private in your palace. | Choose Private wedding]]>> <<set $playerstress -= 1>><</link>>
 <<link [[2. Choose to get married at one of the fanciest wedding venues in the country | Choose to get married at fancy venue]]>> <<set $playerstress -=1>><</link>>
@@ -11,7 +12,7 @@ Based on what you choose, the approval rating among the people will be affected.
 
 
 :: Choose Private wedding
-You have chosen to have your wedding in private. 
+You have chosen to hold your wedding ceremony in private. 
 The common folk are not happy that they cannot view the wedding, however they are happy that you did not boast your riches and throw an extravagant wedding while there are many people living in poverty throughout the country. 
 <<include "nextFocus">>
 :: Choose to get married at fancy venue
@@ -20,8 +21,16 @@ The people are happy when they hear that you will be having a live broadcast of 
 Although they are rubbed the wrong way at the extravagant nature of the wedding during these tough times for the common folk. 
 <<include "nextFocus">>
 :: Choose to have wedding on the beach
-You have chosen to have your wedding on the beachfront. 
-The common folk are happy that you have chosen to have your wedding in a public space where people can come and attend free of cost. 
+You have chosen to have your wedding on the beachfront. Now you can decide if you would like to charge the common folk for admission to view your wedding on the beachfront.
+<<link [[1. Yes I woule like to charge admissions.| Charge admissions fee]]>> <<set $playermoney += 1>><</link>>
+<<link [[2. No I would like the wedding ceremony to be free to all. | Free admission]]>> <<set $playerstress += 0>><</link>>
+
+:: Charge admissions fee
+You have chosen to charge an admission fee for the common folk to come to your wedding ceremony. This will increase your presidential funds.
+<<include "nextFocus">>
+:: Free admission
+The common folk are happy that you have chosen to have your wedding in a public space where they can come and attend free of cost. 
+You are also happy with how your beach wedding ceremony turned out.
 <<include "nextFocus">>
 /*  */
 
