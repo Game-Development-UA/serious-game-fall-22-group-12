@@ -7,8 +7,10 @@ While finishing up some work in the office, a few military officers step in dema
 
 :: Agree to give the officers better compensation and benefits
 The officers take their hats off and hold it to their chest. “We really appreciate it sir, we will make sure to share this to those who took part in fighting by your side. Thank you very much.” They then turn around and head out of the door. 
+<<include "nextFocus">>
 :: Deny giving the officers the benefits 
 “Thank you for sharing your thoughts sir, but it would’ve been nice to get at least a little reward and recognition for helping you overrule your father, as it wasn’t the easiest job. We will see you around Mr. President.” The officers turn around and leave out the door. 
+<<include "nextFocus">>
 /*  */
 
 
@@ -24,10 +26,13 @@ During a meeting with military officials, Micheal and Dean, they wish for you to
 
 :: Put aside $50k to fund for the soldiers
 “Thank you very much sir. I am sure that this will be enough to prepare us for any possible war.”
+<<include "nextFocus">>
 :: Put aside only 10k
 “Thank you sir, we should be able to cover some preparations, just in case of war. I understand your concern about more important occurrences.”
+<<include "nextFocus">>
 :: Deny
 “I understand sir. I will take my leave now, thank you.”
+<<include "nextFocus">>
 /*  */
 
 
@@ -42,8 +47,10 @@ After attending a meeting with those of the military department, you were pulled
 
 :: Accept request in firing individual 
  “I agree sir, I will get the paperwork ready immediately.”
+ <<include "nextFocus">>
 :: Reject request in firing the individual
   “I understand sir, I will arrange a meeting between you and the individual as soon as possible.”
+  <<include "nextFocus">>
 /*  */
 
 
@@ -58,8 +65,11 @@ Military official head, Micheal, calls  wondering if they could put on a militar
 
 :: Go forward with parade
 “Thank you sir, I am sure that the department will be ecstatic to hear this news.”
+<<include "nextFocus">>
 :: Reject parade suggestion
 “Understood sir, the soldiers will be a bit disappointed; however, they will understand. Thank you for your time.” 
+<<include "nextFocus">>
 
 :: Housing [event]
 Military officers are demanding more luxerious housing accomodations paid for by the government. 
+<<include "nextFocus">>

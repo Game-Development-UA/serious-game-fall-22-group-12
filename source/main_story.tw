@@ -26,7 +26,7 @@
 <<set $approachOttovin to true>>
 <<set $timespenttalking to $timespenttalking + 0.5>>
 <<set $opinionOttovin to 5 - $timespenttalking>>
-[[1. "It was nice meeting you, Ottovin."|Approaching]]
+[[1. "It was nice seeing you, Ottovin."|Approaching]]
 :: Approach Carlotta
 “Oooo Mr. President! Congratulations on your new title! To what do I owe the pleasure of your presence?” Carlotta questions while closing the fan she was using to keep herself cool. 
 	“I don't believe we've formally met before. Seeing how you're likely to have my ear throughout my presidency, I thought we should become acquainted,” you explain.
@@ -104,8 +104,8 @@ As you open the door to the nextdoor office, you witness your advisor picking up
 :: Main Story 2.1
 "Right." Your advisor says into the phone. "I will inform the president of this." He thanks the person on the other end of the line before hanging up. Looking at you, he begins, "Sir, that was the prison. It appears your father is making ... quite the commotion. He is quote 'outraged that his own son has not come to visit him once' since being imprisoned. He demands that you grant him an audience, sir."
 
-[[1. "Why am I not surprised. Gather my things and arrange transporation. I'll go tonight."|Main Story 2.2]]
-[[2. "That man can starve himself for all I care! I will not see him!"|Main Story 2.2.1]]
+<<link [[1. "Why am I not surprised. Gather my things and arrange transporation. I'll go tonight."|Main Story 2.2]]>> <<set $father += 1>> <</link>>
+<<link [[2. "That man can starve himself for all I care! I will not see him!"|Main Story 2.2.1]]>> <<set $father += 0>> <</link>>
 
 :: Main Story 2.2
 Your advisor nods before walking past you into the presidential office as directed. You take a deep breath, then walk to the entrance of the palace to wait.
@@ -154,8 +154,8 @@ You stare blankly at him for a moment before reminding him, "You ARE a prisoner.
 "Because I would, at the minimum, not be locked up beside these random inmates and at least have my own private cell away from the rest. Something that isn't decorated with metal chairs and cement floors. Something that is fit for someone of my past. I don;t expect you to free me any time soon, so at least let an aging man live in comfort."
 
 You sit in silence contemplating what your father just proposed.
-[[1. "Okay. I will arrange for you to be transfered to a new, more isolated prison cell. I will also grant you a change of decor, as requested."|Main Story 2.9.1]]
-[[2. "You and the metal chairs were meant for each other. I will not make any changes to your prison situation."|Main Story 2.9.2]]
+<<link [[1. "Okay. I will arrange for you to be transfered to a new, more isolated prison cell. I will also grant you a change of decor, as requested."|Main Story 2.9.1]]>> <<set $father += 1>> <</link>>
+<<link [[2. "You and the metal chairs were meant for each other. I will not make any changes to your prison situation."|Main Story 2.9.2]]>> <<set $father -= 1>> <</link>>
 
 :: Main Story 2.9.1
 "Ahhh! I knew we could still see eye-to-eye on somethings!" your father cheers. "Oh please make the changes quickly, I can't stand to live like this much longer." You stand up from your stool, nod to your attentive father, and begin to walk out of the row of cells.
@@ -204,6 +204,7 @@ Snapping back to reality, you realize that you haven't given the journalist any 
 
 :: Main Story 3.6
 Before the journalist finished writing down your response, you turn away and walk right back into the palace. Along the way, you wipe one of your eyes to prevent it from blurring your vision.
+[[Continue|Main Story 3.7]]
 
 :: Main Story 3.7
 You seclude yourself in your office for the remainder of the day. While there, you decide how to spend the upcoming weeks.
@@ -215,7 +216,7 @@ You seclude yourself in your office for the remainder of the day. While there, y
 
 :: Main Story 4 [main]
 4
-
+[[Focus]]
 
 
 
@@ -244,8 +245,8 @@ You continue working for some time before your advisor, who had answered the pho
 
 "An audience, sir. Only the fouth time he's asked this week!" your advisor responds.
 
-[[1. "Alright. I will grant him it, but I am uninterested in traveling to him. Bring him here."|Main Story 5.1]]
-[[2. "Haven't I made my message clear? Tell them to stop bothering me about him."|Main Story 5.1.1]]
+<<link [[1. "Alright. I will grant him it, but I am uninterested in traveling to him. Bring him here."|Main Story 5.1]]>> <<set $father += 1>> <</link>>
+<<link [[2. "Haven't I made my message clear? Tell them to stop bothering me about him."|Main Story 5.1.1]]>> <<set $father += 0>> <</link>>
 
 :: Main Story 5.1
 "Very well sir," your advisor responds. "I will arrange for him to be temporarily transported to the palace."
@@ -262,14 +263,14 @@ A few hours later, you hear a knock on your office door. Entering the room, your
 
 The next knock on your office door was much more forceful. Following the knock, two armed military personnel enter the room with your father, who is cuffed at his wrists and ankles, in between them. They approach your desk, sit your father in the chair directly in front of you, and then exit the room without a word. You are alone with your father.
 
-[[1. "I see your beard has grown out of control."|Main Story 5.3]]
-[[1. "I see your beard is back under control."|Main Story 5.3]]
+<<if $father lt 3>> [[1. "I see your beard has grown out of control."|Main Story 5.3]]
+<<else>>[[1. "I see your beard is back under control."|Main Story 5.3]] <</if>>
 
 :: Main Story 5.3
-"Pshhh," your father mumbles. "Do not patronize me." 
-"I thank you for that," you father replies. "The new prison accomodations have been extremely comfortable. It has made living there all the more bearable." 
+<<if $father lt 3>>"Pshhh," your father mumbles. "Do not patronize me." 
+<<else>>"I thank you for that," you father replies. "The new prison accomodations have been extremely comfortable. It has made living there all the more bearable." <</if>>
 
-You nod your head before replying, "So, what bring you here?" 
+You nod your head before replying, "So, what brings you here?" 
 
 "I.. I... I wanted to express that I am sorry to you directly. For everything," your father says with much hesitation, his eyes swelling with tears. "I.. I never meant to hurt your mother. It was an accident! A fit of rage! I regret ever having laid a finger on her... the woman I love."
 
@@ -283,10 +284,10 @@ You sit silently, looking away from your father. Tears begin to form in your eye
 
 "It was entirely selfish!" your father shouts. "Your mother had explicit orders to stay out of the spotlight for several years at this point. She knew that directly involving herself with the Frontiermen would upset the delicate balance of power in this nation. I'm not just talking about myself, but other powerful individuals who felt threatened by her aswell."
 [[1. "You felt threatend by her!? Your own wife?"|Main Story 5.5]]
-:: Main Story 4.5
+:: Main Story 5.5
 "The last time your mother worked alongside the Frontiermen while I was in office, rumors from every corner of the nation crept up about revolution. Powerful interests, including myself, ignored them at first, but as unrest grew more violent, it became clear that her outward and active support of the Frontiermen acted as some sort of catalyst. The more support she showed, the more inflamed workers became. So, I ordered that she refrain from any public apperances besides those she was expected to be at as the wife of the president. It wasn't entirely my decision, but it felt like the right thing to do at the time. It seemed to calm down the riots, after all."
 [[1. "But why... why did you..."|Main Story 5.6]]
-:: Main Story 4.6
+:: Main Story 5.6
 "You have to understand son that this had been an ongoing battle between your mother and I for years. We had fought regularly about this. They usually ended with her  accepting that any involvement would stoke fires that could result in all of us being ousted from government. But that night, she refused to give in. She told me that she didn't care anymore, that the people deserved her support no matter the consequences. We screamed at eachother for what felt like eternity. Eventually, the intensified sense of threat I thought she possessed against me led to me to ... snap.
 [[1. "You didn't tell me any of this sooner?!"|Main Story 5.7]]
 :: Main Story 5.7
