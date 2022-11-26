@@ -105,7 +105,7 @@ Military's Opinion:  $opinionGeneral/5
 <<elseif $opinionIvana lte 0>>
 	[[Continue|Ivana Ending]]
 <<elseif $opinionGeneral lte 0>>
-	[[Continue|General Ending]]
+	[[Continue|Military Ending]]
 <<elseif $playerstress gte 100>>
 	[[Continue|Stress Ending]]
 <<elseif $playermoney lte 0>>
