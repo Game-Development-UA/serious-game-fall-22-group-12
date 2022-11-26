@@ -32,7 +32,7 @@
 	“I don't believe we've formally met before. Seeing how you're likely to have my ear throughout my presidency, I thought we should become acquainted,” you explain.
 	“Of course, sir. Despite what the papers might write, the corporate world is excited to see your presidency unfold as well as play a role in it. While we accomplished great things with your father, we are expecting to accomplish wonders for the nation and corporations alike through our continued partnership,” she elaborates using her hands for emphasis.
 	“Right then… hopefully it won't be too much longer until we see each other again in a more professional setting. For the time being, I hope the party lives up to your eloquence,” you state while beginning to pull away. 
-	Opening her fan, Carlotta responds with a smile, “It was nice to finally meet you, Mr. President.”
+	Opening her fan, Carlotta responds with a smile, “It was nice to formally meet you, Mr. President.”
 <<set $approachCarlotta to true>>
 <<set $timespenttalking to $timespenttalking + 0.5>>
 <<set $opinionCarlotta to 5 - $timespenttalking>>
@@ -166,20 +166,53 @@ You sit in silence contemplating what your father just proposed.
 :: Main Story 2.10
 Having rested for the remainder of the night after arriving back at the Presidential Palace, you awake and head to your office to begin planning the upcoming weeks.
 [[Continue|Focus]]
-
-
-
-
-
-
-
-
+/*  */
 
 
 
 
 :: Main Story 3 [main]
-3
+Deciding to humor this lone reporter, you begin to approach the palace gate.
+
+"Mr. President! Mr. President! I have just one question for you if you'd allow me!" You point with two fingers, indicating that you will accept their question. "Mr. President, how do you wish for your mother to be remembered?" Hearing the question, you stare at the bars that seperate yourself from the journalist as a rush overcomes your head.
+[[Continue|Main Story 3.1]]
+:: Main Story 3.1
+Sitting at a small, rounded dinner table, you find yourself eating alongside an older woman and a gruffled man within the residential wing of the Presidential Palace. Setting down her utinsils, the older woman states, "This is something I am completly committed to. Please understand that, Ottovin."
+
+"I hear you loud and clear, ma'am," he responds. "I am just suprised given that the president has made clear to me dozens of times his exact opposite stance."
+[[Continue|Main Story 3.2]]
+:: Main Story 3.2
+"Let me deal with my husband. In the meantime, I would just absolutly love if you could find any opportunites for me to get more involved with the Frontiermen. I know I haven't been active within the organization these past few years, but I will jump at any chance I can get to give back. With a polite smirk and a light laugh, your mother follows up, "They don't call me 'Mother of the People' for no reason, after all.
+
+"In that regard you are right, ma'am. Consider it done. The nations population and the Frontiermen would just love to have you back in the spotlight!" Ottovin replies.
+
+"Phenominal! I cannot wait," your mother exclaims. Turning her eyes toward you, she continues, "Well, if you'd excuse me, I should probably go inform your father. I'll let you know how it goes later today." She places her plate in the nearby sink before exiting the quiet dinning room. You follow suit, leaving Ottovin to finish his meal while you return to your bedroom.
+[[Continue|Main Story 3.3]]
+:: Main Story 3.3
+A couple hours later, you realize that your mother has not returned to inform you how her meeting with your father went. Becoming curious, you decide to find her instead. You search her favorite spots in the garden, her office, and the various lounges across the palace, but you cannot find her anywhere. Stopping to ask for her whereabouts, an attendant informs you that both your parents were seen entering their section of the residential wing not too long ago.
+[[1. "Thank you. I will make my way there now."|Main Story 3.4]]
+:: Main Story 3.4
+Re-entering the residential wing, you begin making your ascent to your parent's bedroom. Along the way, you begin to hear rumbling through the floors. They start out quiet, but the higher you climb, the louder and more frequent they become. Worried that something might be wrong, you begin to increase your pace. Your walk turns to a jog. Your jog turn to a run. Your run turns to a sprint. And your sprint turns into a full forced dash to your parent's bedroom door. As you violently swing the door open, you witness your father's grizzly hands releasing your mother's neck from their grip ... her body slamming into the ground.
+
+"GET OUT! GET OUT!" Your father commands. "CLOSE YOUR EYES! CLOSE THEM!" ---- You run. Tears blur your vision almost entirely, but you run.
+[[Continue|Main Story 3.5]]
+:: Main Story 3.5
+Snapping back to reality, you realize that you haven't given the journalist any answer yet.
+
+[[1. "My mother was the most selfless person ever born. She died fighting for what she beleived in... and that is something I think we all can admire."|Main Story 3.6]]
+[[2. "My mother was selfless to a fault. She was too stubborn to ever quit... and it ended up getting her killed."|Main Story 3.6]]
+
+:: Main Story 3.6
+Before the journalist finished writing down your response, you turn away and walk right back into the palace. Along the way, you wipe one of your eyes to prevent it from blurring your vision.
+
+:: Main Story 3.7
+You seclude yourself in your office for the remainder of the day. While there, you decide how to spend the upcoming weeks.
+[[Continue|Focus]]
+/*  */
+
+
+
+
 :: Main Story 4 [main]
 4
 :: Main Story 5 [main]
