@@ -1,5 +1,5 @@
 <!--class called Marriage and event tag -->
-:: Marriage [event]
+:: Marriage [stress]
 After all of the new stress of becoming the new president, you have decided that you want to get married. 
 There are several options of locations for your marriage. You can get married in private among your family and friends. 
 You can get married on the beach where there will be space available for the common folk to attend if they desire. 
@@ -35,7 +35,7 @@ You are also happy with how your beach wedding ceremony turned out.
 /*  */
 
 
-:: Vacation [event]
+:: Vacation [stress]
 You have decided that after all of the hard work you have put in after becoming the new president that you should take a brief vacation to relax and recharge. 
 There are two different options that you can choose from to be your vacation of choice. 
 <<link [[1. One Option is going out on your private yacht | Yacht vacation]]>> <<set $playerstress -= 2>><</link>>
@@ -53,7 +53,7 @@ There is a fancy hotel there where you will be staying. This city is so big ther
 /* */
 
 
-:: Spend Time with family or friends [event]
+:: Spend Time with family or friends [stress]
 You would like to take some time to enjoy yourself and have some free time to do as you please. 
 There are several options that you have decided you want to choose from. 
 One way you can spend your free time is to take your spouse out to a typical restaurant and spend some quality time together.
@@ -83,7 +83,7 @@ You have decided to drink a glass of wine, keeping it classy as you know you are
 <<include "nextFocus">>
 /* */
 
-:: Sports [event]
+:: Sports [stress]
 You have decided that you need some exercise and what better way to exercise than by playing your favorite sport. This will help relieve some stress while getting some good exercise in.
 <<link [[1. I want to play Tennis| Play Tennis]]>> <<set $playerstress -= 1>><</link>>
 <<link [[2. I want to play Basketball | Play Basketball]]>> <<set $playerstress -= .5>><</link>>
@@ -98,7 +98,7 @@ This is a great way to get exercise and help to relieve some of the stress that 
 <<include "nextFocus">>
 /* */
 
-:: Visit Places Around the Country [event]
+:: Visit Places Around the Country [stress]
 You have decided that you would like to visit some different areas around the country. You now have several options of places to visit. 
 The place you choose may benefit you politically as well as benefit you personally.
 
