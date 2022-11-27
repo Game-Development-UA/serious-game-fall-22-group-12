@@ -6,8 +6,10 @@ Something about the nations economy falling apart, leading carlotta/corporate el
 Something about you being poisoned by your spymaster
 :: Military Ending [end]
 Something about a coup led against you
+
+
 :: Stress Ending [end]
-Being a president of a country is a very stressful job. You thought you would be able to handle this job and manage your stress well. You were mistaken.
+Being a president of a country is a very stressful job. You thought you would be able to handle this job and manage your stress well because you father did this job before you. You were mistaken.
 Your stress levels have maxed out and you have realized you cannot take it anymore. You realise that you have to make a decision.
 [[1. Choose to resign from your presidential position. | Resign from presidency]]
 [[2. Choose to take everyone down with you. | Take everyone down with you]]
@@ -37,7 +39,10 @@ You hope the people of the nation will understand you situation and that they wi
 You are now relieved of your presidential duty, you begin to feel a bit of happiness, that you havent felt in a long time.
 
 :: Dont address the nation
-
+You have decided that it is best for you to not give a farewell speech.
+You feel as though this nation just needs new strong leadership urgently. 
+Your new life is all the you see ahead of you.
+Though you wonder will you be left with underlyin regrets?
 
 :: Take everyone down with you
 You have decided to take a route of revenge, everyone else must fall aswell. You have grown bitter of your fellow constituents with the heavy weight of the stress. You feel as though you should have recieved better 
@@ -89,7 +94,7 @@ It holds to many negative memories for you, for this country even.
 
 As the flames blaze on it seems that everyone has been accounted for except...
 [[1. Carlotta. | Carlotta dead]]
-[[Military General. | Military general dead]]
+[[2. Military General. | Military general dead]]
 
 :: Carlotta dead 
 Your advisors tell you that everyone that was inside the palace has been accounted for except Carlotta.
@@ -104,7 +109,13 @@ You worry about this as he is obviously an important member of the nations defen
 Although, you are glad that nobody else was harmed by you desire to burn bridges.
 You are now officially stepped down as president, a new life lies ahead.
 Now you wonder...
-"Have I made more mistakes than success?""
+"Have I made more mistakes than success?"
+
+:: Expose everyone
+You want to make sure everyone who wronged you has a stain on their legacy. You will be leaving the presidency with the people under the impression that you were a weak leader and succombed to the stress.
+This will tarnish you legacy and you want the same for the others.
+
+
 
 :: Money Ending [end]
 Something about the nation becoming bankrupt, leading to all 4 important people working against you
