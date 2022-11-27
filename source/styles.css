@@ -1,9 +1,18 @@
 
 
 /* The body is everything displayed in the main text delivery area */
-/* body {
-	background: rgb(71, 35, 110);
-} */
+ body {
+	background: rgb(65, 58, 120);
+} 
+
+.flashback {
+	background: rgb(45, 42, 66);
+}
+	
+.jail {
+	background: rgb(88, 81, 94);
+}
+
 
 
 /*h1 {
