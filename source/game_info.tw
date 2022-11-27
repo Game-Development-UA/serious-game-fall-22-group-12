@@ -68,7 +68,7 @@ Military's Opinion:  $opinionGeneral/5
 <<elseif $mainCheck == 0>> It is quite late now at your office. Distant thunder rumbles in the distance, your curtains closed to block out any sudden flashes of light.
 <<elseif $mainCheck == 1>> Your work day has run late into the night when the telephone in the other room begins to ring. 
 <<elseif $mainCheck == 2>> Walking outside of the Presidential Palace, a lone journalist can be heard calling your name from the otherside of the gate.
-<<elseif $mainCheck == 3>> 
+<<elseif $mainCheck == 3>> Growing tired of working for the day, you decide some fresh air would do you some good.
 <<elseif $mainCheck == 4>> Finishing up your work for the day, you hear the phone ring in the other room.
 <<elseif $mainCheck == 5>>
 <<elseif $mainCheck == 6>>
@@ -93,7 +93,7 @@ Military's Opinion:  $opinionGeneral/5
 <<if $mainCheck == 1>> [[1. "I should probably retire for the night"|Main Story 1]] 
 <<elseif $mainCheck == 2>> [[1. "Who could be calling at this hour?"|Main Story 2]] 
 <<elseif $mainCheck == 3>> [[1. "What do they want?"|Main Story 3]]
-<<elseif $mainCheck == 4>> [[1. See what he needs|Main Story 4]]
+<<elseif $mainCheck == 4>> [[1. "How about the balcony down the hall?"|Main Story 4]]
 <<elseif $mainCheck == 5>> [[1. "Let me guess..."|Main Story 5]]
 <<elseif $mainCheck == 6>> [[See what he needs|Main Story 6]]
 <</if>>
