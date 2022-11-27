@@ -1,4 +1,3 @@
-<!--class called statue and event tag -->
 :: Statue [event] 
 As you are about to enter the Presidential Palace after a long day of governing, Ottovin approaches you from behind.
 "Excuse me, Mr. President! My organization has a proposition I think you'd like to hear about." You silently nod, giving him permission to continue speaking. "You see, we Frontiermen admired your mother and her personal generosity to our cause. With your permission, we would absolutly love to erect a statue as a reminder of her selflessness and beauty. What do you say?"
@@ -114,7 +113,7 @@ After writing down what you answered, the state journalist looks up. "Thank you 
 :: Regulation [event]
 One morning while roaming aimlessly around the Presidential Palace garden, Carlotta swiftly approaches you with her usual elegance. "Oh Mr. President, would you mind if I accompany you on your stroll? I do enjoy having someone with me while I take in all the beauty this garden holds."
 You smile softly and nod. Together, you and Carlotta walk together talking about a range of topics, including upcoming parties and weddings. Eventually, after enough time has passed, Carlotta shifts the conversation toward something more business related. 
-"Mr. President, there are growing concerns about a dwindling workforce nationwide. We are seeing more and more people grow too old to work properly. I've taken the liberty and already spoken with other corporate leaders to find a solution for this problem. Together, we have come to the conclusion that lowering the age requirement for fulltime employment down to 12 years of age would significantly drive up productivity nationally. The Frontiermen are likely to put up some resistance, but I beleive that any effort on their part will fall apart once these younger citizens realize how fullfilling it is to contribute to society." 
+"Mr. President, there are growing concerns about a dwindling workforce nationwide. We are seeing more and more people grow too old to work properly. I've taken the liberty and already spoken with other corporate leaders to find a solution for this problem. Together, we have come to the conclusion that lowering the age requirement for fulltime employment down to 12 years of age would significantly drive up productivity nationally. The Frontiermen are likely to put up some resistance, but I believe that any effort on their part will fall apart once these younger citizens realize how fullfilling it is to contribute to society." 
 You stop walking after her last word, pondering how to respond.
 
 <<link [[1. "Dire times call for dire measures. Once I get back to my office, I'll have someone draft something up declaring the legality of ages 12+ joining the workforce."|Regulation 12]]>> <<set $opinionCarlotta +=1>> <<set $opinionOttovin -= 1>> <<set $playerstress += 1 >> <</link>>
@@ -182,7 +181,7 @@ Making her precence known, Carlotta begins, "You know, Mr. President, the nation
 :: Free Trade [event]
 In the past few weeks, picket lines have been formed nationwide calling for an administrative policy change concerning trade with neighboring nations. Ordinary citizens are unusually supportive of a movement to open new markets internationally, which they beleive will create more opportunites for them to grow their wealth.
 Late one evening, your advisor enters your office with a concerned look. 
-"Mr. President, there has been a new revealation regarding the beginning of this free trade movement. It appears that several corporate heads have intentionally stired up your citizens in order to indirectly pressure you to serve their interests. They likely thought that coming to you directly with this issue would not have successful results, so they took ... an alternative route."
+"Mr. President, there has been a new revelation regarding the beginning of this free trade movement. It appears that several corporate heads have intentionally stired up your citizens in order to indirectly pressure you to serve their interests. They likely thought that coming to you directly with this issue would not have successful results, so they took ... an alternative route."
 How do you respond to this new development?
 
 <<link [[1. "No matter. While I don't appreicate Carlotta and her corporate allies going behind my back, I have come around to the merits of freer trade. Arrange a TV breifing to the nation. I'll address everyone at once."|Support Free Trade]]>> <<set $opinionCarlotta += 1>> <</link>>
