@@ -27,10 +27,10 @@ During a meeting with military general Dean, he expresses his desire for you to 
 :: Put aside $50k to fund for the soldiers
 “Thank you very much sir. I am sure that this will be enough to prepare us for any possible war.”
 <<include "nextFocus">>
-:: Put aside only 10k
+:: Put aside only $10k of funds for soldiers
 “Thank you sir, we should be able to cover some preparations, just in case of war.”
 <<include "nextFocus">>
-:: Deny
+:: Deny wish of putting money aside for the soldiers
 “Right. I suppose I understand, sir. I will take my leave now. Thank you.”
 <<include "nextFocus">>
 /*  */
