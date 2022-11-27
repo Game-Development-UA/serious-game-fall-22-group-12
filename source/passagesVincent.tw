@@ -59,7 +59,7 @@ Another thing you can do is go out to a bar with some of your friends.
 <<link [[1. Decide to go to a restaurant with your spouse. | Go To Restaurant]]>> <<set $playerstress -= 1>><</link>>
 <<link [[2. Decide to go to a bar with your friends. | Go To Bar]]>> <<set $playerstress -= .5>><</link>>
 
-:: Go To restaurant
+:: Go To Restaurant
 You have chosen to take your spouse out to a restaurant. 
 You spend some lovely time together. 
 The common folk take note that you went to a small local restaurant and they appreciate that you are just like them in some ways! 

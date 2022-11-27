@@ -25,7 +25,7 @@ While working in your office, your advisor enters the room with a letter in hand
 It reads, "Mr. President, your citizens need your help. Sickness and injury have long been a blight on the working people of this nation. I seek your support to increase access to heathcare services, which I see as vital for your nation to florish. Will you work with the Frontiermen and I to significantly increases access to healthcare nationwide?"
 Picking up a pen, you begin to write your response to Ottovin:
 
-<<link [[1. "Yes, the national government understands this concern and will personally see that healthcare is expanded nationwide."|Support Health Gov]]>> <<set $opinionOttovin +=1>>  <<set $playermoney -=1>> <</link>>
+<<link [[1. "Yes, the national government understands this concern and will personally see that healthcare is expanded nationwide."|Support Health Gov]]>> <<set $opinionOttovin +=1>>  <<set $playermoney -=1>> <<set $playerstress +=1>> <</link>>
 <<link [[2. "Yes, but the national government does not have the money to spare. I will instead support that corporations become responsible for providing increased access to healthcare services"|Support Health Corp]]>> <<set $opinionOttovin += 1>> <<set $opinionCarlotta -= 1>> <</link>>
 <<link [[3. "No, the current healthcare system is perfectly fine as it is right now. Those who need the health related assistance will seek it out. There is no need for my government to interfer."|No Support Health]]>> <<set $opinionOttovin -= 1>> <</link>>
 
@@ -94,7 +94,7 @@ Hearing your answer, Ottovin respondes, "While I disagree with your reasoning, I
 While participating in an interview, a state journalist asks your position on the growing desire among the working class for a more clearly defined balance between work and leisure.
 "What are your thoughts on this desire, Mr. President? Would you have any interest in tackling such an initiative to lower the typical 18 hour work day?"
 <<link [[1. "It is my position that my people deserve to not slave every waking hour away. If this desire is true, then I would support mandating a 12 hour work day."|Support 12 Hour]]>> <<set $opinionOttovin += 0.5>> <<set $opinionCarlotta -= 0.5>> <</link>>
-<<link [[2. "It is my position that my people deserve to not slave every waking hour away. If this desire is true, then I would support mandating a 8 hour work day."|Support 8 Hour]]>> <<set $opinionOttovin += 1>> <<set $opinionCarlotta -= 1>> <</link>>
+<<link [[2. "It is my position that my people deserve to not slave every waking hour away. If this desire is true, then I would support mandating a 8 hour work day."|Support 8 Hour]]>> <<set $opinionOttovin += 1>> <<set $opinionCarlotta -= 1>> <<set $playerstress += 1>> <</link>>
 <<link [[3. "My nation thrives on the hard work ethic that citizens proudly display. Mandating lower working hours would strip many of these people from their purpose and could even impact the nation's productivity as a whole. As it stands right now, I do not have an interest in tackling such an initiative."|No Support Hour]]>> <<set $opinionOttovin -= 1>> <<set $opinionCarlotta += 1>> <</link>>
 
 :: Support 12 Hour
@@ -117,7 +117,7 @@ You smile softly and nod. Together, you and Carlotta walk together talking about
 "Mr. President, there are growing concerns about a dwindling workforce nationwide. We are seeing more and more people grow too old to work properly. I've taken the liberty and already spoken with other corporate leaders to find a solution for this problem. Together, we have come to the conclusion that lowering the age requirement for fulltime employment down to 12 years of age would significantly drive up productivity nationally. The Frontiermen are likely to put up some resistance, but I beleive that any effort on their part will fall apart once these younger citizens realize how fullfilling it is to contribute to society." 
 You stop walking after her last word, pondering how to respond.
 
-<<link [[1. "Dire times call for dire measures. Once I get back to my office, I'll have someone draft something up declaring the legality of ages 12+ joining the workforce."|Regulation 12]]>> <<set $opinionCarlotta +=1>> <<set $opinionOttovin -= 1>> <</link>>
+<<link [[1. "Dire times call for dire measures. Once I get back to my office, I'll have someone draft something up declaring the legality of ages 12+ joining the workforce."|Regulation 12]]>> <<set $opinionCarlotta +=1>> <<set $opinionOttovin -= 1>> <<set $playerstress += 1 >> <</link>>
 <<link [[2. "Allowing 12 year old to work just doesn't sit right with me, Carlotta. How about this: I lower the legal hiring age from 18 to 16, that way I'm not sending prepubesant children to the workforce."|Regulation 16]]>> <<set $opinionCarlotta += 0.5>> <<set $opinionOttovin -= 0.5>> <</link>>
 <<link [[3. "Children? You want literal children to start working inside mines and factories? I don't mean to be rude Carlotta but that is unacceptable in my eyes."|Regulation same]]>> <<set $opinionCarlotta -= 1>> <</link>>
 
@@ -161,9 +161,9 @@ Carlotta sighs. "I warned my corporate friends that you might react that way. Ve
 One evening, you are admiring a painting in the Presidential Palace that depicts a lavish social gathering. As you are inspect its details, Carlotta approaches you from behind.
 Making her precence known, Carlotta begins, "You know, Mr. President, the nation could benefit from you throwing another party. It's a good excuse for everyone to mingle and peacefully talk through their differences. Not to mention the food and drink of course!" she clarifys with a light laugh. She turns her head away from the painting and toward you, waiting for a response.
 
-<<link [[1. "I was just thinking the same thing, Carlotta. Parties have always been one of my favorite things throughout life. I will definetly have to arrange one here soon... using goveernment funds of course."|Support Social Event]]>> <<set $opinionCarlotta += 1>> <<set $playermoney -= 1>> <</link>>
-<<link [[2. "I agree that parties are great for mingleing, but the government doesn't have the extra money right now to put anything on."|No Support Social Event Money]]>> <<set $opinionCarlotta -= 0.5>> <</link>>
-<<link [[3. "Didn't we just have a party not too long ago? It feels unnessary to have another one anytime soon."|No Support Social Event]]>> <<set $opinionCarlotta -= 1>> <</link>>
+<<link [[1. "I was just thinking the same thing, Carlotta. Parties have always been one of my favorite things throughout life. I will definetly have to arrange one here soon... using goveernment funds of course."|Support Social Event]]>> <<set $opinionCarlotta += 1>> <<set $playermoney -= 1>> <<set $playerstress += .5>> <</link>>
+<<link [[2. "I agree that parties are great for mingleing, but the government doesn't have the extra money right now to put anything on."|No Support Social Event Money]]>> <<set $opinionCarlotta -= 0.5>> <<set $playerstress += .5>> <</link>>
+<<link [[3. "Didn't we just have a party not too long ago? It feels unnessary to have another one anytime soon."|No Support Social Event]]>> <<set $opinionCarlotta -= 1>> <<set $playerstress += .5>> <</link>>
 
 :: Support Social Event
 "That is just wonderful to hear, sir! I look forward to recieving my invitation," Carlotta responds. "If you need any help organizing a list of guests, food, or drinks, I'm willing to help... Let me know," she says while gracefully pulling away and walking down the hallway.
@@ -186,8 +186,8 @@ Late one evening, your advisor enters your office with a concerned look.
 How do you respond to this new development?
 
 <<link [[1. "No matter. While I don't appreicate Carlotta and her corporate allies going behind my back, I have come around to the merits of freer trade. Arrange a TV breifing to the nation. I'll address everyone at once."|Support Free Trade]]>> <<set $opinionCarlotta += 1>> <</link>>
-<<link [[2. "I have made my stance on this issue very clear! Freer trade will only lead to job outsourcing. I want Carlotta in my office within the next hour... I need to have a word with her."|No Support Free Trade]]>> <<set $opinionCarlotta -= 2>> <</link>>
-<<link [[3. "Please inform Carlotta that I want her in my office within the next hour. I will support this free trade movement, but I will not support her working around me in the slightest."|Support Free Trade Carlotta]]>> <<set $opinionCarlotta -= 1>> <</link>>
+<<link [[2. "I have made my stance on this issue very clear! Freer trade will only lead to job outsourcing. I want Carlotta in my office within the next hour... I need to have a word with her."|No Support Free Trade]]>> <<set $opinionCarlotta -= 2>> <<set $playerstress += .5>> <</link>>
+<<link [[3. "Please inform Carlotta that I want her in my office within the next hour. I will support this free trade movement, but I will not support her working around me in the slightest."|Support Free Trade Carlotta]]>> <<set $opinionCarlotta -= 1>> <<set $playerstress += .5>> <</link>>
 
 :: Support Free Trade
 Standing at your podium, you notice the bulb on the camera in front of you shine red. The operator behind dramatically points his finger toward you, giving the indication to begin the address.
@@ -214,7 +214,7 @@ Noticing the excited look on Carlotta's face, you respond:
 
 <<link [[1. "That truly is genius, Carlotta! Television advertisements would increase sales and in turn increase the taxes you and your allies pay to the government!"|Support Ads Taxes]]>> <<set $opinionCarlotta += 0.5>> <<set $playermoney += 1>> <</link>>
 <<link [[2. "An interesting proposal, Carlotta. I'll move forward with implementing advertisements on television, espeically if it means spreading government information easier."|Support Ads Spread]]>> <<set $opinionCarlotta += 1>> <</link>>
-<<link [[3. "Carlotta, I will not force my citizens to sit still and be advertised to when they are simply trying to enjoy themselves. I understand that it would drive up sales for you, but at what cost to the nation?"|No Support Ads]]>> <<set $opinionCarlotta -= 1>> <</link>>
+<<link [[3. "Carlotta, I will not force my citizens to sit still and be advertised to when they are simply trying to enjoy themselves. I understand that it would drive up sales for you, but at what cost to the nation?"|No Support Ads]]>> <<set $opinionCarlotta -= 1>> <<set $playerstress +=.5>> <</link>>
 
 :: Support Ads Taxes
 "Right... that's also true, sir," Carlotta responds with less enthusiasm than before. "I would've hoped your rational would be different, but nonetheless I am excited that you are behind this plan! Any advertisments will of course be run by you first before airing, sir." 

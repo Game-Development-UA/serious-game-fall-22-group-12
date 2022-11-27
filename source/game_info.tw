@@ -15,7 +15,7 @@ President
 :: StoryCaption
 Funds: $playermoney
 
-Stress: $playerstress/100
+Stress: $playerstress/6
 
 Ottovin's Opinion: $opinionOttovin/5
 Carlotta's Opinion: $opinionCarlotta/5
