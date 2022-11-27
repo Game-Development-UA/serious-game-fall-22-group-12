@@ -46,6 +46,8 @@ Lucky for you, your family has held a large summer estate for generations for yo
 /* */
 
 
+
+
 :: Spend Time with family or friends [stress]
 Choosing to spend the week for yourself, you decide that some time with those who are closest to you is to be in order.
 Should you spend this free time taking any family members out to a fancy restaurant or should you invite your friends over to the palace to drink at its various bars.
@@ -71,33 +73,36 @@ You have decided to drink a glass of wine, keeping it classy as you know you are
 <<include "nextFocus">>
 /* */
 
+
+
+
 :: Sports [stress]
-You have decided that you need some exercise and what better way to exercise than by playing your favorite sport. This will help relieve some stress while getting some good exercise in.
-<<link [[1. I want to play Tennis| Play Tennis]]>> <<set $playerstress -= 1>><</link>>
-<<link [[2. I want to play Basketball | Play Basketball]]>> <<set $playerstress -= .5>><</link>>
+You have decided that you need some exercise. What better way to exercise than by playing one of your favorite sports? 
+<<link [[1. "I want to play Tennis"|Play Tennis]]>> <<set $playerstress -= 1>><</link>>
+<<link [[2. "I want to play Basketball"|Play Basketball]]>> <<set $playerstress -= .5>><</link>>
 
 :: Play Tennis
-You have decided to play tennis. There is a nice tennis court on the presidential grounds that you are able to play at. 
-This will be a nice way to get some exercise in while also getting some much needed sunlight. (Stress Decreases)
+There is a nice tennis court on the Presidential Palace grounds that you are able to play at. 
+This will be a nice way to get some exercise in while also getting some much needed sunlight.
 <<include "nextFocus">>
 :: Play Basketball
-You have decided to play basketball. You will be playing basketball indoors at your own personal court inside the presidential palace. 
-This is a great way to get exercise and help to relieve some of the stress that you have been aquiring as a new president.
+You will be playing basketball indoors at your own personal court inside the Presidential Palace. 
+This is a great way to get exercise and help to relieve some of the stress that you have been aquiring as president.
 <<include "nextFocus">>
 /* */
 
+
+
+
 :: Visit Places Around the Country [stress]
-You have decided that you would like to visit some different areas around the country. You now have several options of places to visit. 
-The place you choose may benefit you politically as well as benefit you personally.
-<<link [[1. I want to visit the agricultural district | Visit Agricultural District]]>> <<set $playerstress -= 1>><</link>>
-<<link [[2. I want to visit several small cities in the country. | Visit some small cities]]>> <<set $playerstress -= 1>><</link>>
+You have decided that you would like to visit some different areas around the country for a weekend. 
+<<link [[1. "I want to visit the agricultural district."|Visit Agricultural District]]>> <<set $playerstress -= 1>><</link>>
+<<link [[2. "I want to visit several small cities in the country."|Visit some small cities]]>> <<set $playerstress -= 1>><</link>>
 
 :: Visit Agricultural District 
 You have decided to visit the agricultural district in your country. You take several tours of the lands and visit with many staff members working in the farms. 
-This has also benefited you politically as the common folk appreciate you visiting and conversing with the working class citizens among the agricultural district.
 <<include "nextFocus">>
 :: Visit some small cities 
 You have decided to visit several small cities in your country. While visiting with these cities you have decided to meet with local officials and see first hand how they are managing their positions. 
-The common folk admire you visiting smaller and often unnoticed cities in your country. 
 <<include "nextFocus">>
 /* */

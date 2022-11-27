@@ -45,7 +45,7 @@ Text about Ivana, quick intro and conversation
 <<set $opinionIvana to 5 - $timespenttalking>>
 [[Continue|Approaching]]
 :: Approach xyz
-Text about general, quick intro and conversation
+Text about Dean, quick intro and conversation
 <<set $approachGeneral to true>>
 <<set $timespenttalking to $timespenttalking + 0.5>>
 <<set $opinionGeneral to 5 - $timespenttalking>>
