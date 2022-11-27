@@ -4,9 +4,9 @@ Deciding to spend some time on yourself away from the presidency, you have chose
 There are several venues available for your marriage ceremony. Of them, you have narrowed it down to either getting married in private within the palace, on a public beach, or spare no expense and book the fanciest wedding venue in the country.
 Where do you get married?
 
-<<link [[1. Get married in private within the Presidential Palace.|Choose Private wedding]]>> <<set $playerstress -= 1>><</link>>
-<<link [[3. Get married on the beach|Choose to have wedding on the beach]]>> <<set $playerstress -= 2>><</link>>
-<<link [[2. Get married at one of the fanciest wedding venues in the country|Choose to get married at fancy venue]]>> <<set $playerstress -=1>><</link>>
+<<link [[1. Get married in private within the Presidential Palace.|Choose Private wedding]]>> <<set $playerstress -= 0.5>> <</link>>
+<<link [[3. Get married on the beach|Choose to have wedding on the beach]]>> <<set $playerstress -= 1>> <</link>>
+<<link [[2. Get married at one of the fanciest wedding venues in the country|Choose to get married at fancy venue]]>> <<set $playerstress -= 1>> <<set $playermoney -= 0.5>> <</link>>
 
 :: Choose Private wedding
 Although some people are unhappy they didn't receive an invitation, most people are excited for your marriage! The fact that you didn't have to spend any money didn't hurt either. Congratulations!
@@ -17,7 +17,7 @@ Although some people are rubbed the wrong way by the extravagant nature of the w
 :: Choose to have wedding on the beach
 Having chosen to hold your wedding ceremony on the beachfront, you now can decide if you would like to charge an admission fee for citizens to view your ceremony.
 <<link [[1. Charge admission|Charge admissions fee]]>> <<set $playermoney += 1>><</link>>
-<<link [[2. The wedding ceremony should be free to all.|Free admission]]>> <<set $playerstress += 0>><</link>>
+<<link [[2. The wedding ceremony should be free to all.|Free admission]]>> <<set $playerstress += 0.5>> <</link>>
 
 :: Charge admissions fee
 Having chosen to charge an admission fee for your wedding, the beachfront ceremony is finally underway. Congratulations!
@@ -33,8 +33,8 @@ You are also happy with how your beach wedding ceremony turned out. Congratulati
 
 :: Vacation [stress]
 You have decided that all of the hard work you have done for the nation recently should let you take a brief vacation to relax and recharge. After scoping out potential destinations, you narrowed it down to just two options. 
-<<link [[1. Enjoy the weather on a private yacht|Yacht vacation]]>> <<set $playerstress -= 2>><</link>>
-<<link [[2. Visit a big coastal city|Go To Coastal City]]>> <<set $playerstress -= 1>><</link>>
+<<link [[1. Enjoy the sea on a private yacht|Yacht vacation]]>> <<set $playerstress -= 2>> <</link>>
+<<link [[2. Visit a big coastal city|Go To Coastal City]]>> <<set $playerstress -= 1>> <</link>>
 
 
 :: Yacht vacation
@@ -52,8 +52,8 @@ Lucky for you, your family has held a large summer estate for generations for yo
 Choosing to spend the week for yourself, you decide that some time with those who are closest to you is to be in order.
 Should you spend this free time taking any family members out to a fancy restaurant or should you invite your friends over to the palace to drink at its various bars.
 
-<<link [[1. Go to a restaurant with your family|Go To Restaurant]]>> <<set $playerstress -= 1>><</link>>
-<<link [[2. Drink with your friends|Go To Bar]]>> <<set $playerstress -= .5>><</link>>
+<<link [[1. Go to a restaurant with your family|Go To Restaurant]]>> <<set $playerstress -= 1>> <</link>>
+<<link [[2. Drink with your friends|Go To Bar]]>> <<set $playerstress -= .5>> <</link>>
 
 :: Go To Restaurant
 You have chosen to take your family out to a fancy restaurant. A seven course meal is prepared, which ensures you all have a lovely time together.
@@ -61,8 +61,8 @@ You have chosen to take your family out to a fancy restaurant. A seven course me
 :: Go To Bar 
 You have chosen to spend some of your free time with some close friends. You all have decided to drink together at the Presidential Palace. 
 What will you choose to drink at the bar? 
-<<link [[1. Drink hard liquor|Drink Hard Liquor]]>> <<set $playerstress += 1>><</link>>
-<<link [[2. Drink wine|Drink Wine]]>> <<set $opinionCarlotta += .5>><</link>>
+<<link [[1. Drink hard liquor|Drink Hard Liquor]]>> <<set $playerstress += 0.5>><</link>>
+<<link [[2. Drink wine|Drink Wine]]>> <<set $opinionCarlotta += .5>> <<set $playerstress -= 1>> <</link>>
 
 :: Drink Hard Liquor
 You decided to go with hard liquor. While drinking at the bar you have become very drunk and several attendants witnessed you throwing up behind the bar. 
@@ -96,8 +96,8 @@ This is a great way to get exercise and help to relieve some of the stress that 
 
 :: Visit Places Around the Country [stress]
 You have decided that you would like to visit some different areas around the country for a weekend. 
-<<link [[1. "I want to visit the agricultural district."|Visit Agricultural District]]>> <<set $playerstress -= 1>><</link>>
-<<link [[2. "I want to visit several small cities in the country."|Visit some small cities]]>> <<set $playerstress -= 1>><</link>>
+<<link [[1. "I want to visit the agricultural district."|Visit Agricultural District]]>> <<set $playerstress -= 1>> <</link>>
+<<link [[2. "I want to visit several small cities in the country."|Visit some small cities]]>> <<set $playerstress -= 0.5>><</link>>
 
 :: Visit Agricultural District 
 You have decided to visit the agricultural district in your country. You take several tours of the lands and visit with many staff members working in the farms. 
