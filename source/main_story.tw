@@ -4,7 +4,7 @@
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
     [[Continue|Door Open]]
 :: Door Open 
-    Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, eloquent music fills the air and your guests return to their conversations, drinks, food, and dance. 
+    Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, elegant music fills the air and your guests return to their conversations, drinks, food, and dance. 
     [[Continue|Advisor Approaches]]
 :: Advisor Approaches
     As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will be start closely governing with in the coming days?”
@@ -24,9 +24,9 @@
     With a slight chuckle, you grab hold of his hand and firmly shake it whilst saying, “Thank you, Ottovin. This past month was most definitely troublesome, but I am more concerned about the future of the nation now, not the past.”
     Letting go of your hand, Ottovin replies, “Right. Well the Labor Union Frontiermen and I are looking forward to working alongside you. There is much to be accomplished in regards to the rights of workers across the nation, especially some areas your father seemed to ignore, which I am hopeful we find common ground on.”
     “Then I look forward to our upcoming meetings, Ottovin. I should begin regular Presidential duties within the next couple days, so I hope to see you then,” you explain. “Please, in the meantime, enjoy the night to your fullest extent.” Ottovin nods his head, picks up his drink from the table, and waits for you to walk away before returning to the festivities.
-<<set $approachOttovin to true>>
-<<set $timespenttalking to $timespenttalking + 0.5>>
-<<set $opinionOttovin to 5 - $timespenttalking>>
+<<set $approachOttovin to true>>\
+<<set $timespenttalking to $timespenttalking + 0.5>>\
+<<set $opinionOttovin to 5 - $timespenttalking>>\
 [[1. "It was nice seeing you, Ottovin."|Approaching]]
 :: Approach Carlotta
 “Oooo Mr. President! Congratulations on your new title! To what do I owe the pleasure of your presence?” Carlotta questions while closing the fan she was using to keep herself cool. 
@@ -34,29 +34,48 @@
 	“Of course, sir. Despite what the papers might write, the corporate world is excited to see your presidency unfold as well as play a role in it. While we accomplished great things with your father, we are expecting to accomplish wonders for the nation and corporations alike through our continued partnership,” she elaborates using her hands for emphasis.
 	“Right then… hopefully it won't be too much longer until we see each other again in a more professional setting. For the time being, I hope the party lives up to your eloquence,” you state while beginning to pull away. 
 	Opening her fan, Carlotta responds with a smile, “It was nice to formally meet you, Mr. President.”
-<<set $approachCarlotta to true>>
-<<set $timespenttalking to $timespenttalking + 0.5>>
-<<set $opinionCarlotta to 5 - $timespenttalking>>
+<<set $approachCarlotta to true>>\
+<<set $timespenttalking to $timespenttalking + 0.5>>\
+<<set $opinionCarlotta to 5 - $timespenttalking>>\
 [[1. "Likewise, Carlotta"|Approaching]]
 :: Approach Ivana
-Text about Ivana, quick intro and conversation
-<<set $approachIvana to true>>
-<<set $timespenttalking to $timespenttalking + 0.5>>
-<<set $opinionIvana to 5 - $timespenttalking>>
-[[Continue|Approaching]]
+“Lovely party you've put on, Mr. President,” Ivana states looking to the side while leaning over a railing. “Not necessarily as grand as some others I've attended though.”
+
+“Oh! I'm sorry the party isn't living up to your expectations,” you respond.
+
+“No no… I prefer it this way. Those extra-extravagant parties go on for way too long. I don't know how some people can be drunk for over 48-hours straight and not be turned away from drinking entirely afterwards,” Ivana replies with some disgust in her voice.
+
+“Ahh, I see. Well I just wanted to stop by to formally introduce myself before we began seeing each other frequently.” 
+
+“Don't worry, I already knew why you were approaching.” Noticing the confused and worried look on your face, she continues, “I have ears in many places, sir. Ears that you will soon appreciate are listening on your behalf and not others. It was nice to officially meet.”
+
+You nod your head and begin to walk back to the party.
+
+<<set $approachIvana to true>>\
+<<set $timespenttalking to $timespenttalking + 0.5>>\
+<<set $opinionIvana to 5 - $timespenttalking>>\
+[[1. "That was an interesting conversation."|Approaching]]
 :: Approach xyz
-Text about Dean, quick intro and conversation
-<<set $approachGeneral to true>>
-<<set $timespenttalking to $timespenttalking + 0.5>>
-<<set $opinionGeneral to 5 - $timespenttalking>>
-[[Continue|Approaching]]
+“Evening, sir,” Dean says with a slight nod of his head. “It seems like we've passed the thick and thin of things, haven't we?”
+
+“I do believe you're right,” you respond. “I am deeply appreciative of your support, I know that must have been a very, very difficult decision for you to make.”
+
+“I don't believe I truly had a choice in the matter. Seemed the whole place would fall apart otherwise.”
+
+“Right. Well I won't let you regret it.” You pause for a moment, staring into your drink. Looking back up, you change the topic. “Please, please… carry on with the night. There is a lot more drink where that came from,” you cheer while pointing at the glass in Dean's hand.
+
+“Now don't you worry about that, Mr. President!” Dean cheers back. You give a small smile before turning around to gauge the rest of the ballroom.
+<<set $approachGeneral to true>>\
+<<set $timespenttalking to $timespenttalking + 0.5>>\
+<<set $opinionGeneral to 5 - $timespenttalking>>\
+[[1. "That's good to hear, Dean."|Approaching]]
 
 :: Party End
 Having spoken to all those who will soon play a role in your government, you decide that now is the appropriate time to finally relish in the festivities of the party. After all, this is a celebration dedicated to you. Grabbing a refreshed drink from a server, you make your way to your designated seat at the center of the ballroom. From here, you can sit back, relax, and enjoy the sight of all the notable people in your nation having a good time.
 [[1. "Tonight was fun."|Office 1]]
 :: Office 1
 A couple days later, you find yourself walking alongside your advisor across the Presidential Palace. He is carrying several folders and loose papers held to his chest.
-	“Sir, today would be the perfect time to visit your presidential office,” he begins. “Planning out how to focus your attention for the upcoming weeks is imperative to a functioning government. I’ve taken the liberty and arranged at your desk a calendar for you to personally use to decide how to spend your time.”
+	“Sir, today would be the perfect time to visit your presidential office,” he begins. “Planning out how to focus your attention for the upcoming weeks is imperative to a functioning government. I've taken the liberty and arranged at your desk a calendar for you to personally use to decide how to spend your time.”
 	“How formal,” you exclaim. “Thank you for that.” The two of you stop for a moment in front of two medium sized doors. Using his back, your advisor pushes with his body weight and opens the left door. Glowing with natural light from several large windows, the presidential office looks almost identical to how you remember it. Vine-like plants hang from the ceiling and a large desk is centered at the back of the room, though it appears the paintings decorating the walls have been replaced in favor of more historically important ones. You approach the desk, place one hand on it, and sit yourself down at its chair.
 [[1. "So, how should I plan then?"|Office 2]]
 
