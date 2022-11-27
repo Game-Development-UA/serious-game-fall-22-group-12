@@ -233,7 +233,7 @@ Under the serious circumstances of bankrupcy your advisors are advising that you
 All four of your main constituents are now your enemies and have begun to work against you as they now see you as an irresponsible and incappable leader for this country.
 [[1. You have been advised that because of this, stepping down is your last viable option. | Money ending.1]]</tw-passagedata><tw-passagedata pid="23" name="Money ending.1" tags="" position="350,350" size="100,100">Carlotta, Ottovin, Ivana, and Dean are pleased to hear that you are stepping down as they now no longer have to deal with you incompetence.</tw-passagedata><tw-passagedata pid="24" name="StoryCaption" tags="" position="475,350" size="100,100">Funds: $playermoney
 
-Stress: $playerstress/6
+Stress: $playerstress/5
 
 Ottovin&#39;s Opinion: $opinionOttovin/5
 Carlotta&#39;s Opinion: $opinionCarlotta/5
@@ -288,6 +288,7 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;if $opinionIvana gt 5&gt;&gt; &lt;&lt;set $opinionIvana = 5&gt;&gt; &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $opinionGeneral gt 5&gt;&gt; &lt;&lt;set $opinionGeneral = 5&gt;&gt; &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $playerstress lt 0&gt;&gt; &lt;&lt;set $playerstress = 0&gt;&gt; &lt;&lt;/if&gt;&gt;
+&lt;&lt;if $playerstress gt 5&gt;&gt; &lt;&lt;set $playerstress = 5&gt;&gt; &lt;&lt;/if&gt;&gt;
 [[Continue|Focus]]</tw-passagedata><tw-passagedata pid="30" name="nextMainPassage" tags="" position="1225,350" size="100,100">&lt;&lt;set $mainCheck to $mainCheck + 1&gt;&gt;
 &lt;&lt;set $passageCount to 0&gt;&gt;
 &lt;&lt;if $mainCheck == 1&gt;&gt; [[1. &quot;I should probably retire for the night&quot;|Main Story 1]] 
@@ -304,7 +305,7 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 	[[Continue|Ivana Ending]]
 &lt;&lt;elseif $opinionGeneral lte 0&gt;&gt;
 	[[Continue|Military Ending]]
-&lt;&lt;elseif $playerstress gte 100&gt;&gt;
+&lt;&lt;elseif $playerstress gte 5&gt;&gt;
 	[[Continue|Stress Ending]]
 &lt;&lt;elseif $playermoney lte 0&gt;&gt;
 	[[Continue|Money Ending]]
@@ -323,17 +324,24 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;if $approachIvana == false&gt;&gt;[[Ivana, Spymaster|Approach Ivana]]&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $approachGeneral == false&gt;&gt;[[Dean, General of the Armed Forces|Approach xyz]]&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $timespenttalking == 2&gt;&gt;[[Continue|Party End]]&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="36" name="Approach Ottovin" tags="" position="725,475" size="100,100">“Ah Mr. President!” Ottovin exclaims while setting his drink down on a nearby table. “Allow me to personally congratulate you on everything that&#39;s transpired this past month. A situation like that would test the courage and honor of any good man let alone one of your political stature,” he says while reaching his hand out toward you. “I do not envy you.”
-    With a slight chuckle, you grab hold of his hand and firmly shake it whilst saying, “Thank you, Ottovin. This past month was most definitely troublesome, but I am more concerned about the future of the nation now, not the past.”
-    Letting go of your hand, Ottovin replies, “Right. Well the Labor Union Frontiermen and I are looking forward to working alongside you. There is much to be accomplished in regards to the rights of workers across the nation, especially some areas your father seemed to ignore, which I am hopeful we find common ground on.”
-    “Then I look forward to our upcoming meetings, Ottovin. I should begin regular Presidential duties within the next couple days, so I hope to see you then,” you explain. “Please, in the meantime, enjoy the night to your fullest extent.” Ottovin nods his head, picks up his drink from the table, and waits for you to walk away before returning to the festivities.
+    
+With a slight chuckle, you grab hold of his hand and firmly shake it whilst saying, “Thank you, Ottovin. This past month was most definitely troublesome, but I am more concerned about the future of the nation now, not the past.”
+   
+ Letting go of your hand, Ottovin replies, “Right. Well the Labor Union Frontiermen and I are looking forward to working alongside you. There is much to be accomplished in regards to the rights of workers across the nation, especially some areas your father seemed to ignore, which I am hopeful we find common ground on.”
+    
+“Then I look forward to our upcoming meetings, Ottovin. I should begin regular Presidential duties within the next couple days, so I hope to see you then,” you explain. “Please, in the meantime, enjoy the night to your fullest extent.” Ottovin nods his head, picks up his drink from the table, and waits for you to walk away before returning to the festivities.
 &lt;&lt;set $approachOttovin to true&gt;&gt;\
 &lt;&lt;set $timespenttalking to $timespenttalking + 0.5&gt;&gt;\
 &lt;&lt;set $opinionOttovin to 5 - $timespenttalking&gt;&gt;\
 [[1. &quot;It was nice seeing you, Ottovin.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="37" name="Approach Carlotta" tags="" position="850,475" size="100,100">“Oooo Mr. President! Congratulations on your new title! To what do I owe the pleasure of your presence?” Carlotta questions while closing the fan she was using to keep herself cool. 
-	“I don&#39;t believe we&#39;ve formally met before. Seeing how you&#39;re likely to have my ear throughout my presidency, I thought we should become acquainted,” you explain.
-	“Of course, sir. Despite what the papers might write, the corporate world is excited to see your presidency unfold as well as play a role in it. While we accomplished great things with your father, we are expecting to accomplish wonders for the nation and corporations alike through our continued partnership,” she elaborates using her hands for emphasis.
-	“Right then… hopefully it won&#39;t be too much longer until we see each other again in a more professional setting. For the time being, I hope the party lives up to your eloquence,” you state while beginning to pull away. 
-	Opening her fan, Carlotta responds with a smile, “It was nice to formally meet you, Mr. President.”
+	
+“I don&#39;t believe we&#39;ve formally met before. Seeing how you&#39;re likely to have my ear throughout my presidency, I thought we should become acquainted,” you explain.
+	
+“Of course, sir. Despite what the papers might write, the corporate world is excited to see your presidency unfold as well as play a role in it. While we accomplished great things with your father, we are expecting to accomplish wonders for the nation and corporations alike through our continued partnership,” she elaborates using her hands for emphasis.
+	
+“Right then… hopefully it won&#39;t be too much longer until we see each other again in a more professional setting. For the time being, I hope the party lives up to your eloquence,” you state while beginning to pull away. 
+	
+Opening her fan, Carlotta responds with a smile, “It was nice to formally meet you, Mr. President.”
 &lt;&lt;set $approachCarlotta to true&gt;&gt;\
 &lt;&lt;set $timespenttalking to $timespenttalking + 0.5&gt;&gt;\
 &lt;&lt;set $opinionCarlotta to 5 - $timespenttalking&gt;&gt;\
@@ -526,8 +534,8 @@ In the past week, you and your comrades have overthrown the previous ruler and y
 &lt;&lt;link [[1.“You raise an interesting point, one that is hard to argue against. I will make sure to set aside aside your suggested sum.”|Put aside $50k to fund for the soldiers]]&gt;&gt; &lt;&lt;set $playerstress += 1&gt;&gt; &lt;&lt;set $playermoney -= 1&gt;&gt; &lt;&lt;set $opinionGeneral += 1&gt;&gt; &lt;&lt;/link&gt;&gt; 
 &lt;&lt;link [[2.“I will grant you this, but I can only set aside half of the suggested sum, not all. The nation needs some of that money for more current matters.”|Put aside only $10k of funds for soldiers]]&gt;&gt; &lt;&lt;set $playerstress += 1&gt;&gt; &lt;&lt;set $playermoney -= 0.5&gt;&gt; &lt;&lt;set $opinionGeneral += 0.5&gt;&gt; &lt;&lt;/link&gt;&gt;
 &lt;&lt;link [[3.“Unfortunately, putting aside that much money for something we aren&#39;t even certain will happen could hold the nation back financially in an unnessesary way. I am sorry but I won&#39;t be able to move forward with this offer.”|Deny wish of putting money aside for the soldiers]]&gt;&gt; &lt;&lt;set $playerstress += 1&gt;&gt; &lt;&lt;set $opinionGeneral -= 1&gt;&gt; &lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="91" name="Put aside $50k to fund for the soldiers" tags="" position="100,1225" size="100,100">“Thank you very much sir. I am sure that this will be enough to prepare us for any possible war.”
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="92" name="Put aside only 10k" tags="" position="225,1225" size="100,100">“Thank you sir, we should be able to cover some preparations, just in case of war.”
-&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="Deny" tags="" position="350,1225" size="100,100">“Right. I suppose I understand, sir. I will take my leave now. Thank you.”
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="92" name="Put aside only $10k of funds for soldiers" tags="" position="225,1225" size="100,100">“Thank you sir, we should be able to cover some preparations, just in case of war.”
+&lt;&lt;include &quot;nextFocus&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="Deny wish of putting money aside for the soldiers" tags="" position="350,1225" size="100,100">“Right. I suppose I understand, sir. I will take my leave now. Thank you.”
 &lt;&lt;include &quot;nextFocus&quot;&gt;&gt;
 /*  */</tw-passagedata><tw-passagedata pid="94" name="Disloyalty" tags="event" position="475,1225" size="100,100">After attending a meeting with those in the armed forces, you were pulled aside by Dean.  Whispering in your ear, he explains, “Mr. President, my apologies for pulling you away like this, but it&#39;s important. It appears that there is a growing number of military officials who are becoming more and more… disloyal. Plans of misusing power for personal gain and insubordination towards myself and you is likely a part of these member&#39;s mindsets. I would like these suspected individuals interrogated and removed from their positions if found guilty of conspiracy.
 
