@@ -58,7 +58,6 @@ You would like to take some time to enjoy yourself and have some free time to do
 There are several options that you have decided you want to choose from. 
 One way you can spend your free time is to take your spouse out to a typical restaurant and spend some quality time together.
 Another thing you can do is go out to a bar with some of your friends.
-
 <<link [[1. Decide to go to a restaurant with your spouse. | Go To Restaurant]]>> <<set $playerstress -= 1>><</link>>
 <<link [[2. Decide to go to a bar with your friends. | Go To Bar]]>> <<set $playerstress -= .5>><</link>>
 
@@ -70,7 +69,6 @@ The common folk take note that you went to a small local restaurant and they app
 :: Go To Bar 
 You have chosen to spend some of your free time with some close friends. You all have decided to go out to an exclusive bar just down the street. 
 What will you choose to drink at the bar? 
-
 <<link [[1. Decide to drink hard liquor. | Drink Hard Liquor]]>> <<set $playerstress += 1>><</link>>
 <<link [[2. Decide to drink wine. | Drink Wine]]>> <<set $opinionCarlotta += .5>><</link>>
 
@@ -101,7 +99,6 @@ This is a great way to get exercise and help to relieve some of the stress that 
 :: Visit Places Around the Country [stress]
 You have decided that you would like to visit some different areas around the country. You now have several options of places to visit. 
 The place you choose may benefit you politically as well as benefit you personally.
-
 <<link [[1. I want to visit the agricultural district | Visit Agricultural District]]>> <<set $playerstress -= 1>><</link>>
 <<link [[2. I want to visit several small cities in the country. | Visit some small cities]]>> <<set $playerstress -= 1>><</link>>
 

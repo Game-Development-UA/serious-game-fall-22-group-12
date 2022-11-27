@@ -32,7 +32,7 @@ You hope the people of the nation will understand you situation and that they wi
 [[1. "Please put your faith into this country and the new president, i have no doubts they will be a great addition to this country" | Last remarks]]
 
 :: Last remarks
-"This is a great nation, i can see the light on the other side, though i believe i cannot bring us there."
+"This is a great nation, I can see the light on the other side, though i believe i cannot bring us there."
 "Thank you"
 [[1. You begin to feel a relief after your speech is over. | Stress end.1]]
 :: Stress end.1
@@ -118,4 +118,13 @@ This will tarnish you legacy and you want the same for the others.
 
 
 :: Money Ending [end]
-Something about the nation becoming bankrupt, leading to all 4 important people working against you
+You have juist been informed by your economic advisors that you have exauhsted all of the nations funds and the government has become bankrupt.
+The military general is furious as they now have no budget for future military advancement projets. Carolotta is furious with the government as well, 
+she has cut ties with you all together.
+
+Under the serious circumstances of bankrupcy your advisors are advising that you step down from the presidential position. 
+All four of your main constituents are now your enemies and have begun to work against you as they now see you as an irresponsible and incappable leader.
+[[1. You have been advised that because of this, that stepping down is your last viable option. | Money ending.1]] 
+
+:: Money ending.1
+
