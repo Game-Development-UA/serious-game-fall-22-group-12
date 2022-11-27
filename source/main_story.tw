@@ -17,7 +17,7 @@
 <<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
 <<if $approachIvana == false>>[[Ivana, Spymaster|Approach Ivana]]<</if>>
 <<if $approachGeneral == false>>[[Dean, General of the Armed Forces|Approach xyz]]<</if>>
-<<if $timespenttalking == 2>>[[Continue|Party End]]<</if>>
+<<if $timespenttalking == 2>>[[Continue|Party End]]<</if>>\
 
 :: Approach Ottovin
 “Ah Mr. President!” Ottovin exclaims while setting his drink down on a nearby table. “Allow me to personally congratulate you on everything that's transpired this past month. A situation like that would test the courage and honor of any good man let alone one of your political stature,” he says while reaching his hand out toward you. “I do not envy you.”
@@ -53,7 +53,7 @@ Text about Dean, quick intro and conversation
 
 :: Party End
 Having spoken to all those who will soon play a role in your government, you decide that now is the appropriate time to finally relish in the festivities of the party. After all, this is a celebration dedicated to you. Grabbing a refreshed drink from a server, you make your way to your designated seat at the center of the ballroom. From here, you can sit back, relax, and enjoy the sight of all the notable people in your nation having a good time.
-[["Tonight was fun."|Office 1]]
+[[1. "Tonight was fun."|Office 1]]
 :: Office 1
 A couple days later, you find yourself walking alongside your advisor across the Presidential Palace. He is carrying several folders and loose papers held to his chest.
 	“Sir, today would be the perfect time to visit your presidential office,” he begins. “Planning out how to focus your attention for the upcoming weeks is imperative to a functioning government. I’ve taken the liberty and arranged at your desk a calendar for you to personally use to decide how to spend your time.”

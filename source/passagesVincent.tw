@@ -37,7 +37,7 @@ You have decided that all of the hard work you have done for the nation recently
 <<link [[2. Visit a big coastal city|Go To Coastal City]]>> <<set $playerstress -= 1>><</link>>
 
 
-:: Yacht Vacation
+:: Yacht vacation
 You are going to spend your vacation on your private yacht out in the open seas. The water brings comfort to you due to it providing a barrier between you and any nosey press.
 <<include "nextFocus">>
 :: Go To Coastal City 
