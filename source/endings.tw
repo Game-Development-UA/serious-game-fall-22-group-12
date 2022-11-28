@@ -2,14 +2,58 @@
 Something about ottovin leading a revolt of working people against you
 :: Carlotta Ending [end]
 Something about the nations economy falling apart, leading carlotta/corporate elite to reinstate your father (i dunno about that second part)
+
+
 :: Ivana Ending [end]
-Something about you being poisoned by your spymaster
+As Ivana's approval rating of you has been slowly decreasing to zero, you notice she has become suspiciously quiet and absent in informing you of any important information.
+You have no choice but to wonder, "what does this mean"?  
+"What could she be up to?"
+
+[[1. Be proactive about the situation | Proactive]]
+
+:: Proactive
+You have decided to be proactive and find out what has happened to your spymaster Ivana.
+
+You ask your advisors but they have no useful information about this.
+"Sir, I think you should speak directly To Ivana about this situation" your advisor tells you
+Especially after you have been recieving anonymous messages threating something dire will happen if you do not step down as president.
+[[1. Ask to see Ivana directly. | See ivana]]
+
+:: See ivana
+As Ivana walks into your office you notice some tea on the table that was not there before.
+One of the members of staff mustve brought it in when you were busy doing paper work.
+As Ivana sits down you offer her some tea and pour yourself a cup.
+[[1. Ask about messages. | Messages]]
+
+:: Messages 
+You ask Ivana about the messages you have been getting recently. 
+"Hmmm, I do not know anything about these mysterious messages that you have been recieving, I will most certainly look into though of course"
+As you take a long sip of tea, Ivana forms a slight smile.
+
+"I should really be going now sir so i can look into this situation as soon as possi...."
+
+Her sentence trails off as you begin to feel dizzy. You relaize she has poisoned you...
+You should have seen this coming, 
+it is not a good idea to get on the bad side of your spymaster.
+She has more power than you know.
+
+[[1. "Do you really think i didn't know about these messages and the plot to have you removed from presidency? | Last"]]
+
+:: Last
+You begin to collapse to the ground. 
+This is all starting to make sense now how could the spymaster not know about these secrets, this is her job after all.
+'I-i dont understand, w-why'
+'Because you are too incompetant, i want my revenge' Ivana said.
+Your breathing slowly stops, 
+and you are dead!
+
+
 :: Military Ending [end]
 Something about a coup led against you
 
 
 :: Stress Ending [end]
-<img src= "https://github.com/Game-Development-UA/serious-game-fall-22-group-12/blob/main/output/palace_fire.jpg?raw=true" />
+
 Being a president of a country is a very stressful job. You thought you would be able to handle this job and manage your stress well because you father did this job before you. You were mistaken.
 Your stress levels have maxed out and you have realized you cannot take it anymore. You realise that you have to make a decision.
 [[1. Choose to resign from your presidential position. | Resign from presidency]]
@@ -89,8 +133,7 @@ After some time of fighting the fires the flames are finally put out.
 You feel as though this was a grave mistake, and now you must dissapear from the public eye.
 Your new life lies ahead, of guilt and isolation.
 
-:: No regrets 
-<img src= "https://github.com/Game-Development-UA/serious-game-fall-22-group-12/blob/main/output/palace_fire.jpg?raw=true" />
+:: No regrets
 You still do not have any regrets about starting the fire, everyone will get out safe right? You just want the building GONE.
 It holds to many negative memories for you, for this country even.
 
@@ -120,7 +163,6 @@ This will tarnish you legacy and you want the same for the others.
 
 
 :: Money Ending [end]
-<img src = "https://media.istockphoto.com/id/1311198476/vector/no-dollar-sign-vector-icon-illustration-no-exchange-free-price.jpg?s=612x612&w=0&k=20&c=D2PfltNGSHPV-wKrII-nR-JfAHidP71bPn-MUw8KCfE=" />
 You have juist been informed by your economic advisors that you have exauhsted all of the nations funds and the government has become bankrupt.
 The military general is furious as they now have no budget for future military advancement projets. Carolotta is furious with the government as well, 
 she has cut ties with you all together.
