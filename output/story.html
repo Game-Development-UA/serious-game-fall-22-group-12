@@ -331,6 +331,8 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;audio party load&gt;&gt;
 &lt;&lt;cacheaudio &quot;normal&quot; &quot;media/normal.mp3&quot;&gt;&gt;
 &lt;&lt;audio normal load&gt;&gt;
+&lt;&lt;cacheaudio &quot;phonering&quot; &quot;media/phonering.mp3&quot;&gt;&gt;
+&lt;&lt;audio phonering load&gt;&gt;
 /* Opinion Variables */
 &lt;&lt;set $opinionOttovin to 0&gt;&gt;
 &lt;&lt;set $opinionCarlotta to 0&gt;&gt;
@@ -364,7 +366,7 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 /* &lt;&lt;run $stress.delete($nextStress)&gt;&gt; */
 &lt;&lt;link Focus-On-Myself $nextStress&gt;&gt; &lt;&lt;set $opinionOttovin -= 0.25&gt;&gt; &lt;&lt;set $opinionCarlotta -= 0.25&gt;&gt; &lt;&lt;set $opinionIvana -= 0.25&gt;&gt; &lt;&lt;set $opinionGeneral -= 0.25&gt;&gt; &lt;&lt;/link&gt;&gt;\</tw-passagedata><tw-passagedata pid="32" name="Focus" tags="officedaynew" position="225,475" size="100,100">&lt;&lt;if $passageCount lt 3&gt;&gt;How should you spend your time as President in the upcoming weeks?
 &lt;&lt;elseif $mainCheck == 0&gt;&gt; It is quite late now at your office. Distant thunder rumbles in the distance, your curtains closed to block out any sudden flashes of light.
-&lt;&lt;elseif $mainCheck == 1&gt;&gt; Your work day has run late into the night when the telephone in the other room begins to ring. 
+&lt;&lt;elseif $mainCheck == 1&gt;&gt; Your work day has run late into the night when the telephone in the other room begins to ring. &lt;&lt;audio phonering play&gt;&gt;
 &lt;&lt;elseif $mainCheck == 2&gt;&gt; Walking outside of the Presidential Palace, a lone journalist can be heard calling your name from the otherside of the gate.
 &lt;&lt;elseif $mainCheck == 3&gt;&gt; Growing tired of working for the day, you decide some fresh air would do you some good.
 &lt;&lt;elseif $mainCheck == 4&gt;&gt; Finishing up your work for the day, you hear the phone ring in the other room.
@@ -406,7 +408,7 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="36" name="Main Menu" tags="" position="725,475" size="100,100">[[Begin!|Main Story 0]]
 /*I will add palace picture back later, trying something out rn */</tw-passagedata><tw-passagedata pid="37" name="Main Story 0" tags="main" position="850,475" size="100,100">Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which requires your neck to become strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
-    [[Continue|Door Open]]</tw-passagedata><tw-passagedata pid="38" name="Door Open" tags="" position="975,475" size="100,100">&lt;&lt;audio clap volume 0.5 play&gt;&gt;\
+    [[Continue|Door Open]]</tw-passagedata><tw-passagedata pid="38" name="Door Open" tags="" position="975,475" size="100,100">&lt;&lt;audio clap volume 0.25 play&gt;&gt;\
 &lt;&lt;audio party loop play&gt;&gt;\
     Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, elegant music fills the air and your guests return to their conversations, drinks, food, and dance. 
     [[Continue|Advisor Approaches]]</tw-passagedata><tw-passagedata pid="39" name="Advisor Approaches" tags="" position="1100,475" size="100,100">As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will be start closely governing with in the coming days?”
@@ -449,7 +451,6 @@ Opening her fan, Carlotta responds with a smile, “It was nice to formally meet
 “Don&#39;t worry, I already knew why you were approaching.” Noticing the confused and worried look on your face, she continues, “I have ears in many places, sir. Ears that you will soon appreciate are listening on your behalf and not others. It was nice to officially meet.”
 
 You nod your head and begin to walk back to the party.
-
 &lt;&lt;set $approachIvana to true&gt;&gt;\
 &lt;&lt;set $timespenttalking to $timespenttalking + 0.5&gt;&gt;\
 &lt;&lt;set $opinionIvana to 5 - $timespenttalking&gt;&gt;\

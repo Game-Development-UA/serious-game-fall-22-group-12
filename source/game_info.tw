@@ -34,6 +34,8 @@ Military's Opinion:  $opinionGeneral/5
 <<audio party load>>
 <<cacheaudio "normal" "media/normal.mp3">>
 <<audio normal load>>
+<<cacheaudio "phonering" "media/phonering.mp3">>
+<<audio phonering load>>
 /* Opinion Variables */
 <<set $opinionOttovin to 0>>
 <<set $opinionCarlotta to 0>>
@@ -75,7 +77,7 @@ Military's Opinion:  $opinionGeneral/5
 :: Focus [officedaynew]
 <<if $passageCount lt 3>>How should you spend your time as President in the upcoming weeks?
 <<elseif $mainCheck == 0>> It is quite late now at your office. Distant thunder rumbles in the distance, your curtains closed to block out any sudden flashes of light.
-<<elseif $mainCheck == 1>> Your work day has run late into the night when the telephone in the other room begins to ring. 
+<<elseif $mainCheck == 1>> Your work day has run late into the night when the telephone in the other room begins to ring. <<audio phonering play>>
 <<elseif $mainCheck == 2>> Walking outside of the Presidential Palace, a lone journalist can be heard calling your name from the otherside of the gate.
 <<elseif $mainCheck == 3>> Growing tired of working for the day, you decide some fresh air would do you some good.
 <<elseif $mainCheck == 4>> Finishing up your work for the day, you hear the phone ring in the other room.

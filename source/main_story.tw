@@ -61,7 +61,6 @@ Opening her fan, Carlotta responds with a smile, “It was nice to formally meet
 “Don't worry, I already knew why you were approaching.” Noticing the confused and worried look on your face, she continues, “I have ears in many places, sir. Ears that you will soon appreciate are listening on your behalf and not others. It was nice to officially meet.”
 
 You nod your head and begin to walk back to the party.
-
 <<set $approachIvana to true>>\
 <<set $timespenttalking to $timespenttalking + 0.5>>\
 <<set $opinionIvana to 5 - $timespenttalking>>\
