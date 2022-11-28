@@ -1,4 +1,7 @@
-
+@font-face {
+	font-family: 'Mermaid';
+	src: url('media/Mermaid1001.ttf')
+	}
 
 /* The body is everything displayed in the main text delivery area */
  body {
@@ -13,7 +16,22 @@
 	background: rgb(88, 81, 94);
 }
 
+.passage {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+    border: 20px solid rgb(255, 255, 255);
+	font-family: 'Mermaid';
+	font-size:20px;
+}
+a {
+	color: rgb(190, 155, 67);
+}
 
+a:hover {
+	color: rgb(223, 194, 121);
+}
 
 /*h1 {
 	color:rgb(233, 229, 0);

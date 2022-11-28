@@ -54,15 +54,14 @@ Military's Opinion:  $opinionGeneral/5
 <<set $father to 0>>
 
 :: nextEvent
-<<set $nextEvent = either($events)>>
-<<run $events.delete($nextEvent)>>
-<<link “Focus-On-The-Nation” $nextEvent>> <</link>>
+<<set $nextEvent = either($events)>>\
+<<run $events.delete($nextEvent)>>\
+<<link Focus-On-The-Nation $nextEvent>> <</link>>\
 
 :: nextStress
 <<set $nextStress = either($stress)>>
 /* <<run $stress.delete($nextStress)>> */
-<<link “Focus-On-Myself” $nextStress>> <<set $opinionOttovin -= 0.25>> <<set $opinionCarlotta -= 0.25>> <<set $opinionIvana -= 0.25>> <<set $opinionGeneral -= 0.25>> <</link>>
-
+<<link Focus-On-Myself $nextStress>> <<set $opinionOttovin -= 0.25>> <<set $opinionCarlotta -= 0.25>> <<set $opinionIvana -= 0.25>> <<set $opinionGeneral -= 0.25>> <</link>>\
 :: Focus
 <<if $passageCount lt 3>>How should you spend your time as President in the upcoming weeks?
 <<elseif $mainCheck == 0>> It is quite late now at your office. Distant thunder rumbles in the distance, your curtains closed to block out any sudden flashes of light.
@@ -76,29 +75,25 @@ Military's Opinion:  $opinionGeneral/5
 <<if $passageCount lt 3>> <<include "nextEvent">>  <</if>>\
 <<if $passageCount lt 3>> <<include "nextStress">> <</if>>\
 <<if $passageCount == 3>> <<include "nextMainPassage">> <</if>>\
-
-/*Passage count: $passageCount */
 :: nextFocus
-<<set $passageCount to $passageCount + 1>>
-<<if $opinionOttovin gt 5>> <<set $opinionOttovin = 5>> <</if>>
-<<if $opinionCarlotta gt 5>> <<set $opinionCarlotta = 5>> <</if>>
-<<if $opinionIvana gt 5>> <<set $opinionIvana = 5>> <</if>>
-<<if $opinionGeneral gt 5>> <<set $opinionGeneral = 5>> <</if>>
-<<if $playerstress lt 0>> <<set $playerstress = 0>> <</if>>
-<<if $playerstress gt 5>> <<set $playerstress = 5>> <</if>>
+<<set $passageCount to $passageCount + 1>>\
+<<if $opinionOttovin gt 5>> <<set $opinionOttovin = 5>> <</if>>\
+<<if $opinionCarlotta gt 5>> <<set $opinionCarlotta = 5>> <</if>>\
+<<if $opinionIvana gt 5>> <<set $opinionIvana = 5>> <</if>>\
+<<if $opinionGeneral gt 5>> <<set $opinionGeneral = 5>> <</if>>\
+<<if $playerstress lt 0>> <<set $playerstress = 0>> <</if>>\
+<<if $playerstress gt 5>> <<set $playerstress = 5>> <</if>>\
 [[Continue|Focus]]
-
 :: nextMainPassage
-<<set $mainCheck to $mainCheck + 1>>
-<<set $passageCount to 0>>
+<<set $mainCheck to $mainCheck + 1>>\
+<<set $passageCount to 0>>\
 <<if $mainCheck == 1>> [[1. "I should probably retire for the night"|Main Story 1]] 
 <<elseif $mainCheck == 2>> [[1. "Who could be calling at this hour?"|Main Story 2]] 
 <<elseif $mainCheck == 3>> [[1. "What do they want?"|Main Story 3]]
 <<elseif $mainCheck == 4>> [[1. "How about the balcony down the hall?"|Main Story 4]]
 <<elseif $mainCheck == 5>> [[1. "Let me guess..."|Main Story 5]]
 <<elseif $mainCheck == 6>> [[See what he needs|Main Story 6]]
-<</if>>
-
+<</if>>\
 :: endCheck
 <<if $opinionOttovin lte 0>> 
 	[[Continue|Ottovin Ending]]
