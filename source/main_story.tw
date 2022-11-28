@@ -124,20 +124,20 @@ Having rested for the night, you awake ready to carry out your presidential duti
 
 
 
-:: Main Story 2 [main]
-As you open the door to the nextdoor office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor's reaction that its not necessarily good news.
+:: Main Story 2 [officenightnew] 
+As you open the door to the neighboring office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor's reaction that its not necessarily good news.
 [[Continue|Main Story 2.1]]
 
-:: Main Story 2.1
+:: Main Story 2.1 [officenightnew] 
 "Right." Your advisor says into the phone. "I will inform the president of this." He thanks the person on the other end of the line before hanging up. Looking at you, he begins, "Sir, that was the prison. It appears your father is making ... quite the commotion. He is quote 'outraged that his own son has not come to visit him once' since being imprisoned. He demands that you grant him an audience, sir."
 
 <<link [[1. "Why am I not surprised. Gather my things and arrange transporation. I'll go tonight."|Main Story 2.2]]>> <<set $father += 1>> <<set $playerstress += 0.5>> <</link>>
 <<link [[2. "That man can starve himself for all I care! I will not see him!"|Main Story 2.2.1]]>> <<set $father += 0>> <<set $playerstress += 1>> <</link>>
 
-:: Main Story 2.2
+:: Main Story 2.2 [officenightnew] 
 Your advisor nods before walking past you into the presidential office as directed. You take a deep breath, then walk to the entrance of the palace to wait.
 [[Continue|Main Story 2.3]]
-:: Main Story 2.2.1
+:: Main Story 2.2.1 [officenightnew] 
 "Very well, sir," he responds. "I will call back in the morning and let them know that you are unwilling to visit at this time." Hearing that, you head back into your office before retiring for the night.
 [[Continue|Main Story 1.4]]
 :: Main Story 2.3 [jail]

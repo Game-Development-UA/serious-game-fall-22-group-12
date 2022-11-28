@@ -147,7 +147,8 @@ body[data-tags~="officenightold"] {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-    border: 20px solid rgb(255, 255, 255);
+    border: 20px inset rgb(255, 255, 255);
+	background-color:rgb(0, 0, 0, 0.75);
 	font-family: 'Mermaid';
 	font-size:20px;
 }
@@ -338,7 +339,7 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;run $events.delete($nextEvent)&gt;&gt;\
 &lt;&lt;link Focus-On-The-Nation $nextEvent&gt;&gt; &lt;&lt;/link&gt;&gt;\</tw-passagedata><tw-passagedata pid="31" name="nextStress" tags="" position="100,475" size="100,100">&lt;&lt;set $nextStress = either($stress)&gt;&gt;
 /* &lt;&lt;run $stress.delete($nextStress)&gt;&gt; */
-&lt;&lt;link Focus-On-Myself $nextStress&gt;&gt; &lt;&lt;set $opinionOttovin -= 0.25&gt;&gt; &lt;&lt;set $opinionCarlotta -= 0.25&gt;&gt; &lt;&lt;set $opinionIvana -= 0.25&gt;&gt; &lt;&lt;set $opinionGeneral -= 0.25&gt;&gt; &lt;&lt;/link&gt;&gt;\</tw-passagedata><tw-passagedata pid="32" name="Focus" tags="office day" position="225,475" size="100,100">&lt;&lt;if $passageCount lt 3&gt;&gt;How should you spend your time as President in the upcoming weeks?
+&lt;&lt;link Focus-On-Myself $nextStress&gt;&gt; &lt;&lt;set $opinionOttovin -= 0.25&gt;&gt; &lt;&lt;set $opinionCarlotta -= 0.25&gt;&gt; &lt;&lt;set $opinionIvana -= 0.25&gt;&gt; &lt;&lt;set $opinionGeneral -= 0.25&gt;&gt; &lt;&lt;/link&gt;&gt;\</tw-passagedata><tw-passagedata pid="32" name="Focus" tags="officedaynew" position="225,475" size="100,100">&lt;&lt;if $passageCount lt 3&gt;&gt;How should you spend your time as President in the upcoming weeks?
 &lt;&lt;elseif $mainCheck == 0&gt;&gt; It is quite late now at your office. Distant thunder rumbles in the distance, your curtains closed to block out any sudden flashes of light.
 &lt;&lt;elseif $mainCheck == 1&gt;&gt; Your work day has run late into the night when the telephone in the other room begins to ring. 
 &lt;&lt;elseif $mainCheck == 2&gt;&gt; Walking outside of the Presidential Palace, a lone journalist can be heard calling your name from the otherside of the gate.
@@ -457,7 +458,7 @@ Pausing for a moment, your father looks at you and then back at Carlotta before 
 [[Continue|Main Story 1.3]]</tw-passagedata><tw-passagedata pid="50" name="Main Story 1.3" tags="officenightnew" position="1225,600" size="100,100">Returning to a normal train of thought, you pick up the unlit cigar next to the patched carpet and place it back on the corner of the presidential desk. After standing in silence for a few moments, you behind to make your way out of your office and toward the residential section of the palace.
 &lt;&lt;link [[1. &quot;I haven&#39;t thought of that in years.&quot;|Main Story 1.4]]&gt;&gt; &lt;&lt;set $playerstress += 0.5&gt;&gt; &lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="51" name="Main Story 1.4" tags="officenightnew" position="100,725" size="100,100">Having rested for the night, you awake ready to carry out your presidential duties. You head to your office to begin planning.
 &lt;&lt;include &quot;endCheck&quot;&gt;&gt;
-/*  */</tw-passagedata><tw-passagedata pid="52" name="Main Story 2" tags="main" position="225,725" size="100,100">As you open the door to the nextdoor office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor&#39;s reaction that its not necessarily good news.
+/*  */</tw-passagedata><tw-passagedata pid="52" name="Main Story 2" tags="main" position="225,725" size="100,100">As you open the door to the neighboring office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor&#39;s reaction that its not necessarily good news.
 [[Continue|Main Story 2.1]]</tw-passagedata><tw-passagedata pid="53" name="Main Story 2.1" tags="" position="350,725" size="100,100">&quot;Right.&quot; Your advisor says into the phone. &quot;I will inform the president of this.&quot; He thanks the person on the other end of the line before hanging up. Looking at you, he begins, &quot;Sir, that was the prison. It appears your father is making ... quite the commotion. He is quote &#39;outraged that his own son has not come to visit him once&#39; since being imprisoned. He demands that you grant him an audience, sir.&quot;
 
 &lt;&lt;link [[1. &quot;Why am I not surprised. Gather my things and arrange transporation. I&#39;ll go tonight.&quot;|Main Story 2.2]]&gt;&gt; &lt;&lt;set $father += 1&gt;&gt; &lt;&lt;set $playerstress += 0.5&gt;&gt; &lt;&lt;/link&gt;&gt;
