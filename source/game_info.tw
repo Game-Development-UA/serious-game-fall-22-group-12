@@ -7,7 +7,7 @@
 }
 
 :: StoryTitle
-President
+Presidentially Precarious
 
 
 
@@ -24,6 +24,7 @@ Military's Opinion:  $opinionGeneral/5
 
 
 :: StoryInit
+<<cacheaudio "mainmenu" "media/mainmenu.mp3">>
 /* Opinion Variables */
 <<set $opinionOttovin to 0>>
 <<set $opinionCarlotta to 0>>
