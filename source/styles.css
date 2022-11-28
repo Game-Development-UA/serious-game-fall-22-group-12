@@ -28,6 +28,17 @@ body[data-tags~="officenightold"] {
 	background-size: cover;
 }
 
+body[data-tags~="jail"] {
+	background-image: url("media/jail.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body[data-tags~="militaryoffice"] {
+	background-image: url("media/militaryoffice.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 
 

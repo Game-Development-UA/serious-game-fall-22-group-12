@@ -6,7 +6,7 @@
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
     [[Continue|Door Open]]
 :: Door Open 
-<<audio clap volume 0.5 play>>\
+<<audio clap volume 0.25 play>>\
 <<audio party loop play>>\
     Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, elegant music fills the air and your guests return to their conversations, drinks, food, and dance. 
     [[Continue|Advisor Approaches]]
@@ -195,7 +195,7 @@ You sit in silence contemplating what your father just proposed.
 :: Main Story 2.9.2 [jail]
 "Then you and I have nothing more to discuss," your father states. He lays back into his prison bed and stares at the empty celling. Realizing that the conversation is over, you stand up from the stool and make your way out of the row of cells.
 [[Continue|Main Story 2.10]]
-:: Main Story 2.10
+:: Main Story 2.10 [officedaynew]
 Having rested for the remainder of the night after arriving back at the Presidential Palace, you awake and head to your office to begin planning the upcoming weeks.
 <<include "endCheck">>
 /*  */
@@ -249,19 +249,19 @@ You seclude yourself in your office for the remainder of the day. While there, y
 :: Main Story 4 [main]
 As you swing open two doors, you are presented with a marble balcony overlooking the city. You approach the railing and begin to lean foward, placing your elbows down and crossing your arms. Looking into the distance, you realize that some nearby buildings are still under going repairs just as your head begins to pound.
 [[Continue|Main Story 4.1]]
-:: Main Story 4.1 [flashback]
+:: Main Story 4.1 [militaryoffice]
 No! You are not listening to me!" you find youself crying out. "That man is unfit to rule any longer. The people will not stand for this! I will not stand for this!"
 
 The man in front of you stands up from his chair, slamming his fists on the table. "Do you have ANY idea what you suggesting? This is not some easily made decision! These kinds of things take months to plan before they can be executed. For you to stand here and spontaneously encourage treason is laughable. I'd rather weather out this storm than directly contribute to it."
 
 "I don't think you understand, Dean," you reply in a much more calm manner than before. "The people are already aware of what happened... I made sure of that much. They adored her, called her their own mother for fucks-sake! If we don't take control this storm now, it will consume all of us."
 [[Continue|Main Story 4.2]]
-:: Main Story 4.2 [flashback]
+:: Main Story 4.2 [militaryoffice]
 Just as you finish your sentence, another military officer rushes into the room. "Sir!" he exclaims to Dean, "The president has ordered that the armed forces dramatically increase our presence around the Presidential Palace. He seemed very worried over the phone that these nearby protests could target him directly. His worry has some merit though, sir. We've never dealt with unrest of this magnitude before."
 
 Dean turns around and faces the wall as if pondering how to respond. Eventually, he picks up a nearby vase and throws it against the wall. "What the HELL HAS HE GOTTEN US INTO?!" he says quitely at first before evolving into an ear-splitting shout. He stands looking at the dozens of clay pieces lying on the floor with his chest rising and falling in a hyperactive way. A few moments later, he quickly turns back around before exclaiming, "You!" with his finger pointed toward you specifically.
 [[1. "What!? Me?"|Main Story 4.3]]
-:: Main Story 4.3 [flashback]
+:: Main Story 4.3 [militaryoffice]
 "Does your father know you are here? Would he have any way of knowing we've talked?"
 
 "No, not at all. I made sure of that."
