@@ -23,7 +23,7 @@ Ivana, your spymaster, makes you aware of a journalist from your nation who is w
 "Sir, regarding the loose-lipped journalist, I think the situation has reached a point that you should consider more... direct measures. Afterall, he is hurting your reputation not only in other nations but in yours as well. If he stays alive he could change people's opinions of you drastically for the worse."
 You think about your decision.
 
-<<link [[1. "I was also worried about this journalist and thinking about what to do about him. I would like you to assasinate him, so that I can keep my political image intact."|Yes assasinate journalist]]>> <<set $opinionIvana += 1>> <<set $playerstress += 1>> <</link>>
+<<link [[1. "I was also worried about this journalist and thinking about what to do about him. I would like you to assasinate him, so that I can keep my political image intact."| Yes assasinate journalist]]>> <<set $opinionIvana += 1>> <<set $playerstress += 1>> <</link>>
 <<link [[2. "I have been worried about the journalist. However I would not like you to assasinate him. Instead silently capture him and bring him to the interrogation room. I would like to ask him a few questions."|Capture journalist]]>> <<set $opinionIvana += 0.5>> <<set $playerstress += 0.5>> <</link>>
 <<link [[3. "Do not assasinate the journalist. I don't really care about my public image. I am in power... no amount of negative press will change that"|Do not care]]>> <<set $opinionIvana -= 1>> <<set $playerstress += 1>> <</link>>
 
