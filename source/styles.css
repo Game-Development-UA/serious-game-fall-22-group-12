@@ -4,9 +4,33 @@
 	}
 
 /* The body is everything displayed in the main text delivery area */
- body {
+  body {
 	background: rgb(65, 58, 120);
-} 
+	/* background-image: url("media/officedaynew.JPG");
+	background-repeat: no-repeat;
+	background-size: cover; */
+}  
+
+body[data-tags~="officedaynew"] {
+	background-image: url("media/officedaynew.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="officenightnew"] {
+	background-image: url("media/officenightnew.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body[data-tags~="officenightold"] {
+	background-image: url("media/officenightold.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
 
 .flashback {
 	background: rgb(45, 42, 66);

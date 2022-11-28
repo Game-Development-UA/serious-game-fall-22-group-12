@@ -80,29 +80,29 @@ You nod your head and begin to walk back to the party.
 :: Party End
 Having spoken to all those who will soon play a role in your government, you decide that now is the appropriate time to finally relish in the festivities of the party. After all, this is a celebration dedicated to you. Grabbing a refreshed drink from a server, you make your way to your designated seat at the center of the ballroom. From here, you can sit back, relax, and enjoy the sight of all the notable people in your nation having a good time.
 [[1. "Tonight was fun."|Office 1]]
-:: Office 1
+:: Office 1 [officedaynew]
 A couple days later, you find yourself walking alongside your advisor across the Presidential Palace. He is carrying several folders and loose papers held to his chest. “Sir, today would be the perfect time to visit your presidential office,” he begins. “Planning out how to focus your attention for the upcoming weeks is imperative to a functioning government. I've taken the liberty and arranged at your desk a calendar for you to personally use to decide how to spend your time.”
 
 “How formal,” you exclaim. “Thank you for that.” The two of you stop for a moment in front of two medium sized doors. Using his back, your advisor pushes with his body weight and opens the left door. Glowing with natural light from several large windows, the presidential office looks almost identical to how you remember it. Vine-like plants hang from the ceiling and a large desk is centered at the back of the room, though it appears the paintings decorating the walls have been replaced in favor of more historically important ones. You approach the desk, place one hand on it, and sit yourself down at its chair.
 [[1. "So, how should I plan then?"|Office 2]]
 
-:: Office 2
+:: Office 2 [officedaynew]
 “That much is up to you, sir,” your advisor explains. “You are the president of this great nation, so people will expect that you work accordingly. In all honesty, that mainly entails keeping various political figures satisfied while keeping the nation afloat financially. However, on a more personal note, you ought to not sacrifice your mental stability. Taking time off to focus on your own happiness is just as integral to being president as governing is … even if others tend to disagree.”
 [[1. "Okay. I will decide how to spend my time."|Focus]]
 
 
 
-:: Main Story 1 [main]
+:: Main Story 1 [officenightnew]
 As you attempt to stand up from your desk's chair, you accidentially knock an unlit cigar onto the carpet. It lands next to a square area of fabric almost identical to its surroundings that appears to have been patched into the carpet itself. You glare at it for a moment before a rush hits your head.
 [[Continue|Main Story 1.1]]
 
-:: Main Story 1.1 [flashback]
+:: Main Story 1.1 [officenightold]
 Standing in the corner of the presidential office, you find yourself analyzing the choice of artwork that decorates its walls. A pallet of grey and beige fills your eyes with overwhelming mutedness. You move from painting to painting before being interupted.
 
 "Oh will you please sit down?! Come join the conversation and show some respect before I kick you out entirely," bellows a well-groomed man sitting behind the presidential desk. Taking one last look at the paintings, you turn around and walk toward an empty seat in front of the desk. The air is filled with smoke and the breath of those your seated next to ripe of alcohol.
 [[Continue|Main Story 1.2]]
 
-:: Main Story 1.2 [flashback]
+:: Main Story 1.2 [officenightold]
 "Dear child," a drunk woman next to you begins while moving the hand holding her drink in your direction, "Remind me of your name again? It's hardly ever I see any children roaming this palace." 
 
 Taken aback in a largely joking tone, the man behind the desk interuptes, "Carlotta! You mean to tell me you don't know my own son's name?" he says before lighting a cigar.
@@ -112,11 +112,11 @@ Letting out a series of small laughs, Carlotta responds, "Well if you'd be so ki
 Pausing for a moment, your father looks at you and then back at Carlotta before saying with a smile, "How about you ask me in the morning? It seems my memory is betraying me as well!" With that, the room erupts with laughter. Drinks slosh out of their vessels and the cigar in your fathers loose fingers drops to the floor at your feet. Noticing the carpet below it begin to glow orange, you quickly stomp out the cigar. Looking back up hurriedly, you realize your father didn't even seem to notice his cigar was missing.
 [[Continue|Main Story 1.3]]
 
-:: Main Story 1.3
+:: Main Story 1.3 [officenightnew]
 Returning to a normal train of thought, you pick up the unlit cigar next to the patched carpet and place it back on the corner of the presidential desk. After standing in silence for a few moments, you behind to make your way out of your office and toward the residential section of the palace.
 <<link [[1. "I haven't thought of that in years."|Main Story 1.4]]>> <<set $playerstress += 0.5>> <</link>>
 
-:: Main Story 1.4
+:: Main Story 1.4 [officenightnew]
 Having rested for the night, you awake ready to carry out your presidential duties. You head to your office to begin planning.
 <<include "endCheck">>
 /*  */
