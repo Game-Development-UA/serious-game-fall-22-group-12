@@ -3,11 +3,11 @@
 "ifid": "1F012455-6A83-4CCB-BCB1-49B9D77D4E03",
 "format": "SugarCube",
 "format-version": "2.30.0",
-"start": "Main Story 0"
+"start": "Main Menu"
 }
 
 :: StoryTitle
-Presidentially Precarious
+Presidentially Precarious (lol need better name)
 
 
 
@@ -25,6 +25,10 @@ Military's Opinion:  $opinionGeneral/5
 
 :: StoryInit
 <<cacheaudio "mainmenu" "media/mainmenu.mp3">>
+<<audio mainmenu load>>
+
+<<cacheaudio "party" "media/party.mp3">>
+<<audio mainmenu load>>
 /* Opinion Variables */
 <<set $opinionOttovin to 0>>
 <<set $opinionCarlotta to 0>>
