@@ -15,7 +15,7 @@ President
 :: StoryCaption
 Funds: $playermoney
 
-Stress: $playerstress/6
+Stress: $playerstress/5
 
 Ottovin's Opinion: $opinionOttovin/5
 Carlotta's Opinion: $opinionCarlotta/5
@@ -61,7 +61,7 @@ Military's Opinion:  $opinionGeneral/5
 :: nextStress
 <<set $nextStress = either($stress)>>
 /* <<run $stress.delete($nextStress)>> */
-<<link “Focus-On-Myself” $nextStress>> <</link>>
+<<link “Focus-On-Myself” $nextStress>> <<set $opinionOttovin -= 0.25>> <<set $opinionCarlotta -= 0.25>> <<set $opinionIvana -= 0.25>> <<set $opinionGeneral -= 0.25>> <</link>>
 
 :: Focus
 <<if $passageCount lt 3>>How should you spend your time as President in the upcoming weeks?
@@ -85,6 +85,7 @@ Military's Opinion:  $opinionGeneral/5
 <<if $opinionIvana gt 5>> <<set $opinionIvana = 5>> <</if>>
 <<if $opinionGeneral gt 5>> <<set $opinionGeneral = 5>> <</if>>
 <<if $playerstress lt 0>> <<set $playerstress = 0>> <</if>>
+<<if $playerstress gt 5>> <<set $playerstress = 5>> <</if>>
 [[Continue|Focus]]
 
 :: nextMainPassage
@@ -107,10 +108,11 @@ Military's Opinion:  $opinionGeneral/5
 	[[Continue|Ivana Ending]]
 <<elseif $opinionGeneral lte 0>>
 	[[Continue|Military Ending]]
-<<elseif $playerstress gte 100>>
+<<elseif $playerstress gte 5>>
 	[[Continue|Stress Ending]]
 <<elseif $playermoney lte 0>>
 	[[Continue|Money Ending]]
 <<else>>
+<<set $playermoney += 0.5>>
 [[Continue|Focus]]
 <</if>>
