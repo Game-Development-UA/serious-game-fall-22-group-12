@@ -26,9 +26,14 @@ Military's Opinion:  $opinionGeneral/5
 :: StoryInit
 <<cacheaudio "mainmenu" "media/mainmenu.mp3">>
 <<audio mainmenu load>>
-
+<<cacheaudio "camera" "media/camera.mp3">>
+<<audio camera load>>
+<<cacheaudio "clap" "media/clap.mp3">>
+<<audio clap load>>
 <<cacheaudio "party" "media/party.mp3">>
-<<audio mainmenu load>>
+<<audio party load>>
+<<cacheaudio "normal" "media/normal.mp3">>
+<<audio normal load>>
 /* Opinion Variables */
 <<set $opinionOttovin to 0>>
 <<set $opinionCarlotta to 0>>

@@ -1,14 +1,13 @@
 :: Main Menu
 [[Begin!|Main Story 0]]
-<<audio mainmenu play>>
 /*I will add palace picture back later, trying something out rn */
 :: Main Story 0 [main] 
-<<audio mainmenu stop>> 
     Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which requires your neck to become strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
     [[Continue|Door Open]]
 :: Door Open 
-<<audio party play>>
+<<audio clap volume 0.5 play>>\
+<<audio party loop play>>\
     Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, elegant music fills the air and your guests return to their conversations, drinks, food, and dance. 
     [[Continue|Advisor Approaches]]
 :: Advisor Approaches
@@ -90,7 +89,8 @@ A couple days later, you find yourself walking alongside your advisor across the
 
 “How formal,” you exclaim. “Thank you for that.” The two of you stop for a moment in front of two medium sized doors. Using his back, your advisor pushes with his body weight and opens the left door. Glowing with natural light from several large windows, the presidential office looks almost identical to how you remember it. Vine-like plants hang from the ceiling and a large desk is centered at the back of the room, though it appears the paintings decorating the walls have been replaced in favor of more historically important ones. You approach the desk, place one hand on it, and sit yourself down at its chair.
 [[1. "So, how should I plan then?"|Office 2]]
-
+<<audio "party" volume 1 fadeout>>\
+<<audio "normal" volume 0 fadein>>\
 :: Office 2 [officedaynew]
 “That much is up to you, sir,” your advisor explains. “You are the president of this great nation, so people will expect that you work accordingly. In all honesty, that mainly entails keeping various political figures satisfied while keeping the nation afloat financially. However, on a more personal note, you ought to not sacrifice your mental stability. Taking time off to focus on your own happiness is just as integral to being president as governing is … even if others tend to disagree.”
 [[1. "Okay. I will decide how to spend my time."|Focus]]
