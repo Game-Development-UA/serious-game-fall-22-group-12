@@ -79,6 +79,7 @@ Military's Opinion:  $opinionGeneral/5
 
 /*Passage count: $passageCount */
 :: nextFocus
+<<silently>>
 <<set $passageCount to $passageCount + 1>>
 <<if $opinionOttovin gt 5>> <<set $opinionOttovin = 5>> <</if>>
 <<if $opinionCarlotta gt 5>> <<set $opinionCarlotta = 5>> <</if>>
@@ -86,6 +87,7 @@ Military's Opinion:  $opinionGeneral/5
 <<if $opinionGeneral gt 5>> <<set $opinionGeneral = 5>> <</if>>
 <<if $playerstress lt 0>> <<set $playerstress = 0>> <</if>>
 <<if $playerstress gt 5>> <<set $playerstress = 5>> <</if>>
+<</silently>>
 [[Continue|Focus]]
 
 :: nextMainPassage

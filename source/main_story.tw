@@ -1,5 +1,5 @@
-:: Main Story 0 [main]
-    <img src= "https://github.com/Game-Development-UA/serious-game-fall-22-group-12/blob/main/output/palace.jpg?raw=true" />
+/*I will add palace picture back later, trying something out rn */
+:: Main Story 0 [main] 
     Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which requires your neck to become strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
     [[Continue|Door Open]]
