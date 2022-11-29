@@ -36,6 +36,8 @@ Military's Opinion:  $opinionGeneral/5
 <<audio normal load>>
 <<cacheaudio "phonering" "media/phonering.mp3">>
 <<audio phonering load>>
+<<cacheaudio "flashback1" "media/flashback1.mp3">>
+<<audio flashback1 load>>
 /* Opinion Variables */
 <<set $opinionOttovin to 0>>
 <<set $opinionCarlotta to 0>>

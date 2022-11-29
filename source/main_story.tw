@@ -136,6 +136,7 @@ As you open the door to the neighboring office, you witness your advisor picking
 [[Continue|Main Story 2.1]]
 
 :: Main Story 2.1 [officenightnew] 
+<<audio "normal" stop>>\
 "Right." Your advisor says into the phone. "I will inform the president of this." He thanks the person on the other end of the line before hanging up. Looking at you, he begins, "Sir, that was the prison. It appears your father is making ... quite the commotion. He is quote 'outraged that his own son has not come to visit him once' since being imprisoned. He demands that you grant him an audience, sir."
 
 <<link [[1. "Why am I not surprised. Gather my things and arrange transporation. I'll go tonight."|Main Story 2.2]]>> <<set $father += 1>> <<set $playerstress += 0.5>> <</link>>
@@ -148,6 +149,7 @@ Your advisor nods before walking past you into the presidential office as direct
 "Very well, sir," he responds. "I will call back in the morning and let them know that you are unwilling to visit at this time." Hearing that, you head back into your office before retiring for the night.
 [[Continue|Main Story 1.4]]
 :: Main Story 2.3 [jail]
+<<audio "flashback1" volume 1 fadein>>\
 Despite the prision being only an hour from the palace, it feels as if it is located in a completly isolated corner of the nation. Street lights no longer line the roads and pavement soon turns to dirt the further you are driven. Pulling into the entrance of the institution, you are met by several armed guards, one of which opens the door to your car.
 [[Continue|Main Story 2.4]]
 :: Main Story 2.4 [jail]
@@ -192,13 +194,17 @@ You sit in silence contemplating what your father just proposed.
 <<link [[2. "You and the metal chairs were meant for each other. I will not make any changes to your prison situation."|Main Story 2.9.2]]>> <<set $father -= 1>> <</link>>
 
 :: Main Story 2.9.1 [jail]
+<<audio "flashback1" volume 1 fadeout>>\
 "Ahhh! I knew we could still see eye-to-eye on somethings!" your father cheers. "Oh please make the changes quickly, I can't stand to live like this much longer." You stand up from your stool, nod to your attentive father, and begin to walk out of the row of cells.
 [[Continue|Main Story 2.10]]
 :: Main Story 2.9.2 [jail]
+<<audio "flashback1" volume 1 fadeout>>\
 "Then you and I have nothing more to discuss," your father states. He lays back into his prison bed and stares at the empty celling. Realizing that the conversation is over, you stand up from the stool and make your way out of the row of cells.
 [[Continue|Main Story 2.10]]
 :: Main Story 2.10 [officedaynew]
 Having rested for the remainder of the night after arriving back at the Presidential Palace, you awake and head to your office to begin planning the upcoming weeks.
+<<audio "flashback1" stop>>\
+<<audio "normal" play>>\
 <<include "endCheck">>
 /*  */
 
@@ -212,6 +218,7 @@ Deciding to humor this lone reporter, you begin to approach the palace gate.
 "Mr. President! Mr. President! I have just one question for you if you'd allow me!" You point with two fingers, indicating that you will accept their question. "Mr. President, how do you wish for your mother to be remembered?" Hearing the question, you stare at the bars that seperate yourself from the journalist as a rush overcomes your head.
 [[Continue|Main Story 3.1]]
 :: Main Story 3.1 [flashback]
+<<audio "normal" stop>>\
 Sitting at a small, rounded dinner table, you find yourself eating alongside an older woman and a gruffled man within the residential wing of the Presidential Palace. Setting down her utinsils, the older woman states, "This is something I am completly committed to. Please understand that, Ottovin."
 
 "I hear you loud and clear, ma'am," he responds. "I am just suprised given that the president has made clear to me dozens of times his exact opposite stance."
@@ -243,6 +250,7 @@ Before the journalist finished writing down your response, you turn away and wal
 
 :: Main Story 3.7
 You seclude yourself in your office for the remainder of the day. While there, you decide how to spend the upcoming weeks.
+<<audio "normal" play>>\
 <<include "endCheck">>
 /*  */
 
@@ -254,6 +262,7 @@ You seclude yourself in your office for the remainder of the day. While there, y
 As you swing open two doors, you are presented with a marble balcony overlooking the city. You approach the railing and begin to lean foward, placing your elbows down and crossing your arms. Looking into the distance, you realize that some nearby buildings are still under going repairs just as your head begins to pound.
 [[Continue|Main Story 4.1]]
 :: Main Story 4.1 [militaryoffice]
+<<audio "normal" stop>>\
 No! You are not listening to me!" you find youself crying out. "That man is unfit to rule any longer. The people will not stand for this! I will not stand for this!"
 
 The man in front of you stands up from his chair, slamming his fists on the table. "Do you have ANY idea what you suggesting? This is not some easily made decision! These kinds of things take months to plan before they can be executed. For you to stand here and spontaneously encourage treason is laughable. I'd rather weather out this storm than directly contribute to it."
@@ -278,6 +287,7 @@ Hearing his order, you interupt, "What?! So your just going to protect him?!"
 [[1. "I've never been more prepared."|Main Story 4.4]]
 :: Main Story 4.4
 The cold outdoor air shocks your mind back to the present. Realizing that you had been lost in thought for several minutes, you decide that its time to head back inside and plan out the upcoming weeks before you quit working for the rest of the day.
+<<audio "normal" play>>\
 <<include "endCheck">>
 /*  */
 
@@ -296,10 +306,12 @@ You continue working for some time before your advisor, who had answered the pho
 <<link [[2. "Haven't I made my message clear? Tell them to stop bothering me about him."|Main Story 5.1.1]]>> <<set $father += 0>> <<set $playerstress += 1>> <</link>>
 
 :: Main Story 5.1
+<<audio "normal" stop>>\
 "Very well sir," your advisor responds. "I will arrange for him to be temporarily transported to the palace."
 [[1. "Good. I'll speak to him in my office."|Main Story 5.2]]
 
 :: Main Story 5.1.1
+<<audio "normal" stop>>\
 "Understood, sir," your advisor responds. "I will call back and let them know you wish to not be bothered anymore."
 [[1. "Thank you."|5.1.2]]  
 
