@@ -15,7 +15,7 @@ Although some people are unhappy they didn't receive an invitation, most people 
 Although some people are rubbed the wrong way by the extravagant nature of the wedding, most people are excited for your marriage! Congratulations!
 <<include "nextFocus">>
 :: Choose to have wedding on the beach
-Having chosen to hold your wedding ceremony on the beachfront, you now can decide if you would like to charge an admission fee for citizens to view your ceremony.
+Having chosen to hold your wedding ceremony on the beachfront, you now can decide if you would like to charge an admission fee for citizens to view your wedding ceremony on the breachfront.
 <<link [[1. Charge admission|Charge admissions fee]]>> <<set $playermoney += 1>><</link>>
 <<link [[2. The wedding ceremony should be free to all.|Free admission]]>> <<set $playerstress += 0.5>> <</link>>
 
@@ -68,8 +68,7 @@ What will you choose to drink at the bar?
 You decided to go with hard liquor. While drinking at the bar you have become very drunk and several attendants witnessed you throwing up behind the bar. 
 <<include "nextFocus">>
 :: Drink Wine
-You have decided to drink a glass of wine, keeping it classy as you know you are the face of an entire country .
-(approval rating increased and stress decreased).
+You have decided to drink a glass of wine, keeping it classy as you know you are the face of an entire country.
 <<include "nextFocus">>
 /* */
 
