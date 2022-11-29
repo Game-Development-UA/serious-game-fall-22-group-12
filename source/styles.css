@@ -39,6 +39,12 @@ body[data-tags~="militaryoffice"] {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+body[data-tags~="ballroom"] {
+	background-image: url("media/ballroom.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 	
 .jail {
 	background: rgb(88, 81, 94);

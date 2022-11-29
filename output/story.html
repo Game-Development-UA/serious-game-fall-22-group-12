@@ -100,7 +100,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://1F012455-6A83-4CCB-BCB1-49B9D77D4E03// --><tw-storydata name="Presidentially Precarious (lol need better name)" startnode="74" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="1F012455-6A83-4CCB-BCB1-49B9D77D4E03" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@font-face {
+	<!-- UUID://1F012455-6A83-4CCB-BCB1-49B9D77D4E03// --><tw-storydata name="Presidentially Precarious (lol need better name)" startnode="36" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="1F012455-6A83-4CCB-BCB1-49B9D77D4E03" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@font-face {
 	font-family: 'Mermaid';
 	src: url('media/Mermaid1001.ttf')
 	}
@@ -138,6 +138,12 @@ body[data-tags~="jail"] {
 
 body[data-tags~="militaryoffice"] {
 	background-image: url("media/militaryoffice.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body[data-tags~="ballroom"] {
+	background-image: url("media/ballroom.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -416,17 +422,17 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="36" name="Main Menu" tags="" position="725,475" size="100,100">[[Begin!|Main Story 0]]
 /*I will add palace picture back later, trying something out rn */</tw-passagedata><tw-passagedata pid="37" name="Main Story 0" tags="main" position="850,475" size="100,100">Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which requires your neck to become strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
-    [[Continue|Door Open]]</tw-passagedata><tw-passagedata pid="38" name="Door Open" tags="" position="975,475" size="100,100">&lt;&lt;audio clap volume 0.25 play&gt;&gt;\
+    [[Continue|Door Open]]</tw-passagedata><tw-passagedata pid="38" name="Door Open" tags="ballroom" position="975,475" size="100,100">&lt;&lt;audio clap volume 0.25 play&gt;&gt;\
 &lt;&lt;audio party loop play&gt;&gt;\
     Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, elegant music fills the air and your guests return to their conversations, drinks, food, and dance. 
-    [[Continue|Advisor Approaches]]</tw-passagedata><tw-passagedata pid="39" name="Advisor Approaches" tags="" position="1100,475" size="100,100">As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will be start closely governing with in the coming days?”
+    [[Continue|Advisor Approaches]]</tw-passagedata><tw-passagedata pid="39" name="Advisor Approaches" tags="ballroom" position="1100,475" size="100,100">As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will be start closely governing with in the coming days?”
     “You&#39;re right,” you respond, “Who do you suggest I approach first?” Your advisor shakes his head and explains that it is up to you to decide who to approach and in what order. Handing you a drink before leaving to rejoin the festivities, he reminds you that this is a very public event, meaning all eyes will be on you. 
-[[&quot;Let&#39;s see how this goes.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="40" name="Approaching" tags="" position="1225,475" size="100,100">&lt;&lt;if $timespenttalking lt 2&gt;&gt; Taking a sip from your drink, you decide who to you approach.&lt;&lt;else&gt;&gt; Your drink is empty. No one important is left to approach. &lt;&lt;/if&gt;&gt;
+[[&quot;Let&#39;s see how this goes.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="40" name="Approaching" tags="ballroom" position="1225,475" size="100,100">&lt;&lt;if $timespenttalking lt 2&gt;&gt; Taking a sip from your drink, you decide who to you approach.&lt;&lt;else&gt;&gt; Your drink is empty. No one important is left to approach. &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $approachOttovin == false&gt;&gt;[[Ottovin, spokesperson for the Labor Union Frontiermen|Approach Ottovin]] &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $approachCarlotta == false&gt;&gt;[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $approachIvana == false&gt;&gt;[[Ivana, Spymaster|Approach Ivana]]&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $approachGeneral == false&gt;&gt;[[Dean, General of the Armed Forces|Approach xyz]]&lt;&lt;/if&gt;&gt;
-&lt;&lt;if $timespenttalking == 2&gt;&gt;[[Continue|Party End]]&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="41" name="Approach Ottovin" tags="" position="100,600" size="100,100">“Ah Mr. President!” Ottovin exclaims while setting his drink down on a nearby table. “Allow me to personally congratulate you on everything that&#39;s transpired this past month. A situation like that would test the courage and honor of any good man let alone one of your political stature,” he says while reaching his hand out toward you. “I do not envy you.”
+&lt;&lt;if $timespenttalking == 2&gt;&gt;[[Continue|Party End]]&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="41" name="Approach Ottovin" tags="ballroom" position="100,600" size="100,100">“Ah Mr. President!” Ottovin exclaims while setting his drink down on a nearby table. “Allow me to personally congratulate you on everything that&#39;s transpired this past month. A situation like that would test the courage and honor of any good man let alone one of your political stature,” he says while reaching his hand out toward you. “I do not envy you.”
     
 With a slight chuckle, you grab hold of his hand and firmly shake it whilst saying, “Thank you, Ottovin. This past month was most definitely troublesome, but I am more concerned about the future of the nation now, not the past.”
    
@@ -436,7 +442,7 @@ Letting go of your hand, Ottovin replies, “Right. Well the Labor Union Frontie
 &lt;&lt;set $approachOttovin to true&gt;&gt;\
 &lt;&lt;set $timespenttalking to $timespenttalking + 0.5&gt;&gt;\
 &lt;&lt;set $opinionOttovin to 5 - $timespenttalking&gt;&gt;\
-[[1. &quot;It was nice seeing you, Ottovin.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="42" name="Approach Carlotta" tags="" position="225,600" size="100,100">“Oooo Mr. President! Congratulations on your new title! To what do I owe the pleasure of your presence?” Carlotta questions while closing the fan she was using to keep herself cool. 
+[[1. &quot;It was nice seeing you, Ottovin.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="42" name="Approach Carlotta" tags="ballroom" position="225,600" size="100,100">“Oooo Mr. President! Congratulations on your new title! To what do I owe the pleasure of your presence?” Carlotta questions while closing the fan she was using to keep herself cool. 
 	
 “I don&#39;t believe we&#39;ve formally met before. Seeing how you&#39;re likely to have my ear throughout my presidency, I thought we should become acquainted,” you explain.
 	
@@ -448,7 +454,7 @@ Opening her fan, Carlotta responds with a smile, “It was nice to formally meet
 &lt;&lt;set $approachCarlotta to true&gt;&gt;\
 &lt;&lt;set $timespenttalking to $timespenttalking + 0.5&gt;&gt;\
 &lt;&lt;set $opinionCarlotta to 5 - $timespenttalking&gt;&gt;\
-[[1. &quot;Likewise, Carlotta&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="43" name="Approach Ivana" tags="" position="350,600" size="100,100">“Lovely party you&#39;ve put on, Mr. President,” Ivana states looking to the side while leaning over a railing. “Not necessarily as grand as some others I&#39;ve attended though.”
+[[1. &quot;Likewise, Carlotta&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="43" name="Approach Ivana" tags="ballroom" position="350,600" size="100,100">“Lovely party you&#39;ve put on, Mr. President,” Ivana states looking to the side while leaning over a railing. “Not necessarily as grand as some others I&#39;ve attended though.”
 
 “Oh! I&#39;m sorry the party isn&#39;t living up to your expectations,” you respond.
 
@@ -462,7 +468,7 @@ You nod your head and begin to walk back to the party.
 &lt;&lt;set $approachIvana to true&gt;&gt;\
 &lt;&lt;set $timespenttalking to $timespenttalking + 0.5&gt;&gt;\
 &lt;&lt;set $opinionIvana to 5 - $timespenttalking&gt;&gt;\
-[[1. &quot;That was an interesting conversation.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="44" name="Approach xyz" tags="" position="475,600" size="100,100">“Evening, sir,” Dean says with a slight nod of his head. “It seems like we&#39;ve passed the thick and thin of things, haven&#39;t we?”
+[[1. &quot;That was an interesting conversation.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="44" name="Approach xyz" tags="ballroom" position="475,600" size="100,100">“Evening, sir,” Dean says with a slight nod of his head. “It seems like we&#39;ve passed the thick and thin of things, haven&#39;t we?”
 
 “I do believe you&#39;re right,” you respond. “I am deeply appreciative of your support, I know that must have been a very, very difficult decision for you to make.”
 
@@ -474,7 +480,7 @@ You nod your head and begin to walk back to the party.
 &lt;&lt;set $approachGeneral to true&gt;&gt;\
 &lt;&lt;set $timespenttalking to $timespenttalking + 0.5&gt;&gt;\
 &lt;&lt;set $opinionGeneral to 5 - $timespenttalking&gt;&gt;\
-[[1. &quot;That&#39;s good to hear, Dean.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="45" name="Party End" tags="" position="600,600" size="100,100">Having spoken to all those who will soon play a role in your government, you decide that now is the appropriate time to finally relish in the festivities of the party. After all, this is a celebration dedicated to you. Grabbing a refreshed drink from a server, you make your way to your designated seat at the center of the ballroom. From here, you can sit back, relax, and enjoy the sight of all the notable people in your nation having a good time.
+[[1. &quot;That&#39;s good to hear, Dean.&quot;|Approaching]]</tw-passagedata><tw-passagedata pid="45" name="Party End" tags="ballroom" position="600,600" size="100,100">Having spoken to all those who will soon play a role in your government, you decide that now is the appropriate time to finally relish in the festivities of the party. After all, this is a celebration dedicated to you. Grabbing a refreshed drink from a server, you make your way to your designated seat at the center of the ballroom. From here, you can sit back, relax, and enjoy the sight of all the notable people in your nation having a good time.
 [[1. &quot;Tonight was fun.&quot;|Office 1]]</tw-passagedata><tw-passagedata pid="46" name="Office 1" tags="officedaynew" position="725,600" size="100,100">A couple days later, you find yourself walking alongside your advisor across the Presidential Palace. He is carrying several folders and loose papers held to his chest. “Sir, today would be the perfect time to visit your presidential office,” he begins. “Planning out how to focus your attention for the upcoming weeks is imperative to a functioning government. I&#39;ve taken the liberty and arranged at your desk a calendar for you to personally use to decide how to spend your time.”
 
 “How formal,” you exclaim. “Thank you for that.” The two of you stop for a moment in front of two medium sized doors. Using his back, your advisor pushes with his body weight and opens the left door. Glowing with natural light from several large windows, the presidential office looks almost identical to how you remember it. Vine-like plants hang from the ceiling and a large desk is centered at the back of the room, though it appears the paintings decorating the walls have been replaced in favor of more historically important ones. You approach the desk, place one hand on it, and sit yourself down at its chair.
@@ -600,7 +606,7 @@ Hearing his order, you interupt, &quot;What?! So your just going to protect him?
 &lt;&lt;audio &quot;normal&quot; volume 0 fadein&gt;&gt;\
 &lt;&lt;include &quot;endCheck&quot;&gt;&gt;
 /*  */</tw-passagedata><tw-passagedata pid="79" name="Main Story 5" tags="main" position="1100,975" size="100,100">&lt;&lt;audio &quot;normal&quot; volume 1 fadeout&gt;&gt;\
-&lt;&lt;if $father lt 2&gt;&gt;\
+&lt;&lt;if $father gte 2&gt;&gt;
 You continue working for some time before your advisor, who had answered the phone, enters the presidential office. &quot;Sir,&quot; he begins, &quot;I just got off the phone with...&quot;
 
 &quot;The prison again?&quot; you interupt. He nods as his lips grow thin. &quot;I thought so. That phone ringing rarely means anything else nowadays.&quot; You pause for a moment before continuing, &quot;Well... What does he want?&quot;
@@ -612,7 +618,7 @@ You continue working for some time before your advisor, who had answered the pho
 
 &quot;The prison again?&quot; you interupt. He nods as his lips grow thin. &quot;I thought so. That phone ringing rarely means anything else nowadays.&quot; You pause for a moment before continuing, &quot;Well... What does he want?&quot;
 
-&quot;Actually, sir...&quot; your advisor starts with a pale look on his face, &quot;The former President wasn&#39;t found in his cell this morning.&quot;
+&quot;Actually, sir...&quot; your advisor starts with a pale look on his face, &quot;The former President is missing from his cell this morning.&quot;
 
 &lt;&lt;link [[1. &quot;WHAT!?&quot;|Main Story 6.1]]&gt;&gt; &lt;&lt;set $father += 0&gt;&gt; &lt;&lt;set $playerstress += 2&gt;&gt; &lt;&lt;/link&gt;&gt;
 &lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="80" name="Main Story 5.1" tags="" position="1225,975" size="100,100">&quot;Very well sir,&quot; your advisor responds. &quot;I will arrange for him to be temporarily transported to the palace.&quot;
@@ -633,7 +639,7 @@ Your father sits still for several moments. &quot;I.. I... I wanted to express t
 &quot;It was entirely selfish!&quot; your father shouts. &quot;Your mother had explicit orders to stay out of the spotlight for several years at this point. She knew that directly involving herself with the Frontiermen would upset the delicate balance of power in this nation. I&#39;m not just talking about myself, but other powerful individuals who felt threatened by her aswell.&quot;
 [[1. &quot;You felt threatend by her!? Your own wife?&quot;|Main Story 5.5]]</tw-passagedata><tw-passagedata pid="84" name="Main Story 5.5" tags="" position="475,1100" size="100,100">&quot;The last time your mother worked alongside the Frontiermen while I was in office, rumors from every corner of the nation crept up about revolution. Powerful interests, including myself, ignored them at first, but as unrest grew more violent, it became clear that her outward and active support of the Frontiermen acted as some sort of catalyst. The more support she showed, the more inflamed workers became. So, I ordered that she refrain from any public apperances besides those she was expected to be at as the wife of the president. It wasn&#39;t entirely my decision, but it felt like the right thing to do at the time. It seemed to calm down the riots, after all.&quot;
 [[1. &quot;But why... why did you...&quot;|Main Story 5.6]]</tw-passagedata><tw-passagedata pid="85" name="Main Story 5.6" tags="" position="600,1100" size="100,100">&quot;You have to understand son that this had been an ongoing battle between your mother and I for years. We had fought regularly about this. They usually ended with her accepting that any involvement on her part would stoke fires that could burn all of us in government. But that night, she refused to give in. She told me that she didn&#39;t care anymore, that the people deserved her support no matter the consequences. We screamed at eachother for what felt like eternity. Eventually, the intensified sense of threat I thought she possessed against me led to me to ... snap.
-[[1. &quot;Why you didn&#39;t tell me any of this sooner?!&quot;|Main Story 5.7]]</tw-passagedata><tw-passagedata pid="86" name="Main Story 5.7" tags="" position="725,1100" size="100,100">&quot;Because the next time I saw you, you had surrounded the palace with a swarm of angery citizens and a battalion of tanks. There wasn&#39;t the possibility of a conversation.&quot;
+[[1. &quot;Why you didn&#39;t tell me any of this sooner?!&quot;|Main Story 5.7]]</tw-passagedata><tw-passagedata pid="86" name="Main Story 5.7" tags="" position="725,1100" size="100,100">&quot;Because the next time I saw you, you had surrounded the palace with a swarm of angery citizens and a battalion of tanks. There was no possibility of a conversation.&quot;
 
 [[1. &quot;&quot;]]
 [[2. &quot;&quot;]]</tw-passagedata><tw-passagedata pid="87" name="Main Story 6.1" tags="" position="850,1100" size="100,100"></tw-passagedata><tw-passagedata pid="88" name="Start" tags="" position="975,1100" size="100,100">&lt;h1&gt; Welcome to [[Gargantua!|Gargantua]] &lt;/h1&gt;
