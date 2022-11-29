@@ -94,7 +94,10 @@ This is a great way to get exercise and help to relieve some of the stress that 
 
 
 :: Visit Places Around the Country [stress]
-You have decided that you would like to visit some different areas around the country for a weekend. 
+To help relieve some stress you have decided that you would like to visit some different areas around the country for a weekend. 
+
+Where would you like to go?
+
 <<link [[1. "I want to visit the agricultural district."|Visit Agricultural District]]>> <<set $playerstress -= 1>> <</link>>
 <<link [[2. "I want to visit several small cities in the country."|Visit some small cities]]>> <<set $playerstress -= 0.5>><</link>>
 
