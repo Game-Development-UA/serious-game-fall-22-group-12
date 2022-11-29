@@ -266,7 +266,7 @@ As you swing open two doors, you are presented with a marble balcony overlooking
 :: Main Story 4.1 [militaryoffice]
 <<audio "normal" volume 1 fadeout>>\
 <<audio "flashback5" volume 0 fadein>>\
-No! You are not listening to me!" you find youself crying out. "That man is unfit to rule any longer. The people will not stand for this! I will not stand for this!"
+"No! You are not listening to me!" you find youself crying out. "That man is unfit to rule any longer. The people will not stand for this! I will not stand for this!"
 
 The man in front of you stands up from his chair, slamming his fists on the table. "Do you have ANY idea what you suggesting? This is not some easily made decision! These kinds of things take months to plan before they can be executed. For you to stand here and spontaneously encourage treason is laughable. I'd rather weather out this storm than directly contribute to it."
 
