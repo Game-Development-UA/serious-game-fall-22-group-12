@@ -76,7 +76,7 @@ Military General Dean is calling the presidential office phone.
 :: Housing [event]
 Placing a sealed envelope on your desk, your advisor informs you that it was sent by General Dean only a few hours prior. Inside the envelope, Dean writes,"Mr. President, the state-owned homes myself and other military officers live in are out of date. What kind of message are we sending if your brightest military minds are not even treated properly. I request that you either renovate our homes or relocate us to newer, more spacious ones. I should not have to put up with this."
 
-Picking up a pen, you write back,
+Picking up a pen, you write back:
 
 <<link [[1. "General, I understand and sympathize with your frustration concerning your lack-luster housing arangment. You and your officers will be treated to better homes within the year."|Support Housing]]>> <<set $opinionGeneral += 1>> <<set $playermoney -= 1>> <</link>>
 <<link [[2. "General, the government cannot fund such projects at this time. I am sorry, but any plans or renovation or relocation will have to wait."|No Support Housing Money]]>> <<set $opinionGeneral -= 0.5>> <<set $playerstress += 0.5>> <</link>>
