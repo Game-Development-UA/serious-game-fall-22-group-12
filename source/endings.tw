@@ -37,9 +37,9 @@ You should have seen this coming,
 it is not a good idea to get on the bad side of your spymaster.
 She has more power than you know.
 
-[[1. "Do you really think I didn't know about these messages and the plot to have you removed from presidency? | Last"]]
+[[1. "Do you really think I didn't know about these messages and the plot to have you removed from presidency?" | Last Ivana]]
 
-:: Last
+:: Last Ivana
 You begin to collapse to the ground. 
 This is all starting to make sense now how could the spymaster not know about these secrets, this is her job after all.
 'I-I dont understand, w-why'
@@ -50,7 +50,18 @@ and you are dead!
 The End 
 
 :: Military Ending [end]
-Something about a coup led against you
+After a series of decisions that are not supported by the military the general Dean has officially disaproved of you.
+
+Dean now see you as unfit to lead this nation and is advocating for your removal from office.
+[[1. Try to get back on Deans good side.| Attempt salvation]]
+[[2. Not my responsibility. | Do nothing now]]
+
+:: Attempt salvation
+You have Dean be sent to your office immediatly to discuss this dilemma.
+
+Dean will not be swayed and he has the support of the full military so you cannot simply remove Dean from the picture.
+He has threatened to seize you from office 
+
 
 
 :: Stress Ending [end]
