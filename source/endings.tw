@@ -19,7 +19,7 @@ You have no choice but to wonder, "what does this mean"?
 You have decided to be proactive and find out what has happened to your spymaster Ivana.
 
 You ask your advisors but they have no useful information about this.
-"Sir, I think you should speak directly To Ivana about this situation" your advisor tells you
+"Sir, I think you should speak directly To Ivana about this situation" your advisor tells you.
 Especially after you have been recieving anonymous messages threating something dire will happen if you do not step down as president.
 [[1. Ask to see Ivana directly. | See ivana]]
 
@@ -41,26 +41,42 @@ You should have seen this coming,
 it is not a good idea to get on the bad side of your spymaster.
 She has more power than you know.
 
-[[1. "Do you really think i didn't know about these messages and the plot to have you removed from presidency? | Last"]]
+[[1. "Do you really think I didn't know about these messages and the plot to have you removed from presidency?" | Last Ivana]]
 
-:: Last
+:: Last Ivana
 You begin to collapse to the ground. 
 This is all starting to make sense now how could the spymaster not know about these secrets, this is her job after all.
-'I-i dont understand, w-why'
-'Because you are too incompetant, i want my revenge' Ivana said.
+'I-I dont understand, w-why'
+'Because you are too incompetant, and I want my revenge for the losses ive suffered as a result' Ivana said.
 Your breathing slowly stops, 
 and you are dead!
+
+The End 
+
+:: Military Ending [end]
+After a series of decisions that are not supported by the military the general Dean has officially disaproved of you.
+
+Dean now sees you as unfit to lead this nation and is advocating for your removal from office.
+[[1. Try to get back on Deans good side.| Attempt salvation]]
+[[2. Not my responsibility. | Do nothing now]]
+
+:: Attempt salvation
+You have Dean be sent to your office immediatly to discuss this dilemma.
+
+Dean will not be swayed and he has the support of the full military so you cannot simply remove Dean from the picture.
+He has threatened to seize you from office 
+
 
 
 :: Stress Ending [end]
 
-Being a president of a country is a very stressful job. You thought you would be able to handle this job and manage your stress well because you father did this job before you. You were mistaken.
-Your stress levels have maxed out and you have realized you cannot take it anymore. You realise that you have to make a decision.
+Being a president of a country is a very stressful job. You thought you would be able to handle this job and manage your stress well because your father did this job before you. You were mistaken.
+Your stress levels have maxed out and you have realized you cannot take it anymore. You now have to make a decision.
 [[1. Choose to resign from your presidential position. | Resign from presidency]]
 [[2. Choose to take everyone down with you. | Take everyone down with you]]
 
 :: Resign from presidency 
-You have decided that it is best for you and the country if you resign. The job has become to much of a burden, and you cannot handle it anymore. You have realized that because of your extreme stress
+You have decided that it is best for you and the country if you resign promptly. The job has become to much of a burden, and you cannot handle it anymore. You have realized that because of your extreme stress
 you have not been able to be a good president and your choices recently have become questionable. But you have made the right decison to resign. Your fellow constituents respect your decision.
 As one of your lasts ats as president, your advisor asks if you would like to give a farewell speech to address the nation
 [[1. "Yes i will give one last speech to address the people." | Farewell Speech]]
@@ -72,9 +88,9 @@ You hope the people of the nation will understand you situation and that they wi
 [[1."Good afternoon citizens, it brings me no joy to announce that i will be stepping down as president of this country.| Speech.1"]]
 
 :: Speech.1 
-"This position has become to large of a burden for me to hold, i feel i am not able to be the president that you all deserve."
-"The great people of this country deserve a great president that can withstand the weight that is placed on them, i fear i have failed you all"
-[[1. "Please put your faith into this country and the new president, i have no doubts they will be a great addition to this country" | Last remarks]]
+"This position has become to large of a burden for me to hold, I feel I am not able to be the president that you all deserve."
+"The great people of this country deserve a great president that can withstand the weight that is placed on them, I fear I have failed you all"
+[[1. "Please put your faith into this country and the new president, I have no doubts they will be a great addition to this country" | Last remarks]]
 
 :: Last remarks
 "This is a great nation, I can see the light on the other side, though i believe i cannot bring us there."
@@ -86,8 +102,8 @@ You are now relieved of your presidential duty, you begin to feel a bit of happi
 :: Dont address the nation
 You have decided that it is best for you to not give a farewell speech.
 You feel as though this nation just needs new strong leadership urgently. 
-Your new life is all the you see ahead of you.
-Though you wonder will you be left with underlyin regrets?
+Your new life is all that you see ahead of you.
+Though you wonder will you be left with underlying regrets?
 
 :: Take everyone down with you
 You have decided to take a route of revenge, everyone else must fall aswell. You have grown bitter of your fellow constituents with the heavy weight of the stress. You feel as though you should have recieved better 
@@ -133,6 +149,8 @@ After some time of fighting the fires the flames are finally put out.
 You feel as though this was a grave mistake, and now you must dissapear from the public eye.
 Your new life lies ahead, of guilt and isolation.
 
+The End
+
 :: No regrets
 You still do not have any regrets about starting the fire, everyone will get out safe right? You just want the building GONE.
 It holds to many negative memories for you, for this country even.
@@ -156,21 +174,27 @@ You are now officially stepped down as president, a new life lies ahead.
 Now you wonder...
 "Have I made more mistakes than success?"
 
+The End
 :: Expose everyone
-You want to make sure everyone who wronged you has a stain on their legacy. You will be leaving the presidency with the people under the impression that you were a weak leader and succombed to the stress.
-This will tarnish you legacy and you want the same for the others.
+You want to make sure everyone who wronged you has a stain on their legacy. You will be leaving the presidency with the general public under the impression that you were a weak leader and succombed to the stress.
+This will tarnish your legacy.
 
-
+You want the same for the others.
 
 :: Money Ending [end]
-You have just been informed by your economic advisors that you have exauhsted all of the nations funds and the government has become bankrupt.
-The military general is furious as they now have no budget for future military advancement projets. Carolotta is furious with the government as well, 
-she has cut ties with you all together.
+You have juist been informed by your economic advisors that you have exauhsted all of the nations funds and the government has become bankrupt.
+The military general Dean is furious as they now have no budget for future military advancement projets. Carolotta is furious with the government as well, 
+she has cut ties with you all together and is advocating withtin the corporations for your removal from office.
 
 Under the serious circumstances of bankrupcy your advisors are advising that you step down from the presidential position. 
-All four of your main constituents are now your enemies and have begun to work against you as they now see you as an irresponsible and incappable leader for this country.
+All four of your main constituents are now your enemies and have begun to work against you as they now see you as an irresponsible and incapable leader for this country.
 [[1. You have been advised that because of this, stepping down is your last viable option. | Money ending.1]] 
 
 :: Money ending.1
 Carlotta, Ottovin, Ivana, and Dean are pleased to hear that you are stepping down as they now no longer have to deal with you incompetence.
+
+Your lasting legacy will be that of a president that drove this country to bankrupcy.
+This is how the people will remeber you.
+
+The End
 
