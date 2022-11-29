@@ -317,8 +317,6 @@ You continue working for some time before your advisor, who had answered the pho
 
 <<link [[1. "WHAT!?"|Main Story 6]]>> <<set $father += 0>> <<set $playerstress += 2>> <</link>>
 <</if>>\
-
-
 :: Main Story 5.1 [officedaynew]
 "Very well sir," your advisor responds. "I will arrange for him to be temporarily transported to the palace."
 [[1. "Good. I'll speak to him in my office."|Main Story 5.2]]
@@ -401,12 +399,7 @@ As for your father, he continues to lie awake at night with regretful thoughts f
 As for your father, a public execution was held nearly a week after his visit to the Presidential Palace. Despite little to no promotion, the largest crowd ever reported in the nation's history turned up to watch the man be hanged. Cheers and laughter filled the streets, with some citizens even jokingly being upset that this hadn't occured sooner.
 <</if>>\
 Nevertheless, you are looking forward to the rest of your life as president, which you expect to be much smoother sailing from this point onward.
-[[The End|Main Menu]]
-
-
-
-
-
+[[The End|Main Menu 1]]
 :: Main Story 6 [officedaynew]
 You slam your fists down on your desk as you jolt out of your seat. "How am I just hearing of this!?"
 
@@ -459,7 +452,9 @@ A few weeks later, Dean returns to your office. Not making eye contact, he says,
 Interrupting, you advisor says, "Sir, if I might say. It appears your father is out of our reach at this point. He is likely to just be hiding from us, not presenting any threat anymore.
 [[1. "You're probably right."|Main Story 6.4]]
 
-:: Main Story 6.4 [officedaynew]
+:: Main Story 6.4 [officedaynew] 
+<<audio "flashback6" volume 1 fadeout>>\
+<<audio "flashback7" volume 0 fadein>>\
 With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead!
 <<if $father == 1>>\
 As for your father, his whereabouts are still unknown.
@@ -471,4 +466,4 @@ As for your father, he has moved on from our eastern neighbor and is now even fu
 As for your father, his whereabouts are still unknown.
 <</if>>\
 Nevertheless, you are looking forward to the rest of your life as president, which you expect to be much smoother sailing from this point onward.
-[[The End|Main Menu]]
+[[The End|Main Menu 1]]
