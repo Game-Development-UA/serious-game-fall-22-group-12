@@ -23,11 +23,3 @@ You are now in full control and able to make decisions for yourself. </h2>
 <h2> As you enter the ballroom, armed guests announce your arrival to the guests. You hear loud music frequently interuppted by the uproar from the artisoctraic families.
 everything is going smoothly. Ensure to maintain the satisfaction of all your guests. <br>
 Your current guest satisfaction has a value of $guestSatisfaction and in order to maintain this you must ensure all your guests needs are met. </h2> */
-
-
-
-:: choice
-<<set $events = Story.lookup("tags","event")>>
-<<for _i to 0; _i < $events.length; _i++>>
-	<<set $events[_i] = $events[_i].title>>
-<</for>>\

@@ -1,0 +1,176 @@
+
+
+:: Ottovin Ending [end]
+Something about ottovin leading a revolt of working people against you - finish ending then link to end screen - make end screen 
+:: Carlotta Ending [end]
+Something about the nations economy falling apart, leading carlotta/corporate elite to reinstate your father (i dunno about that second part)
+:: Military Ending [end]
+Something about a coup led against you
+
+
+:: Ivana Ending [end]
+As Ivana's approval rating of you has been slowly decreasing to zero, you notice she has become suspiciously quiet and absent in informing you of any important information.
+You have no choice but to wonder, "what does this mean"?  
+"What could she be up to?"
+
+[[1. Be proactive about the situation | Proactive]]
+
+:: Proactive
+You have decided to be proactive and find out what has happened to your spymaster Ivana.
+
+You ask your advisors but they have no useful information about this.
+"Sir, I think you should speak directly To Ivana about this situation" your advisor tells you
+Especially after you have been recieving anonymous messages threating something dire will happen if you do not step down as president.
+[[1. Ask to see Ivana directly. | See ivana]]
+
+:: See ivana
+As Ivana walks into your office you notice some tea on the table that was not there before.
+One of the members of staff mustve brought it in when you were busy doing paper work.
+As Ivana sits down you offer her some tea and pour yourself a cup.
+[[1. Ask about messages. | Messages]]
+
+:: Messages 
+You ask Ivana about the messages you have been getting recently. 
+"Hmmm, I do not know anything about these mysterious messages that you have been recieving, I will most certainly look into though of course"
+As you take a long sip of tea, Ivana forms a slight smile.
+
+"I should really be going now sir so i can look into this situation as soon as possi...."
+
+Her sentence trails off as you begin to feel dizzy. You relaize she has poisoned you...
+You should have seen this coming, 
+it is not a good idea to get on the bad side of your spymaster.
+She has more power than you know.
+
+[[1. "Do you really think i didn't know about these messages and the plot to have you removed from presidency? | Last"]]
+
+:: Last
+You begin to collapse to the ground. 
+This is all starting to make sense now how could the spymaster not know about these secrets, this is her job after all.
+'I-i dont understand, w-why'
+'Because you are too incompetant, i want my revenge' Ivana said.
+Your breathing slowly stops, 
+and you are dead!
+
+
+:: Stress Ending [end]
+
+Being a president of a country is a very stressful job. You thought you would be able to handle this job and manage your stress well because you father did this job before you. You were mistaken.
+Your stress levels have maxed out and you have realized you cannot take it anymore. You realise that you have to make a decision.
+[[1. Choose to resign from your presidential position. | Resign from presidency]]
+[[2. Choose to take everyone down with you. | Take everyone down with you]]
+
+:: Resign from presidency 
+You have decided that it is best for you and the country if you resign. The job has become to much of a burden, and you cannot handle it anymore. You have realized that because of your extreme stress
+you have not been able to be a good president and your choices recently have become questionable. But you have made the right decison to resign. Your fellow constituents respect your decision.
+As one of your lasts ats as president, your advisor asks if you would like to give a farewell speech to address the nation
+[[1. "Yes i will give one last speech to address the people." | Farewell Speech]]
+[[2. "No, i have to interest in this anymore". | Dont adress the nation]]
+
+:: Farewell Speech 
+You have decided for your last official act as president, to address the nation. You do not want the people to think you are leaving the position for selfish reasons. You believe that this is for the good of the people.
+You hope the people of the nation will understand you situation and that they will put their faith into the a new president. 
+[[1."Good afternoon citizens, it brings me no joy to announce that i will be stepping down as president of this country.| Speech.1"]]
+
+:: Speech.1 
+"This position has become to large of a burden for me to hold, i feel i am not able to be the president that you all deserve."
+"The great people of this country deserve a great president that can withstand the weight that is placed on them, i fear i have failed you all"
+[[1. "Please put your faith into this country and the new president, i have no doubts they will be a great addition to this country" | Last remarks]]
+
+:: Last remarks
+"This is a great nation, I can see the light on the other side, though i believe i cannot bring us there."
+"Thank you"
+[[1. You begin to feel a relief after your speech is over. | Stress end.1]]
+:: Stress end.1
+You are now relieved of your presidential duty, you begin to feel a bit of happiness, that you havent felt in a long time.
+
+:: Dont address the nation
+You have decided that it is best for you to not give a farewell speech.
+You feel as though this nation just needs new strong leadership urgently. 
+Your new life is all the you see ahead of you.
+Though you wonder will you be left with underlyin regrets?
+
+:: Take everyone down with you
+You have decided to take a route of revenge, everyone else must fall aswell. You have grown bitter of your fellow constituents with the heavy weight of the stress. You feel as though you should have recieved better 
+counsel and the people around you have not been helpful in this way as of late. 
+[[1. Would you like to burn down the palace. | Burn down palace]]
+[[2. Expose the dark secrest of Ottovin, Carlotta, Ivana, and Dean. | Expose everyone]]
+
+:: Burn down palace
+You have decided that the palace holds to many haunted memories from the past and the present. It must be destroyed. This will bring some satisfaction to you and 
+maybe even some of your enemies will get burnt. Hehe. The question you have now is how shall you start this great fire.
+[[1. Light your office on fire with matches and hope it spreads fast. | Burn office]]
+[[2. Start gas fire in the kitchen downstairs. | Gasfire]]
+
+:: Burn office 
+You have decided that you want to start the fire in your office as it holds the most bad memories of your presidency.
+
+You get a huge stack of papers and put the under some curtains. Strike a match, and gently toss it into the eager to burn papers.
+
+It quickly goes up into flames, you run out of your office, and quickly out of the palace. 
+You cannot believe what you have done, yet you are feeling a little bit of relief. You find one of your drivers and tell them to just drive.
+[[1. After about an hour you get a call from one of your advisors, they are urgently askiing if you are ok. | call after fire]]
+
+:: call after fire
+You tell them that you are fine, but then they reveal that the fire did not reach the rest of the palace. Only about a third of the palace was burned before it was put out.
+
+You cannot help but feel a bit relieved as you were beginning to feel guilty, as you start the fire in a manic impulse episode.
+Either way you have cemented yourself as an Ex-President. Now your new life is all that lies ahead.
+
+:: Gasfire
+You have decided that the most efficient way to burn down the palace would be by gas fire in the kitchen.
+You head down to the kithen and turn on the gas on the stove. 
+You leave it on for awhile and then place some flammables onto the stove and set it ablaze.
+Huge flames arise, suddenly filled with fear you run out of the palace and into the courtyard.
+You see parades of people urgenlty fleeing the palace.
+[[1. You begin to feel guilty about starting the fire. | Guilty]]
+[[2. You still stad by what you did. | No regrets]]
+
+:: Guilty 
+You begin to feel guilty about starting the fire, maybe this was not the best decison. 
+
+After some time of fighting the fires the flames are finally put out.
+
+You feel as though this was a grave mistake, and now you must dissapear from the public eye.
+Your new life lies ahead, of guilt and isolation.
+
+:: No regrets
+You still do not have any regrets about starting the fire, everyone will get out safe right? You just want the building GONE.
+It holds to many negative memories for you, for this country even.
+
+As the flames blaze on it seems that everyone has been accounted for except...
+[[1. Carlotta. | Carlotta dead]]
+[[2. Military General. | Military general dead]]
+
+:: Carlotta dead 
+Your advisors tell you that everyone that was inside the palace has been accounted for except Carlotta.
+Carlotta is presumed dead, But you are filled with relief that nobody else remained inside the burned palace.
+Your new life out of the public eye lies ahead, though you worry...
+will you be filled with any remorse?
+
+:: Military general dead
+Your advisors inform you that everybody that was inside the palace at the time of the fire is accounted for, and is safe outside of the fires range.
+Except the military general. 
+You worry about this as he is obviously an important member of the nations defence.
+Although, you are glad that nobody else was harmed by you desire to burn bridges.
+You are now officially stepped down as president, a new life lies ahead.
+Now you wonder...
+"Have I made more mistakes than success?"
+
+:: Expose everyone
+You want to make sure everyone who wronged you has a stain on their legacy. You will be leaving the presidency with the people under the impression that you were a weak leader and succombed to the stress.
+This will tarnish you legacy and you want the same for the others.
+
+
+
+:: Money Ending [end]
+You have just been informed by your economic advisors that you have exauhsted all of the nations funds and the government has become bankrupt.
+The military general is furious as they now have no budget for future military advancement projets. Carolotta is furious with the government as well, 
+she has cut ties with you all together.
+
+Under the serious circumstances of bankrupcy your advisors are advising that you step down from the presidential position. 
+All four of your main constituents are now your enemies and have begun to work against you as they now see you as an irresponsible and incappable leader for this country.
+[[1. You have been advised that because of this, stepping down is your last viable option. | Money ending.1]] 
+
+:: Money ending.1
+Carlotta, Ottovin, Ivana, and Dean are pleased to hear that you are stepping down as they now no longer have to deal with you incompetence.
+

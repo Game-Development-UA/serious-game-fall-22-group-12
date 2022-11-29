@@ -1,0 +1,94 @@
+:: Compensation [event]
+While finishing up some work in your office, Dean enters without any announcement. Looking up from your papers, you question him about his visit.
+“Mr. President, I went out on a limb when I agreed to help you take power. I did things, treasonous things that night…” he responds. “So I believe some sort of compensation is to be in order. Something to the tune of raises and better benefit plans for all military personnel involved, and a bit extra for me personally. Without my help, without all of your military’s help, you likely would not have this job.”
+
+<<link [[1. “I understand where you are coming from. I will give everyone involved raises in pay along with more benefits.” |Agree to give the officers better compensation and benefits]]>> <<set $playerstress += .5>> <<set $playermoney -= 1>> <<set $opinionGeneral += 1>><</link>>
+<<link [[2. “I acknowledge your complaints, but if I were to be so easily manipulated into giving you everything you ask for, it would come across as weak and unfair to those who complete tasks they are assigned to without demands.” |Deny giving the officers the benefits]]>> <<set $playerstress += .5>> <<set $opinionGeneral -= 1>> <</link>>
+
+:: Agree to give the officers better compensation and benefits
+Dean takes his hat off and holds it to his chest. “I really appreciate it sir. I will make sure to share this to those who took part in fighting by your side. Thank you very much,” he states before turning around and heading back out of the door. 
+<<include "nextFocus">>
+:: Deny giving the officers the benefits 
+“Thank you for sharing your thoughts sir. I will remember your reluctance in the future. Rewards and recognition for helping you should be easy to give.” He nods his head and then extis your office. 
+<<include "nextFocus">>
+/*  */
+
+
+
+
+:: War Chest [event]
+During a meeting with military general Dean, he expresses his desire for you to put aside a large amount of money to save in the case of war, which is to be provided to participating soldiers.. 
+“Sir, as the outbreak of war can be somewhat unpredictable, I believe that in order for us to be prepared for any situation, we must put aside a large sum of money. This could give us a buffer when covering health costs, weapons, and other equipment we may need. This is very crucial to the security of our nation.”
+
+<<link [[1.“You raise an interesting point, one that is hard to argue against. I will make sure to set aside aside your suggested sum.”|Put aside $50k to fund for the soldiers]]>> <<set $playerstress += 1>> <<set $playermoney -= 1>> <<set $opinionGeneral += 1>> <</link>> 
+<<link [[2.“I will grant you this, but I can only set aside half of the suggested sum, not all. The nation needs some of that money for more current matters.”|Put aside only $10k of funds for soldiers]]>> <<set $playerstress += 1>> <<set $playermoney -= 0.5>> <<set $opinionGeneral += 0.5>> <</link>>
+<<link [[3.“Unfortunately, putting aside that much money for something we aren't even certain will happen could hold the nation back financially in an unnessesary way. I am sorry but I won't be able to move forward with this offer.”|Deny wish of putting money aside for the soldiers]]>> <<set $playerstress += 1>> <<set $opinionGeneral -= 1>> <</link>>
+
+:: Put aside $50k to fund for the soldiers
+“Thank you very much sir. I am sure that this will be enough to prepare us for any possible war.”
+<<include "nextFocus">>
+:: Put aside only $10k of funds for soldiers
+“Thank you sir, we should be able to cover some preparations, just in case of war.”
+<<include "nextFocus">>
+:: Deny wish of putting money aside for the soldiers
+“Right. I suppose I understand, sir. I will take my leave now. Thank you.”
+<<include "nextFocus">>
+/*  */
+
+
+
+
+:: Disloyalty [event]
+After attending a meeting with those in the armed forces, you were pulled aside by Dean.  Whispering in your ear, he explains, “Mr. President, my apologies for pulling you away like this, but it's important. It appears that there is a growing number of military officials who are becoming more and more… disloyal. Plans of misusing power for personal gain and insubordination towards myself and you is likely a part of these member's mindsets. I would like these suspected individuals interrogated and removed from their positions if found guilty of conspiracy.
+
+<<link [[1.“Absolutely. Apprehend, interogate, and fire any conspirators.”|Accept request in firing individual]]>> <<set $playerstress += 1>> <<set $opinionGeneral += 1>><</link>>
+<<link [[2. “As concerning this may be, I don't know if removing these people from the team will be the best decision. This is likely still unraveling, so I will not give the go ahead on any preemptive measures. I don't know what their real intentions may be.”|Reject request in firing the individual]]>> <<set $playerstress += .5>> <<set $opinionGeneral -= 1>> <</link>>
+
+:: Accept request in firing individual 
+ “I agree sir, I will snuff out suspects soon," Dean replies. He begins to walk back to his office.
+<<include "nextFocus">>
+:: Reject request in firing the individual
+  “I understand sir. I only hope that this doesn't cost us both of our lives later down the line. I will not take any preemptive measures,” Dean responds He begins to walk back to his office.
+<<include "nextFocus">>
+/*  */
+
+
+
+
+:: Parade [event]
+Military General Dean is calling the presidential office phone.
+“Good evening, Mr. President. In order to showcase how hard working, disciplined, and well-trained our troops are, I would like to hold a military parade within the city. This would be the perfect opportunity to drive up recruitment numbers as well as show off our might to any threatening nations. We would have to close off a couple areas across the city for us to smoothly move through. Would this be something you're interested in?”
+
+<<link [[1.“A parade would be a great idea to show off our armed forces. I will go forward with allowing you to get this set up and make sure to get these areas of the city to be closed off for the time of being.”|Go forward with parade]]>> <<set $opinionGeneral += 1>> <</link>>
+<<link [[2.“We may need to rethink the message being sent by having a parade. Showing off our might could come across as if we are insecure with our capabilities. I cannot give the go ahead for this right now.”|Reject parade suggestion]]>> <<set $playerstress += 0.5>> <<set $opinionGeneral -= 1>> <</link>>
+
+:: Go forward with parade
+“Thank you sir! I am sure that the military will be ecstatic to hear this news,” Dean exclaims before hanging up the phone. 
+<<include "nextFocus">>
+:: Reject parade suggestion
+“Understood sir. Thank you for your time,” Dean responds before hanging up the phone. 
+<<include "nextFocus">>
+/*  */
+
+
+
+
+:: Housing [event]
+Placing a sealed envelope on your desk, your advisor informs you that it was sent by General Dean only a few hours prior. Inside the envelope, Dean writes,"Mr. President, the state-owned homes myself and other military officers live in are out of date. What kind of message are we sending if your brightest military minds are not even treated properly. I request that you either renovate our homes or relocate us to newer, more spacious ones. I should not have to put up with this."
+
+Picking up a pen, you write back,
+
+<<link [[1. "General, I understand and sympathize with your frustration concerning your lack-luster housing arangment. You and your officers will be treated to better homes within the year."|Support Housing]]>> <<set $opinionGeneral += 1>> <<set $playermoney -= 1>> <</link>>
+<<link [[2. "General, the government cannot fund such projects at this time. I am sorry, but any plans or renovation or relocation will have to wait."|No Support Housing Money]]>> <<set $opinionGeneral -= 0.5>> <<set $playerstress += 0.5>> <</link>>
+<<link [[3. "General, your housing arangements are fine as they are. I don't see how where you live could affect your military prowess."|No Support Housing]]>> <<set $opinionGeneral -= 1>> <<set $playerstress += 1>> <</link>>
+
+:: Support Housing
+Recieving a letter back the next day, Dean replies, "Fantastic! I will inform my officers of the news! I'll also be sure to send over plans for renovation or new building locations within the week."
+<<include "nextFocus">>
+:: No Support Housing Money
+Receiving a letter back a few days later, Dean replies, "I understand, sir. I will ask again in the future."
+<<include "nextFocus">>
+:: No Support Housing 
+You wait several days, but never receive a letter back from Dean. It appears your message was heard and understood.
+<<include "nextFocus">>
+ /*  */
