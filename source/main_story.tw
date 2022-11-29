@@ -188,7 +188,7 @@ You stare blankly at him for a moment before reminding him, "You ARE a prisoner.
 
 "And how would that look any different than the present?" you respond.
 
-"Because I would, at the minimum, not be locked up beside these random inmates and at least have my own private cell away from the rest. Something that isn't decorated with metal chairs and cement floors. Something that is fit for someone of my past. I don;t expect you to free me any time soon, so at least let an aging man live in comfort."
+"Because I would, at the minimum, not be locked up beside these random inmates and at least have my own private cell away from the rest. Something that isn't decorated with metal chairs and cement floors. Something that is fit for someone of my past. I don't expect you to free me any time soon, so at least let an aging man live in comfort."
 
 You sit in silence contemplating what your father just proposed.
 <<link [[1. "Okay. I will arrange for you to be transfered to a new, more isolated prison cell. I will also grant you a change of decor, as requested."|Main Story 2.9.1]]>> <<set $father += 1>> <</link>>
