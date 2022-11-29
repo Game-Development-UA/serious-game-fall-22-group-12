@@ -1,9 +1,13 @@
+:: Main Menu
+[[Begin!|Main Story 0]]
 /*I will add palace picture back later, trying something out rn */
 :: Main Story 0 [main] 
     Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which requires your neck to become strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
     [[Continue|Door Open]]
 :: Door Open 
+<<audio clap volume 0.25 play>>\
+<<audio party loop play>>\
     Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, elegant music fills the air and your guests return to their conversations, drinks, food, and dance. 
     [[Continue|Advisor Approaches]]
 :: Advisor Approaches
@@ -57,7 +61,6 @@ Opening her fan, Carlotta responds with a smile, “It was nice to formally meet
 “Don't worry, I already knew why you were approaching.” Noticing the confused and worried look on your face, she continues, “I have ears in many places, sir. Ears that you will soon appreciate are listening on your behalf and not others. It was nice to officially meet.”
 
 You nod your head and begin to walk back to the party.
-
 <<set $approachIvana to true>>\
 <<set $timespenttalking to $timespenttalking + 0.5>>\
 <<set $opinionIvana to 5 - $timespenttalking>>\
@@ -80,29 +83,31 @@ You nod your head and begin to walk back to the party.
 :: Party End
 Having spoken to all those who will soon play a role in your government, you decide that now is the appropriate time to finally relish in the festivities of the party. After all, this is a celebration dedicated to you. Grabbing a refreshed drink from a server, you make your way to your designated seat at the center of the ballroom. From here, you can sit back, relax, and enjoy the sight of all the notable people in your nation having a good time.
 [[1. "Tonight was fun."|Office 1]]
-:: Office 1
+:: Office 1 [officedaynew]
 A couple days later, you find yourself walking alongside your advisor across the Presidential Palace. He is carrying several folders and loose papers held to his chest. “Sir, today would be the perfect time to visit your presidential office,” he begins. “Planning out how to focus your attention for the upcoming weeks is imperative to a functioning government. I've taken the liberty and arranged at your desk a calendar for you to personally use to decide how to spend your time.”
 
 “How formal,” you exclaim. “Thank you for that.” The two of you stop for a moment in front of two medium sized doors. Using his back, your advisor pushes with his body weight and opens the left door. Glowing with natural light from several large windows, the presidential office looks almost identical to how you remember it. Vine-like plants hang from the ceiling and a large desk is centered at the back of the room, though it appears the paintings decorating the walls have been replaced in favor of more historically important ones. You approach the desk, place one hand on it, and sit yourself down at its chair.
 [[1. "So, how should I plan then?"|Office 2]]
-
-:: Office 2
+<<audio "party" volume 1 fadeout>>\
+<<audio "normal" volume 0 fadein>>\
+:: Office 2 [officedaynew]
 “That much is up to you, sir,” your advisor explains. “You are the president of this great nation, so people will expect that you work accordingly. In all honesty, that mainly entails keeping various political figures satisfied while keeping the nation afloat financially. However, on a more personal note, you ought to not sacrifice your mental stability. Taking time off to focus on your own happiness is just as integral to being president as governing is … even if others tend to disagree.”
 [[1. "Okay. I will decide how to spend my time."|Focus]]
 
 
 
-:: Main Story 1 [main]
+:: Main Story 1 [officenightnew]
+<<audio "normal" volume 1 fadeout>>\
 As you attempt to stand up from your desk's chair, you accidentially knock an unlit cigar onto the carpet. It lands next to a square area of fabric almost identical to its surroundings that appears to have been patched into the carpet itself. You glare at it for a moment before a rush hits your head.
 [[Continue|Main Story 1.1]]
-
-:: Main Story 1.1 [flashback]
+:: Main Story 1.1 [officenightold]
+<<audio "normal" stop>>\
 Standing in the corner of the presidential office, you find yourself analyzing the choice of artwork that decorates its walls. A pallet of grey and beige fills your eyes with overwhelming mutedness. You move from painting to painting before being interupted.
 
 "Oh will you please sit down?! Come join the conversation and show some respect before I kick you out entirely," bellows a well-groomed man sitting behind the presidential desk. Taking one last look at the paintings, you turn around and walk toward an empty seat in front of the desk. The air is filled with smoke and the breath of those your seated next to ripe of alcohol.
 [[Continue|Main Story 1.2]]
 
-:: Main Story 1.2 [flashback]
+:: Main Story 1.2 [officenightold]
 "Dear child," a drunk woman next to you begins while moving the hand holding her drink in your direction, "Remind me of your name again? It's hardly ever I see any children roaming this palace." 
 
 Taken aback in a largely joking tone, the man behind the desk interuptes, "Carlotta! You mean to tell me you don't know my own son's name?" he says before lighting a cigar.
@@ -112,35 +117,39 @@ Letting out a series of small laughs, Carlotta responds, "Well if you'd be so ki
 Pausing for a moment, your father looks at you and then back at Carlotta before saying with a smile, "How about you ask me in the morning? It seems my memory is betraying me as well!" With that, the room erupts with laughter. Drinks slosh out of their vessels and the cigar in your fathers loose fingers drops to the floor at your feet. Noticing the carpet below it begin to glow orange, you quickly stomp out the cigar. Looking back up hurriedly, you realize your father didn't even seem to notice his cigar was missing.
 [[Continue|Main Story 1.3]]
 
-:: Main Story 1.3
+:: Main Story 1.3 [officenightnew]
 Returning to a normal train of thought, you pick up the unlit cigar next to the patched carpet and place it back on the corner of the presidential desk. After standing in silence for a few moments, you behind to make your way out of your office and toward the residential section of the palace.
 <<link [[1. "I haven't thought of that in years."|Main Story 1.4]]>> <<set $playerstress += 0.5>> <</link>>
 
-:: Main Story 1.4
+:: Main Story 1.4 [officenightnew]
 Having rested for the night, you awake ready to carry out your presidential duties. You head to your office to begin planning.
 <<include "endCheck">>
+<<audio "normal" play>>\
 /*  */
 
 
 
 
-:: Main Story 2 [main]
-As you open the door to the nextdoor office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor's reaction that its not necessarily good news.
+:: Main Story 2 [officenightnew] 
+<<audio "normal" volume 1 fadeout>>\
+As you open the door to the neighboring office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor's reaction that its not necessarily good news.
 [[Continue|Main Story 2.1]]
 
-:: Main Story 2.1
+:: Main Story 2.1 [officenightnew] 
+<<audio "normal" stop>>\
 "Right." Your advisor says into the phone. "I will inform the president of this." He thanks the person on the other end of the line before hanging up. Looking at you, he begins, "Sir, that was the prison. It appears your father is making ... quite the commotion. He is quote 'outraged that his own son has not come to visit him once' since being imprisoned. He demands that you grant him an audience, sir."
 
 <<link [[1. "Why am I not surprised. Gather my things and arrange transporation. I'll go tonight."|Main Story 2.2]]>> <<set $father += 1>> <<set $playerstress += 0.5>> <</link>>
 <<link [[2. "That man can starve himself for all I care! I will not see him!"|Main Story 2.2.1]]>> <<set $father += 0>> <<set $playerstress += 1>> <</link>>
 
-:: Main Story 2.2
+:: Main Story 2.2 [officenightnew] 
 Your advisor nods before walking past you into the presidential office as directed. You take a deep breath, then walk to the entrance of the palace to wait.
 [[Continue|Main Story 2.3]]
-:: Main Story 2.2.1
+:: Main Story 2.2.1 [officenightnew] 
 "Very well, sir," he responds. "I will call back in the morning and let them know that you are unwilling to visit at this time." Hearing that, you head back into your office before retiring for the night.
 [[Continue|Main Story 1.4]]
 :: Main Story 2.3 [jail]
+<<audio "flashback1" volume 1 fadein>>\
 Despite the prision being only an hour from the palace, it feels as if it is located in a completly isolated corner of the nation. Street lights no longer line the roads and pavement soon turns to dirt the further you are driven. Pulling into the entrance of the institution, you are met by several armed guards, one of which opens the door to your car.
 [[Continue|Main Story 2.4]]
 :: Main Story 2.4 [jail]
@@ -185,13 +194,17 @@ You sit in silence contemplating what your father just proposed.
 <<link [[2. "You and the metal chairs were meant for each other. I will not make any changes to your prison situation."|Main Story 2.9.2]]>> <<set $father -= 1>> <</link>>
 
 :: Main Story 2.9.1 [jail]
+<<audio "flashback1" volume 1 fadeout>>\
 "Ahhh! I knew we could still see eye-to-eye on somethings!" your father cheers. "Oh please make the changes quickly, I can't stand to live like this much longer." You stand up from your stool, nod to your attentive father, and begin to walk out of the row of cells.
 [[Continue|Main Story 2.10]]
 :: Main Story 2.9.2 [jail]
+<<audio "flashback1" volume 1 fadeout>>\
 "Then you and I have nothing more to discuss," your father states. He lays back into his prison bed and stares at the empty celling. Realizing that the conversation is over, you stand up from the stool and make your way out of the row of cells.
 [[Continue|Main Story 2.10]]
-:: Main Story 2.10
+:: Main Story 2.10 [officedaynew]
 Having rested for the remainder of the night after arriving back at the Presidential Palace, you awake and head to your office to begin planning the upcoming weeks.
+<<audio "flashback1" stop>>\
+<<audio "normal" play>>\
 <<include "endCheck">>
 /*  */
 
@@ -199,11 +212,13 @@ Having rested for the remainder of the night after arriving back at the Presiden
 
 
 :: Main Story 3 [main]
+<<audio "normal" volume 1 fadeout>>\
 Deciding to humor this lone reporter, you begin to approach the palace gate.
 
 "Mr. President! Mr. President! I have just one question for you if you'd allow me!" You point with two fingers, indicating that you will accept their question. "Mr. President, how do you wish for your mother to be remembered?" Hearing the question, you stare at the bars that seperate yourself from the journalist as a rush overcomes your head.
 [[Continue|Main Story 3.1]]
 :: Main Story 3.1 [flashback]
+<<audio "normal" stop>>\
 Sitting at a small, rounded dinner table, you find yourself eating alongside an older woman and a gruffled man within the residential wing of the Presidential Palace. Setting down her utinsils, the older woman states, "This is something I am completly committed to. Please understand that, Ottovin."
 
 "I hear you loud and clear, ma'am," he responds. "I am just suprised given that the president has made clear to me dozens of times his exact opposite stance."
@@ -235,6 +250,7 @@ Before the journalist finished writing down your response, you turn away and wal
 
 :: Main Story 3.7
 You seclude yourself in your office for the remainder of the day. While there, you decide how to spend the upcoming weeks.
+<<audio "normal" play>>\
 <<include "endCheck">>
 /*  */
 
@@ -242,21 +258,23 @@ You seclude yourself in your office for the remainder of the day. While there, y
 
 
 :: Main Story 4 [main]
+<<audio "normal" volume 1 fadeout>>\
 As you swing open two doors, you are presented with a marble balcony overlooking the city. You approach the railing and begin to lean foward, placing your elbows down and crossing your arms. Looking into the distance, you realize that some nearby buildings are still under going repairs just as your head begins to pound.
 [[Continue|Main Story 4.1]]
-:: Main Story 4.1 [flashback]
+:: Main Story 4.1 [militaryoffice]
+<<audio "normal" stop>>\
 No! You are not listening to me!" you find youself crying out. "That man is unfit to rule any longer. The people will not stand for this! I will not stand for this!"
 
 The man in front of you stands up from his chair, slamming his fists on the table. "Do you have ANY idea what you suggesting? This is not some easily made decision! These kinds of things take months to plan before they can be executed. For you to stand here and spontaneously encourage treason is laughable. I'd rather weather out this storm than directly contribute to it."
 
 "I don't think you understand, Dean," you reply in a much more calm manner than before. "The people are already aware of what happened... I made sure of that much. They adored her, called her their own mother for fucks-sake! If we don't take control this storm now, it will consume all of us."
 [[Continue|Main Story 4.2]]
-:: Main Story 4.2 [flashback]
+:: Main Story 4.2 [militaryoffice]
 Just as you finish your sentence, another military officer rushes into the room. "Sir!" he exclaims to Dean, "The president has ordered that the armed forces dramatically increase our presence around the Presidential Palace. He seemed very worried over the phone that these nearby protests could target him directly. His worry has some merit though, sir. We've never dealt with unrest of this magnitude before."
 
 Dean turns around and faces the wall as if pondering how to respond. Eventually, he picks up a nearby vase and throws it against the wall. "What the HELL HAS HE GOTTEN US INTO?!" he says quitely at first before evolving into an ear-splitting shout. He stands looking at the dozens of clay pieces lying on the floor with his chest rising and falling in a hyperactive way. A few moments later, he quickly turns back around before exclaiming, "You!" with his finger pointed toward you specifically.
 [[1. "What!? Me?"|Main Story 4.3]]
-:: Main Story 4.3 [flashback]
+:: Main Story 4.3 [militaryoffice]
 "Does your father know you are here? Would he have any way of knowing we've talked?"
 
 "No, not at all. I made sure of that."
@@ -269,6 +287,7 @@ Hearing his order, you interupt, "What?! So your just going to protect him?!"
 [[1. "I've never been more prepared."|Main Story 4.4]]
 :: Main Story 4.4
 The cold outdoor air shocks your mind back to the present. Realizing that you had been lost in thought for several minutes, you decide that its time to head back inside and plan out the upcoming weeks before you quit working for the rest of the day.
+<<audio "normal" play>>\
 <<include "endCheck">>
 /*  */
 
@@ -276,6 +295,7 @@ The cold outdoor air shocks your mind back to the present. Realizing that you ha
 
 
 :: Main Story 5 [main]
+<<audio "normal" volume 1 fadeout>>\
 You continue working for some time before your advisor, who had answered the phone, enters the presidential office. "Sir," he begins, "I just got off the phone with..."
 
 "The prison again?" you interupt. He nods as his lips grow thin. "I thought so. That phone ringing rarely means anything else nowadays." You pause for a moment before continuing, "Well... What does he want?"
@@ -286,10 +306,12 @@ You continue working for some time before your advisor, who had answered the pho
 <<link [[2. "Haven't I made my message clear? Tell them to stop bothering me about him."|Main Story 5.1.1]]>> <<set $father += 0>> <<set $playerstress += 1>> <</link>>
 
 :: Main Story 5.1
+<<audio "normal" stop>>\
 "Very well sir," your advisor responds. "I will arrange for him to be temporarily transported to the palace."
 [[1. "Good. I'll speak to him in my office."|Main Story 5.2]]
 
 :: Main Story 5.1.1
+<<audio "normal" stop>>\
 "Understood, sir," your advisor responds. "I will call back and let them know you wish to not be bothered anymore."
 [[1. "Thank you."|5.1.2]]  
 

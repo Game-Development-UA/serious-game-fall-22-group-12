@@ -3,11 +3,11 @@
 "ifid": "1F012455-6A83-4CCB-BCB1-49B9D77D4E03",
 "format": "SugarCube",
 "format-version": "2.30.0",
-"start": "Main Story 0"
+"start": "Main Menu"
 }
 
 :: StoryTitle
-President
+Presidentially Precarious (lol need better name)
 
 
 
@@ -24,6 +24,20 @@ Military's Opinion:  $opinionGeneral/5
 
 
 :: StoryInit
+<<cacheaudio "mainmenu" "media/mainmenu.mp3">>
+<<audio mainmenu load>>
+<<cacheaudio "camera" "media/camera.mp3">>
+<<audio camera load>>
+<<cacheaudio "clap" "media/clap.mp3">>
+<<audio clap load>>
+<<cacheaudio "party" "media/party.mp3">>
+<<audio party load>>
+<<cacheaudio "normal" "media/normal.mp3">>
+<<audio normal load>>
+<<cacheaudio "phonering" "media/phonering.mp3">>
+<<audio phonering load>>
+<<cacheaudio "flashback1" "media/flashback1.mp3">>
+<<audio flashback1 load>>
 /* Opinion Variables */
 <<set $opinionOttovin to 0>>
 <<set $opinionCarlotta to 0>>
@@ -62,10 +76,10 @@ Military's Opinion:  $opinionGeneral/5
 <<set $nextStress = either($stress)>>
 /* <<run $stress.delete($nextStress)>> */
 <<link Focus-On-Myself $nextStress>> <<set $opinionOttovin -= 0.25>> <<set $opinionCarlotta -= 0.25>> <<set $opinionIvana -= 0.25>> <<set $opinionGeneral -= 0.25>> <</link>>\
-:: Focus
+:: Focus [officedaynew]
 <<if $passageCount lt 3>>How should you spend your time as President in the upcoming weeks?
 <<elseif $mainCheck == 0>> It is quite late now at your office. Distant thunder rumbles in the distance, your curtains closed to block out any sudden flashes of light.
-<<elseif $mainCheck == 1>> Your work day has run late into the night when the telephone in the other room begins to ring. 
+<<elseif $mainCheck == 1>> Your work day has run late into the night when the telephone in the other room begins to ring. <<audio phonering play>>
 <<elseif $mainCheck == 2>> Walking outside of the Presidential Palace, a lone journalist can be heard calling your name from the otherside of the gate.
 <<elseif $mainCheck == 3>> Growing tired of working for the day, you decide some fresh air would do you some good.
 <<elseif $mainCheck == 4>> Finishing up your work for the day, you hear the phone ring in the other room.
