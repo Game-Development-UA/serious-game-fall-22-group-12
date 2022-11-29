@@ -7,7 +7,7 @@
 <span style="font-size:70pt;"><div style="text-align: center;">Precariously Presidential</div></span>
 ----------
 <span style="font-size:40pt;"><div style="text-align: center;">[[Start|Main Story 0]]</div></span>
-:: Main Story 0 [main] 
+:: Main Story 0 [woodendoor] 
 <<audio mainmenu volume 0.25 fadeout>>
     Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which results in your neck becoming strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
@@ -241,8 +241,6 @@ Re-entering the residential wing, you begin making your ascent to your parent's 
 "GET OUT! GET OUT!" Your father commands. "CLOSE YOUR EYES! CLOSE THEM!" ---- You run. Tears blur your vision almost entirely, but you run.
 [[Continue|Main Story 3.5]]
 :: Main Story 3.5
-<<audio "flashback4" volume 1 fadeout>>\
-<<audio "normal" volume 0 fadein>>\
 Snapping back to reality, you realize that you haven't given the journalist any answer yet.
 
 [[1. "My mother was the most selfless person ever born. She died fighting for what she beleived in... and that is something I think we all can admire."|Main Story 3.6]]
@@ -253,6 +251,8 @@ Before the journalist finished writing down your response, you turn away and wal
 <<link [[Continue|Main Story 3.7]]>> <<set $playerstress += 0.5>> <</link>>
 
 :: Main Story 3.7
+<<audio "flashback4" volume 1 fadeout>>\
+<<audio "normal" volume 0 fadein>>\
 You seclude yourself in your office for the remainder of the day. While there, you decide how to spend the upcoming weeks.
 <<include "endCheck">>
 /*  */

@@ -125,10 +125,10 @@ After closing the vault you notice that the military greatly outnumbered you.
 [[1. "I'm not leaving without a fight!"|Combat]]
 
 :: Combat
-You give your team the signal and shots begin to fire. Immediatly after you fire your first shot, military personal respond accordingly.
+You give your team the signal and shots begin to fire. Immediatly after you fire your first shot, military personnel respond accordingly.
 Bullets are flying everywhere as windows shatter and your team attempts to take cover.
 The military has fully surronded the palace and soldiers begin jumping through the various broken windows, pulling the trigger without hesitation.
-[[1. Take cover|Cover]]
+[[Take cover|Cover]]
 
 :: Cover
 As you are running to cover you are spotted by men in military gear who immediatly grab you and force you to the ground.
@@ -141,75 +141,49 @@ You look Dean in the eyes, take a deep breath and see a bullet fly out from the 
 
 [[Then End|Main Menu 1]]
 :: No action
-The crowd has surronded the palace. Military personnel are everywhere and they began to fire from a distance.
-As the bullets destroy the house and the rebels approach, you and your team begin to panic.
+Military personnel are everywhere and they began to fire from a distance. As the bullets penetrate the palace and the military begin to advance, you and your team begin to panic.
 Once you are fully surronded and the military is practically in your backyard you dash upstairs for your final moments.
 [[1. Run upstairs|Upstairs]]
 
 :: Upstairs
-Running up the stairs that are now burning from the fire being set to the palace you immediatly run to your room and grab the only picture you have of your family.
-As you hold the old photo of you as a young kid with your parents by your side, you remember all of the great times you had as a child.
-As a child you were oblivious to the arguments your parents had and it was now all starting to make sense.
-Ruling a country is not as easy as it appeared to be when you were a child.
+Running up the stairs, you immediatly grab the only picture you have of your family.
+As you hold the old photo of you as a young kid with your parents by your side, you remember all of the events that made you who you are.
 [[1. Continue reminiscing|Reminisce ]]
 
 :: Reminisce
-As you reminisce about the delightful times of your childhood you hear footsteps approaching up the cobblestone stairs.
-When you look up you seen the man that you have feuded with since the beginning of your presidency.
-Dean and his dirty military boots make their way into your presidenital suite. Dean looks up at you and smirks as he says, "Just the man I have been looking for."
-You know you have betrayed Dean and the military, but you never thought they would actually turn against you.
+As you reminisce about your childhood, you hear footsteps approaching up the stairs. When you look up, you seen the man that you have feuded with since the beginning of your presidency.
+Dean and his dirty military boots make their way into your presidenital suite. He looks up at you and smirks before saying, "Just the man I have been looking for."
 As you grip the photo of you and your parents, Dean pulls out his military grade pistol and without hesitation pulls the trigger.
 
 "Never starve the men with weapons" is the last phrase you hear.
 [[Then End|Main Menu 1]]
-
 :: Ivana Ending [end]
-As Ivana's approval rating of you has been slowly decreasing to zero, you notice she has become suspiciously quiet and absent in informing you of any important information.
-You have no choice but to wonder, "what does this mean"?  
-"What could she be up to?"
-
-[[1. Be proactive about the situation|Proactive]]
+You notice that Ivana has become suspiciously quiet and absent in informing you of any important information recently. You have no choice but to wonder: 
+[[1. "What could she be up to?"|Proactive]]
 
 :: Proactive
-You have decided to be proactive and find out what has happened to your spymaster Ivana.
-
-You ask your advisors but they have no useful information about this.
+You have decided to be proactive and find out for yourself what has happened. You ask your advisor, but he has no useful information about this.
 "Sir, I think you should speak directly To Ivana about this situation" your advisor tells you.
-Especially after you have been recieving anonymous messages threating something dire will happen if you do not step down as president.
 [[1. Ask to see Ivana directly.|See ivana]]
 
 :: See ivana
-As Ivana walks into your office you notice some tea on the table that was not there before.
-One of the members of staff mustve brought it in when you were busy doing paper work.
-As Ivana sits down you offer her some tea and pour yourself a cup.
+As Ivana walks into your office, you begin to pour yourself and her tea from the pot on your desk. One of the members of staff mustve brought it in when you were busy doing paper work. As Ivana sits down, you offer her the cup.
 [[1. Ask about messages.|Messages]]
 
 :: Messages 
-You ask Ivana about the messages you have been getting recently. 
-"Hmmm, I do not know anything about these mysterious messages that you have been recieving, I will most certainly look into though of course"
-As you take a long sip of tea, Ivana forms a slight smile.
+"I am sorry I haven't been around lately, sir. It has been very busy recently with no useful information to pass onto you. I will most certainly keep you updated in the future." Satisfied with her response, you take a long sip of tea, which makes Ivana form a slight smile.
 
-"I should really be going now sir so i can look into this situation as soon as possi...."
+"I should really be going now, sir. There are lips that need listeni........." Her sentence trails off as you begin to feel dizzy. Your heart starts pounding, you head starts sweating, your fingers shaking.
 
-Her sentence trails off as you begin to feel dizzy. You relaize she has poisoned you...
-You should have seen this coming, 
-it is not a good idea to get on the bad side of your spymaster.
-She has more power than you know.
-
-[[1. "Do you really think I didn't know about these messages and the plot to have you removed from presidency?"|Last Ivana]]
+"Now isn't that a pretty sight! You should know better than to upset the very woman tasked with your intrigue."
+[[1. "Ho.. Hooww... How coo--oul-d y-ou?"|Last Ivana]]
 
 :: Last Ivana
-You begin to collapse to the ground. 
-This is all starting to make sense now how could the spymaster not know about these secrets, this is her job after all.
-'I-I dont understand, w-why'
-'Because you are too incompetant, and I want my revenge for the losses ive suffered as a result' Ivana said.
-Your breathing slowly stops, 
-and you are dead!
-
+As you begin to fall to the ground, Ivana continues, "You are an entirely imcompetent man, you know that? You've set my work behind in ways you can't even imagine." you try to listen to all her words, but your throat is closing shut. Just as your head turns purple, your breathing stops completely.
 [[Then End|Main Menu 1]]
-:: Stress Ending [end]
 
-Being a president of a country is a very stressful job. You thought you would be able to handle this job and manage your stress well because your father did this job before you. You were mistaken.
+:: Stress Ending [end]
+Being a president of a country is a very stressful job. You thought you would be able to handle it. You were mistaken.
 Your stress levels have maxed out and you have realized you cannot take it anymore. You now have to make a decision.
 [[1. Choose to resign from your presidential position.|Resign from presidency]]
 [[2. Choose to take everyone down with you.|Take everyone down with you]]
@@ -229,21 +203,21 @@ You hope the people of the nation will understand you situation and that they wi
 :: Speech.1 
 "This position has become to large of a burden for me to hold, I feel I am not able to be the president that you all deserve."
 "The great people of this country deserve a great president that can withstand the weight that is placed on them, I fear I have failed you all"
-[[1. "Please put your faith into this country and the new president, I have no doubts they will be a great addition to this country"|Last remarks]]
+[[1. "Please put your faith into this country and the new president, I have no doubts they will be a great addition to nation."|Last remarks]]
 
 :: Last remarks
-"This is a great nation, I can see the light on the other side, though i believe i cannot bring us there."
+"This is a great nation, I can see the light on the other side, though I believe I cannot bring us there."
 "Thank you"
 [[1. You begin to feel a relief after your speech is over.|Stress end.1]]
 :: Stress end.1
 You are now relieved of your presidential duty, you begin to feel a bit of happiness, that you havent felt in a long time.
-
+[[Then End|Main Menu 1]]
 :: Dont address the nation
 You have decided that it is best for you to not give a farewell speech.
 You feel as though this nation just needs new strong leadership urgently. 
 Your new life is all that you see ahead of you.
 Though you wonder will you be left with underlying regrets?
-
+[[Then End|Main Menu 1]]
 :: Take everyone down with you
 You have decided to take a route of revenge, everyone else must fall aswell. You have grown bitter of your fellow constituents with the heavy weight of the stress. You feel as though you should have recieved better 
 counsel and the people around you have not been helpful in this way as of late. 
@@ -271,6 +245,7 @@ You tell them that you are fine, but then they reveal that the fire did not reac
 You cannot help but feel a bit relieved as you were beginning to feel guilty, as you start the fire in a manic impulse episode.
 Either way you have cemented yourself as an Ex-President. Now your new life is all that lies ahead.
 
+[[Then End|Main Menu 1]]
 :: Gasfire
 You have decided that the most efficient way to burn down the palace would be by gas fire in the kitchen.
 You head down to the kithen and turn on the gas on the stove. 
@@ -287,7 +262,6 @@ After some time of fighting the fires the flames are finally put out.
 
 You feel as though this was a grave mistake, and now you must dissapear from the public eye.
 Your new life lies ahead, of guilt and isolation.
-
 [[Then End|Main Menu 1]]
 :: No regrets
 You still do not have any regrets about starting the fire, everyone will get out safe right? You just want the building GONE.
@@ -303,21 +277,22 @@ Carlotta is presumed dead, But you are filled with relief that nobody else remai
 Your new life out of the public eye lies ahead, though you worry...
 will you be filled with any remorse?
 
+[[Then End|Main Menu 1]]
 :: Military general dead
 Your advisors inform you that everybody that was inside the palace at the time of the fire is accounted for, and is safe outside of the fires range.
-Except the military general. 
-You worry about this as he is obviously an important member of the nations defence.
-Although, you are glad that nobody else was harmed by you desire to burn bridges.
+Except Dean, who had arrived ealier for a meeting. 
+You worry about this as he is obviously an important member of the nations defense.
 You are now officially stepped down as president, a new life lies ahead.
 Now you wonder...
-"Have I made more mistakes than success?"
+"Have I made more mistakes than successes?"
 
-[[Then End|Main Menu 1]]:: Expose everyone
+[[Then End|Main Menu 1]]
+:: Expose everyone
 You want to make sure everyone who wronged you has a stain on their legacy. You will be leaving the presidency with the general public under the impression that you were a weak leader and succombed to the stress.
 This will tarnish your legacy.
 
-You want the same for the others.
-
+You just want the same for the others.
+[[Then End|Main Menu 1]]
 :: Money Ending [end]
 You have juist been informed by your economic advisors that you have exauhsted all of the nations funds and the government has become bankrupt.
 The military general Dean is furious as they now have no budget for future military advancement projets. Carolotta is furious with the government as well, 
@@ -332,5 +307,4 @@ Carlotta, Ottovin, Ivana, and Dean are pleased to hear that you are stepping dow
 
 Your lasting legacy will be that of a president that drove this country to bankrupcy.
 This is how the people will remeber you.
-
 [[Then End|Main Menu 1]]

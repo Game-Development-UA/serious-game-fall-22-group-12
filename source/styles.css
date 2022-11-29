@@ -45,6 +45,12 @@ body[data-tags~="ballroom"] {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+body[data-tags~="woodendoor"] {
+	background-image: url("media/woodendoor.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 	
 .jail {
 	background: rgb(88, 81, 94);
