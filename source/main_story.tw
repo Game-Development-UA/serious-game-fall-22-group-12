@@ -13,7 +13,7 @@
 :: Advisor Approaches [ballroom]
     As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will be start closely governing with in the coming days?”
     “You're right,” you respond, “Who do you suggest I approach first?” Your advisor shakes his head and explains that it is up to you to decide who to approach and in what order. Handing you a drink before leaving to rejoin the festivities, he reminds you that this is a very public event, meaning all eyes will be on you. 
-[["Let's see how this goes."|Approaching]]
+[[1. "Let's see how this goes."|Approaching]]
 
 :: Approaching [ballroom]
 <<if $timespenttalking lt 2>> Taking a sip from your drink, you decide who to you approach.<<else>> Your drink is empty. No one important is left to approach. <</if>>
