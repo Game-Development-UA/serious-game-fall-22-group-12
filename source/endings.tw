@@ -63,10 +63,42 @@ Dean now sees you as unfit to lead this nation and is advocating for your remova
 [[2. Not my responsibility. | Do nothing now]]
 
 :: Attempt salvation
-You have Dean be sent to your office immediatly to discuss this dilemma.
+Dean is sent to your office immediatly to discuss this dilemma.
+[[1. Attempt to persueade Dean. | Persueade Dean]]
 
+:: Persueade Dean
 Dean will not be swayed and he has the support of the full military so you cannot simply remove Dean from the picture.
-He has threatened to seize you from office 
+He has threatened to seize you from office.
+[[1. Make Dean a deal | Deal]]
+[[2. Give up knowing you have lost military support. | Do nothing now]]
+
+:: Deal
+"Dean let me propose you an offer. I will give my full support of the military in exchange for your compliance with my ruling"
+"No I am done with you and your silly deals it is time you get what you have deserved. 
+You have been selfish to this countries greatest form of defense and I will not let this go one anymore"
+Dean storms out of your office and slams the door behind him
+[[1. Forget about Dean and move on with the rest of your work | Coup]]
+
+:: Coup
+The following day your guards come to inform you that there is a large crowd approaching your home.
+They warn you that the military has begun to show up and that you must take immediate action.
+You peak outside your window and you notice the crowd is getting closer and are equipped with weapons of all sorts.
+[[1. Take action against the crowd approaching the palace | Take action]]
+[[2. Choose not to take action and allow crowd to freely approach the palace | No action ]]
+
+:: No action
+The crowd has surronded the palace. Military personnel are everywhere and they began to fire from a distance.
+As the bullets destroy the house and the rebels approach, bullets are shaddering windows all around you and your team begins to panic.
+
+
+:: Take action
+Choosing to take action, you immediate lock down the whole palace. Closing all doors and securing all exits.
+You and your highly trusted team unlock the palace's weapon vault that is only opened in emergency situations.
+Everyone grabs a gun and ammunition and immediatly runs to a different location around the palace.
+It appears that the crowd has outnumbered you and has begun to surrond the palace.
+[[1. Engage in combat]]
+ 
+
 
 
 
