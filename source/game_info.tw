@@ -3,7 +3,7 @@
 "ifid": "1F012455-6A83-4CCB-BCB1-49B9D77D4E03",
 "format": "SugarCube",
 "format-version": "2.30.0",
-"start": "Main Menu"
+"start": "Main Story 4"
 }
 
 :: StoryTitle
@@ -38,6 +38,14 @@ Military's Opinion:  $opinionGeneral/5
 <<audio phonering load>>
 <<cacheaudio "flashback1" "media/flashback1.mp3">>
 <<audio flashback1 load>>
+<<cacheaudio "flashback2" "media/flashback2.mp3">>
+<<audio flashback2 load>>
+<<cacheaudio "flashback3" "media/flashback3.mp3">>
+<<audio flashback3 load>>
+<<cacheaudio "flashback4" "media/flashback4.mp3">>
+<<audio flashback4 load>>
+<<cacheaudio "flashback5" "media/flashback5.mp3">>
+<<audio flashback5 load>>
 /* Opinion Variables */
 <<set $opinionOttovin to 0>>
 <<set $opinionCarlotta to 0>>
