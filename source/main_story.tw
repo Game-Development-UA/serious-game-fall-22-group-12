@@ -305,6 +305,7 @@ The cold outdoor air shocks your mind back to the present. Realizing that you ha
 
 :: Main Story 5 [main]
 <<audio "normal" volume 1 fadeout>>\
+<<audio "flashback6" volume 0 fadein>>\
 <<if $father gte 2>>\
 You continue working for some time before your advisor, who had answered the phone, enters the presidential office. "Sir," he begins, "I just got off the phone with..."
 
@@ -392,6 +393,8 @@ Your father abruptly stands up, pushing his chair back. "I don't know why I was 
 "The former President is ready to go back to prison," you state to the guards. "Though he won't be staying there too long." With that, the guards exit the room with your father cursing and flailing his body every which way.
 [[1. "Pathetic."|Main Story 5.10]]
 :: Main Story 5.10
+<<audio "flashback6" volume 1 fadeout>>\
+<<audio "flashback7" volume 0 fadein>>\
 With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead!
 <<if $father == 3>>\
 As for your father, your relationship with them has a bright future. He appears to be obeying his house arrest order with no complaints. You visit with him once every couple weeks, but your expecting that number to increase as time goes on. 
