@@ -97,10 +97,11 @@ A couple days later, you find yourself walking alongside your advisor across the
 
 
 :: Main Story 1 [officenightnew]
+<<audio "normal" volume 1 fadeout>>\
 As you attempt to stand up from your desk's chair, you accidentially knock an unlit cigar onto the carpet. It lands next to a square area of fabric almost identical to its surroundings that appears to have been patched into the carpet itself. You glare at it for a moment before a rush hits your head.
 [[Continue|Main Story 1.1]]
-
 :: Main Story 1.1 [officenightold]
+<<audio "normal" stop>>\
 Standing in the corner of the presidential office, you find yourself analyzing the choice of artwork that decorates its walls. A pallet of grey and beige fills your eyes with overwhelming mutedness. You move from painting to painting before being interupted.
 
 "Oh will you please sit down?! Come join the conversation and show some respect before I kick you out entirely," bellows a well-groomed man sitting behind the presidential desk. Taking one last look at the paintings, you turn around and walk toward an empty seat in front of the desk. The air is filled with smoke and the breath of those your seated next to ripe of alcohol.
@@ -123,12 +124,14 @@ Returning to a normal train of thought, you pick up the unlit cigar next to the 
 :: Main Story 1.4 [officenightnew]
 Having rested for the night, you awake ready to carry out your presidential duties. You head to your office to begin planning.
 <<include "endCheck">>
+<<audio "normal" play>>\
 /*  */
 
 
 
 
 :: Main Story 2 [officenightnew] 
+<<audio "normal" volume 1 fadeout>>\
 As you open the door to the neighboring office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor's reaction that its not necessarily good news.
 [[Continue|Main Story 2.1]]
 
@@ -203,6 +206,7 @@ Having rested for the remainder of the night after arriving back at the Presiden
 
 
 :: Main Story 3 [main]
+<<audio "normal" volume 1 fadeout>>\
 Deciding to humor this lone reporter, you begin to approach the palace gate.
 
 "Mr. President! Mr. President! I have just one question for you if you'd allow me!" You point with two fingers, indicating that you will accept their question. "Mr. President, how do you wish for your mother to be remembered?" Hearing the question, you stare at the bars that seperate yourself from the journalist as a rush overcomes your head.
@@ -246,6 +250,7 @@ You seclude yourself in your office for the remainder of the day. While there, y
 
 
 :: Main Story 4 [main]
+<<audio "normal" volume 1 fadeout>>\
 As you swing open two doors, you are presented with a marble balcony overlooking the city. You approach the railing and begin to lean foward, placing your elbows down and crossing your arms. Looking into the distance, you realize that some nearby buildings are still under going repairs just as your head begins to pound.
 [[Continue|Main Story 4.1]]
 :: Main Story 4.1 [militaryoffice]
@@ -280,6 +285,7 @@ The cold outdoor air shocks your mind back to the present. Realizing that you ha
 
 
 :: Main Story 5 [main]
+<<audio "normal" volume 1 fadeout>>\
 You continue working for some time before your advisor, who had answered the phone, enters the presidential office. "Sir," he begins, "I just got off the phone with..."
 
 "The prison again?" you interupt. He nods as his lips grow thin. "I thought so. That phone ringing rarely means anything else nowadays." You pause for a moment before continuing, "Well... What does he want?"

@@ -141,13 +141,6 @@ body[data-tags~="militaryoffice"] {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-
-
-
-.flashback {
-	background: rgb(45, 42, 66);
-}
 	
 .jail {
 	background: rgb(88, 81, 94);
@@ -473,8 +466,10 @@ You nod your head and begin to walk back to the party.
 [[1. &quot;So, how should I plan then?&quot;|Office 2]]
 &lt;&lt;audio &quot;party&quot; volume 1 fadeout&gt;&gt;\
 &lt;&lt;audio &quot;normal&quot; volume 0 fadein&gt;&gt;\</tw-passagedata><tw-passagedata pid="47" name="Office 2" tags="officedaynew" position="850,600" size="100,100">“That much is up to you, sir,” your advisor explains. “You are the president of this great nation, so people will expect that you work accordingly. In all honesty, that mainly entails keeping various political figures satisfied while keeping the nation afloat financially. However, on a more personal note, you ought to not sacrifice your mental stability. Taking time off to focus on your own happiness is just as integral to being president as governing is … even if others tend to disagree.”
-[[1. &quot;Okay. I will decide how to spend my time.&quot;|Focus]]</tw-passagedata><tw-passagedata pid="48" name="Main Story 1" tags="officenightnew" position="975,600" size="100,100">As you attempt to stand up from your desk&#39;s chair, you accidentially knock an unlit cigar onto the carpet. It lands next to a square area of fabric almost identical to its surroundings that appears to have been patched into the carpet itself. You glare at it for a moment before a rush hits your head.
-[[Continue|Main Story 1.1]]</tw-passagedata><tw-passagedata pid="49" name="Main Story 1.1" tags="officenightold" position="1100,600" size="100,100">Standing in the corner of the presidential office, you find yourself analyzing the choice of artwork that decorates its walls. A pallet of grey and beige fills your eyes with overwhelming mutedness. You move from painting to painting before being interupted.
+[[1. &quot;Okay. I will decide how to spend my time.&quot;|Focus]]</tw-passagedata><tw-passagedata pid="48" name="Main Story 1" tags="officenightnew" position="975,600" size="100,100">&lt;&lt;audio &quot;normal&quot; volume 1 fadeout&gt;&gt;\
+As you attempt to stand up from your desk&#39;s chair, you accidentially knock an unlit cigar onto the carpet. It lands next to a square area of fabric almost identical to its surroundings that appears to have been patched into the carpet itself. You glare at it for a moment before a rush hits your head.
+[[Continue|Main Story 1.1]]</tw-passagedata><tw-passagedata pid="49" name="Main Story 1.1" tags="officenightold" position="1100,600" size="100,100">&lt;&lt;audio &quot;normal&quot; stop&gt;&gt;\
+Standing in the corner of the presidential office, you find yourself analyzing the choice of artwork that decorates its walls. A pallet of grey and beige fills your eyes with overwhelming mutedness. You move from painting to painting before being interupted.
 
 &quot;Oh will you please sit down?! Come join the conversation and show some respect before I kick you out entirely,&quot; bellows a well-groomed man sitting behind the presidential desk. Taking one last look at the paintings, you turn around and walk toward an empty seat in front of the desk. The air is filled with smoke and the breath of those your seated next to ripe of alcohol.
 [[Continue|Main Story 1.2]]</tw-passagedata><tw-passagedata pid="50" name="Main Story 1.2" tags="officenightold" position="1225,600" size="100,100">&quot;Dear child,&quot; a drunk woman next to you begins while moving the hand holding her drink in your direction, &quot;Remind me of your name again? It&#39;s hardly ever I see any children roaming this palace.&quot; 
@@ -487,7 +482,9 @@ Pausing for a moment, your father looks at you and then back at Carlotta before 
 [[Continue|Main Story 1.3]]</tw-passagedata><tw-passagedata pid="51" name="Main Story 1.3" tags="officenightnew" position="100,725" size="100,100">Returning to a normal train of thought, you pick up the unlit cigar next to the patched carpet and place it back on the corner of the presidential desk. After standing in silence for a few moments, you behind to make your way out of your office and toward the residential section of the palace.
 &lt;&lt;link [[1. &quot;I haven&#39;t thought of that in years.&quot;|Main Story 1.4]]&gt;&gt; &lt;&lt;set $playerstress += 0.5&gt;&gt; &lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="52" name="Main Story 1.4" tags="officenightnew" position="225,725" size="100,100">Having rested for the night, you awake ready to carry out your presidential duties. You head to your office to begin planning.
 &lt;&lt;include &quot;endCheck&quot;&gt;&gt;
-/*  */</tw-passagedata><tw-passagedata pid="53" name="Main Story 2" tags="officenightnew" position="350,725" size="100,100">As you open the door to the neighboring office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor&#39;s reaction that its not necessarily good news.
+&lt;&lt;audio &quot;normal&quot; play&gt;&gt;\
+/*  */</tw-passagedata><tw-passagedata pid="53" name="Main Story 2" tags="officenightnew" position="350,725" size="100,100">&lt;&lt;audio &quot;normal&quot; volume 1 fadeout&gt;&gt;\
+As you open the door to the neighboring office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor&#39;s reaction that its not necessarily good news.
 [[Continue|Main Story 2.1]]</tw-passagedata><tw-passagedata pid="54" name="Main Story 2.1" tags="officenightnew" position="475,725" size="100,100">&quot;Right.&quot; Your advisor says into the phone. &quot;I will inform the president of this.&quot; He thanks the person on the other end of the line before hanging up. Looking at you, he begins, &quot;Sir, that was the prison. It appears your father is making ... quite the commotion. He is quote &#39;outraged that his own son has not come to visit him once&#39; since being imprisoned. He demands that you grant him an audience, sir.&quot;
 
 &lt;&lt;link [[1. &quot;Why am I not surprised. Gather my things and arrange transporation. I&#39;ll go tonight.&quot;|Main Story 2.2]]&gt;&gt; &lt;&lt;set $father += 1&gt;&gt; &lt;&lt;set $playerstress += 0.5&gt;&gt; &lt;&lt;/link&gt;&gt;
@@ -528,7 +525,8 @@ You sit in silence contemplating what your father just proposed.
 [[Continue|Main Story 2.10]]</tw-passagedata><tw-passagedata pid="64" name="Main Story 2.9.2" tags="jail" position="475,850" size="100,100">&quot;Then you and I have nothing more to discuss,&quot; your father states. He lays back into his prison bed and stares at the empty celling. Realizing that the conversation is over, you stand up from the stool and make your way out of the row of cells.
 [[Continue|Main Story 2.10]]</tw-passagedata><tw-passagedata pid="65" name="Main Story 2.10" tags="officedaynew" position="600,850" size="100,100">Having rested for the remainder of the night after arriving back at the Presidential Palace, you awake and head to your office to begin planning the upcoming weeks.
 &lt;&lt;include &quot;endCheck&quot;&gt;&gt;
-/*  */</tw-passagedata><tw-passagedata pid="66" name="Main Story 3" tags="main" position="725,850" size="100,100">Deciding to humor this lone reporter, you begin to approach the palace gate.
+/*  */</tw-passagedata><tw-passagedata pid="66" name="Main Story 3" tags="main" position="725,850" size="100,100">&lt;&lt;audio &quot;normal&quot; volume 1 fadeout&gt;&gt;\
+Deciding to humor this lone reporter, you begin to approach the palace gate.
 
 &quot;Mr. President! Mr. President! I have just one question for you if you&#39;d allow me!&quot; You point with two fingers, indicating that you will accept their question. &quot;Mr. President, how do you wish for your mother to be remembered?&quot; Hearing the question, you stare at the bars that seperate yourself from the journalist as a rush overcomes your head.
 [[Continue|Main Story 3.1]]</tw-passagedata><tw-passagedata pid="67" name="Main Story 3.1" tags="flashback" position="850,850" size="100,100">Sitting at a small, rounded dinner table, you find yourself eating alongside an older woman and a gruffled man within the residential wing of the Presidential Palace. Setting down her utinsils, the older woman states, &quot;This is something I am completly committed to. Please understand that, Ottovin.&quot;
@@ -549,7 +547,8 @@ You sit in silence contemplating what your father just proposed.
 [[2. &quot;My mother was selfless to a fault. She was too stubborn to ever quit... and it ended up getting her killed.&quot;|Main Story 3.6]]</tw-passagedata><tw-passagedata pid="72" name="Main Story 3.6" tags="" position="225,975" size="100,100">Before the journalist finished writing down your response, you turn away and walk right back into the palace. Along the way, you wipe one of your eyes to prevent it from blurring your vision.
 &lt;&lt;link [[Continue|Main Story 3.7]]&gt;&gt; &lt;&lt;set $playerstress += 0.5&gt;&gt; &lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="73" name="Main Story 3.7" tags="" position="350,975" size="100,100">You seclude yourself in your office for the remainder of the day. While there, you decide how to spend the upcoming weeks.
 &lt;&lt;include &quot;endCheck&quot;&gt;&gt;
-/*  */</tw-passagedata><tw-passagedata pid="74" name="Main Story 4" tags="main" position="475,975" size="100,100">As you swing open two doors, you are presented with a marble balcony overlooking the city. You approach the railing and begin to lean foward, placing your elbows down and crossing your arms. Looking into the distance, you realize that some nearby buildings are still under going repairs just as your head begins to pound.
+/*  */</tw-passagedata><tw-passagedata pid="74" name="Main Story 4" tags="main" position="475,975" size="100,100">&lt;&lt;audio &quot;normal&quot; volume 1 fadeout&gt;&gt;\
+As you swing open two doors, you are presented with a marble balcony overlooking the city. You approach the railing and begin to lean foward, placing your elbows down and crossing your arms. Looking into the distance, you realize that some nearby buildings are still under going repairs just as your head begins to pound.
 [[Continue|Main Story 4.1]]</tw-passagedata><tw-passagedata pid="75" name="Main Story 4.1" tags="militaryoffice" position="600,975" size="100,100">No! You are not listening to me!&quot; you find youself crying out. &quot;That man is unfit to rule any longer. The people will not stand for this! I will not stand for this!&quot;
 
 The man in front of you stands up from his chair, slamming his fists on the table. &quot;Do you have ANY idea what you suggesting? This is not some easily made decision! These kinds of things take months to plan before they can be executed. For you to stand here and spontaneously encourage treason is laughable. I&#39;d rather weather out this storm than directly contribute to it.&quot;
@@ -569,7 +568,8 @@ Hearing his order, you interupt, &quot;What?! So your just going to protect him?
 &quot;No, I&#39;m going to let him THINK I&#39;m there to protect him.&quot; Realizing the implication of those words, your find a smile forming across your face involuntarily. &quot;Are you prepared to lead, kid?&quot; Dean follows up.
 [[1. &quot;I&#39;ve never been more prepared.&quot;|Main Story 4.4]]</tw-passagedata><tw-passagedata pid="78" name="Main Story 4.4" tags="" position="975,975" size="100,100">The cold outdoor air shocks your mind back to the present. Realizing that you had been lost in thought for several minutes, you decide that its time to head back inside and plan out the upcoming weeks before you quit working for the rest of the day.
 &lt;&lt;include &quot;endCheck&quot;&gt;&gt;
-/*  */</tw-passagedata><tw-passagedata pid="79" name="Main Story 5" tags="main" position="1100,975" size="100,100">You continue working for some time before your advisor, who had answered the phone, enters the presidential office. &quot;Sir,&quot; he begins, &quot;I just got off the phone with...&quot;
+/*  */</tw-passagedata><tw-passagedata pid="79" name="Main Story 5" tags="main" position="1100,975" size="100,100">&lt;&lt;audio &quot;normal&quot; volume 1 fadeout&gt;&gt;\
+You continue working for some time before your advisor, who had answered the phone, enters the presidential office. &quot;Sir,&quot; he begins, &quot;I just got off the phone with...&quot;
 
 &quot;The prison again?&quot; you interupt. He nods as his lips grow thin. &quot;I thought so. That phone ringing rarely means anything else nowadays.&quot; You pause for a moment before continuing, &quot;Well... What does he want?&quot;
 
