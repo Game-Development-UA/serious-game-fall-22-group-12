@@ -9,13 +9,13 @@ Where do you get married?
 <<link [[2. Get married at one of the fanciest wedding venues in the country|Choose to get married at fancy venue]]>> <<set $playerstress -= 1>> <<set $playermoney -= 0.5>> <</link>>
 <<run $events.delete($nextEvent)>>
 :: Choose Private wedding
-Although some people are unhappy they didn't receive an invitation, most people are excited for your marriage! The fact that you didn't have to spend any money on additional food for more guests didn't hurt either. Congratulations!
+Although some people are unhappy that they didn't receive an invitation, most people are excited for your marriage! The fact that you didn't have to spend any money on additional food for more guests didn't hurt either. Congratulations!
 <<include "nextFocus">>
 :: Choose to get married at fancy venue
 Although some people are rubbed the wrong way by the extravagant nature of the wedding, most people are excited for your marriage! Congratulations!
 <<include "nextFocus">>
 :: Choose to have wedding on the beach
-Having chosen to hold your wedding ceremony on the beachfront, you now can decide if you would like to charge an admission fee for citizens to view your wedding ceremony on the breachfront.
+Having chosen to hold your wedding ceremony on the beachfront, you now can decide if you would like to charge an admission fee for citizens to attend your wedding ceremony on the beach.
 <<link [[1. Charge admission|Charge admissions fee]]>> <<set $playermoney += 1>><</link>>
 <<link [[2. The wedding ceremony should be free to all.|Free admission]]>> <<set $playerstress += 0.5>> <</link>>
 
