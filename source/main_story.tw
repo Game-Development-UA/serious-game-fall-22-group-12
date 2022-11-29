@@ -119,7 +119,6 @@ Pausing for a moment, your father looks at you and then back at Carlotta before 
 :: Main Story 1.3 [officenightnew]
 Returning to a normal train of thought, you pick up the unlit cigar next to the patched carpet and place it back on the corner of the presidential desk. After standing in silence for a few moments, you behind to make your way out of your office and toward the residential section of the palace.
 <<link [[1. "I haven't thought of that in years."|Main Story 1.4]]>> <<set $playerstress += 0.5>> <</link>>
-
 :: Main Story 1.4 [officenightnew]
 Having rested for the night, you awake ready to carry out your presidential duties. You head to your office to begin planning.
 <<include "endCheck">>
