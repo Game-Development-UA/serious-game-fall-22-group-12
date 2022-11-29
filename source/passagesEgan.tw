@@ -158,7 +158,7 @@ Carlotta sighs. "I warned my corporate friends that you might react that way. Ve
 
 :: Social Event [event]
 One evening, you are admiring a painting in the Presidential Palace that depicts a lavish social gathering. As you are inspect its details, Carlotta approaches you from behind.
-Making her precence known, Carlotta begins, "You know, Mr. President, the nation could benefit from you throwing another party. It's a good excuse for everyone to mingle and peacefully talk through their differences. Not to mention the food and drink of course!" she clarifys with a light laugh. She turns her head away from the painting and toward you, waiting for a response.
+Making her presence known, Carlotta begins, "You know, Mr. President, the nation could benefit from you throwing another party. It's a good excuse for everyone to mingle and peacefully talk through their differences. Not to mention the food and drink of course!" she clarifys with a light laugh. She turns her head away from the painting and toward you, waiting for a response.
 
 <<link [[1. "I was just thinking the same thing, Carlotta. Parties have always been one of my favorite things throughout life. I will definetly have to arrange one here soon... using goveernment funds of course."|Support Social Event]]>> <<set $opinionCarlotta += 1>> <<set $playermoney -= 1>> <<set $playerstress += .5>> <</link>>
 <<link [[2. "I agree that parties are great for mingleing, but the government doesn't have the extra money right now to put anything on."|No Support Social Event Money]]>> <<set $opinionCarlotta -= 0.5>> <<set $playerstress += .5>> <</link>>
