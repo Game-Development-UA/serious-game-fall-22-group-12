@@ -54,13 +54,13 @@ Something about a coup led against you
 
 :: Stress Ending [end]
 
-Being a president of a country is a very stressful job. You thought you would be able to handle this job and manage your stress well because you father did this job before you. You were mistaken.
-Your stress levels have maxed out and you have realized you cannot take it anymore. You realise that you have to make a decision.
+Being a president of a country is a very stressful job. You thought you would be able to handle this job and manage your stress well because your father did this job before you. You were mistaken.
+Your stress levels have maxed out and you have realized you cannot take it anymore. You now have to make a decision.
 [[1. Choose to resign from your presidential position. | Resign from presidency]]
 [[2. Choose to take everyone down with you. | Take everyone down with you]]
 
 :: Resign from presidency 
-You have decided that it is best for you and the country if you resign. The job has become to much of a burden, and you cannot handle it anymore. You have realized that because of your extreme stress
+You have decided that it is best for you and the country if you resign promptly. The job has become to much of a burden, and you cannot handle it anymore. You have realized that because of your extreme stress
 you have not been able to be a good president and your choices recently have become questionable. But you have made the right decison to resign. Your fellow constituents respect your decision.
 As one of your lasts ats as president, your advisor asks if you would like to give a farewell speech to address the nation
 [[1. "Yes i will give one last speech to address the people." | Farewell Speech]]
@@ -72,9 +72,9 @@ You hope the people of the nation will understand you situation and that they wi
 [[1."Good afternoon citizens, it brings me no joy to announce that i will be stepping down as president of this country.| Speech.1"]]
 
 :: Speech.1 
-"This position has become to large of a burden for me to hold, i feel i am not able to be the president that you all deserve."
+"This position has become to large of a burden for me to hold, I feel I am not able to be the president that you all deserve."
 "The great people of this country deserve a great president that can withstand the weight that is placed on them, i fear i have failed you all"
-[[1. "Please put your faith into this country and the new president, i have no doubts they will be a great addition to this country" | Last remarks]]
+[[1. "Please put your faith into this country and the new president, I have no doubts they will be a great addition to this country" | Last remarks]]
 
 :: Last remarks
 "This is a great nation, I can see the light on the other side, though i believe i cannot bring us there."
