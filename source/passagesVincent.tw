@@ -7,7 +7,8 @@ Where do you get married?
 <<link [[1. Get married in private within the Presidential Palace.|Choose Private wedding]]>> <<set $playerstress -= 0.5>> <</link>>
 <<link [[3. Get married on the beach|Choose to have wedding on the beach]]>> <<set $playerstress -= 1>> <</link>>
 <<link [[2. Get married at one of the fanciest wedding venues in the country|Choose to get married at fancy venue]]>> <<set $playerstress -= 1>> <<set $playermoney -= 0.5>> <</link>>
-<<run $events.delete($nextEvent)>>
+<<run $stress.delete($nextStress)>>
+
 :: Choose Private wedding
 Although some people are unhappy that they didn't receive an invitation, most people are excited for your marriage! The fact that you didn't have to spend any money on additional food for more guests didn't hurt either. Congratulations!
 <<include "nextFocus">>
