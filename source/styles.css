@@ -15,29 +15,34 @@ body[data-tags~="officedaynew"] {
 	background-image: url("media/officedaynew.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100%;
 }
 body[data-tags~="officenightnew"] {
 	background-image: url("media/officenightnew.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100%
 }
 
 body[data-tags~="officenightold"] {
 	background-image: url("media/officenightold.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100%
 }
 
 body[data-tags~="jail"] {
 	background-image: url("media/jail.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100%
 }
 
 body[data-tags~="militaryoffice"] {
 	background-image: url("media/militaryoffice.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100%
 }
 
 
@@ -47,6 +52,7 @@ body[data-tags~="ballroom"] {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	min-height: 100%
 }
 
 /* html[data-tags~="ballroom"] {
