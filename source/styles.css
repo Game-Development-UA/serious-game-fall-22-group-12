@@ -40,17 +40,38 @@ body[data-tags~="militaryoffice"] {
 	background-size: cover;
 }
 
+
+
 body[data-tags~="ballroom"] {
 	background-image: url("media/ballroom.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
+
+/* html[data-tags~="ballroom"] {
+	background-image: url("media/ballroom.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+} */
+
+
 
 body[data-tags~="woodendoor"] {
 	background-image: url("media/woodendoor.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
+
+/* html[data-tags~="woodendoor"] {
+	background-image: url("media/woodendoor.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+} */
 	
 .jail {
 	background: rgb(88, 81, 94);

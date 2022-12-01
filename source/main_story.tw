@@ -149,12 +149,12 @@ Your advisor nods before walking past you into the presidential office as direct
 "Very well, sir," he responds. "I will call back in the morning and let them know that you are unwilling to visit at this time." Hearing that, you head back into your office before retiring for the night.
 [[Continue|Main Story 1.4]]
 :: Main Story 2.3 [jail]
-Despite the prision being only an hour from the palace, it feels as if it is located in a completly isolated corner of the nation. Street lights no longer line the roads and pavement soon turns to dirt the further you are driven. Pulling into the entrance of the institution, you are met by several armed guards, one of which opens the door to your car.
+Despite the prision being only an hour from the palace, it feels as if it is located in a completly isolated corner of the nation. Street lights no longer line the roads and pavement soon turns to dirt the further you drive. Pulling into the entrance of the institution, you are met by several armed guards, one of which opens the door to your car.
 [[Continue|Main Story 2.4]]
 <<audio "normal" volume 1 fadeout>>\
 <<audio "flashback1" volume 0 fadein>>\
 :: Main Story 2.4 [jail]
-"Evening, Mr. President. We've already cleared out neighboring cells so that you can speak in privacy. No survalence will be conducted in that section of the prison until you exit, so not even we will hear the contents of your conversation." You nod appreciatively to the guard before exiting the car and walking into the building. You are escorted for some time before reaching a large metal door. A guard unlocks the door to reveal a dimly lit row of cells, most of which are unoccupied. Towards the back of the row, you can see a cell that is lit slightly brighter than the rest. You and your advisor begin to walk through.
+"Evening, Mr. President. We've already cleared out neighboring cells so that you can speak in privacy. No surveillance will be conducted in that section of the prison until you exit, so not even we will hear the contents of your conversation." You nod appreciatively to the guard before exiting the car and walking into the building. You are escorted for some time before reaching a large metal door. A guard unlocks the door to reveal a dimly lit row of cells, most of which are unoccupied. Towards the back of the row, you can see a cell that is lit slightly brighter than the rest. You and your advisor begin to walk through.
 
 [[1. "Actually, I'd like to do this alone."|Main Story 2.5]]
 :: Main Story 2.5 [jail]
