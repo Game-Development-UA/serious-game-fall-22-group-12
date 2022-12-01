@@ -69,6 +69,13 @@ html[data-tags~="woodendoor"] {
 	background-position: center;
 	min-height: 100%;
 }
+
+/* html[data-tags~="woodendoor"] {
+	background-image: url("media/woodendoor.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+} */
 	
 .jail {
 	background: rgb(88, 81, 94);
