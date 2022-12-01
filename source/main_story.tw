@@ -18,12 +18,12 @@
     Hearing their cue, the two uniformed officers reach for their designated handles and pull the engraved door open, dramatically revealing you. Thunderous clapping and flashing cameras instantly occupy the room. You begin to walk forward with your hand held high and a bright smile across your face. You soak in the cheers for several moments longer before using both hands to calm the crowd of guests down. Receiving your message, elegant music fills the air and your guests return to their conversations, drinks, food, and dance. 
     [[Continue|Advisor Approaches]]
 :: Advisor Approaches [ballroom]
-    As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will be start closely governing with in the coming days?”
+    As you revel in the enjoyment displayed by your guests, your advisor calmly walks to your side. Whispering in your ear, he explains, “Sir, while this is an immense celebration of all you accomplished this past month that you absolutely should enjoy for yourself, might I suggest that you use this as an opportunity to become familiar with the various groups and individuals you will start closely governing with in the coming days?”
     “You're right,” you respond, “Who do you suggest I approach first?” Your advisor shakes his head and explains that it is up to you to decide who to approach and in what order. Handing you a drink before leaving to rejoin the festivities, he reminds you that this is a very public event, meaning all eyes will be on you. 
 [[1. "Let's see how this goes."|Approaching]]
 
 :: Approaching [ballroom]
-<<if $timespenttalking lt 2>> Taking a sip from your drink, you decide who to you approach.<<else>> Your drink is empty. No one important is left to approach. <</if>>
+<<if $timespenttalking lt 2>> Taking a sip from your drink, you decide who to approach.<<else>> Your drink is empty. No one important is left to approach. <</if>>
 <<if $approachOttovin == false>>[[Ottovin, spokesperson for the Labor Union Frontiermen|Approach Ottovin]] <</if>>
 <<if $approachCarlotta == false>>[[Carlotta, spokeperson for the Corporate Elite|Approach Carlotta]]<</if>>
 <<if $approachIvana == false>>[[Ivana, Spymaster|Approach Ivana]]<</if>>
@@ -197,14 +197,13 @@ You sit in silence contemplating what your father just proposed.
 :: Main Story 2.9.1 [jail]
 "Ahhh! I knew we could still see eye-to-eye on somethings!" your father cheers. "Oh please make the changes quickly, I can't stand to live like this much longer." You stand up from your stool, nod to your attentive father, and begin to walk out of the row of cells.
 [[Continue|Main Story 2.10]]
-<<audio "flashback1" volume 1 fadeout>>\
 :: Main Story 2.9.2 [jail]
 "Then you and I have nothing more to discuss," your father states. He lays back into his prison bed and stares at the empty celling. Realizing that the conversation is over, you stand up from the stool and make your way out of the row of cells.
 [[Continue|Main Story 2.10]]
-<<audio "flashback1" volume 1 fadeout>>\
 :: Main Story 2.10 [officedaynew]
 Having rested for the remainder of the night after arriving back at the Presidential Palace, you awake and head to your office to begin planning the upcoming weeks.
 <<include "endCheck">>
+<<audio "flashback1" volume 1 fadeout>>\
 <<audio "normal" volume 0 loop fadein>>\
 /*  */
 
@@ -454,16 +453,7 @@ Interrupting, you advisor says, "Sir, if I might say. It appears your father is 
 
 :: Main Story 6.4 [officedaynew] 
 <<audio "flashback6" volume 1 fadeout>>\
-<<audio "flashback7" volume 0 fadein>>\
-With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead!
-<<if $father == 1>>\
-As for your father, his whereabouts are still unknown.
-<<elseif $father == 2>>\
-As for your father, he is spending the vast majority of his time drinking and partying according to Carlotta's updates.
-<<elseif $father == 3>>\
-As for your father, he has moved on from our eastern neighbor and is now even further east according to Ivana's updates.
-<<elseif $father == 4>>\
-As for your father, his whereabouts are still unknown.
-<</if>>\
-Nevertheless, you are looking forward to the rest of your life as president, which you expect to be much smoother sailing from this point onward.
+<<audio "flashback7" volume 0 fadein>>\ 
+With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! <<if $father == 1>> As for your father, his whereabouts are still unknown.<<elseif $father == 2>>
+As for your father, he is spending the vast majority of his time drinking and partying according to Carlotta's updates. <<elseif $father == 3>> As for your father, he has moved on from our eastern neighbor and is now even further east according to Ivana's updates. <<elseif $father == 4>> As for your father, his whereabouts are still unknown. <</if>> Nevertheless, you are looking forward to the rest of your life as president, which you expect to be much smoother sailing from this point onward.
 [[The End|Main Menu 1]]
