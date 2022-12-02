@@ -1,4 +1,5 @@
 :: Main Menu 1
+<<masteraudio stop>>
 <span style="font-size:70pt;"><div style="text-align: center;">Group 12 Presents</div></span>
 ----------
 <span style="font-size:40pt;"><div style="text-align: center;">[[Continue|Main Menu 2]]</div></span>
@@ -7,6 +8,25 @@
 <span style="font-size:70pt;"><div style="text-align: center;">Precariously Presidential</div></span>
 ----------
 <span style="font-size:40pt;"><div style="text-align: center;">[[Start|Main Story 0]]</div></span>
+[[Important Note]] ---- [[Credits]]
+:: Important Note
+<span style="font-size:30pt;"><div style="text-align: center;">Please Read</div></span>
+1. Music is quite integral to the experience, play with sound on if possible
+2. The game is still a prototype
+3. The left sidebar can be stowed away in order to view the background with greater detail. We recommended that you stow it away when not refering to it.
+[[Back|Main Menu 2]]
+:: Credits
+<span style="font-size:30pt;"><div style="text-align: center;">Credits - Group 12</div></span>
+Vincent Enos - Writer of stress procedural passages; writer of Ivana, stress, and funds ending passages; editor
+
+Alaysha Epps - Writer of Dean procedural event passages; editor
+
+Kayla Faulkner - Artist; writer of Ivana procedural event passages; editor
+
+Rafi Leviton - Writer of Ottovin, Carlotta, and Dean ending passages; helped style passages; editor
+
+Egan Putman - Writer of of main story passages; writer of Ottovin and Carlotta procedural event passages; mechanic and story outliner; developer of game systems, details. and variables; passage styler of music, font, sound effects, and colors
+[[Back|Main Menu 2]]
 :: Main Story 0 [woodendoor] 
     Standing in front of two large wooden doors, you begin to feel your heartbeat grow faster and your breaths shorter. This is your first public appearance since taking power after all, so some worry is warranted. You begin to fix your tie as you find yourself in awe once again of the magnificent detailing engraved into the wooden doors. Your eyes take in all of its beauty, which results in your neck becoming strained from looking so far up. As your eyes begin to fall back to a leveled state, two uniformed military officers walk up next to you and stand by your shoulders. 
     Behind the doors, you faintly make out the muffled voice of an announcement. “Please join me in welcoming … our newest president!”
