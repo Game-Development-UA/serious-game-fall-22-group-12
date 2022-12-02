@@ -1,5 +1,5 @@
 :: Main Menu 1
-<<masteraudio stop>>
+<<audio "flashback7" stop>>
 <span style="font-size:70pt;"><div style="text-align: center;">Group 12 Presents</div></span>
 ----------
 <span style="font-size:40pt;"><div style="text-align: center;">[[Continue|Main Menu 2]]</div></span>
@@ -311,7 +311,7 @@ Hearing his order, you interupt, "What?! So your just going to protect him?!"
 The cold outdoor air shocks your mind back to the present. Realizing that you had been lost in thought for several minutes, you decide that its time to head back inside and plan out the upcoming weeks before you quit working for the rest of the day.
 <<audio "flashback5" volume 1 fadeout>>\
 <<audio "normal" volume 0 fadein>>\
-<<include "endCheck">>
+<<include "endCheck">>\
 /*  */
 
 
