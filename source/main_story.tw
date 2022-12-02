@@ -1,5 +1,5 @@
 :: Main Menu 1
-<<audio "flashback7" stop>>
+<<audio "flashback7" stop>>\
 <span style="font-size:70pt;"><div style="text-align: center;">Group 12 Presents</div></span>
 ----------
 <span style="font-size:40pt;"><div style="text-align: center;">[[Continue|Main Menu 2]]</div></span>
