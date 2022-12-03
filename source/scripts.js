@@ -5,4 +5,4 @@ config.ui.stowBarInitially = true;
 // Hide the back / forward buttons
 config.history.controls = false;
 
-// config.ui.stowBarInitially = true;
+ config.ui.stowBarInitially = true;

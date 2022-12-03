@@ -8,21 +8,21 @@ Where do you get married?
 <<link [[3. Get married on the beach|Choose to have wedding on the beach]]>> <<set $playerstress -= 1>> <</link>>
 <<link [[2. Get married at one of the fanciest wedding venues in the country|Choose to get married at fancy venue]]>> <<set $playerstress -= 1>> <<set $playermoney -= 0.5>> <</link>>
 <<run $events.delete($nextEvent)>>
-:: Choose Private wedding
+:: Choose Private wedding [officedaynew]
 Although some people are unhappy that they didn't receive an invitation, most people are excited for your marriage! The fact that you didn't have to spend any money on additional food for more guests didn't hurt either. Congratulations!
 <<include "nextFocus">>
-:: Choose to get married at fancy venue
+:: Choose to get married at fancy venue [officedaynew]
 Although some people are rubbed the wrong way by the extravagant nature of the wedding, most people are excited for your marriage! Congratulations!
 <<include "nextFocus">>
-:: Choose to have wedding on the beach
+:: Choose to have wedding on the beach [officedaynew]
 Having chosen to hold your wedding ceremony on the beachfront, you now can decide if you would like to charge an admission fee for citizens to attend your wedding ceremony on the beach.
 <<link [[1. Charge admission|Charge admissions fee]]>> <<set $playermoney += 1>><</link>>
 <<link [[2. The wedding ceremony should be free to all.|Free admission]]>> <<set $playerstress += 0.5>> <</link>>
 
-:: Charge admissions fee
+:: Charge admissions fee [officedaynew]
 Having chosen to charge an admission fee for your wedding, the beachfront ceremony is finally underway. Congratulations!
 <<include "nextFocus">>
-:: Free admission
+:: Free admission [officedaynew]
 Your citizens are happy that you have chosen to have your wedding in a public space where they can come and attend free of cost. 
 You are also happy with how your beach wedding ceremony turned out. Congratulations!
 <<include "nextFocus">>
@@ -37,10 +37,10 @@ You have decided that all of the hard work you have done for the nation recently
 <<link [[2. Visit a big coastal city|Go To Coastal City]]>> <<set $playerstress -= 1>> <</link>>
 
 
-:: Yacht vacation
+:: Yacht vacation [officedaynew]
 You are going to spend your vacation on your private yacht out in the open seas. The water brings comfort to you due to it providing a barrier between you and any nosey press.
 <<include "nextFocus">>
-:: Go To Coastal City 
+:: Go To Coastal City [officedaynew]
 Lucky for you, your family has held a large summer estate for generations for you to stay at. While it isn't as isolated as a yacht, you are still able to relax despite the occasional nosey journalist. 
 <<include "nextFocus">>
 /* */
@@ -55,19 +55,19 @@ Should you spend this free time taking any family members out to a fancy restaur
 <<link [[1. Go to a restaurant with your family|Go To Restaurant]]>> <<set $playerstress -= 1>> <</link>>
 <<link [[2. Drink with your friends|Go To Bar]]>> <<set $playerstress -= .5>> <</link>>
 
-:: Go To Restaurant
+:: Go To Restaurant [officedaynew]
 You have chosen to take your family out to a fancy restaurant. A seven course meal is prepared, which ensures you all have a lovely time together.
 <<include "nextFocus">>
-:: Go To Bar 
+:: Go To Bar [officedaynew]
 You have chosen to spend some of your free time with some close friends. You all have decided to drink together at the Presidential Palace. 
 What will you choose to drink at the bar? 
 <<link [[1. Drink hard liquor|Drink Hard Liquor]]>> <<set $playerstress += 0.5>><</link>>
 <<link [[2. Drink wine|Drink Wine]]>> <<set $opinionCarlotta += .5>> <<set $playerstress -= 1>> <</link>>
 
-:: Drink Hard Liquor
+:: Drink Hard Liquor [officedaynew]
 You decided to go with hard liquor. While drinking at the bar you have become very drunk and several attendants witnessed you throwing up behind the bar. 
 <<include "nextFocus">>
-:: Drink Wine
+:: Drink Wine [officedaynew]
 You have decided to drink a glass of wine, keeping it classy as you know you are the face of an entire country.
 <<include "nextFocus">>
 /* */
@@ -80,11 +80,11 @@ You have decided that you need some exercise. What better way to exercise than b
 <<link [[1. "I want to play Tennis"|Play Tennis]]>> <<set $playerstress -= 1>><</link>>
 <<link [[2. "I want to play Basketball"|Play Basketball]]>> <<set $playerstress -= .5>><</link>>
 
-:: Play Tennis
+:: Play Tennis [officedaynew]
 There is a nice tennis court on the Presidential Palace grounds that you are able to play at. 
 This will be a nice way to get some exercise in while also getting some much needed sunlight.
 <<include "nextFocus">>
-:: Play Basketball
+:: Play Basketball [officedaynew]
 You will be playing basketball indoors at your own personal court inside the Presidential Palace. 
 This is a great way to get exercise and help to relieve some of the stress that you have been aquiring as president.
 <<include "nextFocus">>
@@ -101,10 +101,10 @@ Where would you like to go?
 <<link [[1. "I want to visit the agricultural district."|Visit Agricultural District]]>> <<set $playerstress -= 1>> <</link>>
 <<link [[2. "I want to visit several small cities in the country."|Visit some small cities]]>> <<set $playerstress -= 0.5>><</link>>
 
-:: Visit Agricultural District 
+:: Visit Agricultural District [officedaynew]
 You have decided to visit the agricultural district in your country. You take several tours of the lands and visit with many staff members working in the farms. 
 <<include "nextFocus">>
-:: Visit some small cities 
+:: Visit some small cities [officedaynew]
 You have decided to visit several small cities in your country. While visiting with these cities you have decided to meet with local officials and see first hand how they are managing their positions. 
 <<include "nextFocus">>
 /* */

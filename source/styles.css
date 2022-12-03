@@ -4,43 +4,58 @@
 	}
 
 /* The body is everything displayed in the main text delivery area */
+body {
+	background: rgb(94, 89, 133);
+}
+/*background: rgb(65, 58, 120);*/
+
 body[data-tags~="officedaynew"] {
-	background-image: url("images/officedaynew.JPG");
+	background-image: url("media/officedaynew.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="event"] {
+	background-image: url("media/officedaynew.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="stress"] {
+	background-image: url("media/officedaynew.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 body[data-tags~="officenightnew"] {
-	background-image: url("images/officenightnew.JPG");
+	background-image: url("media/officenightnew.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 body[data-tags~="officenightold"] {
-	background-image: url("images/officenightold.JPG");
+	background-image: url("media/officenightold.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 body[data-tags~="jail"] {
-	background-image: url("images/jail.JPG");
+	background-image: url("media/jail.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 body[data-tags~="militaryoffice"] {
-	background-image: url("images/militaryoffice.JPG");
+	background-image: url("media/militaryoffice.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 body[data-tags~="officedaynew"] {
-	background-image: url("images/officedaynew.JPG");
+	background-image: url("media/officedaynew.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 body[data-tags~="ballroom"] {
-	background-image: url("images/ballroom.JPG");
+	background-image: url("media/ballroom.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 body[data-tags~="woodendoor"] {
-	background-image: url("images/woodendoor.JPG");
+	background-image: url("media/woodendoor.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }

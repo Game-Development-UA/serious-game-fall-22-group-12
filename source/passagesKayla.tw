@@ -7,10 +7,10 @@ You sit in silence for a few seconds while you think.
 <<link [[1. "I was also thinking about ramping up propaganda. It feels as if my popularity has lowered in the nation since offically taking power."|Yes for propaganda]]>> <<set $opinionIvana += 1>> <<set $playerstress += .5>> <</link>>
 <<link [[2. "I don't know how well any propaganda will actually influence the nation's people; futhermore, I couldn't care less about what our nation's people think about me. I am the president and they will respect that... no matter what."|No for propaganda]]>> <<set $opinionIvana -= 1>> <<set $playerstress += 0.5>> <</link>>
 
-:: Yes for propaganda
+:: Yes for propaganda [officedaynew]
 "I shall get right to increasing propaganda messages in the media then. Thank you for your time," Ivana says with a bow. She hasitly departs from the office. 
 <<include "nextFocus">>
-:: No for propaganda
+:: No for propaganda [officedaynew]
 "Sir, I am not sure that is the best choice; however, I will still follow your command...," Ivana says with a glint of dissapointment in her eyes. She then leaves the office. 
 <<include "nextFocus">>
 /* */
@@ -27,13 +27,13 @@ You think about your decision.
 <<link [[2. "I have been worried about the journalist. However I would not like you to assasinate him. Instead silently capture him and bring him to the interrogation room. I would like to ask him a few questions."|Capture journalist]]>> <<set $opinionIvana += 0.5>> <<set $playerstress += 0.5>> <</link>>
 <<link [[3. "Do not assasinate the journalist. I don't really care about my public image. I am in power... no amount of negative press will change that"|Do not care]]>> <<set $opinionIvana -= 1>> <<set $playerstress += 1>> <</link>>
 
-:: Yes assasinate journalist
+:: Yes assasinate journalist [officedaynew]
 "Yes sir. Worry no longer, the journalist shall be dealt with immediately," Ivana says with a bow before departing from your office. 
 <<include "nextFocus">>
-:: Capture journalist
+:: Capture journalist [officedaynew]
 "That is wise of you sir. I shall capture the journalist right away," Ivana says with a slight smile. She then bows and exits the office. 
 <<include "nextFocus">>
-:: Do not care
+:: Do not care [officedaynew]
 "That is not the answer I was expecting from you, sir; regardless, thank you for your time. I shall take my leave now," she says with a slight frown before quitely exiting the office. 
 <<include "nextFocus">>
 /* */
@@ -50,13 +50,13 @@ You think over the spymaster's words.
 <<link [[2. "I do not think that we should set up a network of spies in our neighboring nations' crucial industries. I think that our country is strong enough as it is. Why waste money to figure out what the other countries are doing."|We are strong]]>> <<set $opinionIvana -= 1>> <<set $playerstress += 0.5>> <</link>>
 <<link [[3. "This is an intelligent proposition you have brought to me, Ivana. I will pay for you to inflitrate the surrounding nations' cruical industries by setting up a network of spies across them."|Yes for spreading influence]]>> <<set $opinionIvana += 1>> <<set $playerstress += 1>> <<set $playermoney -= 1>> <</link>>
 
-:: Friendly ties
+:: Friendly ties [officedaynew]
 "That is unexpected of you sir, but allies are useful assests nonetheless," she says and leaves with a bow. 
 <<include "nextFocus">>
-:: We are strong
+:: We are strong [officedaynew]
 "It is true that our nation is strong sir, but even the strong can falter without valuable information. I shall take my leave now, thank you for meeting with me," she says. Ivana then leaves while slowly shaking her head. 
 <<include "nextFocus">>
-:: Yes for spreading influence
+:: Yes for spreading influence [officedaynew]
 "Understood sir, I shall set up the spy network at once, thank you for your time," Ivana says and hasitly leaves the office. 
 <<include "nextFocus">>
 /* */
@@ -72,11 +72,11 @@ You think to yourself for a second, and write back:
 <<link [[1. "I would like you to discredit him. He is hurting my reputation and I will not stand for such treatment!"|Yes discredit him]]>> <<set $opinionIvana += 1>> <<set $playerstress += 1 >> <</link>>
 <<link [[2. "Let him be. He has the right to speak negatively of me just like anyone else."|Do not discredit him]]>> <<set $opinionIvana -= 1>> <<set $playerstress += .5>> <</link>>
 
-:: Yes discredit him
+:: Yes discredit him [officedaynew]
 A couple days later you recive a response from Ivana. 
 "My thoughts exactly sir. I will get right to that."
 <<include "nextFocus">>
-:: Do not discredit him
+:: Do not discredit him [officedaynew]
 A couple days later you recive a response from Ivana. 
 "Sir, I am not sure that is the best action to take here, but I will acknowledge it. Thank you for your time."
 <<include "nextFocus">>
@@ -93,13 +93,13 @@ The spymaster, Ivana, has a serious issue to talk about with you.
 <<link [[2. "The enemy spy can cause a lot of havoc if we do not do anything about him; however, we may be able to get valuable information out of the spy if we capture him rather than just assasinate him. So, I would like you to capture him for questioning instead."|Capture enemy spy]]>> <<set $opinionIvana += 1>> <<set $playerstress += 0.5>> <</link>>
 <<link [[3. "Thank you for bringing this to my attention; however, there is no cause for concern. Any information that is leaked we can overcome. We are the strongest nation. We cannot be defeated."|Do not care 2]]>> <<set $opinionIvana -= 1.5>> <<set $playerstress +=.5>> <</link>>
 
-:: Assassinate enemy spy
+:: Assassinate enemy spy [officedaynew]
 "Thank you for seeing the urgency in this matter sir, I will carry out the assasination plan now," Ivana responds with a slight smile. She then quickly leaves the office.
 <<include "nextFocus">>
-:: Capture enemy spy
+:: Capture enemy spy [officedaynew]
 "I am not quite sure if the enemy spy will let himself be captured sir, but I will do my best. Thank you for your time," Ivana says with a nod and leaves the office. 
 <<include "nextFocus">>
-:: Do not care 2
+:: Do not care 2 [officedaynew]
 "Our nation is very strong, but the enemy spy can bring down our government if he finds valuable information. That is most likely not a wise way to go about this situation. But it is your decision, so I'll let it be," Ivana says with a grimace and slowly walks out of the office. 
 <<include "nextFocus">>
 /* */

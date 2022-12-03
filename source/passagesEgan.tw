@@ -6,10 +6,10 @@ You stand silent while pondering the idea.
 <<link [[1. "Of course! My mother was a champion of the working people so I see no reason to stand in your way."|Support Statue]]>> <<set $opinionOttovin += 1>> <</link>>
 <<link [[2. "Absoletly not! My mother's likeness and legacy will not be used for your political gain any futher."|No Support Statue]]>> <<set $opinionOttovin -=1>> <<set $playerstress += 0.5>> <</link>>
 
-:: Support Statue
+:: Support Statue [officedaynew]
 "Why... why thank you so much, Mr. President! I am certain the working people will just love to hear this! I'll go inform them that you've given us the go ahead," Ottovin says with a smile. He quickly turns away and speedwalks toward the gate of the Presidential Palace.
 <<include "nextFocus">>
-:: No Support Statue
+:: No Support Statue [officedaynew]
 "While I will respect your decision, I cannot hide my disapointment, sir. It would have been a huge moral boost for your working people." Ottovin pauses for a moment before continuing. "Well, if you'll excuse me Mr. President, I need to inform my organization of your decision," he says before turning his back and walking away at a slower than usual pace.
 <<include "nextFocus">>
 /*  */
@@ -28,15 +28,15 @@ Picking up a pen, you begin to write your response to Ottovin:
 <<link [[2. "Yes, but the national government does not have the money to spare. I will instead support that corporations become responsible for providing increased access to healthcare services"|Support Health Corp]]>> <<set $opinionOttovin += 0.5>> <<set $opinionCarlotta -= 1>> <<set $playerstress += 0.5>> <</link>>
 <<link [[3. "No, the current healthcare system is perfectly fine as it is right now. Those who need the health related assistance will seek it out. There is no need for my government to interfer."|No Support Health]]>> <<set $opinionOttovin -= 1>> <<set $playerstress += 0.5>> <</link>>
 
-:: Support Health Gov
+:: Support Health Gov [officedaynew] 
 A few days later after sending back your response, your Advisor returns with a new letter from Ottovin. 
 "Fantastic! I will arrange a meeting with myself, the other Frontiermen, and you to discuss the extent to which your government is willing to help out. I will be in contact in a few short days."
 <<include "nextFocus">>
-:: Support Health Corp
+:: Support Health Corp [officedaynew]
 A few days later after sending back your response, your Advisor returns with a new letter from Ottovin.
 "While this is not exactly what I was hoping for, I understand that there are financial strains for your government to be concered about. I will try to arrange a meeting with myself and some of the major corporate leaders to discuss their new role in providing healthcare. I'll likely be in contact with you in just a few days if I need any assisstance."
 <<include "nextFocus">>
-:: No Support Health
+:: No Support Health [officedaynew]
 A few days later after sending back your response, your Advisor returns with a new letter from Ottovin.
 "I see. Thank you for the consideration, Mr. President. I have informed my organization that you will not support us in this effort."
 <<include "nextFocus">>
@@ -54,16 +54,16 @@ Writing back to Ottovin, you explain:
 <<link [[2. "I am sorry, but the nation is still working through some growing pains right now. Any shakeup concerning the working conditions could jeapordize any progress we have made. I will not support this initiative"|No Support Work Env]]>> <<set $opinionOttovin -= 1>> <<set $playerstress += 0.5>> <</link>>
 <<link [[3. "Let them strike. Anyone who does so will either be replaced by more loyal citizens or fall back into line. Those who resist will deal with the military."|No Support Work Env Military]]>> <<set $opinionOttovin -= 2>> <<set $opinionGeneral -= 1>> <<set $playerstress += 1>> <</link>>
 
-:: Support Work Env
+:: Support Work Env [officedaynew]
 As you are walking the halls of the Presidential Palace, you come across Ottovin walking toward you. 
 "Mr. President! Do you have a moment?" You nod. "I just wanted thank you for your support earlier this week. Carlotta has had some choice words with me, but even she knows she cannot put up a fight for too long."
 You reply, "Of course, Ottovin. If you need any help getting the message through to Carlotta or any other Corporate Leaders, I would be happy to assist." Ottovin smiles, thanks you once again, and then continues walking toward his destination.
 <<include "nextFocus">>
-:: No Support Work Env
+:: No Support Work Env [officedaynew]
 As you are walking the halls of the Presidential Palace, you come across Ottovin walking toward you. 
 "Mr. President, do you have a moment?" You nod slowly. "I just don't quite understand, sir. Working people need your support and you decide "growing pains" are more important?" He slightly scoffs, then walks past you toward his destination.
 <<include "nextFocus">>
-:: No Support Work Env Military
+:: No Support Work Env Military [officedaynew]
 As you are walking the halls of the Presidential Palace, you come across Ottovin walking toward you. He stares at you breifly then continues to walk past you toward his destination.
 <<include "nextFocus">>
 /*  */
@@ -78,10 +78,10 @@ While in a productive meeting with Ottovin, he raises the issue of worker pay.
 <<link [[1. "I agree. If it means keeping the lights on and and staying competitive, then I will work to increase the minimum wage for laborers in those sectors."|Support Wage]]>> <<set $opinionOttovin += 1>> <<set $opinionCarlotta -= 1>> <<set $playerstress += 0.5>><</link>>
 <<link [[2. "I am sorry, but I cannot agree with this. Increasing the minimum wage in these industries would result in other industies expecting the same treatment. If I raised the minimum wage for all, then suddenly more vulnerable corporations will find it even harder to stay afloat."|No Support Wage]]>> <<set $opinionOttovin -= 1>> <<set $playerstress += 0.5>> <</link>>
 
-:: Support Wage
+:: Support Wage [officedaynew]
 Hearing your answer, Ottovin respondes, "Oh now that's just great, sir! I'm glad you recongize this as a serious issue. I don't have specifics for you yet, but I'll bring the data for our next meeting to dicuss how much the minimum wage should be increased by." He stands up, gathers his things back into folders, and then nods his head toward you. "Mr. President," he says before turning around and walking out.
 <<include "nextFocus">>
-:: No Support Wage
+:: No Support Wage [officedaynew]
 Hearing your answer, Ottovin respondes, "While I disagree with your reasoning, I can see why you would be concerned about preferencial treatment and vulnerable corporations. I'll inform my organization of your concerns later today and will see if they can think of any compromises." He stands up, gathers his things back into folders, and then nods his head toward you. "Mr. President," he says before turning around and walking out.
 <<include "nextFocus">>
 /*  */
@@ -96,13 +96,13 @@ While participating in an interview, a state journalist asks your position on th
 <<link [[2. "It is my position that my people deserve to not slave every waking hour away. If this desire is true, then I would mandate a 8 hour work day."|Support 8 Hour]]>> <<set $opinionOttovin += 1>> <<set $opinionCarlotta -= 1>> <<set $playerstress += 1>> <<set $playermoney -= 1>> <</link>>
 <<link [[3. "My nation thrives on the hard work ethic that citizens proudly display. Mandating lower working hours would strip many of these people from their purpose and could even impact the nation's funds. As it stands right now, I do not have an interest in tackling such an initiative."|No Support Hour]]>> <<set $opinionOttovin -= 1>> <<set $opinionCarlotta += 1>> <<set $playerstress += 0.5>> <</link>>
 
-:: Support 12 Hour
+:: Support 12 Hour [officedaynew]
 After writing down what you answered, the state journalist looks up. "Thank you for your time, Mr. President. That was my last question I had for you today. I am certain everyone will want to hear of this!" 
 <<include "nextFocus">>
-:: Support 8 Hour
+:: Support 8 Hour [officedaynew]
 After writing down what you answered, the state journalist looks up. "Thank you for your time, Mr. President. That was my last question I had for you today. I am certain everyone will want to hear of this!" 
 <<include "nextFocus">>
-:: No Support Hour
+:: No Support Hour [officedaynew]
 After writing down what you answered, the state journalist looks up. "Thank you for your time, Mr. President. That was my last question I had for you today."
 <<include "nextFocus">>
 /*  */
@@ -120,13 +120,13 @@ You stop walking after her last word, pondering how to respond.
 <<link [[2. "Allowing 12 year old to work just doesn't sit right with me, Carlotta. How about this: I lower the legal hiring age from 18 to 16, that way I'm not sending prepubesant children to the workforce."|Regulation 16]]>> <<set $opinionCarlotta += 0.5>> <<set $opinionOttovin -= 0.5>> <<set $playerstress += 0.5>> <<set $playermoney += 0.5>> <</link>>
 <<link [[3. "Children? You want literal children to start working inside mines and factories? I don't mean to be rude Carlotta but that is unacceptable in my eyes."|Regulation same]]>> <<set $opinionCarlotta -= 1>> <<set $playerstress += 1>> <</link>>
 
-:: Regulation 12
+:: Regulation 12 [officedaynew]
 With her head held high, Carlotta responds, "Oh I am oh so glad you understand the direness of this situation! Don't worry about Ottovin, I'll personally take care of any of his worries concerning this." The two of you continue to converse while walking throughout the garden about the sucess this measure will bring to the nation.
 <<include "nextFocus">>
-:: Regulation 16
+:: Regulation 16 [officedaynew]
 Staring off to the side, Carlotta seems to be pondering your compromise. "Hmmmm, while that is not exactly what I was seeking, I can tell that's the best offer I'm going to get, Mr. President." She pauses for a moment, then carries on. "Okay, I think us Corporate Leaders can make that work. Thank you, Mr. President!" The two of you continue to converse about upcoming events for some time while walking throughout the garden.
 <<include "nextFocus">>
-:: Regulation same
+:: Regulation same [officedaynew]
 Staring blankly at you, Carlotta sighs. With tight lips and a half grin, she responds, "Of course, Mr. President." The two of you continue to walk in silence for some time before Carlotta exclaims, "Oh, I almost forgot! I have a board meeting in 30 minutes. I better leave before I'm too late, sir." She grins at you once more, then takes her leave towards a garden exit.
 <<include "nextFocus">>
 /*  */
@@ -142,13 +142,13 @@ During a flattery-filled afternoon meeting with Carlotta, she begins to grow mor
 <<link [[2. "Absolutly not. The current corporate tax rate is set in place for a reason and is already quite generous. My government needs the influx of money you and your allies' companies provide. A decrease would only constrain my ability to carry out my presidency."|No Support Tax Relief]]>> <<set $opinionCarlotta -= 1>> <<set $playerstress += 0.5>> <</link>>
 <<link [[3. "You insult me, Carlotta. In fact, you insult me to the degree that I genuinly beleive I should raise the corporate tax rate. You and I both know any tax relief would only line the corporate elite's pockets, not help anyone else."|Raise Taxes]]>> <<set $opinionCarlotta -= 2>> <<set $playerstress += 1>> <<set $playermoney += 1>> <</link>>
 
-:: Support Tax Relief
+:: Support Tax Relief [officedaynew]
 "Oh thank you thank you, sir!" Carlotta stands up from her chair with her hands together held up by her chest. "My corporate friends will just love to hear this. I'll have someone send that list over in the coming days." With your permission, she exits the room.
 <<include "nextFocus">>
-:: No Support Tax Relief
+:: No Support Tax Relief [officedaynew]
 "That's precisely what I told my corporate friends you were going to say," Carlotta admits. "I've heard your opinion on this matter before, but they thought it'd be worth trying. No matter, I'll inform them of your consistency later." In the meantime, you continue to talk about other issues and news with Carlotta.
 <<include "nextFocus">>
-:: Raise Taxes
+:: Raise Taxes [officedaynew]
 Carlotta sighs. "I warned my corporate friends that you might react that way. Very well, I will take my leave and inform interested parties to start preparing for any tax increases." She waits for your nod to leave, then exits the room.
 <<include "nextFocus">>
 /*  */
@@ -164,13 +164,13 @@ Making her presence known, Carlotta begins, "You know, Mr. President, the nation
 <<link [[2. "I agree that parties are great for mingleing, but the government doesn't have the extra money right now to put anything on."|No Support Social Event Money]]>> <<set $opinionCarlotta -= 0.5>> <<set $playerstress += .5>> <</link>>
 <<link [[3. "Didn't we just have a party not too long ago? It feels unnessary to have another one anytime soon."|No Support Social Event]]>> <<set $opinionCarlotta -= 1>> <<set $playerstress += .5>> <</link>>
 
-:: Support Social Event
+:: Support Social Event [officedaynew]
 "That is just wonderful to hear, sir! I look forward to recieving my invitation," Carlotta responds. "If you need any help organizing a list of guests, food, or drinks, I'm willing to help... Let me know," she says while gracefully pulling away and walking down the hallway.
 <<include "nextFocus">>
-:: No Support Social Event Money
+:: No Support Social Event Money [officedaynew]
 "Ahh that's too bad, sir." Carlotta pauses then states, "An upcoming party would do wonders right about now. No matter, maybe another time." She gracefully pulls away from the painting and begins walking down the hallway.
 <<include "nextFocus">>
-:: No Support Social Event
+:: No Support Social Event [officedaynew]
 "I suppose you and I have different definitions of 'not too long ago' when it comes to parties, sir," Carlotta states. "No matter, there is always the future!" She gracefully pulls away from the painting and begins walking down the hallway.
 <<include "nextFocus">>
 /*  */
@@ -188,16 +188,16 @@ How do you respond to this new development?
 <<link [[2. "I have made my stance on this issue very clear! Freer trade will only lead to job outsourcing. I want Carlotta in my office within the next hour... I need to have a word with her."|No Support Free Trade]]>> <<set $opinionCarlotta -= 2>> <<set $playerstress += 1>> <</link>>
 <<link [[3. "Please inform Carlotta that I want her in my office within the next hour. I will support this free trade movement, but I will not support her working around me in the slightest."|Support Free Trade Carlotta]]>> <<set $opinionCarlotta -= 1>> <<set $playerstress += 1>> <<set $playermoney += 1>> <</link>>
 
-:: Support Free Trade
+:: Support Free Trade [officedaynew]
 Standing at your podium, you notice the bulb on the camera in front of you shine red. The operator behind dramatically points his finger toward you, giving the indication to begin the address.
 "Citzens of this great nation, your voices have been heard loud and clear. After much deliberation these past few weeks, I have found myself changing my position concerning international free trade. This was a very difficult decision to make, but I now intend to open our markets and work closely with neighboring markets with the aim of wealth creation for citizens and corporations alike. Thank you." The red light on the camera dims and you begin to walk away from the podium.
 <<include "nextFocus">>
-:: No Support Free Trade
+:: No Support Free Trade [officedaynew]
 Entering you office, Carlotta appears confused about why she was called so suddenly for a meeting.
 "Carlotta," you begin, "Would you like to explain to me your influence in what is happening nationwide right now?" She looks at you with wide eyes before responding, "Whatever do you mean, sir?" Slamming you fist on your desk, you yell, "Do not play dumb with me, Carlotta! I know that you and the other corporate heads directly stired up these poor citizens with false-promises of wealth. I will not have my authority worked around! If you seek a change in policy, then you work with me ... not the public."
 Turning her head sharply as if wincing with your every word, Carlotta eventually respondes, "Understood, sir. It will not happen again. Might I go?" You stare her dead-on for a moment before relaxing back in your chair stating "You're dismissed." Carlotta quickly turns away and walks through the office door.
 <<include "nextFocus">>
-:: Support Free Trade Carlotta
+:: Support Free Trade Carlotta [officedaynew]
 Entering you office, Carlotta appears confused about why she was called so suddenly for a meeting.
 "Carlotta," you begin, "I wanted you to be the first person of importance to hear that I will be supporting the free trade movement that has swept the nation in recent weeks." She looks at you curiously before stating, "That is very kind of you, sir. I am sure citizens will be happy to hear this." Looking at her blankly, you interupt by clarifying, "However, my support is contingent on you and the other corporate heads coming directly to me in the future, not working around my influence." Pulling her head back slightly, Carlotta says, "What would you be refering to, sir?" Leaning back slowing in your chair, you respond, "Please do not play dumb with me Carlotta. I know you and your allies directly stired up the population with this issue as a way to pressure me. Do not let it happen again."
 Realizing that she has been caught, Carlotta nods her head. "Understood, sir. It will not happen again." You nod your head toward the door of your office and Carlotta begins walking out.
@@ -215,15 +215,15 @@ Noticing the excited look on Carlotta's face, you respond:
 <<link [[2. "An interesting proposal, Carlotta. I'll move forward with implementing advertisements on television, espeically if it means spreading government information easier."|Support Ads Spread]]>> <<set $opinionCarlotta += 1>> <<set $playermoney += 0.5>> <</link>>
 <<link [[3. "Carlotta, I will not force my citizens to sit still and be advertised to when they are simply trying to enjoy themselves. I understand that it would drive up sales for you, but at what cost to the nation?"|No Support Ads]]>> <<set $opinionCarlotta -= 1>> <<set $playerstress +=.5>> <</link>>
 
-:: Support Ads Taxes
+:: Support Ads Taxes [officedaynew]
 "Right... that's also true, sir," Carlotta responds with less enthusiasm than before. "I would've hoped your rational would be different, but nonetheless I am excited that you are behind this plan! Any advertisments will of course be run by you first before airing, sir." 
 "Sounds great. I look forward to see them," you respond before pivoting to other important matters.
 <<include "nextFocus">>
-:: Support Ads Spread
+:: Support Ads Spread [officedaynew]
 "Precisely! Imagine the influence you could have over the population with these televised messages, sir," she responds with a large smile. "It would make getting people to agree with you much easier. Any and all advertisments will of course be run by you first before airing."
 "Well then, I am excited to review whatever you and your allies come up with for broadcasting," you respond before pivoting to a differnt topic.
 <<include "nextFocus">>
-:: No Support Ads
+:: No Support Ads [officedaynew]
 "I see, sir," Carlotta responds with a sudden blank face. "That is extremly disapointing to hear. Such an ingenious idea does not come around so often. Nevermind, we will just have to make do with the physical advertisment infrastructure across the nation."
 "I think that would be best for us all," you explain while slightly lowering your head. Noticing the change of tone in the room, you pivot and continue the meeting with a different topic.
 <<include "nextFocus">>

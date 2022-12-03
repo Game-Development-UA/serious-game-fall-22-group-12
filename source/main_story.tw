@@ -123,6 +123,7 @@ A couple days later, you find yourself walking alongside your advisor across the
 [[1. "Okay. I will decide how to spend my time."|Focus]]
 <<audio "party" stop>>\
 :: Main Story 1 [officenightnew]
+<<script>>UIBar.stow()<</script>>\
 <<audio "normal" volume 1 fadeout>>\
 <<audio "flashback2" volume 0 fadein>>\
 As you attempt to stand up from your desk's chair, you accidentially knock an unlit cigar onto the carpet. It lands next to a square area of fabric almost identical to its surroundings that appears to have been patched into the carpet itself. You glare at it for a moment before a rush hits your head.
@@ -151,7 +152,8 @@ Having rested for the night, you awake ready to carry out your presidential duti
 <<include "endCheck">>
 <<audio "flashback2" volume 1 fadeout>>\
 <<audio "normal" volume 0 loop fadein>>\
-:: Main Story 2 [officenightnew] 
+:: Main Story 2 [officenightnew]
+<<script>>UIBar.stow()<</script>>\
 As you open the door to the neighboring office, you witness your advisor picking up the telephone. He is leaning on the edge of the table that houses the phone itself. Becoming aware of your presence in the room, he nods his head slowly while still keeping the phone to his ear. You cannot make out what is being said over the phone, but you can tell from your advisor's reaction that its not necessarily good news.
 [[Continue|Main Story 2.1]]
 
@@ -231,6 +233,7 @@ Having rested for the remainder of the night after arriving back at the Presiden
 
 
 :: Main Story 3 [main]
+<<script>>UIBar.stow()<</script>>\
 Deciding to humor this lone reporter, you begin to approach the palace gate.
 
 "Mr. President! Mr. President! I have just one question for you if you'd allow me!" You point with two fingers, indicating that you will accept their question. "Mr. President, how do you wish for your mother to be remembered?" Hearing the question, you stare at the bars that seperate yourself from the journalist as a rush overcomes your head.
@@ -280,6 +283,7 @@ You seclude yourself in your office for the remainder of the day. While there, y
 
 
 :: Main Story 4 [main]
+<<script>>UIBar.stow()<</script>>\
 As you swing open two doors, you are presented with a marble balcony overlooking the city. You approach the railing and begin to lean foward, placing your elbows down and crossing your arms. Looking into the distance, you realize that some nearby buildings are still under going repairs just as your head begins to pound.
 [[Continue|Main Story 4.1]]
 :: Main Story 4.1 [militaryoffice]
@@ -318,6 +322,7 @@ The cold outdoor air shocks your mind back to the present. Realizing that you ha
 
 
 :: Main Story 5 [officedaynew]
+<<script>>UIBar.stow()<</script>>\
 <<audio "normal" volume 1 fadeout>>\
 <<audio "flashback6" volume 0 fadein>>\
 <<if $father gte 2>>\
@@ -420,6 +425,7 @@ As for your father, a public execution was held nearly a week after his visit to
 Nevertheless, you are looking forward to the rest of your life as president, which you expect to be much smoother sailing from this point onward.
 [[The End|Main Menu 1]]
 :: Main Story 6 [officedaynew]
+<<script>>UIBar.stow()<</script>>\
 You slam your fists down on your desk as you jolt out of your seat. "How am I just hearing of this!?"
 
 "That's what all the phone calls today have likely been about, sir. We've gotten so accustomed to them being pointless that we missed the whole ordeal," you advisor explains.
