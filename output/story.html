@@ -106,13 +106,49 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 	}
 
 /* The body is everything displayed in the main text delivery area */
-  body {
-	background: rgb(65, 58, 120, 0);
-	/* background-image: url("media/officedaynew.JPG");
+body[data-tags~="officedaynew"] {
+	background-image: url("images/officedaynew.JPG");
 	background-repeat: no-repeat;
-	background-size: cover; */
-}  
+	background-size: cover;
+}
+body[data-tags~="officenightnew"] {
+	background-image: url("images/officenightnew.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="officenightold"] {
+	background-image: url("images/officenightold.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="jail"] {
+	background-image: url("images/jail.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="militaryoffice"] {
+	background-image: url("images/militaryoffice.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="officedaynew"] {
+	background-image: url("images/officedaynew.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="ballroom"] {
+	background-image: url("images/ballroom.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="woodendoor"] {
+	background-image: url("images/woodendoor.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+
+/*
 html[data-tags~="officedaynew"] {
 	background-image: url("media/officedaynew.JPG");
 	background-repeat: no-repeat;
@@ -524,7 +560,8 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;else&gt;&gt;
 &lt;&lt;set $playermoney += 0.5&gt;&gt;
 [[Continue|Focus]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="56" name="Main Menu 1" tags="" position="725,725" size="100,100">&lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Group 12 Presents&lt;/div&gt;&lt;/span&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="56" name="Main Menu 1" tags="" position="725,725" size="100,100">&lt;&lt;audio &quot;flashback7&quot; stop&gt;&gt;\
+&lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Group 12 Presents&lt;/div&gt;&lt;/span&gt;
 ----------
 &lt;span style=&quot;font-size:40pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;[[Continue|Main Menu 2]]&lt;/div&gt;&lt;/span&gt;</tw-passagedata><tw-passagedata pid="57" name="Main Menu 2" tags="" position="850,725" size="100,100">&lt;&lt;audio mainmenu volume 0.25 play&gt;&gt;\
 &lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Precariously Presidential&lt;/div&gt;&lt;/span&gt;
@@ -533,6 +570,7 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 [[Important Note]] ---- [[Credits]]</tw-passagedata><tw-passagedata pid="58" name="Important Note" tags="" position="975,725" size="100,100">&lt;span style=&quot;font-size:30pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Please Read&lt;/div&gt;&lt;/span&gt;
 1. Music is quite integral to the experience, play with sound on if possible
 2. The game is still a prototype
+3. The left sidebar can be stowed away in order to view the background with greater detail. We recommended that you stow it away when not refering to it.
 [[Back|Main Menu 2]]</tw-passagedata><tw-passagedata pid="59" name="Credits" tags="" position="1100,725" size="100,100">&lt;span style=&quot;font-size:30pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Credits - Group 12&lt;/div&gt;&lt;/span&gt;
 Vincent Enos - Writer of stress procedural passages; writer of Ivana, stress, and funds ending passages; editor
 
@@ -725,7 +763,7 @@ Hearing his order, you interupt, &quot;What?! So your just going to protect him?
 [[1. &quot;I&#39;ve never been more prepared.&quot;|Main Story 4.4]]</tw-passagedata><tw-passagedata pid="101" name="Main Story 4.4" tags="" position="100,1350" size="100,100">The cold outdoor air shocks your mind back to the present. Realizing that you had been lost in thought for several minutes, you decide that its time to head back inside and plan out the upcoming weeks before you quit working for the rest of the day.
 &lt;&lt;audio &quot;flashback5&quot; volume 1 fadeout&gt;&gt;\
 &lt;&lt;audio &quot;normal&quot; volume 0 fadein&gt;&gt;\
-&lt;&lt;include &quot;endCheck&quot;&gt;&gt;
+&lt;&lt;include &quot;endCheck&quot;&gt;&gt;\
 /*  */</tw-passagedata><tw-passagedata pid="102" name="Main Story 5" tags="officedaynew" position="225,1350" size="100,100">&lt;&lt;audio &quot;normal&quot; volume 1 fadeout&gt;&gt;\
 &lt;&lt;audio &quot;flashback6&quot; volume 0 fadein&gt;&gt;\
 &lt;&lt;if $father gte 2&gt;&gt;\
