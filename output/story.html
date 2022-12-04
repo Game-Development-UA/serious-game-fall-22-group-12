@@ -305,6 +305,8 @@ config.ui.stowBarInitially = true;
 config.history.controls = false;
 
  config.ui.stowBarInitially = true;
+
+
 </script><tw-passagedata pid="1" name="Ottovin Ending" tags="end" position="100,100" size="100,100">Ottovin and the working class are not happy with how you have treated them. You have disregared their requests for better working conditions and people continuosly work while being sick and injured.
 The working class, being the majority of the population, is infuriated with you and demands change. Since you have not done anything for these people, they have gone on strike and the country is not generating any revenue.
 [[1. Attempt to talk to Ottovin|Talk to Ottovin]]
@@ -536,7 +538,7 @@ Dean&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="49" 
 &lt;&lt;run $events.delete($nextEvent)&gt;&gt;\
 &lt;&lt;link Focus-On-The-Nation $nextEvent&gt;&gt; &lt;&lt;/link&gt;&gt;\</tw-passagedata><tw-passagedata pid="51" name="nextStress" tags="" position="100,725" size="100,100">&lt;&lt;set $nextStress = either($stress)&gt;&gt;
 /* &lt;&lt;run $stress.delete($nextStress)&gt;&gt; */
-&lt;&lt;link Focus-On-Myself $nextStress&gt;&gt; &lt;&lt;set $opinionOttovin -= 0.5&gt;&gt; &lt;&lt;set $opinionCarlotta -= 0.5&gt;&gt; &lt;&lt;set $opinionIvana -= 0.5&gt;&gt; &lt;&lt;set $opinionGeneral -= 0.5&gt;&gt; &lt;&lt;/link&gt;&gt;\</tw-passagedata><tw-passagedata pid="52" name="Focus" tags="officedaynew" position="225,725" size="100,100">&lt;&lt;script&gt;&gt;UIBar.unstow()&lt;&lt;/script&gt;&gt;\
+&lt;&lt;link Focus-On-Myself $nextStress&gt;&gt; &lt;&lt;set $opinionOttovin -= 0.25&gt;&gt; &lt;&lt;set $opinionCarlotta -= 0.25&gt;&gt; &lt;&lt;set $opinionIvana -= 0.25&gt;&gt; &lt;&lt;set $opinionGeneral -= 0.25&gt;&gt; &lt;&lt;/link&gt;&gt;\</tw-passagedata><tw-passagedata pid="52" name="Focus" tags="officedaynew" position="225,725" size="100,100">&lt;&lt;script&gt;&gt;UIBar.unstow()&lt;&lt;/script&gt;&gt;\
 &lt;&lt;if $passageCount lt 3&gt;&gt;How should you spend your time as President in the upcoming weeks?
 &lt;&lt;elseif $mainCheck == 0&gt;&gt; It is quite late now at your office. Distant thunder rumbles in the distance, your curtains still open to view any sudden flashes of light. &lt;&lt;audio thunder play&gt;&gt;
 &lt;&lt;elseif $mainCheck == 1&gt;&gt; Your work day has run late into the night when the telephone in the other room begins to ring. &lt;&lt;audio phonering play&gt;&gt;

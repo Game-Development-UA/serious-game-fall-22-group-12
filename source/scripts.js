@@ -6,3 +6,5 @@ config.ui.stowBarInitially = true;
 config.history.controls = false;
 
  config.ui.stowBarInitially = true;
+
+
