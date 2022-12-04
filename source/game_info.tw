@@ -20,7 +20,7 @@ Stress: $playerstress/5
 Ottovin's Opinion: $opinionOttovin/5
 Carlotta's Opinion: $opinionCarlotta/5
 Ivana's Opinion: $opinionIvana/5
-Military's Opinion:  $opinionGeneral/5
+Dean's Opinion:  $opinionGeneral/5
 
 
 :: StoryInit
@@ -65,7 +65,7 @@ Military's Opinion:  $opinionGeneral/5
 <<set $timespenttalking to 0>>
 /* Other Important Variables */
 <<set $playerstress to 0>>
-<<set $playermoney to 5>>
+<<set $playermoney to 2>>
 /* Setting events as a variable to be called */
 <<set $events = Story.lookup("tags","event")>>
 <<for _i to 0; _i < $events.length; _i++>>
