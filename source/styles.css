@@ -59,8 +59,21 @@ body[data-tags~="woodendoor"] {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-
+body[data-tags~="podium"] {
+	background-image: url("media/podium.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="dinnertable"] {
+	background-image: url("media/dinnertable.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="gate"] {
+	background-image: url("media/gate.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 /*
 html[data-tags~="officedaynew"] {
 	background-image: url("media/officedaynew.JPG");
