@@ -36,6 +36,8 @@ Military's Opinion:  $opinionGeneral/5
 <<audio normal load>>
 <<cacheaudio "phonering" "media/phonering.mp3">>
 <<audio phonering load>>
+<<cacheaudio "thunder" "media/thunder.wav">>
+<<audio thunder load>>
 <<cacheaudio "flashback1" "media/flashback1.mp3">>
 <<audio flashback1 load>>
 <<cacheaudio "flashback2" "media/flashback2.mp3">>
@@ -91,7 +93,7 @@ Military's Opinion:  $opinionGeneral/5
 :: Focus [officedaynew]
 <<script>>UIBar.unstow()<</script>>\
 <<if $passageCount lt 3>>How should you spend your time as President in the upcoming weeks?
-<<elseif $mainCheck == 0>> It is quite late now at your office. Distant thunder rumbles in the distance, your curtains still open to view any sudden flashes of light.
+<<elseif $mainCheck == 0>> It is quite late now at your office. Distant thunder rumbles in the distance, your curtains still open to view any sudden flashes of light. <<audio thunder play>>
 <<elseif $mainCheck == 1>> Your work day has run late into the night when the telephone in the other room begins to ring. <<audio phonering play>>
 <<elseif $mainCheck == 2>> Walking outside of the Presidential Palace, a lone journalist can be heard calling your name from the otherside of the gate.
 <<elseif $mainCheck == 3>> Growing tired of working for the day, you decide some fresh air would do you some good.

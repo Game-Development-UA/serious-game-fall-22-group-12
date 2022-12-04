@@ -1,14 +1,15 @@
 :: Main Menu 1
 <<audio "flashback7" stop>>\
-<span style="font-size:70pt;"><div style="text-align: center;">Group 12 Presents</div></span>
-----------
-<span style="font-size:40pt;"><div style="text-align: center;">[[Continue|Main Menu 2]]</div></span>
+<span style="font-size:70pt;"><div style="text-align: center;">Group 12 Presents</div></span>\
+------------
+<<timed 2s transition>><span style="font-size:40pt;"><div style="text-align: center;">[[Continue|Main Menu 2]]</div></span><</timed>>\
 :: Main Menu 2 
 <<audio mainmenu volume 0.25 play>>\
-<span style="font-size:70pt;"><div style="text-align: center;">Precariously Presidential</div></span>
-----------
-<span style="font-size:40pt;"><div style="text-align: center;">[[Start|Main Story 0]]</div></span>
-[[Important Note]] ---- [[Credits]]
+<span style="font-size:70pt;"><div style="text-align: center;">Precariously Presidential</div></span>\
+------------
+<<timed 2s transition>><span style="font-size:40pt;"><div style="text-align: center;">[[Start|Main Story 0]]</div></span><</timed>>\
+<<timed 2s transition>><span style="font-size:15pt;"><div style="text-align: left;">[[Important Note]]</div></span><</timed>>\
+<<timed 2s transition>><span style="font-size:15pt;"><div style="text-align: left;">[[Credits]]</div></span><</timed>>\
 :: Important Note
 <span style="font-size:30pt;"><div style="text-align: center;">Please Read</div></span>
 1. Music is quite integral to the experience, play with sound on if possible

@@ -121,6 +121,11 @@ body[data-tags~="event"] {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body[data-tags~="stress"] {
+	background-image: url("media/officedaynew.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body[data-tags~="officenightnew"] {
 	background-image: url("media/officenightnew.JPG");
 	background-repeat: no-repeat;
@@ -484,6 +489,8 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;audio normal load&gt;&gt;
 &lt;&lt;cacheaudio &quot;phonering&quot; &quot;media/phonering.mp3&quot;&gt;&gt;
 &lt;&lt;audio phonering load&gt;&gt;
+&lt;&lt;cacheaudio &quot;thunder&quot; &quot;media/thunder.wav&quot;&gt;&gt;
+&lt;&lt;audio thunder load&gt;&gt;
 &lt;&lt;cacheaudio &quot;flashback1&quot; &quot;media/flashback1.mp3&quot;&gt;&gt;
 &lt;&lt;audio flashback1 load&gt;&gt;
 &lt;&lt;cacheaudio &quot;flashback2&quot; &quot;media/flashback2.mp3&quot;&gt;&gt;
@@ -531,7 +538,7 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 /* &lt;&lt;run $stress.delete($nextStress)&gt;&gt; */
 &lt;&lt;link Focus-On-Myself $nextStress&gt;&gt; &lt;&lt;set $opinionOttovin -= 0.25&gt;&gt; &lt;&lt;set $opinionCarlotta -= 0.25&gt;&gt; &lt;&lt;set $opinionIvana -= 0.25&gt;&gt; &lt;&lt;set $opinionGeneral -= 0.25&gt;&gt; &lt;&lt;/link&gt;&gt;\</tw-passagedata><tw-passagedata pid="52" name="Focus" tags="officedaynew" position="225,725" size="100,100">&lt;&lt;script&gt;&gt;UIBar.unstow()&lt;&lt;/script&gt;&gt;\
 &lt;&lt;if $passageCount lt 3&gt;&gt;How should you spend your time as President in the upcoming weeks?
-&lt;&lt;elseif $mainCheck == 0&gt;&gt; It is quite late now at your office. Distant thunder rumbles in the distance, your curtains still open to view any sudden flashes of light.
+&lt;&lt;elseif $mainCheck == 0&gt;&gt; It is quite late now at your office. Distant thunder rumbles in the distance, your curtains still open to view any sudden flashes of light. &lt;&lt;audio thunder play&gt;&gt;
 &lt;&lt;elseif $mainCheck == 1&gt;&gt; Your work day has run late into the night when the telephone in the other room begins to ring. &lt;&lt;audio phonering play&gt;&gt;
 &lt;&lt;elseif $mainCheck == 2&gt;&gt; Walking outside of the Presidential Palace, a lone journalist can be heard calling your name from the otherside of the gate.
 &lt;&lt;elseif $mainCheck == 3&gt;&gt; Growing tired of working for the day, you decide some fresh air would do you some good.
@@ -572,13 +579,14 @@ Military&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="
 &lt;&lt;set $playermoney += 0.5&gt;&gt;
 [[Continue|Focus]]
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="56" name="Main Menu 1" tags="" position="725,725" size="100,100">&lt;&lt;audio &quot;flashback7&quot; stop&gt;&gt;\
-&lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Group 12 Presents&lt;/div&gt;&lt;/span&gt;
-----------
-&lt;span style=&quot;font-size:40pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;[[Continue|Main Menu 2]]&lt;/div&gt;&lt;/span&gt;</tw-passagedata><tw-passagedata pid="57" name="Main Menu 2" tags="" position="850,725" size="100,100">&lt;&lt;audio mainmenu volume 0.25 play&gt;&gt;\
-&lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Precariously Presidential&lt;/div&gt;&lt;/span&gt;
-----------
-&lt;span style=&quot;font-size:40pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;[[Start|Main Story 0]]&lt;/div&gt;&lt;/span&gt;
-[[Important Note]] ---- [[Credits]]</tw-passagedata><tw-passagedata pid="58" name="Important Note" tags="" position="975,725" size="100,100">&lt;span style=&quot;font-size:30pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Please Read&lt;/div&gt;&lt;/span&gt;
+&lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Group 12 Presents&lt;/div&gt;&lt;/span&gt;\
+------------
+&lt;&lt;timed 2s transition&gt;&gt;&lt;span style=&quot;font-size:40pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;[[Continue|Main Menu 2]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;\</tw-passagedata><tw-passagedata pid="57" name="Main Menu 2" tags="" position="850,725" size="100,100">&lt;&lt;audio mainmenu volume 0.25 play&gt;&gt;\
+&lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Precariously Presidential&lt;/div&gt;&lt;/span&gt;\
+------------
+&lt;&lt;timed 2s transition&gt;&gt;&lt;span style=&quot;font-size:40pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;[[Start|Main Story 0]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;\
+&lt;&lt;timed 2s transition&gt;&gt;&lt;span style=&quot;font-size:15pt;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;[[Important Note]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;\
+&lt;&lt;timed 2s transition&gt;&gt;&lt;span style=&quot;font-size:15pt;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;[[Credits]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;\</tw-passagedata><tw-passagedata pid="58" name="Important Note" tags="" position="975,725" size="100,100">&lt;span style=&quot;font-size:30pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Please Read&lt;/div&gt;&lt;/span&gt;
 1. Music is quite integral to the experience, play with sound on if possible
 2. The game is still a prototype
 3. The left sidebar can be stowed away in order to view the background with greater detail. We recommended that you stow it away when not refering to it.
