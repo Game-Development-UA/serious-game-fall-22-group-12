@@ -435,15 +435,14 @@ You slam your fists down on your desk as you jolt out of your seat. "How am I ju
 "They beleive he has already crossed our eastern border. I'll send information and demands over to our eastern neighbor, but I'm afriad any thing I say will fall on deaf ears."
 [[1. "What the hell could he be doing over there?"|Main Story 6.1]]
 :: Main Story 6.1 [officedaynew]
+<<script>>UIBar.unstow()<</script>>\
 "Many possible things. Seeking asylum? Raising a foriegn army? Requesting passage? We know very little of his intentions right now. What should we do, sir?"
 
-You ponder the situation
+You ponder the situation.
 [[1. "Our eastern neighbor has a large working population. Ottovin will have insight."]]
 [[2. "My father was always close with the corporate elite. Carlotta will have connections in high places across our eastern border."|Main Story 6.2.2]]
-[[3. Only acts of stealth, intrigue, and deception will prove useful. Ivana has loyal ears in places not even I know about.]]
-[[4. This is a matter of national security! Dean will be knowlegable on how to carry forward.]]
-[[5. Maybe it is time I shy away. How much of a threat can an old, disgraced man pose?]]
-
+[[3. "Only acts of stealth, intrigue, and deception will prove useful. Ivana has loyal ears in places not even I know about."]]
+[[4. "This is a matter of national security! Dean will be knowlegable on how to carry forward."]]
 :: Main Story 6.2.1
 
 
@@ -469,15 +468,14 @@ Arriving within the hour, Carlotta enters the presidential office. Confused abou
 
 Staring at the photos layed before you, you explain:
 [[1. "Any connections he makes can weaponized against me and the nation. He could be fundraising for something! Carlotta, inform any corporate leaders that interact with him that they will never do business in this nation again unless they refrain from communicating with him."|Main Story 6.4.2]]
-[[2. "So the old man is partying? I see no threat from that. Its better we leave this alone."|Main Story 6 End]]
+<<link [[2. "So the old man is partying? I see no threat from that. Its better we leave this alone."|Main Story 6 Carlota]]>> <<set $father = 1>> <</link>>
 <<else>>\
 Two weeks later, Carlotta walks into your office. Observing the artwork on the wall, she eventually sits down. "Sir, my allies and I have had no luck locating your father. We tried what we could, but no trace of him has turned up."
 
 "What a disaster! Carlotta, I sought out your help because I thought you would be useful! You obviously were not willing to give this time critical situation your undivided attention."
 
 Interupting you, you advisor jumps in. "Sir, I beleive the time to locate your father has passed. Continuing to focus all your attention on his whereabouts is distracting you from other national matters. I suggest you cut your loses and move on to governing once again."
-
-[[1. "You're right. It's time to be done with this and move on with the rest of my presidency."|Main Story 6 End]]
+<<link [[1. "You're right. It's time to be done with this and move on with the rest of my presidency."|Main Story 6 Carlota]]>> <<set $father = 2>> <</link>>
 <</if>>\
 :: Main Story 6.4.2 [officedaynew]
 <<if $opinionCarlotta gte 3>>Another week passes before any news of your threat comes back to you. Entering your office, your advisor updates you on the situation. "Wonderful news, sir! The threat you instructed Carlotta to relay worked! It seems that the corporate elite across the eastern border are terrified at the thought of losing our nation's market. They have since ostracized and blacklisted your father as an assurance to you that they have no intentions of upseting you."
@@ -485,16 +483,22 @@ Interupting you, you advisor jumps in. "Sir, I beleive the time to locate your f
 "Fantastic!" you exclaim. "How much of a threat does he pose now?"
 
 "He poses barely a threat at all, sir. Without those connections and potential funding, your father is both powerless and homeless in a foreign nation for the time being." He pauses for a moment, a genuine smile forming across his face. "Take this as a victory, Mr. President. He will not be bothering anyone for quite some time. Besides, you have the rest of your presidency to look forward to!"
-[[1. "What a burden off my shoulders! You're right, though. I think I can finally put this whole ordeal to rest!"|Main Story 6 End]]
+<<link [[1. "What a burden off my shoulders! You're right, though. I think I can finally put this whole ordeal to rest!"|Main Story 6 Carlota]]>> <<set $father = 3>> <</link>>
 <<else>>\
-Another week passes before any news of your threat comes back to you. Entering your office, your advisor updates you on the situation. "I regret to inform you of this, sir, but it appears your threat was not taken seriously. I suspect that Carlotta did not effectivly explain the consequences to the involved corporations to strike fear into their hearts and wallets."
+Another week passes before any news of your threat comes back to you. Entering your office, your advisor updates you on the situation. "I regret to inform you of this, sir, but it appears your threat was not taken seriously. I suspect that Carlotta did not explain the consequences to the involved corporations effectively enough to strike fear into their hearts and wallets."
 
 "I cannot beleive this!" you exclaim. "What can I do to remedy this?"
 
 "There is no more steps to take, sir. We have used exhausted all our time-senstive options. I suggest you cut your loses and carry on with your presidency... don't let this consume you any further."
-[[1. "I am severely dissapointed, but I see your point. I have a nation to govern, after all."|Main Story 6 End]]
+<<link [[1. "I am severely dissapointed, but I see your point. I have a nation to govern, after all."|Main Story 6 Carlota]]>> <<set $father = 4>> <</link>>
 <</if>>\
-
+:: Main Story 6 Carlota
+<<if $father == 1>> With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he continues to frequently attend lavish parties put on by the corporate elite across the eastern border. For the time being, all updates that reach your desk reaffirm that he poses no threat to you or the nation. He seems to simply be enjoying his last years alive with constant conversations, food, drink, and dance. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
+<<elseif $father == 2>>Although the matter of your father was not entirely dealt with, you can finally find comfort in knowing that he will not occupy every waking moment of your life any longer. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he continues to ellude any attempts to locate him. Reports come in every so often from people who think they might have spotted him, but they are typically are unreliable sources. Right now, the working theory is that he is in hiding, likely trying to live out the rest out of his life outside your view, and thus away from a prison cell. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
+<<elseif $father == 3>>With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he has been spotted entering a meeting with government officals across the eastern border. However, only moments later, that same report explained how he was immediately removed from the premises out of fear that his visit could cause further strain on international relations. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
+<<elseif $father == 4>>Although the threat of your father is still looming over your head, you decide to refocus your attention toward running your nation. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he continues to grow his influence over powerful figures across the eastern border. While it is still unclear what he intends to do with that influence, you know it cannot be anything that favors you or the nation. Nevertheless, you are ready for the rest of your life as president, even if problems relating to your father are likely to creep up.
+<</if>>\
+[[The End|Main Menu 2]]
 
 
 
@@ -515,7 +519,7 @@ Another week passes before any news of your threat comes back to you. Entering y
 
 
 
-:: Main Story 6 End
+
 
 
 
@@ -538,74 +542,3 @@ Another week passes before any news of your threat comes back to you. Entering y
 <<link [[3. "I want Ivana in this office immediately!"|Main Story 6.2.3]]>> <<set $father +=3>> <</link>>
 <<link [[4. "I want Dean in this office immediately!"|Main Story 6.2.4]]>> <<set $father +=4>> <</link>>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* :: Main Story 6.2.1 [officedaynew]
-Ottovin arrives within the hour and was briefed on the situation on the car ride over. "Mr. President!" he begins, "I have already sent word to the Frontiermen across our eastern border. We are an organization without borders, after all, so I am certain your father can be located with their help."
-[[1. "Thank you, Ottovin. Keep me updated regularly."|Main Story 6.3.1]]
-:: Main Story 6.2.2 [officedaynew]
-Carlotta arrives within the hour and was briefed on the situation on the car ride over. "Mr. President!" she begins, "I have already sent word to all corporate divisions across out eastern border. You're father was always close with those in the corporate world, so I am certain he can be located with their help."
-[[1. "Thank you, Carlotta. Keep me updated regularly."|Main Story 6.3.2]]
-:: Main Story 6.2.3 [officedaynew]
-Carlotta arrives within the hour and was briefed on the situation on the car ride over. "Mr. President!" she begins, "I have already informed my spies across our eastern border of their new top priority. They are the most capable ears I possess, meaning I am confident they can find your father."
-[[1. "Thank you, Ivana. Keep me updated regularly."|Main Story 6.3.3]]
-:: Main Story 6.2.4 [officedaynew]
-Dean arrives within the hour and was briefed on the situation on the car ride over. "Mr. President!" he begins, "I have already dispatched a small squad of our most capable, elite soliders. They have trained their whole careers for a moment like this, so I am confident that they will locate and retrieve your father."
-[[1. "Thank you, Dean. Keep me updated regularly."|Main Story 6.3.4]]
-
-:: Main Story 6.3.1 [officedaynew]
-A few weeks later, Ottovin returns to your office. Not making eye contact, he says, "Sir, it appears your father is proving harder to located that I expected. The Frontiermen have not found anything of use."
-
-Interrupting, you advisor says, "Sir, if I might say. It appears your father is out of our reach at this point. He is likely to just be hiding from us, not presenting any threat anymore."
-[[1. "You're probably right."|Main Story 6.4]]
-:: Main Story 6.3.2 [officedaynew]
-A few weeks later, Carlotta returns to your office. Standing up straight, she says, "Sir, it appears your father is attending lavish parties and weddings across the eastern border."
-
-Interrupting, you advisor says, "Sir, if I might say. It appears your father is out of our reach at this point. He is likely to just enjoying his freedom, not presenting any threat anymore."
-[[1. "You're probably right."|Main Story 6.4]]
-:: Main Story 6.3.3 [officedaynew]
-A few weeks later, Ivana returns to your office. Standing up straight, she says, "Sir, it appears your father is moving from slum to slum across our eastern border.""
-
-Interrupting, you advisor says, "Sir, if I might say. It appears your father is out of our reach at this point. He is likely to just hiding from us, not presenting any threat anymore."
-[[1. "You're probably right."|Main Story 6.4]]
-:: Main Story 6.3.4 [officedaynew]
-A few weeks later, Dean returns to your office. Not making eye contact, he says, "Sir, it appears your father is proving harder to located that I expected. The squad of soliders have not found anything of use and are risking being found with every day that passes."
-
-Interrupting, you advisor says, "Sir, if I might say. It appears your father is out of our reach at this point. He is likely to just be hiding from us, not presenting any threat anymore.
-[[1. "You're probably right."|Main Story 6.4]]
-
-:: Main Story 6.4 [podium] 
-<<audio "flashback6" volume 1 fadeout>>\
-<<audio "flashback7" volume 0 fadein>>\ 
-With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! <<if $father == 1>> As for your father, his whereabouts are still unknown.<<elseif $father == 2>>
-As for your father, he is spending the vast majority of his time drinking and partying according to Carlotta's updates. <<elseif $father == 3>> As for your father, he has moved on from our eastern neighbor and is now even further east according to Ivana's updates. <<elseif $father == 4>> As for your father, his whereabouts are still unknown. <</if>> Nevertheless, you are looking forward to the rest of your life as president, which you expect to be much smoother sailing from this point onward.
-[[The End|Main Menu 1]] */

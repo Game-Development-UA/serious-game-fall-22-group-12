@@ -65,7 +65,7 @@ Dean's Opinion:  $opinionGeneral/5
 <<set $timespenttalking to 0>>
 /* Other Important Variables */
 <<set $playerstress to 0>>
-<<set $playermoney to 2>>
+<<set $playermoney to 3>>
 /* Setting events as a variable to be called */
 <<set $events = Story.lookup("tags","event")>>
 <<for _i to 0; _i < $events.length; _i++>>

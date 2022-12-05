@@ -75,6 +75,16 @@ body[data-tags~="gate"] {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body[data-tags~="balcony"] {
+	background-image: url("media/balcony.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body[data-tags~="hallway"] {
+	background-image: url("media/hallway.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 /*
 html[data-tags~="officedaynew"] {
 	background-image: url("media/officedaynew.JPG");
