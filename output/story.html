@@ -604,10 +604,18 @@ Dean&#39;s Opinion:  $opinionGeneral/5</tw-passagedata><tw-passagedata pid="49" 
 &lt;&lt;else&gt;&gt;
 &lt;&lt;set $playermoney += 0.5&gt;&gt;
 [[Continue|Focus]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="56" name="Main Menu 1" tags="" position="725,725" size="100,100">&lt;&lt;audio &quot;flashback7&quot; stop&gt;&gt;\
-&lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Group 12 Presents&lt;/div&gt;&lt;/span&gt;\
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="56" name="Main Menu 1" tags="" position="725,725" size="100,100">&lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Group 12 Presents&lt;/div&gt;&lt;/span&gt;\
 &lt;&lt;timed 2s transition&gt;&gt;------------&lt;&lt;/timed&gt;&gt;\
-&lt;&lt;timed 2s transition&gt;&gt;&lt;span style=&quot;font-size:40pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;[[Continue|Main Menu 2]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;\</tw-passagedata><tw-passagedata pid="57" name="Main Menu 2" tags="podium" position="850,725" size="100,100">&lt;&lt;audio mainmenu volume 0.25 play&gt;&gt;\
+&lt;&lt;timed 2s transition&gt;&gt;&lt;span style=&quot;font-size:40pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;[[Continue|Main Menu 2]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;\</tw-passagedata><tw-passagedata pid="57" name="Main Menu 2" tags="podium" position="850,725" size="100,100">&lt;&lt;audio &quot;flashback1&quot; stop&gt;&gt;\
+&lt;&lt;audio &quot;flashback2&quot; stop&gt;&gt;\
+&lt;&lt;audio &quot;flashback3&quot; stop&gt;&gt;\
+&lt;&lt;audio &quot;flashback4&quot; stop&gt;&gt;\
+&lt;&lt;audio &quot;flashback5&quot; stop&gt;&gt;\
+&lt;&lt;audio &quot;flashback6&quot; stop&gt;&gt;\
+&lt;&lt;audio &quot;flashback7&quot; stop&gt;&gt;\
+&lt;&lt;audio &quot;normal&quot; stop&gt;&gt;\
+&lt;&lt;audio &quot;party&quot; stop&gt;&gt;\
+&lt;&lt;audio mainmenu volume 0.25 play&gt;&gt;\
 &lt;span style=&quot;font-size:70pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Precariously Presidential&lt;/div&gt;&lt;/span&gt;\
 &lt;&lt;timed 2s transition&gt;&gt;------------&lt;&lt;/timed&gt;&gt;\
 &lt;&lt;timed 2s transition&gt;&gt;&lt;span style=&quot;font-size:40pt;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;[[Start|Main Story 0]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;\
@@ -885,7 +893,7 @@ As for your father, he continues to lie awake at night with regretful thoughts f
 As for your father, a public execution was held nearly a week after his visit to the Presidential Palace. Despite little to no promotion, the largest crowd ever reported in the nation&#39;s history turned up to watch the man be hanged. Cheers and laughter filled the streets, with some citizens even jokingly being upset that this hadn&#39;t occured sooner.
 &lt;&lt;/if&gt;&gt;\
 Nevertheless, you are looking forward to the rest of your life as president, which you expect to be much smoother sailing from this point onward.
-[[The End|Main Menu 1]]</tw-passagedata><tw-passagedata pid="116" name="Main Story 6" tags="officedaynew" position="725,1475" size="100,100">&lt;&lt;script&gt;&gt;UIBar.stow()&lt;&lt;/script&gt;&gt;\
+[[The End|Main Menu 2]]</tw-passagedata><tw-passagedata pid="116" name="Main Story 6" tags="officedaynew" position="725,1475" size="100,100">&lt;&lt;script&gt;&gt;UIBar.stow()&lt;&lt;/script&gt;&gt;\
 You slam your fists down on your desk as you jolt out of your seat. &quot;How am I just hearing of this!?&quot;
 
 &quot;That&#39;s what all the phone calls today have likely been about, sir. We&#39;ve gotten so accustomed to them being pointless that we missed the whole ordeal,&quot; you advisor explains.
@@ -893,13 +901,14 @@ You slam your fists down on your desk as you jolt out of your seat. &quot;How am
 &quot;That old fool has tricked me! Do they know where he is? Where he&#39;s going? Has he been located!?&quot;
 
 &quot;They beleive he has already crossed our eastern border. I&#39;ll send information and demands over to our eastern neighbor, but I&#39;m afriad any thing I say will fall on deaf ears.&quot;
-[[1. &quot;What the hell could he be doing over there?&quot;|Main Story 6.1]]</tw-passagedata><tw-passagedata pid="117" name="Main Story 6.1" tags="officedaynew" position="850,1475" size="100,100">&quot;Many possible things. Seeking asylum? Raising a foriegn army? Requesting passage? We know very little of his intentions right now. What should we do, sir?&quot;
+[[1. &quot;What the hell could he be doing over there?&quot;|Main Story 6.1]]</tw-passagedata><tw-passagedata pid="117" name="Main Story 6.1" tags="officedaynew" position="850,1475" size="100,100">&lt;&lt;script&gt;&gt;UIBar.unstow()&lt;&lt;/script&gt;&gt;\
+&quot;Many possible things. Seeking asylum? Raising a foriegn army? Requesting passage? We know very little of his intentions right now. What should we do, sir?&quot;
 
-You ponder the situation
+You ponder the situation.
 [[1. &quot;Our eastern neighbor has a large working population. Ottovin will have insight.&quot;]]
 [[2. &quot;My father was always close with the corporate elite. Carlotta will have connections in high places across our eastern border.&quot;|Main Story 6.2.2]]
-[[3. Only acts of stealth, intrigue, and deception will prove useful. Ivana has loyal ears in places not even I know about.]]
-[[4. This is a matter of national security! Dean will be knowlegable on how to carry forward.]]</tw-passagedata><tw-passagedata pid="118" name="Main Story 6.2.1" tags="" position="975,1475" size="100,100"></tw-passagedata><tw-passagedata pid="119" name="Main Story 6.2.2" tags="officedaynew" position="1100,1475" size="100,100">Arriving within the hour, Carlotta enters the presidential office. Confused about the sudden meeting, Carlotta inquires, &quot;What is the emergency, Mr. President?&quot;
+[[3. &quot;Only acts of stealth, intrigue, and deception will prove useful. Ivana has loyal ears in places not even I know about.&quot;]]
+[[4. &quot;This is a matter of national security! Dean will be knowlegable on how to carry forward.&quot;]]</tw-passagedata><tw-passagedata pid="118" name="Main Story 6.2.1" tags="" position="975,1475" size="100,100"></tw-passagedata><tw-passagedata pid="119" name="Main Story 6.2.2" tags="officedaynew" position="1100,1475" size="100,100">Arriving within the hour, Carlotta enters the presidential office. Confused about the sudden meeting, Carlotta inquires, &quot;What is the emergency, Mr. President?&quot;
 
 &quot;It appears my father escaped from prison and slipped across the eastern border,&quot; you explain. &quot;Seeing how the former president mingled regularly with those in the corporate world, I am turning to you for assistance.&quot;
 

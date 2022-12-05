@@ -1,9 +1,17 @@
 :: Main Menu 1
-<<audio "flashback7" stop>>\
 <span style="font-size:70pt;"><div style="text-align: center;">Group 12 Presents</div></span>\
 <<timed 2s transition>>------------<</timed>>\
 <<timed 2s transition>><span style="font-size:40pt;"><div style="text-align: center;">[[Continue|Main Menu 2]]</div></span><</timed>>\
 :: Main Menu 2 [podium]
+<<audio "flashback1" stop>>\
+<<audio "flashback2" stop>>\
+<<audio "flashback3" stop>>\
+<<audio "flashback4" stop>>\
+<<audio "flashback5" stop>>\
+<<audio "flashback6" stop>>\
+<<audio "flashback7" stop>>\
+<<audio "normal" stop>>\
+<<audio "party" stop>>\
 <<audio mainmenu volume 0.25 play>>\
 <span style="font-size:70pt;"><div style="text-align: center;">Precariously Presidential</div></span>\
 <<timed 2s transition>>------------<</timed>>\
@@ -423,7 +431,7 @@ As for your father, he continues to lie awake at night with regretful thoughts f
 As for your father, a public execution was held nearly a week after his visit to the Presidential Palace. Despite little to no promotion, the largest crowd ever reported in the nation's history turned up to watch the man be hanged. Cheers and laughter filled the streets, with some citizens even jokingly being upset that this hadn't occured sooner.
 <</if>>\
 Nevertheless, you are looking forward to the rest of your life as president, which you expect to be much smoother sailing from this point onward.
-[[The End|Main Menu 1]]
+[[The End|Main Menu 2]]
 :: Main Story 6 [officedaynew]
 <<script>>UIBar.stow()<</script>>\
 You slam your fists down on your desk as you jolt out of your seat. "How am I just hearing of this!?"
@@ -499,11 +507,6 @@ Another week passes before any news of your threat comes back to you. Entering y
 <<elseif $father == 4>>Although the threat of your father is still looming over your head, you decide to refocus your attention toward running your nation. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he continues to grow his influence over powerful figures across the eastern border. While it is still unclear what he intends to do with that influence, you know it cannot be anything that favors you or the nation. Nevertheless, you are ready for the rest of your life as president, even if problems relating to your father are likely to creep up.
 <</if>>\
 [[The End|Main Menu 2]]
-
-
-
-
-
 
 
 
