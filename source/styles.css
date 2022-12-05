@@ -63,6 +63,7 @@ body[data-tags~="podium"] {
 	background-image: url("media/podium.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 body[data-tags~="dinnertable"] {
 	background-image: url("media/dinnertable.JPG");
