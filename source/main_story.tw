@@ -436,11 +436,11 @@ Nevertheless, you are looking forward to the rest of your life as president, whi
 <<script>>UIBar.stow()<</script>>\
 You slam your fists down on your desk as you jolt out of your seat. "How am I just hearing of this!?"
 
-"That's what all the phone calls today have likely been about, sir. We've gotten so accustomed to them being pointless that we missed the whole ordeal," you advisor explains.
+"That's what all the phone calls today have likely been about, sir. We've gotten so accustomed to them being pointless that we missed the whole ordeal," you advisor explains. "The former president left a note in his otherwise empty cell explaining how he could no longer tolerate living like a prisoner."
 
 "That old fool has tricked me! Do they know where he is? Where he's going? Has he been located!?"
 
-"They beleive he has already crossed our eastern border. I'll send information and demands over to our eastern neighbor, but I'm afriad any thing I say will fall on deaf ears."
+"They beleive he has already crossed our eastern border. I'll send information over to our eastern neighbor, but I'm afriad any thing I say will fall on deaf ears."
 [[1. "What the hell could he be doing over there?"|Main Story 6.1]]
 :: Main Story 6.1 [officedaynew]
 <<script>>UIBar.unstow()<</script>>\
@@ -450,8 +450,41 @@ You ponder the situation.
 [[1. "Our eastern neighbor has a large working population. Ottovin will have insight."]]
 [[2. "My father was always close with the corporate elite. Carlotta will have connections in high places across our eastern border."|Main Story 6.2.2]]
 [[3. "Only acts of stealth, intrigue, and deception will prove useful. Ivana has loyal ears in places not even I know about."]]
-[[4. "This is a matter of national security! Dean will be knowlegable on how to carry forward."]]
+[[4. "This is a matter of national security! Dean will be knowlegable on how to carry forward."|Main Story 6.2.4]]
+
+
+
+
+
+
+
+
 :: Main Story 6.2.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -500,7 +533,7 @@ Another week passes before any news of your threat comes back to you. Entering y
 "There is no more steps to take, sir. We have used exhausted all our time-senstive options. I suggest you cut your loses and carry on with your presidency... don't let this consume you any further."
 <<link [[1. "I am severely dissapointed, but I see your point. I have a nation to govern, after all."|Main Story 6 Carlota]]>> <<set $father = 4>> <</link>>
 <</if>>\
-:: Main Story 6 Carlota
+:: Main Story 6 Carlota [podium]
 <<if $father == 1>> With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he continues to frequently attend lavish parties put on by the corporate elite across the eastern border. For the time being, all updates that reach your desk reaffirm that he poses no threat to you or the nation. He seems to simply be enjoying his last years alive with constant conversations, food, drink, and dance. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
 <<elseif $father == 2>>Although the matter of your father was not entirely dealt with, you can finally find comfort in knowing that he will not occupy every waking moment of your life any longer. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he continues to ellude any attempts to locate him. Reports come in every so often from people who think they might have spotted him, but they are typically are unreliable sources. Right now, the working theory is that he is in hiding, likely trying to live out the rest out of his life outside your view, and thus away from a prison cell. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
 <<elseif $father == 3>>With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he has been spotted entering a meeting with government officals across the eastern border. However, only moments later, that same report explained how he was immediately removed from the premises out of fear that his visit could cause further strain on international relations. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
@@ -509,11 +542,8 @@ Another week passes before any news of your threat comes back to you. Entering y
 [[The End|Main Menu 2]]
 
 
-
-
 :: Main Story 6.2.3
 
-:: Main Story 6.2.4
 
 
 
@@ -540,8 +570,80 @@ Another week passes before any news of your threat comes back to you. Entering y
 
 
 
-<<link [[1. "I want Ottovin in this office immediately!"|Main Story 6.2.1]]>> <<set $father +=1>> <</link>>
-<<link [[2. "I want Carlotta in this office immediately!"|Main Story 6.2.2]]>> <<set $father +=2>> <</link>>
-<<link [[3. "I want Ivana in this office immediately!"|Main Story 6.2.3]]>> <<set $father +=3>> <</link>>
-<<link [[4. "I want Dean in this office immediately!"|Main Story 6.2.4]]>> <<set $father +=4>> <</link>>
+
+
+
+
+
+
+
+:: Main Story 6.2.4 [officedaynew]
+Arriving within the hour, Dean enters the presidential office. Confused about the sudden meeting, he inquires, "What is the emergency, Mr. President?"
+
+"It appears my father escaped from prison and slipped across the eastern border," you explain. "Seeing how the former president is an influencial man who likely holds a grudge against me and the nation, I am worried he might be up to something nefarious... something we should be prepared for. So, I am asking for your advice on this potentially nation-threatening matter.
+
+"This is dire indeed for you, sir," he responds. "You and I both know what he is capable of... If he were to have bad intentions, I agree it could spell the end of us if not acted up immediately!"
+
+Leaning back in your chair, you state, "I am glad we're in agreement then! What options can you bring to my desk?"
+
+"Well, sir," Dean begins. "This is a very time-senstive issue, so our options must reflect that. Seeing how our eastern neighbor is likely to ignore any strictly diplomatic pleas, I would suggest a more... direct approach. Allow me some time to locate your father and then draft up some plans."
+[[1. "Thank you, Dean. Keep me updated!"|Main Story 6.3.4]]
+
+:: Main Story 6.3.4 [officedaynew]
+Returning a few days later, Dean enters your office with a briefcase in hand. Slamming it down on your desk, he turns it around and opens it facing you. Bluntly, Dean explains, "As a result of a relunctant collaboration with Carlotta and Ivana, the former president has been located, sir. He appears to be being housed by a local, politically active couple across the eastern border, one he used to vacation with during his presidency."
+
+Hearing this revelation, you exclaim, "Phenominal! What plans did you draft up to deal with him?"
+
+Removing two pieces of paper from the briefcase and placing them in front of you, Dean continues, "There are only two solutions for this kind of situation, sir. The first: deliver a threat to our eastern neighbor demanding they handover the former president or risk all out war between our two nations. The second: send a small unit of specially trained soliders across our eastern border to conduct a stealh operation."
+
+Reviewing the two documents in front of you, you reply:
+[[1. "Dean, I request that you personally deliver a threat to our eastern neighbor. Do anything in your power to convince them of my seriousness."|Main Story 6.3.4 Threat]]
+[[2. "The stealh mission would be the most effective for my purposes. Create a team, only send your best!"|Main Story 6.3.4 Stealth]]
+
+:: Main Story 6.3.4 Threat
+<<if $opinionGeneral gte 2.5>> A week later, your advisor enters your office with a gleeful smile. "Sir! Wonderful news! It appears our eastern neighbor has agreed to hand over your father! General Dean pulled no punches when threatening them, even going so far as to line our border with high-alert military personnel and create battle plans."
+
+"Fantastic!" you cheer as you stand up from your chair suddenly. 
+
+"Where would you like him transported, sir? Once he arrives that is."
+<<link [[1. "My father is to return to prison. Arrange 24-hour survalence and strict oversight. I will not have him slip away ever again."|Main Story 6 End Dean]]>> <<set $father = 1>> <</link>>
+<<link [[2. "It is time to finally be done with this. He betrayed my generosity by escaping, so this calls for no mercy. Send him straight to the public square outside the palace... he will meet his permenant end!"|Main Story 6 End Dean]]>> <<set $father = 2>> <</link>>
+<<else>>\
+A week later, your advisor enters your office with a concerned look. "Sir, our eastern neighbors have completly ignored your demands. They did not even feel the need to respond whatsoever! I suspect that General Dean did not give this situation the attention it deserved, dulling the impact of the threat he haphazardly delivered."
+
+"How humiliating!" you exclaim with your face in your hands. "Maybe if we upped the ante..."
+
+"I am sorry, sir, but we have played our only card. Any move on our part will fail now that our eastern neighbor is aware of our intentions. I would suggest that you cut your loses and move on with the rest of your presidency. As long as your father is across the border, he is out of our reach entirely at this point."
+<<link [[1. "I suppose you're right. I cannot believe that old man got away!"|Main Story 6 End Dean]]>> <<set $father = 3>> <</link>>
+<</if>>\
+
+:: Main Story 6.3.4 Stealth
+<<if $opinionGeneral gte 3>> A week later, your adivor enters your office with a gleeful smile. "Sir! Wonderful news! The stealth force General Dean personally organized retrieved your father from the east without detection and is en route to the captial!"
+
+"Fantastic!" you cheer as you stand up from your chair suddenly. 
+
+"Once he arrives, sir, where would you like him placed?
+<<link [[1. "My father is to return to prison. Arrange 24-hour survalence and strict oversight. I will not have him slip away ever again."|Main Story 6 End Dean]]>> <<set $father = 1>> <</link>>
+<<link [[2. "It is time to finally be done with this. He betrayed my generosity by escaping, so this calls for no mercy. Send him straight to the public square outside the palace... he will meet his permenant end!"|Main Story 6 End Dean]]>> <<set $father = 2>> <</link>>
+<<else>>\
+ A week later, your adivor enters your office with a concerned look. "Sir, the stealth force tasked with retrieving your father from the east was detected! They have since retreated back behind our border to prevent being captured themselves. I hear rumors that General Dean delegated the formation of this special team to other military officals, which resulted in less skilled soliders being sent for the mission."
+
+"How humiliating!" you exclaim with your face in your hands. "Maybe if we organized a new team and sent them into ..."
+
+Interupting you, your advisor explains, "No, sir. Our eastern neighbor is aware of our intentions now. Any further actions on our part could escalate to all out war. A war that is uncertain to go in our favor. I suggest that you cut your loses and move on with your presideny. Do not let this consume you any further!"
+<<link [[1. "I suppose you're right. I cannot believe that old man got away!"|Main Story 6 End Dean]]>> <<set $father = 3>> <</link>>
+<</if>>\
+:: Main Story 6 End Dean
+<<if $father == 1>>With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he was placed within a higher security prison where his hopes of freedom were squashed by constant, constant survalence. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
+<<elseif $father == 2>>With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father, a public execution was held nearly a week after his forced return to the nation. Despite little to no promotion, the largest crowd ever reported in the nation's history turned up to watch the man be hanged. Cheers and laughter filled the streets, with some citizens even jokingly being upset that this hadn't occured sooner. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
+<<elseif $father == 3>>Although the threat of your father is still looming over your head, you decide to refocus your attention toward running your nation. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he continues to be housed by the aristocratic couple across the eastern border. While it is still unclear what he intends to do while over there, you know it cannot be anything that favors you or the nation. Nevertheless, you are ready for the rest of your life as president, even if problems relating to your father are likely to creep up.
+<</if>>\
+[[The End|Main Menu 2]]
+
+
+
+
+
+
+
 
