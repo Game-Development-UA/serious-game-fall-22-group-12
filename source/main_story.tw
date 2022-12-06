@@ -273,19 +273,16 @@ Re-entering the residential wing, you begin making your ascent to your parent's 
 :: Main Story 3.5 [gate]
 Snapping back to reality, you realize that you haven't given the journalist any answer yet.
 
-[[1. "My mother was the most selfless person ever born. She died fighting for what she beleived in... and that is something I think we all can admire."|Main Story 3.6]]
-[[2. "My mother was selfless to a fault. She was too stubborn to ever quit... and it ended up getting her killed."|Main Story 3.6]]
-
+<<link [[1. "My mother was the most selfless person ever born. She died fighting for what she beleived in... and that is something I think we all can admire."|Main Story 3.6]]>> <<set $playerstress += 0.5>> <</link>>
+<<link [[2. "My mother was selfless to a fault. She was too stubborn to ever quit... and it ended up getting her killed."|Main Story 3.6]]>> <<set $playerstress += 1>> <</link>>
 :: Main Story 3.6 [gate]
 Before the journalist finished writing down your response, you turn away and walk right back into the palace. Along the way, you wipe one of your eyes to prevent it from blurring your vision.
-<<link [[Continue|Main Story 3.7]]>> <<set $playerstress += 0.5>> <</link>>
-
+[[Continue|Main Story 3.7]]
 :: Main Story 3.7 [officedaynew]
 <<audio "flashback4" volume 1 fadeout>>\
 <<audio "normal" volume 0 fadein>>\
 You seclude yourself in your office for the remainder of the day. While there, you decide how to spend the upcoming weeks.
 <<include "endCheck">>
-/*  */
 
 
 
@@ -324,7 +321,6 @@ The cold outdoor air shocks your mind back to the present. Realizing that you ha
 <<audio "flashback5" volume 1 fadeout>>\
 <<audio "normal" volume 0 fadein>>\
 <<include "endCheck">>\
-/*  */
 
 
 
@@ -455,7 +451,11 @@ Pondering the situation, you decide who you trust more to try their hardest to s
 
 
 :: Main Story 6.2.1
+Arriving within the hour, Ottovin enters the presidential office. Confused about the sudden meeting, he inquires, "What is the emergency, Mr. President?"
 
+"It appears my father escaped from prison and slipped across the eastern border," you explain. "Seeing how the former president mingled regularly with those in the corporate world, I am turning to you for assistance."
+
+"This is dire indeed for you, sir.
 
 
 
@@ -535,6 +535,8 @@ Another week passes before any news of your threat comes back to you. Entering y
 <<elseif $father == 4>>Although the threat of your father is still looming over your head, you decide to refocus your attention toward running your nation. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he continues to grow his influence over powerful figures across the eastern border. While it is still unclear what he intends to do with that influence, you know it cannot be anything that favors you or the nation. Nevertheless, you are ready for the rest of your life as president, even if problems relating to your father are likely to creep up.
 <</if>>\
 [[The End|Main Menu 2]]
+<<audio "flashback6" volume 1 fadeout>>\
+<<audio "flashback7" volume 0 fadein>>\
 :: Main Story 6.2.3 [officedaynew]
 Arriving within the hour, Ivana enters the presidential office. As a formality, she inquires, "What would be the emergency, Mr. President?"
 
@@ -546,7 +548,7 @@ Arriving within the hour, Ivana enters the presidential office. As a formality, 
 
 Ivana's innocent eyes relax to a half-open state. She looks to her side for a moment before meeting your eye contact while placing her hands on her hips. "Very well," she begins. "All my ears across the border will have their attention turned toward locating your father. They will not be happy about this, but I will appease them the best I can."
 [[1. "That's what I like to hear. Please, keep me updated."|Main Story 6.3.3]]
-:: Main Story 6.3.3 [officenewday]
+:: Main Story 6.3.3 [officedaynew]
 Only a mere few hours later, Ivana pulls you aside while you were walking down the hall. Noticing your look of alarm, she explains, "Sir, finding your father was much easier than I anticipated. Over a dozen ears and eyes, all unaware of each others presence, have whispered to me identical tales of your father's whereabouts. As it would seem, he is currently moving from slum to slum within the borders of our eastern neighbor. He isn't staying in one place for long, likely expecting that you would request my services to find him. He knows my capabilties, sir, so he is laying low and hiding... not very well I might add. "
 
 "Amazing work, Ivana!" you exclaim while putting your hand on her shoulder.
@@ -555,7 +557,7 @@ Only a mere few hours later, Ivana pulls you aside while you were walking down t
 [[1. "Correct. You know where he is... take him out before he can hide somewhere else."|Main Story 6.3.4.1]]
 [[2. "You would be right, Ivana. I want you to use some of your associates to kidnapp the former president. He has the rest of his last years alive to serve in prison for his crimes."|Main Story 6.3.4.2]]
 [[3. "Actually, I think this should be the end of our business on this matter. My father is obviously in no position to pose a threat of any kind to me or the nation."|Main Story 6.3.4.3]]
-:: Main Story 6.3.4.1 [officenewday]
+:: Main Story 6.3.4.1 [officedaynew]
 <<if $opinionIvana gte 2.5>>Gliding into your office another few hours later, Ivana greets you before sitting down. She looks at you for a moment with no emotion, then simply states, "It is done, sir."
 
 With those words, a rush of relief washes over your body. You stand up from your desk and face the windows behind. As one of your eyes begins to blur, you firmly exclaim, "Thank you, Ivana." She nods her head and then exits your office entirely in only a couple moments. You are horrified with yourself, yet you are also happy beyond measure. It's finished, but it's also... final. You sit back down in your chair, your chest rising and falling heavily. You stare emptily at the wood grain of your desk before saying aloud:
@@ -572,7 +574,7 @@ Gliding into your office another few hours later, Ivana glances at you before si
 "Precisely. I mean no disrespect, sir, but you have let your father consume every waking moment of your presidency since the day you began offical duties. Let. It. Go. If he is out of my reach, then he is definetly out of your reach."
 <<link [[1. "I suppose you are right, Ivana. Maybe it is time to conclude this part of my life and turn a new page."|Main Story 6 End Ivana]]>> <<set $father = 2>> <</link>>
 <</if>>\
-:: Main Story 6.3.4.2 [officenewday]
+:: Main Story 6.3.4.2 [officedaynew]
 <<if $opinionIvana gte 2.5>>Gliding into your office another few hours later, Ivana greets you before sitting down. She looks at you for a moment with no emotion, then simply states, "It is done, sir. The former president in en route."
 
 With those words, a rush of relief washes over your body. You stand up from your desk and face the windows behind. "Thank you, Ivana," you exclaim. She nods her head and then exits your office entirely in only a couple moments. This is justice. It's finished.
@@ -589,18 +591,20 @@ Gliding into your office another few hours later, Ivana glances at you before si
 "Precisely. I mean no disrespect, sir, but you have let your father consume every waking moment of your presidency since the day you began offical duties. Let. It. Go. If he is out of my reach, then he is definetly out of your reach."
 <<link [[1. "I suppose you are right, Ivana. Maybe it is time to conclude this part of my life and turn a new page."|Main Story 6 End Ivana]]>> <<set $father = 2>> <</link>>
 <</if>>\
-:: Main Story 6.3.4.3 [officenewday]
+:: Main Story 6.3.4.3 [officedaynew]
 "Understood, sir," Ivana replies. "Hopefully this IS the last I hear of your father. I have grown quite tired of my ears reporting to me all the commotion he constantly made while imprisoned."
 
 "In that, we are in agreement, Ivana. Let this day be the turning of a new leaf for my presidency! A new leaf where the former president's stain has been sufficiently removed."
 <<link [[Continue|Main Story 6 End Ivana]]>> <<set $father = 4>> <</link>>
-:: Main Story 6 End Ivana
+:: Main Story 6 End Ivana [podium]
 <<if $father == 1>>With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, his body was discovered by local authorities rotting inside a dumpster. Your mind is scarred with the image of his corpse that was displayed on national newspapers. You reassure youself that you did the right thing, but the thoughts never cease to leave you alone. Nevertheless, your are ready for the rest of your life as president, even if the trauma of ordering your own father's assassination results in many sleepless nights.
 <<elseif $father == 2>>Although the matter of your father is not entirely dealth with, you decide to refocus your attention towrad running your nation. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, a report lands on your desk every so often regarding supposed sightings of him, but he seems to be living out the rest of his life as an impoverished social outcast. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
 <<elseif $father == 3>>With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father, he was placed within a higher security prison where his hopes of freedom were squashed by constant, constant survalence. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
 <<elseif $father == 4>>Although the matter of your father is not entirely dealth with, you decide to refocus your attention towrad running your nation. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, a report lands on your desk every so often regarding supposed sightings of him, but he seems to be living out the rest of his life as an impoverished social outcast. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
 <</if>>\
 [[The End|Main Menu 2]]
+<<audio "flashback6" volume 1 fadeout>>\
+<<audio "flashback7" volume 0 fadein>>\
 :: Main Story 6.2.4 [officedaynew]
 Arriving within the hour, Dean enters the presidential office. Confused about the sudden meeting, he inquires, "What is the emergency, Mr. President?"
 
@@ -660,11 +664,5 @@ Interupting you, your advisor explains, "No, sir. Our eastern neighbor is aware 
 <<elseif $father == 3>>Although the threat of your father is still looming over your head, you decide to refocus your attention toward running your nation. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, he continues to be housed by the aristocratic couple across the eastern border. While it is still unclear what he intends to do while over there, you know it cannot be anything that favors you or the nation. Nevertheless, you are ready for the rest of your life as president, even if problems relating to your father are likely to creep up.
 <</if>>\
 [[The End|Main Menu 2]]
-
-
-
-
-
-
-
-
+<<audio "flashback6" volume 1 fadeout>>\
+<<audio "flashback7" volume 0 fadein>>\
