@@ -450,42 +450,77 @@ Pondering the situation, you decide who you trust more to try their hardest to s
 
 
 
-:: Main Story 6.2.1
+:: Main Story 6.2.1 [officedaynew]
 Arriving within the hour, Ottovin enters the presidential office. Confused about the sudden meeting, he inquires, "What is the emergency, Mr. President?"
 
-"It appears my father escaped from prison and slipped across the eastern border," you explain. "Seeing how the former president mingled regularly with those in the corporate world, I am turning to you for assistance."
+"It appears my father escaped from prison and slipped across the eastern border," you explain. "Seeing how that nation has a a large working population, and thus significant frontiermen membership, I am seeking out your assistance."
 
-"This is dire indeed for you, sir.
+"This is dire indeed for you, sir," Ottovin exclaims. "I will reach out to my fellow frontiermen and alert them. Although they were not citizens of this nation, I suspect they still hold animosity toward your father for what he did to your mother."
 
+"Right. Use that to your advantage if you must. The former president must be found."podium
+[[Continue|Main Story 6.3.1]]
+:: Main Story 6.3.1 [officedaynew]
+A few days later, Ottovin hurriedly enters your office slightly out of breath. Standing for a few moments with his chest rising and falling, he eventually says, "Sir! I have news of your father's location! A frontierman who works within a hospital across our eastern border reported to me that the former president was admitted to the critical care ward this morning. They didn't elaborate, but he implied that your father is suffering from some life threatening wounds."
 
+"Great work, Ottovin!" you reply. "How trustworthy is this frontierman you speak of? Can they be depended on?"
 
+"I would wager so, sir. I have worked with them before. Always seemed to be passionate about doing the right thing."
+[[1. "Perfect. Have him ensure that my father's wounds do not heal."|Main Story 6.4.1.1]]
+[[2. "Okay. Have him ensure that my father returns to his normal health, but that he is diagnosed with something that warrants an indefinite stay at the hosptial."|Main Story 6.4.1.2]]
+:: Main Story 6.4.1.1 [officedaynew]
+Staring at you horridly, Ottovin states, "But... but sir! You're father will die!"
+[[1. "That is a sacrafice for the nation I am willing to make."|Main Story 6.5.1.1]]
+:: Main Story 6.4.1.2 [officedaynew]
+Staring at you blankly, Ottovin states, "Sir? Are you intending your father to never leave that hospital?"
 
+"Not until he dies of natural causes," you reply.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Ottovin hesitates, but replies, "Understood, sir. I will keep you updated."
+[[1. "Thank you for your cooperation."|Main Story 6.5.1.2]]
 
 
+:: Main Story 6.5.1.1 [officedaynew]
+<<if $opinionOttovin gte 2.5>> A couple weeks go by without you hearing any word concerning your father's hospital stay. However, just as you are beginning to grow worried, Ottovin enters your office. Not making eye contact, he states, "Sir, your father has passed away. I am sorry for your loss."
 
+With those words, a rush of relief washes over your body. You stand up from your desk and face the windows behind. As one of your eyes begins to blur, you firmly exclaim, "Thank you, Ottovin." He nods his head and then exits your office. You are horrified with yourself, yet you are also happy beyond measure. It's finished, but it's also... final. You sit back down in your chair, your chest rising and falling heavily. You stare emptily at the wood grain of your desk before saying aloud:
+<<link [[1. "This was not the burden I anticipated I'd face as a leader. However, I made a promise I was prepare to lead... and I intend to keep that promise."|Main Story 6 End Ottovin]]>> <<set $father = 1>> <</link>>
+<<else>>\
+A couple weeks go by without you hearing any word concerning your father's hospital stay. However, just as you are beginning to grow worried, Ottovin enters your office. Making direct eye contact, he states, "Sir, despite the efforts of the eastern frontierman, your father has made a full recovery and has been released from the hospital."
 
+"What?!" you exclaim. "He just healed? Got healthy? Just like that?"
 
+"Precisely, sir," he responds.
 
+"Well??? What do you suggest we do next?"
 
+Interupting you slightly with a raised voice, Ottovin replies, "Sir. You have been tormented by this man for far too long. I understand your fears are warrented by experience, but need I remind you that you are the president of this nation. You have responsibilities outside worrying about every little thing the former president may or may not be up to. Give. It. A. Rest."
+<<link [[1. "I suppose you are right, Ottovin. Maybe it is time to conclude this part of my life and turn a new page."|Main Story 6 End Ottovin]]>> <<set $father = 2>> <</link>>
+<</if>>\
+:: Main Story 6.5.1.2 [officedaynew]
+<<if $opinionOttovin gte 2.5>>A couple weeks go by without you hearing any word concerning your father's hospital stay. However, just as you are beginning to grow worried, Ottovin enters your office. Not making eye contact, he states, "Sir, your father has been falsely diagnosed with stage 3 kidney cancer. He will not be leaving the hospital any time soon."
+
+"This is... good news. Thank you for your hard work, Ottovin." He fakes a smile and turns to leave out the office door. Leaning back in your chair with a slouch, you calmly whisper to yourself:
+<<link [[1. "It is done."|Main Story 6 End Ottovin]]>> <<set $father = 3>> <</link>>
+<<else>>\
+A couple weeks go by without you hearing any word concerning your father's hospital stay. However, just as you are beginning to grow worried, Ottovin enters your office. Making direct eye contact, he states, "Sir, despite the efforts of the eastern frontierman, your father has made a full recovery and has been released from the hospital."
+
+"What?!" you exclaim. "He just healed? Got healthy? Just like that? What happened to the fake diagnosis?"
+
+"Precisely, sir," he responds. "Our frontierman ally was unable to convince the other hospital workers that your father was truly ailing from anything other than his wounds."
+
+"Well??? What do you suggest we do next?"
+
+Interupting you slightly with a raised voice, Ottovin replies, "Sir. You have been tormented by this man for far too long. I understand your fears are warrented by experience, but need I remind you that you are the president of this nation. You have responsibilities outside worrying about every little thing the former president may or may not be up to. Give. It. A. Rest."
+<<link [[1. "I suppose you are right, Ottovin. Maybe it is time to conclude this part of my life and turn a new page."|Main Story 6 End Ottovin]]>> <<set $father = 2>> <</link>>
+<</if>>\
+:: Main Story 6 End Ottovin [podium]
+<<if $father == 1>>With the matter of your father dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, his body was removed from the hospital and cremated alongside ordinary dead bodies across the eastern border. You reassure youself that you did the right thing, but the thoughts never cease to leave you alone. Nevertheless, your are ready for the rest of your life as president, even if the trauma of ordering your own father's death results in many sleepless nights.
+<<elseif $father == 2>>Although the matter of your father is not entirely dealth with, you decide to refocus your attention towrad running your nation. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father himself, a report lands on your desk every so often regarding supposed sightings of him, but he seems to be living out the rest of his life as an impoverished social outcast. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
+<<elseif $father == 3>>With the matter of your father mostly dealt with, you can finally find comfort in knowing the most tumultuous part of your presidency is over. Together with Ottovin, Carlotta, Ivana, and Dean, you have successfuly kept the nation from falling apart and cemented yourself as someone who can truly lead! As for your father, he has started to undergo treatment for a disease he does not have. While it was likely more moral than outright killing him, making him believe he was going to die a slow, painful death from something out of his control results in sporadic guilt. Nevertheless, you are looking forward to the rest of your life as your nation's president, which you expect to be much smoother sailing from this point onward.
+<</if>>\
+[[The End|Main Menu 2]]
+<<audio "flashback6" volume 1 fadeout>>\
+<<audio "flashback7" volume 0 fadein>>\
 :: Main Story 6.2.2 [officedaynew]
 Arriving within the hour, Carlotta enters the presidential office. Confused about the sudden meeting, Carlotta inquires, "What is the emergency, Mr. President?"
 
